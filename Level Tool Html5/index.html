@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="vi">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Tidy Room · Level Tool</title><link rel="stylesheet" href="/style.css"></head>
+<body>
+<header class="top">
+ <div class="brand"><span class="brand-icon" aria-hidden="true">▦</span><div><strong>Tidy Room</strong><span>LEVEL TOOL / HTML5</span></div></div>
+ <div class="top-actions"><button id="new">Màn mới</button><button id="library">Nhập level</button><button id="download">Lưu JSON</button><button id="unity">Xuất Unity</button><button id="play" class="primary">▶ Playtest</button></div>
+</header>
+<main class="shell">
+ <aside class="sidebar assets">
+  <div class="section-heading"><span>01 / THƯ VIỆN</span><h2>Art Unity</h2><small id="assetTotal">Đang đọc project…</small></div>
+  <div class="tabs"><button class="active" id="itemsTab">Đồ vật</button><button id="bgTab">Ảnh nền</button></div>
+  <div class="filters"><select aria-label="Bộ art" id="family"><option value="tidy">Tidy Room</option><option value="room">RoomSort</option><option value="happy">Happy Tidy Room</option><option value="all">Tất cả</option></select><input id="search" aria-label="Tìm asset" placeholder="Tìm tên, mã hoặc nhóm…"><select aria-label="Nhóm đồ" id="groupFilter"><option value="">Tất cả nhóm</option></select></div>
+  <div class="asset-list" id="assetList"></div>
+  <div class="pager"><button id="assetPrev" aria-label="Trang asset trước">‹</button><small id="assetPage"></small><button id="assetNext" aria-label="Trang asset sau">›</button></div>
+ </aside>
+ <section class="work">
+  <div class="worktop"><div><div class="overline" id="editorMode">02 / XẾP LEVEL</div><input id="title" value="Màn mới" aria-label="Tên màn" maxlength="120"></div><div class="work-actions"><button id="undo" title="Ctrl+Z">Hoàn tác</button><button id="redo" title="Ctrl+Y">Làm lại</button><button id="center">Về tâm</button><button id="grid" class="active" aria-pressed="true">Lưới</button><button id="placeCenter" class="primary" hidden>+ Đặt ở tâm</button></div></div>
+  <div class="batchbar" id="batchbar" hidden><select id="batchLevel" aria-label="Chọn màn trong bộ"></select><button id="savePack">Lưu cả bộ</button><button id="showReport">Báo cáo nhập</button></div>
+  <div class="playbar" id="playbar" hidden><div id="testBoxes"></div><div id="testTray"></div><div class="test-controls"><button id="restart">Chơi lại</button><button id="exitPlay">Về xếp đồ</button></div></div>
+  <div id="viewport" class="viewport"><canvas id="board" aria-label="Khu vực xếp và chơi thử level"></canvas><div class="coordinate" id="coord">X 0 · Y 0</div><div id="modeTip" class="mode-tip" hidden></div><div id="finish" class="finish" hidden></div></div>
+  <footer class="workfoot"><span id="notice" role="status">Đang kết nối…</span><span id="zoomText">100%</span></footer>
+ </section>
+ <aside class="sidebar inspect">
+  <div class="section-heading"><span>03 / CẤU HÌNH</span><h2 id="inspectHeading">Level</h2><small id="summary">0 món · 0 hộp</small></div>
+  <div class="tabs"><button id="layerTab" class="active">Lớp đồ</button><button id="boxTab">Hộp & luật</button></div>
+  <div id="layerPanel" class="panel">
+   <div class="empty" id="selectionEmpty">Chọn một món trên nền hoặc trong danh sách lớp để sửa tọa độ.</div>
+   <fieldset id="itemFields" hidden><legend id="itemTitle"></legend>
+    <div class="fields"><label>X<input id="x" type="number" step="1"></label><label>Y<input id="y" type="number" step="1"></label><label>Góc °<input id="angle" type="number" step="1"></label><label>Scale X<input id="scaleX" type="number" step="0.05"></label><label>Scale Y<input id="scaleY" type="number" step="0.05"></label><label>Nhóm nhận<select id="itemGroup"></select></label></div>
+    <div class="item-controls"><button id="layerBack" title="Hạ một lớp">↓ Hạ</button><button id="layerFront" title="Nâng một lớp">↑ Nâng</button><button id="duplicate">Nhân bản</button><button id="delete" class="warning">Xóa</button><button id="fitItem" title="Đưa món đã chọn về cỡ của màn tham chiếu">Cỡ gốc</button></div>
+   </fieldset>
+   <div class="listhead"><strong>Thứ tự lớp</strong><button id="fitAll" class="quiet" title="Đưa toàn bộ đồ về cỡ tham chiếu, giữ vị trí, góc và lật">Cỡ gốc cả màn</button></div><div class="layers" id="layers"></div>
+  </div>
+  <div id="boxPanel" class="panel" hidden>
+   <label class="stack">Luật khay chờ<select id="rule"><option value="strict">Thua khi đầy 5 slot</option><option value="direct">Đầy khay: được lấy đồ vào thẳng hộp</option></select></label>
+   <div class="listhead"><strong>Hàng đợi hộp</strong><small>2 hộp mở lúc đầu</small></div><div id="orders"></div>
+   <div class="box-add"><select id="groupOrder" aria-label="Nhóm hộp"></select><button id="addBox">+ Hộp</button></div><button id="fillBoxes" class="wide">Tạo hộp từ đồ đang có</button>
+   <div id="validation" class="validation"></div>
+  </div>
+ </aside>
+</main>
+<dialog id="loadDialog"><div class="dialog-head"><div><div class="overline">THƯ VIỆN LEVEL</div><h2>Nhập và chuyển level</h2></div><button data-close="loadDialog" aria-label="Đóng">✕</button></div>
+ <div class="dialog-content"><section class="import-section"><h3>Màn có sẵn trong Unity</h3><div class="inline"><select id="unityLevel" aria-label="Level Unity"></select><button id="loadOne">Mở màn</button></div><div class="inline flex-wrap"><button id="allUnity">Cả bộ Unity</button><button id="allRoom">RoomSort gốc</button><button id="allHappy">Happy gốc</button></div></section>
+ <section class="import-section"><h3>File từ game clone</h3><p>JSON, JSON.GZ hoặc ZIP chứa nhiều level. Nhập xong có thể chọn từng màn để sửa và chơi thử.</p><label class="stack">Định dạng nguồn<select id="source"><option value="auto">Tự nhận dạng</option><option value="room">RoomSort · nền gốc</option><option value="tidy">Tidy Room · nền Tidy</option><option value="happy">Happy Tidy Room</option></select></label><div id="drop" class="drop"><span>Thả file vào đây</span><div class="inline"><label class="button" for="files">Chọn file</label><label class="button" for="folder">Chọn thư mục</label></div><input id="files" type="file" multiple accept=".json,.gz,.zip" hidden><input id="folder" type="file" webkitdirectory multiple hidden></div></section>
+ <p id="importStatus" role="status"></p></div>
+</dialog>
+<dialog id="unityDialog"><div class="dialog-head"><div><div class="overline">BÀN GIAO</div><h2>Xuất sang Unity</h2></div><button data-close="unityDialog" aria-label="Đóng">✕</button></div><div class="dialog-content"><p>Xuất kiểu <code>LevelData</code> của project. Tọa độ giữ nguyên, lớp được sắp từ dưới lên, và ảnh trỏ đến <code>StreamingAssets/TidyRoom</code>.</p><p id="unityTarget"></p><div class="inline flex-wrap"><button id="downloadUnity">Tải JSON Unity</button><button id="installUnity" class="primary">Thêm màn vào Unity</button></div><p id="unityStatus" role="status"></p></div></dialog>
+<dialog id="reportDialog"><div class="dialog-head"><div><div class="overline">KẾT QUẢ</div><h2>Báo cáo chuyển level</h2></div><button data-close="reportDialog" aria-label="Đóng">✕</button></div><div class="dialog-content"><p id="reportSummary"></p><div id="reportRows"></div><button id="downloadReport">Tải báo cáo JSON</button></div></dialog>
+<script type="module" src="/app.js"></script>
+</body></html>
