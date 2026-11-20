@@ -1,0 +1,57 @@
+STT,English,Japanese,Korean,French,German,Spanish,Hindi,Portuguese
+1,Loading...,読み込み中...,로딩 중...,Chargement...,Wird geladen...,Cargando...,लोड हो रहा है...,Carregando...
+2,Level {0},レベル {0},레벨 {0},Niveau {0},Level {0},Nivel {0},लेवल {0},Nível {0}
+3,Lv.{0},Lv.{0},Lv.{0},Niv. {0},Lv. {0},Nv. {0},Lv.{0},Nv. {0}
+4,Unlock,解放,잠금 해제,Débloquer,Freischalten,Desbloquear,अनलॉक,Desbloquear
+5,Full,満タン,최대,Plein,Voll,Lleno,भरा हुआ,Cheio
+6,Free,無料,무료,Gratuit,Gratis,Gratis,मुफ़्त,Grátis
+7,Vacuum,掃除機,진공청소기,Aspirateur,Staubsauger,Aspiradora,वैक्यूम,Aspirador
+8,Instantly complete 1 box!,ボックスを1つ即完成！,상자 1개를 즉시 완성!,Complète 1 boîte instantanément !,Schließe sofort 1 Box ab!,¡Completa 1 caja al instante!,1 बॉक्स तुरंत पूरा करें!,Complete 1 caixa na hora!
+9,Broom,ほうき,빗자루,Balai,Besen,Escoba,झाड़ू,Vassoura
+10,Move all items from the tray to storage,トレーのアイテムをすべて収納へ移動,트레이의 모든 아이템을 보관함으로 이동,Déplace tous les objets du plateau vers le rangement,Verschiebe alle Gegenstände vom Tablett ins Lager,Mueve todos los objetos de la bandeja al almacén,ट्रे की सभी चीज़ें स्टोरेज में ले जाएँ,Mova todos os itens da bandeja para o depósito
+11,No items in the waiting slots,待機スロットにアイテムがありません,대기 슬롯에 아이템이 없습니다,Aucun objet dans les cases d'attente,Keine Gegenstände in den Warteplätzen,No hay objetos en los espacios de espera,वेटिंग स्लॉट में कोई चीज़ नहीं है,Não há itens nos espaços de espera
+12,Unlock at level {0},レベル{0}で解放,레벨 {0}에서 잠금 해제,Débloqué au niveau {0},Freischaltung ab Level {0},Se desbloquea en el nivel {0},लेवल {0} पर अनलॉक,Desbloqueia no nível {0}
+13,Extra Slot,追加スロット,추가 슬롯,Case bonus,Extra-Platz,Espacio extra,एक्स्ट्रा स्लॉट,Espaço extra
+14,Add empty slots to the tray.,トレーに空きスロットを追加。,트레이에 빈 슬롯을 추가합니다.,Ajoute des cases vides au plateau.,Fügt dem Tablett freie Plätze hinzu.,Añade espacios vacíos a la bandeja.,ट्रे में खाली स्लॉट जोड़ें।,Adiciona espaços vazios à bandeja.
+15,Extra Box,追加ボックス,추가 상자,Boîte bonus,Extra-Box,Caja extra,एक्स्ट्रा बॉक्स,Caixa extra
+16,Unlock one more box.,ボックスをもう1つ解放。,상자를 하나 더 잠금 해제합니다.,Débloque une boîte de plus.,Schaltet eine weitere Box frei.,Desbloquea una caja más.,एक और बॉक्स अनलॉक करें।,Desbloqueia mais uma caixa.
+17,Settings,設定,설정,Paramètres,Einstellungen,Ajustes,सेटिंग्स,Configurações
+18,Sound,サウンド,사운드,Son,Ton,Sonido,साउंड,Som
+19,Haptic,振動,진동,Vibrations,Vibration,Vibración,वाइब्रेशन,Vibração
+20,Retry,リトライ,다시 하기,Réessayer,Erneut versuchen,Reintentar,दोबारा कोशिश करें,Tentar de novo
+21,Are you sure?,本当によろしいですか？,정말 하시겠습니까?,Tu es sûr ?,Bist du sicher?,¿Seguro?,क्या आप पक्का हैं?,Tem certeza?
+22,You will lose <color=#cb2e34>{0}</color> life!,ライフを<color=#cb2e34>{0}</color>つ失います！,생명 <color=#cb2e34>{0}</color>개를 잃게 됩니다!,Tu vas perdre <color=#cb2e34>{0}</color> vie !,Du verlierst <color=#cb2e34>{0}</color> Leben!,¡Perderás <color=#cb2e34>{0}</color> vida!,आप <color=#cb2e34>{0}</color> लाइफ़ खो देंगे!,Você vai perder <color=#cb2e34>{0}</color> vida!
+23,Quit,終了,나가기,Quitter,Beenden,Salir,छोड़ें,Sair
+24,Refill your heart!,ハートを回復しよう！,하트를 채우세요!,Recharge tes cœurs !,Fülle deine Herzen auf!,¡Recarga tus corazones!,अपने दिल फिर से भरें!,Recarregue seus corações!
+25,Next life in:,次のライフまで:,다음 생명까지:,Prochaine vie dans :,Nächstes Leben in:,Próxima vida en:,अगली लाइफ़ मिलेगी:,Próxima vida em:
+26,Continue,続ける,계속,Continuer,Weiter,Continuar,जारी रखें,Continuar
+27,Next level,次のレベル,다음 레벨,Niveau suivant,Nächstes Level,Siguiente nivel,अगला लेवल,Próximo nível
+28,Out of space!,スペースがありません！,공간이 부족해요!,Plus de place !,Kein Platz mehr!,¡Sin espacio!,जगह नहीं बची!,Sem espaço!
+29,Replay,もう一度,다시 플레이,Rejouer,Nochmal spielen,Volver a jugar,फिर से खेलें,Jogar de novo
+30,No ADS,広告なし,광고 제거,Sans pub,Keine Werbung,Sin anuncios,बिना विज्ञापन,Sem anúncios
+31,Waiting slots are full!,待機スロットがいっぱいです！,대기 슬롯이 가득 찼어요!,Les cases d'attente sont pleines !,Die Warteplätze sind voll!,¡Los espacios de espera están llenos!,वेटिंग स्लॉट भर गए हैं!,Os espaços de espera estão cheios!
+32,Revive and clear the holding tray!,復活してトレーを空にしよう！,부활하고 트레이를 비우세요!,Ressuscite et vide le plateau !,Wiederbeleben und Tablett leeren!,¡Revive y vacía la bandeja!,रिवाइव करें और ट्रे खाली करें!,Reviva e esvazie a bandeja!
+33,Out of lives!,ライフがありません！,생명이 없어요!,Plus de vies !,Keine Leben mehr!,¡Sin vidas!,लाइफ़ खत्म!,Sem vidas!
+34,Max,最大,최대,Max,Max,Máx.,अधिकतम,Máx.
+35,Get {0},{0}を獲得,{0} 받기,Obtenir {0},{0} erhalten,Obtener {0},{0} पाएँ,Pegar {0}
+36,No more boxes to open,開けられるボックスがありません,더 열 수 있는 상자가 없어요,Plus aucune boîte à ouvrir,Keine Boxen mehr zum Öffnen,No quedan cajas por abrir,खोलने के लिए और बॉक्स नहीं हैं,Não há mais caixas para abrir
+37,Not available right now,現在利用できません,지금은 사용할 수 없어요,Indisponible pour le moment,Gerade nicht verfügbar,No disponible ahora,अभी उपलब्ध नहीं है,Indisponível no momento
+38,No box can be filled,埋められるボックスがありません,채울 수 있는 상자가 없어요,Aucune boîte ne peut être remplie,Keine Box kann gefüllt werden,Ninguna caja se puede llenar,कोई बॉक्स भरा नहीं जा सकता,Nenhuma caixa pode ser preenchida
+39,COMPLETE all the boxes to win!,ボックスをすべて完成させてクリア！,모든 상자를 완성하면 승리!,COMPLÈTE toutes les boîtes pour gagner !,"SCHLIESSE alle Boxen ab, um zu gewinnen!",¡COMPLETA todas las cajas para ganar!,जीतने के लिए सभी बॉक्स पूरे करें!,COMPLETE todas as caixas para vencer!
+40,Rate us,評価する,평가하기,Évalue-nous,Bewerte uns,Califícanos,हमें रेट करें,Avalie-nos
+41,Yes,はい,예,Oui,Ja,Sí,हाँ,Sim
+42,No,いいえ,아니요,Non,Nein,No,नहीं,Não
+43,Hold to see map!,長押しでマップを表示！,길게 눌러 맵 보기!,Maintiens pour voir la carte !,"Halten, um die Karte zu sehen!",¡Mantén pulsado para ver el mapa!,मैप देखने के लिए दबाकर रखें!,Segure para ver o mapa!
+44,Almost there!,あと少し！,거의 다 왔어요!,Presque fini !,Fast geschafft!,¡Ya casi está!,बस थोड़ा और!,Quase lá!
+45,Tap to continue!,タップして続ける！,탭하여 계속!,Touche pour continuer !,"Tippe, um fortzufahren!",¡Toca para continuar!,जारी रखने के लिए टैप करें!,Toque para continuar!
+46,New mechanic unlocked!,新しいギミック解放！,새로운 기믹 해금!,Nouvelle mécanique débloquée !,Neue Mechanik freigeschaltet!,¡Nueva mecánica desbloqueada!,नया मैकेनिक अनलॉक!,Nova mecânica desbloqueada!
+47,Purchase Successful,購入完了,구매 완료,Achat réussi,Kauf erfolgreich,Compra realizada,खरीदारी सफल,Compra realizada
+48,Tap items that MATCH a box to tidy up!,ボックスに合うアイテムをタップして片付けよう！,상자와 맞는 아이템을 탭해서 정리하세요!,Touche les objets qui CORRESPONDENT à une boîte pour ranger !,"Tippe auf Gegenstände, die zu einer Box PASSEN, um aufzuräumen!",¡Toca los objetos que COINCIDAN con una caja para ordenar!,सफ़ाई के लिए बॉक्स से मेल खाने वाली चीज़ों पर टैप करें!,Toque nos itens que COMBINAM com uma caixa para arrumar!
+49,Check the <color=#046fba>category label!</color>,<color=#046fba>カテゴリー名</color>をチェック！,<color=#046fba>카테고리 이름</color>을 확인하세요!,Regarde <color=#046fba>l'étiquette de catégorie !</color>,Achte auf das <color=#046fba>Kategorie-Etikett!</color>,¡Mira la <color=#046fba>etiqueta de categoría!</color>,<color=#046fba>कैटेगरी लेबल</color> देखें!,Confira a <color=#046fba>etiqueta da categoria!</color>
+50,Tap to collect <color=#046fba>matching items</color>,タップして<color=#046fba>同じ種類のアイテム</color>を集めよう,탭해서 <color=#046fba>맞는 아이템</color>을 모으세요,Touche pour ramasser les <color=#046fba>objets correspondants</color>,"Tippe, um <color=#046fba>passende Gegenstände</color> zu sammeln",Toca para recoger <color=#046fba>objetos que coincidan</color>,<color=#046fba>मेल खाने वाली चीज़ें</color> इकट्ठा करने के लिए टैप करें,Toque para coletar <color=#046fba>itens correspondentes</color>
+51,"Uh-oh, look at this mess...",うわっ、散らかってる…,"이런, 너무 엉망이네요...","Oh là là, quel bazar...","Oh je, was für ein Chaos...","Uy, qué desorden...","अरे, कितना बिखरा हुआ है...","Eita, que bagunça..."
+52,Let's tidy up together!,一緒に片付けよう！,함께 정리해요!,Rangeons ensemble !,Lass uns zusammen aufräumen!,¡Ordenemos juntos!,चलो मिलकर साफ़ करें!,Vamos arrumar juntos!
+53,Swipe left to find the last one!,左にスワイプして最後の1つを探そう！,왼쪽으로 밀어서 마지막 하나를 찾으세요!,Glisse vers la gauche pour trouver le dernier !,"Wische nach links, um das letzte zu finden!",¡Desliza a la izquierda para encontrar el último!,आख़िरी चीज़ ढूँढने के लिए बाएँ स्वाइप करें!,Deslize para a esquerda para achar o último!
+54,Clear all waiting items!,待機中のアイテムをすべて片付けよう！,대기 중인 아이템을 모두 치우세요!,Vide tous les objets en attente !,Räume alle wartenden Gegenstände weg!,¡Despeja todos los objetos en espera!,सभी वेटिंग चीज़ें हटाएँ!,Limpe todos os itens em espera!
+55,Fill a box instantly!,ボックスを1つ即完成！,상자 하나를 즉시 채우세요!,Remplis une boîte instantanément !,Fülle sofort eine Box!,¡Llena una caja al instante!,एक बॉक्स तुरंत भरें!,Encha uma caixa na hora!
+56,Tap a locked box to add one more!,ロックされたボックスをタップして1つ追加！,잠긴 상자를 탭해서 하나 더 추가하세요!,Touche une boîte verrouillée pour en ajouter une !,"Tippe auf eine gesperrte Box, um eine weitere hinzuzufügen!",¡Toca una caja bloqueada para añadir otra!,एक और जोड़ने के लिए लॉक बॉक्स पर टैप करें!,Toque em uma caixa bloqueada para adicionar mais uma!

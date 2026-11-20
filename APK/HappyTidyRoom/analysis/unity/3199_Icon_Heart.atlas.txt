@@ -1,0 +1,9 @@
+Icon_Heart.png
+size:612,312
+filter:Linear,Linear
+pma:true
+GP_Icon_Heart
+bounds:384,30,280,224
+rotate:90
+GP_Icon_HeartBreak
+bounds:2,2,380,308

@@ -1,0 +1,2449 @@
+
+### sharedassets0.assets 104 _Game.Scripts.IAP.IAPRewardCatalogSO Reward Catalog SO
+{
+ "m_GameObject": {
+  "m_FileID": 0,
+  "m_PathID": 0
+ },
+ "m_Enabled": 1,
+ "m_Script": {
+  "m_FileID": 16777216,
+  "m_PathID": 31994150912
+ },
+ "m_Name": "Reward Catalog SO",
+ "entries": [
+  {
+   "productId": "puzzle.happy.tidy.room.noads",
+   "logicId": 0,
+   "category": 0,
+   "rewards": [],
+   "removeAds": 1,
+   "localizedTerm": "",
+   "displayOrder": 0,
+   "packName": "noads"
+  },
+  {
+   "productId": "puzzle.happy.tidy.room.coin1",
+   "logicId": 2,
+   "category": 2,
+   "rewards": [
+    {
+     "type": 1,
+     "amount": 500
+    }
+   ],
+   "removeAds": 0,
+   "localizedTerm": "",
+   "displayOrder": 0,
+   "packName": "coin1"
+  },
+  {
+   "productId": "puzzle.happy.tidy.room.coin2",
+   "logicId": 3,
+   "category": 2,
+   "rewards": [
+    {
+     "type": 1,
+     "amount": 5000
+    }
+   ],
+   "removeAds": 0,
+   "localizedTerm": "",
+   "displayOrder": 0,
+   "packName": "coin2"
+  },
+  {
+   "productId": "puzzle.happy.tidy.room.coin3",
+   "logicId": 4,
+   "category": 2,
+   "rewards": [
+    {
+     "type": 1,
+     "amount": 10000
+    }
+   ],
+   "removeAds": 0,
+   "localizedTerm": "",
+   "displayOrder": 0,
+   "packName": "coin3"
+  },
+  {
+   "productId": "puzzle.happy.tidy.room.coin4",
+   "logicId": 5,
+   "category": 2,
+   "rewards": [
+    {
+     "type": 1,
+     "amount": 25000
+    }
+   ],
+   "removeAds": 0,
+   "localizedTerm": "",
+   "displayOrder": 0,
+   "packName": "coin4"
+  },
+  {
+   "productId": "puzzle.happy.tidy.room.coin5",
+   "logicId": 6,
+   "category": 2,
+   "rewards": [
+    {
+     "type": 1,
+     "amount": 50000
+    }
+   ],
+   "removeAds": 0,
+   "localizedTerm": "",
+   "displayOrder": 0,
+   "packName": "coin5"
+  },
+  {
+   "productId": "puzzle.happy.tidy.room.coin6",
+   "logicId": 7,
+   "category": 2,
+   "rewards": [
+    {
+     "type": 1,
+     "amount": 100000
+    }
+   ],
+   "removeAds": 0,
+   "localizedTerm": "",
+   "displayOrder": 0,
+   "packName": "coin6"
+  }
+ ]
+}
+
+### level0 467 _Game.Scripts.HeartSystemManager 
+{
+ "m_GameObject": {
+  "m_FileID": 0,
+  "m_PathID": 17
+ },
+ "m_Enabled": 1,
+ "m_Script": {
+  "m_FileID": 16777216,
+  "m_PathID": 32094814208
+ },
+ "m_Name": "",
+ "_dontDestroyOnLoad": 1
+}
+
+### level1 531 HappyTidy.Gameplay.Queue 
+{
+ "m_GameObject": {
+  "m_FileID": 0,
+  "m_PathID": 20
+ },
+ "m_Enabled": 1,
+ "m_Script": {
+  "m_FileID": 16777216,
+  "m_PathID": 3422552064
+ },
+ "m_Name": "",
+ "slotViews": [
+  {
+   "m_FileID": 0,
+   "m_PathID": 563
+  },
+  {
+   "m_FileID": 0,
+   "m_PathID": 534
+  },
+  {
+   "m_FileID": 0,
+   "m_PathID": 570
+  },
+  {
+   "m_FileID": 0,
+   "m_PathID": 523
+  },
+  {
+   "m_FileID": 0,
+   "m_PathID": 548
+  }
+ ],
+ "slotsHomeX": 0.0,
+ "slotsStorageX": -90.0,
+ "shiftDuration": 0.25,
+ "bonusSlot": {
+  "m_FileID": 0,
+  "m_PathID": 516
+ },
+ "bonusSlots": [
+  {
+   "m_FileID": 0,
+   "m_PathID": 516
+  },
+  {
+   "m_FileID": 0,
+   "m_PathID": 578
+  }
+ ],
+ "bonusUnlockedSprite": {
+  "m_FileID": 0,
+  "m_PathID": 0
+ }
+}
+
+### level1 552 HappyTidy.Gameplay.UI.GameplayWarningUI 
+{
+ "m_GameObject": {
+  "m_FileID": 0,
+  "m_PathID": 36
+ },
+ "m_Enabled": 1,
+ "m_Script": {
+  "m_FileID": 16777216,
+  "m_PathID": 6878658560
+ },
+ "m_Name": "",
+ "imgBlack": {
+  "m_FileID": 0,
+  "m_PathID": 540
+ },
+ "blackAlpha": 0.9800000190734863,
+ "blackFadeDuration": 0.30000001192092896,
+ "blackFadeOutTime": 1.5,
+ "warningSpine": {
+  "m_FileID": 0,
+  "m_PathID": 510
+ },
+ "hardAnimation": "Hard",
+ "superHardAnimation": "SuperHard",
+ "bannerHoldTime": 0.0,
+ "bannerFadeDuration": 0.30000001192092896,
+ "levelWarningSound": 0,
+ "levelVibrateTimes": [
+  0.20000000298023224,
+  1.2999999523162842
+ ],
+ "hardVibrateAmplitude": 150,
+ "veryHardVibrateAmplitude": 190,
+ "levelVibrateDuration": 300
+}
+
+### level1 555 HappyTidy.Gameplay.GameplayManager 
+{
+ "m_GameObject": {
+  "m_FileID": 0,
+  "m_PathID": 39
+ },
+ "m_Enabled": 1,
+ "m_Script": {
+  "m_FileID": 16777216,
+  "m_PathID": 788529152
+ },
+ "m_Name": "",
+ "mapCamera": {
+  "m_FileID": 0,
+  "m_PathID": 580
+ },
+ "boxes": {
+  "m_FileID": 0,
+  "m_PathID": 566
+ },
+ "queue": {
+  "m_FileID": 0,
+  "m_PathID": 531
+ },
+ "storage": {
+  "m_FileID": 0,
+  "m_PathID": 575
+ },
+ "hud": {
+  "m_FileID": 0,
+  "m_PathID": 526
+ },
+ "hudCanvas": {
+  "m_FileID": 0,
+  "m_PathID": 340
+ },
+ "flyLayer": {
+  "m_FileID": 0,
+  "m_PathID": 355
+ },
+ "config": {
+  "m_FileID": 5,
+  "m_PathID": 10789
+ }
+}
+
+### level1 566 HappyTidy.Gameplay.BoxController 
+{
+ "m_GameObject": {
+  "m_FileID": 0,
+  "m_PathID": 48
+ },
+ "m_Enabled": 1,
+ "m_Script": {
+  "m_FileID": 16777216,
+  "m_PathID": 25383927808
+ },
+ "m_Name": "",
+ "boxes": [
+  {
+   "m_FileID": 0,
+   "m_PathID": 637
+  },
+  {
+   "m_FileID": 0,
+   "m_PathID": 616
+  },
+  {
+   "m_FileID": 0,
+   "m_PathID": 615
+  }
+ ],
+ "introStagger": 0.11999999731779099
+}
+
+### level1 568 HappyTidy.Gameplay.Tutorial.GameplayTutorialController 
+{
+ "m_GameObject": {
+  "m_FileID": 0,
+  "m_PathID": 50
+ },
+ "m_Enabled": 1,
+ "m_Script": {
+  "m_FileID": 16777216,
+  "m_PathID": 18320719872
+ },
+ "m_Name": "",
+ "overlay": {
+  "m_FileID": 0,
+  "m_PathID": 542
+ },
+ "narration": {
+  "m_FileID": 0,
+  "m_PathID": 574
+ },
+ "coreTutorialLevel": 1,
+ "coreMessage": "Tap items that MATCH a box to tidy up!",
+ "coreBoxTip": "Check the <color=#046fba>category label!</color>",
+ "coreItemTip": "Tap to collect <color=#046fba>matching items</color>",
+ "coreIntroBoxLine": "Uh-oh, look at this mess...",
+ "coreIntroLineGap": 0.30000001192092896,
+ "coreIntroItemLine": "Let's tidy up together!",
+ "clusterRadius": 260.0,
+ "spotPadding": 30.0,
+ "minSpotRadius": 150.0,
+ "maxSpotRadius": 450.0,
+ "focusViewport": {
+  "x": 0.05000000074505806,
+  "y": 0.11999999731779099,
+  "width": 0.8999999761581421,
+  "height": 0.5799999833106995
+ },
+ "coreSlideStep": 1,
+ "coreSlideMinOffset": 0.25,
+ "coreSlideMessage": "Swipe left to find the last one!",
+ "coreSlideShowHand": 1,
+ "coreSlidePanDuration": 1.2000000476837158,
+ "coreEndSlideHand": 0,
+ "boosterTutorials": [
+  {
+   "type": 4,
+   "message": "Clear all waiting items!",
+   "grantAmount": 2,
+   "prefillQueue": 3,
+   "showOnce": 1
+  },
+  {
+   "type": 0,
+   "message": "Fill a box instantly!",
+   "grantAmount": 2,
+   "prefillQueue": 0,
+   "showOnce": 1
+  },
+  {
+   "type": 5,
+   "message": "Tap a locked box to add one more!",
+   "grantAmount": 1,
+   "prefillQueue": 0,
+   "showOnce": 1
+  }
+ ]
+}
+
+### level1 575 HappyTidy.Gameplay.Storage 
+{
+ "m_GameObject": {
+  "m_FileID": 0,
+  "m_PathID": 57
+ },
+ "m_Enabled": 1,
+ "m_Script": {
+  "m_FileID": 16777216,
+  "m_PathID": 24612175872
+ },
+ "m_Name": "",
+ "front": {
+  "m_FileID": 0,
+  "m_PathID": 349
+ },
+ "back": {
+  "m_FileID": 0,
+  "m_PathID": 379
+ },
+ "queue": {
+  "m_FileID": 0,
+  "m_PathID": 531
+ },
+ "slideDistance": 120.0,
+ "startScale": 0.5,
+ "appearDuration": 0.30000001192092896,
+ "animBlend": 0.10000000149011612,
+ "tooltipPrefab": {
+  "m_FileID": 2,
+  "m_PathID": 114
+ }
+}
+
+### resources.assets 7833 _Game.Scripts.GeneralConfig GeneralConfig
+{
+ "m_GameObject": {
+  "m_FileID": 0,
+  "m_PathID": 0
+ },
+ "m_Enabled": 1,
+ "m_Script": {
+  "m_FileID": 16777216,
+  "m_PathID": 36373004288
+ },
+ "m_Name": "GeneralConfig",
+ "fileUrl": "",
+ "enable": 1,
+ "levels": [
+  {
+   "id": 1,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 2,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 3,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 4,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 5,
+   "levelDifficulty": 1
+  },
+  {
+   "id": 6,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 7,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 8,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 9,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 10,
+   "levelDifficulty": 1
+  },
+  {
+   "id": 11,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 12,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 13,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 14,
+   "levelDifficulty": 1
+  },
+  {
+   "id": 15,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 16,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 17,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 18,
+   "levelDifficulty": 1
+  },
+  {
+   "id": 19,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 20,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 21,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 22,
+   "levelDifficulty": 2
+  },
+  {
+   "id": 23,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 24,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 25,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 26,
+   "levelDifficulty": 1
+  },
+  {
+   "id": 27,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 28,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 29,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 30,
+   "levelDifficulty": 2
+  },
+  {
+   "id": 31,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 32,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 33,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 34,
+   "levelDifficulty": 1
+  },
+  {
+   "id": 35,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 36,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 37,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 38,
+   "levelDifficulty": 2
+  },
+  {
+   "id": 39,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 40,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 41,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 42,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 43,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 44,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 45,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 46,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 47,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 48,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 49,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 50,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 51,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 52,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 53,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 54,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 55,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 56,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 57,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 58,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 59,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 60,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 61,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 62,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 63,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 64,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 65,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 66,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 67,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 68,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 69,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 70,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 71,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 72,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 73,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 74,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 75,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 76,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 77,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 78,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 79,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 80,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 81,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 82,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 83,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 84,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 85,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 86,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 87,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 88,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 89,
+   "levelDifficulty": 0
+  },
+  {
+   "id": 90,
+   "levelDifficulty": 0
+  }
+ ],
+ "levelOrder": [
+  {
+   "index": 1,
+   "levelId": 1
+  },
+  {
+   "index": 2,
+   "levelId": 2
+  },
+  {
+   "index": 3,
+   "levelId": 3
+  },
+  {
+   "index": 4,
+   "levelId": 4
+  },
+  {
+   "index": 5,
+   "levelId": 5
+  },
+  {
+   "index": 6,
+   "levelId": 6
+  },
+  {
+   "index": 7,
+   "levelId": 7
+  },
+  {
+   "index": 8,
+   "levelId": 8
+  },
+  {
+   "index": 9,
+   "levelId": 9
+  },
+  {
+   "index": 10,
+   "levelId": 10
+  },
+  {
+   "index": 11,
+   "levelId": 11
+  },
+  {
+   "index": 12,
+   "levelId": 12
+  },
+  {
+   "index": 13,
+   "levelId": 13
+  },
+  {
+   "index": 14,
+   "levelId": 14
+  },
+  {
+   "index": 15,
+   "levelId": 15
+  },
+  {
+   "index": 16,
+   "levelId": 16
+  },
+  {
+   "index": 17,
+   "levelId": 17
+  },
+  {
+   "index": 18,
+   "levelId": 18
+  },
+  {
+   "index": 19,
+   "levelId": 19
+  },
+  {
+   "index": 20,
+   "levelId": 20
+  },
+  {
+   "index": 21,
+   "levelId": 21
+  },
+  {
+   "index": 22,
+   "levelId": 22
+  },
+  {
+   "index": 23,
+   "levelId": 23
+  },
+  {
+   "index": 24,
+   "levelId": 24
+  },
+  {
+   "index": 25,
+   "levelId": 25
+  },
+  {
+   "index": 26,
+   "levelId": 26
+  },
+  {
+   "index": 27,
+   "levelId": 27
+  },
+  {
+   "index": 28,
+   "levelId": 28
+  },
+  {
+   "index": 29,
+   "levelId": 29
+  },
+  {
+   "index": 30,
+   "levelId": 30
+  },
+  {
+   "index": 31,
+   "levelId": 31
+  },
+  {
+   "index": 32,
+   "levelId": 32
+  },
+  {
+   "index": 33,
+   "levelId": 33
+  },
+  {
+   "index": 34,
+   "levelId": 34
+  },
+  {
+   "index": 35,
+   "levelId": 35
+  },
+  {
+   "index": 36,
+   "levelId": 36
+  },
+  {
+   "index": 37,
+   "levelId": 37
+  },
+  {
+   "index": 38,
+   "levelId": 38
+  },
+  {
+   "index": 39,
+   "levelId": 39
+  },
+  {
+   "index": 40,
+   "levelId": 40
+  },
+  {
+   "index": 41,
+   "levelId": 41
+  },
+  {
+   "index": 42,
+   "levelId": 42
+  },
+  {
+   "index": 43,
+   "levelId": 43
+  },
+  {
+   "index": 44,
+   "levelId": 44
+  },
+  {
+   "index": 45,
+   "levelId": 45
+  },
+  {
+   "index": 46,
+   "levelId": 46
+  },
+  {
+   "index": 47,
+   "levelId": 47
+  },
+  {
+   "index": 48,
+   "levelId": 48
+  },
+  {
+   "index": 49,
+   "levelId": 49
+  },
+  {
+   "index": 50,
+   "levelId": 50
+  },
+  {
+   "index": 51,
+   "levelId": 51
+  },
+  {
+   "index": 52,
+   "levelId": 52
+  },
+  {
+   "index": 53,
+   "levelId": 53
+  },
+  {
+   "index": 54,
+   "levelId": 54
+  },
+  {
+   "index": 55,
+   "levelId": 55
+  },
+  {
+   "index": 56,
+   "levelId": 56
+  },
+  {
+   "index": 57,
+   "levelId": 57
+  },
+  {
+   "index": 58,
+   "levelId": 58
+  },
+  {
+   "index": 59,
+   "levelId": 59
+  },
+  {
+   "index": 60,
+   "levelId": 60
+  },
+  {
+   "index": 61,
+   "levelId": 61
+  },
+  {
+   "index": 62,
+   "levelId": 62
+  },
+  {
+   "index": 63,
+   "levelId": 63
+  },
+  {
+   "index": 64,
+   "levelId": 64
+  },
+  {
+   "index": 65,
+   "levelId": 65
+  },
+  {
+   "index": 66,
+   "levelId": 66
+  },
+  {
+   "index": 67,
+   "levelId": 67
+  },
+  {
+   "index": 68,
+   "levelId": 68
+  },
+  {
+   "index": 69,
+   "levelId": 69
+  },
+  {
+   "index": 70,
+   "levelId": 70
+  },
+  {
+   "index": 71,
+   "levelId": 71
+  },
+  {
+   "index": 72,
+   "levelId": 72
+  },
+  {
+   "index": 73,
+   "levelId": 73
+  },
+  {
+   "index": 74,
+   "levelId": 74
+  },
+  {
+   "index": 75,
+   "levelId": 75
+  },
+  {
+   "index": 76,
+   "levelId": 76
+  },
+  {
+   "index": 77,
+   "levelId": 77
+  },
+  {
+   "index": 78,
+   "levelId": 78
+  },
+  {
+   "index": 79,
+   "levelId": 79
+  },
+  {
+   "index": 80,
+   "levelId": 80
+  },
+  {
+   "index": 81,
+   "levelId": 81
+  },
+  {
+   "index": 82,
+   "levelId": 82
+  },
+  {
+   "index": 83,
+   "levelId": 83
+  },
+  {
+   "index": 84,
+   "levelId": 84
+  },
+  {
+   "index": 85,
+   "levelId": 85
+  },
+  {
+   "index": 86,
+   "levelId": 86
+  },
+  {
+   "index": 87,
+   "levelId": 87
+  },
+  {
+   "index": 88,
+   "levelId": 88
+  },
+  {
+   "index": 89,
+   "levelId": 89
+  },
+  {
+   "index": 90,
+   "levelId": 90
+  }
+ ]
+}
+
+### resources.assets 7836 BravestarsSDK.BS_RemoteConfig RemoteConfigData
+{
+ "m_GameObject": {
+  "m_FileID": 0,
+  "m_PathID": 0
+ },
+ "m_Enabled": 1,
+ "m_Script": {
+  "m_FileID": 16777216,
+  "m_PathID": 4378853376
+ },
+ "m_Name": "RemoteConfigData",
+ "_data": [
+  {
+   "VariableName": "rating_popup",
+   "Type": 1,
+   "DefaultValue": "false"
+  },
+  {
+   "VariableName": "rating_start_lv",
+   "Type": 0,
+   "DefaultValue": "11"
+  },
+  {
+   "VariableName": "rating_loop_interval",
+   "Type": 0,
+   "DefaultValue": "10"
+  },
+  {
+   "VariableName": "rating_count",
+   "Type": 0,
+   "DefaultValue": "0"
+  },
+  {
+   "VariableName": "no_ads_start_lv",
+   "Type": 0,
+   "DefaultValue": "6"
+  },
+  {
+   "VariableName": "no_ads_loop_interval",
+   "Type": 0,
+   "DefaultValue": "10"
+  },
+  {
+   "VariableName": "no_ads_count",
+   "Type": 0,
+   "DefaultValue": "0"
+  },
+  {
+   "VariableName": "af_net_IAP_android",
+   "Type": 0,
+   "DefaultValue": "65"
+  },
+  {
+   "VariableName": "af_net_IAP_ios",
+   "Type": 0,
+   "DefaultValue": "65"
+  },
+  {
+   "VariableName": "hien_qc",
+   "Type": 1,
+   "DefaultValue": "true"
+  },
+  {
+   "VariableName": "interval_type",
+   "Type": 0,
+   "DefaultValue": "0"
+  },
+  {
+   "VariableName": "ads_interval",
+   "Type": 0,
+   "DefaultValue": "120"
+  },
+  {
+   "VariableName": "interval_ad_option",
+   "Type": 2,
+   "DefaultValue": ""
+  },
+  {
+   "VariableName": "level_show_int",
+   "Type": 0,
+   "DefaultValue": "1"
+  },
+  {
+   "VariableName": "level_show_noti",
+   "Type": 0,
+   "DefaultValue": "5"
+  },
+  {
+   "VariableName": "rw_int_time",
+   "Type": 0,
+   "DefaultValue": "15"
+  },
+  {
+   "VariableName": "LV_RW_revive",
+   "Type": 0,
+   "DefaultValue": "1"
+  },
+  {
+   "VariableName": "LV_RW_booster",
+   "Type": 0,
+   "DefaultValue": "1"
+  },
+  {
+   "VariableName": "LV_RW_heart",
+   "Type": 0,
+   "DefaultValue": "1"
+  },
+  {
+   "VariableName": "level_show_rw_end_game",
+   "Type": 0,
+   "DefaultValue": "1"
+  },
+  {
+   "VariableName": "LV_int_retry",
+   "Type": 0,
+   "DefaultValue": "0"
+  },
+  {
+   "VariableName": "lv_close_hint",
+   "Type": 0,
+   "DefaultValue": "0"
+  },
+  {
+   "VariableName": "LV_show_banner",
+   "Type": 0,
+   "DefaultValue": "0"
+  },
+  {
+   "VariableName": "level_ver",
+   "Type": 0,
+   "DefaultValue": "0"
+  },
+  {
+   "VariableName": "show_BN_gameplay",
+   "Type": 1,
+   "DefaultValue": "true"
+  },
+  {
+   "VariableName": "enable_new_sdk_v4",
+   "Type": 1,
+   "DefaultValue": "false"
+  },
+  {
+   "VariableName": "new_sdk_v4_configs",
+   "Type": 2,
+   "DefaultValue": "{\"bid_high_id1_cache_ad_0\":2.7,\"bid_high_id2_cache_ad_0\":1.4,\"bid_high_id3_cache_ad_0\":0,\"bid_high_id1_cache_ad_1\":3.2,\"bid_high_id2_cache_ad_1\":1.6,\"bid_high_id3_cache_ad_1\":1.2,\"retry_multiplier_down_id1_cache_ad_0\":[0.83],\"retry_multiplier_down_id2_cache_ad_0\":[0.7,0.6,0.6,0],\"retry_multiplier_down_id3_cache_ad_0\":[0.6,0.5,0,0],\"retry_multiplier_down_id1_cache_ad_1\":[0.83],\"retry_multiplier_down_id2_cache_ad_1\":[0.8,0.7,0.7,0.6,0.6,0],\"retry_multiplier_down_id3_cache_ad_1\":[0.8,0.7,0.7,0.6,0,0],\"default_retry_multiplier_down_id1\":0.83,\"default_retry_multiplier_down_id2\":0,\"default_retry_multiplier_down_id3\":0,\"reload_timing\":[2,4,8,16,32],\"reload_count_id1\":8,\"reload_count_id2\":5,\"reload_count_id3\":5,\"cache_ad_size\":3,\"UeCPM_mul\":0.8,\"UeCPM_save\":true,\"Swap_ecpm_rw\":true,\"Time_to_backup_inter\":80,\"Time_to_backup_rw\":10,\"v4_ecpm_threshold\":{\"defaultThreshold\":1.5,\"countries\":[{\"countryCode\":\"US\",\"threshold\":200},{\"countryCode\":\"VN\",\"threshold\":0.3}]},\"v4_max_ecpm_save\":true,\"v4_id4_enable\":\"on\",\"v4_id4_request_gap\":2,\"v4_id4_reload_count\":0}"
+  },
+  {
+   "VariableName": "xyz_key",
+   "Type": 2,
+   "DefaultValue": ""
+  },
+  {
+   "VariableName": "abc_key",
+   "Type": 2,
+   "DefaultValue": ""
+  }
+ ]
+}
+
+### resources.assets 10788 BoosterDatabaseSO BoosterDatabase
+{
+ "m_GameObject": {
+  "m_FileID": 0,
+  "m_PathID": 0
+ },
+ "m_Enabled": 1,
+ "m_Script": {
+  "m_FileID": 16777216,
+  "m_PathID": 45332037632
+ },
+ "m_Name": "BoosterDatabase",
+ "boosters": [
+  {
+   "type": 0,
+   "boosterName": "Vacuum",
+   "description": "Instantly complete 1 box!",
+   "icon": {
+    "m_FileID": 0,
+    "m_PathID": 4231
+   },
+   "unlockLevel": 3,
+   "coinCost": 0
+  },
+  {
+   "type": 4,
+   "boosterName": "Broom",
+   "description": "Move all items from the tray to storage",
+   "icon": {
+    "m_FileID": 0,
+    "m_PathID": 4875
+   },
+   "unlockLevel": 6,
+   "coinCost": 0
+  }
+ ]
+}
+
+### resources.assets 10789 HappyTidy.GameplayConfigSO GameplayConfig
+{
+ "m_GameObject": {
+  "m_FileID": 0,
+  "m_PathID": 0
+ },
+ "m_Enabled": 1,
+ "m_Script": {
+  "m_FileID": 16777216,
+  "m_PathID": 36339449856
+ },
+ "m_Name": "GameplayConfig",
+ "catalog": {
+  "m_FileID": 0,
+  "m_PathID": 7861
+ },
+ "queueCapacity": 5,
+ "openBoxes": 2,
+ "maxBoxes": 3,
+ "blockPixels": 1000.0,
+ "blockMaxFrac": 0.25,
+ "blockPct": 0.0010000000474974513,
+ "disableAdsRelated": 0,
+ "storageTooltip": 0,
+ "hintEnabled": 1,
+ "hintIdleDelay": 7.0,
+ "hintScaleUp": 0.10000000149011612,
+ "hintFadeIn": 0.4000000059604645,
+ "hintHold": 0.5,
+ "hintFadeOut": 0.4000000059604645,
+ "hintRest": 0.20000000298023224,
+ "hintOutlineColor": {
+  "r": 1.0,
+  "g": 0.949999988079071,
+  "b": 0.44999998807907104,
+  "a": 1.0
+ },
+ "hintOutlineWidth": 6.0,
+ "hintOutlineSteps": 8,
+ "slotWarningThreshold": 1,
+ "slotWarningPrefab": {
+  "m_FileID": 0,
+  "m_PathID": 6436
+ },
+ "slotWarningSprite": {
+  "m_FileID": 0,
+  "m_PathID": 6175
+ },
+ "slotWarningScale": 1.350000023841858,
+ "slotWarningBlink": 0.44999998807907104,
+ "slotWarningMinAlpha": 0.15000000596046448,
+ "screenWarningSprite": {
+  "m_FileID": 0,
+  "m_PathID": 4090
+ },
+ "screenWarningAlphaMin": 0.11999999731779099,
+ "screenWarningAlphaMax": 0.8669999837875366,
+ "screenWarningPeriod": 1.0,
+ "screenWarningShowTime": 2.0,
+ "heartsEnabled": 1,
+ "reviveEnabled": 1,
+ "maxRevives": 0,
+ "maxZoomIn": 2.0,
+ "maps": [
+  {
+   "key": "HT_BG_02",
+   "maxZoomIn": 0.0,
+   "itemScales": [
+    {
+     "type": 41044,
+     "scale": 0.6600000262260437
+    },
+    {
+     "type": 41019,
+     "scale": 0.699999988079071
+    }
+   ]
+  },
+  {
+   "key": "HT_BG_17",
+   "maxZoomIn": 0.0,
+   "itemScales": [
+    {
+     "type": 37003,
+     "scale": 0.800000011920929
+    },
+    {
+     "type": 41007,
+     "scale": 0.8399999737739563
+    },
+    {
+     "type": 41008,
+     "scale": 0.7300000190734863
+    },
+    {
+     "type": 41044,
+     "scale": 0.8100000023841858
+    }
+   ]
+  },
+  {
+   "key": "HT_BG_07",
+   "maxZoomIn": 0.0,
+   "itemScales": [
+    {
+     "type": 41039,
+     "scale": 0.7699999809265137
+    },
+    {
+     "type": 48002,
+     "scale": 0.8399999737739563
+    },
+    {
+     "type": 41072,
+     "scale": 0.7799999713897705
+    }
+   ]
+  },
+  {
+   "key": "HT_BG_25",
+   "maxZoomIn": 0.0,
+   "itemScales": [
+    {
+     "type": 41014,
+     "scale": 0.7799999713897705
+    },
+    {
+     "type": 41008,
+     "scale": 0.8500000238418579
+    }
+   ]
+  },
+  {
+   "key": "HT_BG_10",
+   "maxZoomIn": 0.0,
+   "itemScales": [
+    {
+     "type": 41044,
+     "scale": 0.75
+    },
+    {
+     "type": 41038,
+     "scale": 0.800000011920929
+    },
+    {
+     "type": 41019,
+     "scale": 0.7799999713897705
+    },
+    {
+     "type": 51001,
+     "scale": 0.75
+    },
+    {
+     "type": 41066,
+     "scale": 0.8399999737739563
+    },
+    {
+     "type": 51008,
+     "scale": 0.7099999785423279
+    }
+   ]
+  },
+  {
+   "key": "HT_BG_12",
+   "maxZoomIn": 0.0,
+   "itemScales": [
+    {
+     "type": 41032,
+     "scale": 0.7699999809265137
+    },
+    {
+     "type": 41031,
+     "scale": 0.8700000047683716
+    },
+    {
+     "type": 41008,
+     "scale": 0.8100000023841858
+    }
+   ]
+  },
+  {
+   "key": "HT_BG_15",
+   "maxZoomIn": 0.0,
+   "itemScales": [
+    {
+     "type": 41044,
+     "scale": 0.7599999904632568
+    },
+    {
+     "type": 41019,
+     "scale": 0.8199999928474426
+    }
+   ]
+  },
+  {
+   "key": "HT_BG_16",
+   "maxZoomIn": 0.0,
+   "itemScales": [
+    {
+     "type": 41008,
+     "scale": 0.8299999833106995
+    },
+    {
+     "type": 41038,
+     "scale": 0.8600000143051147
+    },
+    {
+     "type": 41028,
+     "scale": 0.8500000238418579
+    },
+    {
+     "type": 41051,
+     "scale": 0.7200000286102295
+    },
+    {
+     "type": 41014,
+     "scale": 0.800000011920929
+    },
+    {
+     "type": 41003,
+     "scale": 0.7900000214576721
+    }
+   ]
+  },
+  {
+   "key": "HT_BG_24",
+   "maxZoomIn": 0.0,
+   "itemScales": [
+    {
+     "type": 41003,
+     "scale": 0.8100000023841858
+    }
+   ]
+  },
+  {
+   "key": "HT_BG_13",
+   "maxZoomIn": 0.0,
+   "itemScales": [
+    {
+     "type": 41019,
+     "scale": 0.7799999713897705
+    },
+    {
+     "type": 41032,
+     "scale": 0.8199999928474426
+    },
+    {
+     "type": 41044,
+     "scale": 0.7200000286102295
+    },
+    {
+     "type": 51009,
+     "scale": 0.8199999928474426
+    },
+    {
+     "type": 51008,
+     "scale": 0.8199999928474426
+    }
+   ]
+  },
+  {
+   "key": "HT_BG_30",
+   "maxZoomIn": 0.0,
+   "itemScales": [
+    {
+     "type": 41003,
+     "scale": 0.6899999976158142
+    },
+    {
+     "type": 49001,
+     "scale": 0.8500000238418579
+    },
+    {
+     "type": 41038,
+     "scale": 0.8999999761581421
+    },
+    {
+     "type": 41019,
+     "scale": 0.7699999809265137
+    },
+    {
+     "type": 41008,
+     "scale": 0.8999999761581421
+    }
+   ]
+  },
+  {
+   "key": "HT_BG_36",
+   "maxZoomIn": 0.0,
+   "itemScales": [
+    {
+     "type": 41044,
+     "scale": 0.7599999904632568
+    },
+    {
+     "type": 41046,
+     "scale": 0.9100000262260437
+    },
+    {
+     "type": 47007,
+     "scale": 1.1399999856948853
+    },
+    {
+     "type": 47008,
+     "scale": 0.9200000166893005
+    },
+    {
+     "type": 47003,
+     "scale": 0.8999999761581421
+    },
+    {
+     "type": 41005,
+     "scale": 0.8899999856948853
+    }
+   ]
+  },
+  {
+   "key": "HT_BG_14",
+   "maxZoomIn": 0.0,
+   "itemScales": [
+    {
+     "type": 41038,
+     "scale": 0.8199999928474426
+    },
+    {
+     "type": 41032,
+     "scale": 0.8899999856948853
+    },
+    {
+     "type": 51001,
+     "scale": 0.75
+    },
+    {
+     "type": 51009,
+     "scale": 0.8199999928474426
+    },
+    {
+     "type": 51008,
+     "scale": 0.7699999809265137
+    },
+    {
+     "type": 51006,
+     "scale": 0.8600000143051147
+    }
+   ]
+  },
+  {
+   "key": "HT_BG_06",
+   "maxZoomIn": 0.0,
+   "itemScales": [
+    {
+     "type": 41044,
+     "scale": 0.800000011920929
+    }
+   ]
+  },
+  {
+   "key": "HT_BG_19",
+   "maxZoomIn": 0.0,
+   "itemScales": [
+    {
+     "type": 41020,
+     "scale": 0.800000011920929
+    }
+   ]
+  },
+  {
+   "key": "HT_BG_20",
+   "maxZoomIn": 0.0,
+   "itemScales": [
+    {
+     "type": 41008,
+     "scale": 0.7799999713897705
+    },
+    {
+     "type": 41018,
+     "scale": 0.8500000238418579
+    }
+   ]
+  },
+  {
+   "key": "HT_BG_21",
+   "maxZoomIn": 0.0,
+   "itemScales": [
+    {
+     "type": 41039,
+     "scale": 0.7699999809265137
+    },
+    {
+     "type": 41005,
+     "scale": 0.8600000143051147
+    }
+   ]
+  },
+  {
+   "key": "HT_BG_39",
+   "maxZoomIn": 0.0,
+   "itemScales": [
+    {
+     "type": 41019,
+     "scale": 0.7599999904632568
+    },
+    {
+     "type": 41044,
+     "scale": 0.7900000214576721
+    },
+    {
+     "type": 50002,
+     "scale": 0.800000011920929
+    },
+    {
+     "type": 38003,
+     "scale": 0.8899999856948853
+    }
+   ]
+  },
+  {
+   "key": "HT_BG_29",
+   "maxZoomIn": 0.0,
+   "itemScales": [
+    {
+     "type": 38003,
+     "scale": 0.699999988079071
+    }
+   ]
+  },
+  {
+   "key": "HT_BG_33",
+   "maxZoomIn": 0.0,
+   "itemScales": [
+    {
+     "type": 41039,
+     "scale": 0.8899999856948853
+    }
+   ]
+  },
+  {
+   "key": "HT_BG_34",
+   "maxZoomIn": 0.0,
+   "itemScales": [
+    {
+     "type": 55011,
+     "scale": 0.5299999713897705
+    },
+    {
+     "type": 55008,
+     "scale": 0.699999988079071
+    },
+    {
+     "type": 55001,
+     "scale": 0.9599999785423279
+    },
+    {
+     "type": 55002,
+     "scale": 0.7400000095367432
+    },
+    {
+     "type": 55003,
+     "scale": 0.800000011920929
+    }
+   ]
+  },
+  {
+   "key": "HT_BG_35",
+   "maxZoomIn": 0.0,
+   "itemScales": [
+    {
+     "type": 41032,
+     "scale": 0.8399999737739563
+    },
+    {
+     "type": 41038,
+     "scale": 0.8399999737739563
+    },
+    {
+     "type": 41066,
+     "scale": 0.8299999833106995
+    },
+    {
+     "type": 51001,
+     "scale": 0.800000011920929
+    },
+    {
+     "type": 51006,
+     "scale": 0.8299999833106995
+    },
+    {
+     "type": 51009,
+     "scale": 0.9200000166893005
+    },
+    {
+     "type": 51008,
+     "scale": 0.7599999904632568
+    }
+   ]
+  },
+  {
+   "key": "HT_BG_28",
+   "maxZoomIn": 0.0,
+   "itemScales": [
+    {
+     "type": 41008,
+     "scale": 0.75
+    },
+    {
+     "type": 41044,
+     "scale": 0.8199999928474426
+    },
+    {
+     "type": 46004,
+     "scale": 0.7400000095367432
+    },
+    {
+     "type": 41003,
+     "scale": 0.7900000214576721
+    }
+   ]
+  },
+  {
+   "key": "HT_BG_37",
+   "maxZoomIn": 0.0,
+   "itemScales": [
+    {
+     "type": 51008,
+     "scale": 0.6700000166893005
+    },
+    {
+     "type": 51001,
+     "scale": 0.7799999713897705
+    },
+    {
+     "type": 41008,
+     "scale": 0.7699999809265137
+    },
+    {
+     "type": 51009,
+     "scale": 0.9700000286102295
+    },
+    {
+     "type": 41038,
+     "scale": 0.7599999904632568
+    },
+    {
+     "type": 51004,
+     "scale": 0.8899999856948853
+    },
+    {
+     "type": 41028,
+     "scale": 0.8600000143051147
+    },
+    {
+     "type": 41032,
+     "scale": 0.7799999713897705
+    }
+   ]
+  },
+  {
+   "key": "HT_BG_22",
+   "maxZoomIn": 0.0,
+   "itemScales": [
+    {
+     "type": 35002,
+     "scale": 0.800000011920929
+    }
+   ]
+  },
+  {
+   "key": "HT_BG_27",
+   "maxZoomIn": 0.0,
+   "itemScales": [
+    {
+     "type": 41039,
+     "scale": 0.7799999713897705
+    },
+    {
+     "type": 37003,
+     "scale": 0.8799999952316284
+    },
+    {
+     "type": 42002,
+     "scale": 0.7599999904632568
+    },
+    {
+     "type": 41012,
+     "scale": 0.800000011920929
+    }
+   ]
+  },
+  {
+   "key": "HT_BG_31",
+   "maxZoomIn": 0.0,
+   "itemScales": [
+    {
+     "type": 34006,
+     "scale": 0.7799999713897705
+    }
+   ]
+  },
+  {
+   "key": "HT_BG_32",
+   "maxZoomIn": 0.0,
+   "itemScales": [
+    {
+     "type": 41003,
+     "scale": 0.6200000047683716
+    },
+    {
+     "type": 41053,
+     "scale": 0.7300000190734863
+    },
+    {
+     "type": 41028,
+     "scale": 0.8399999737739563
+    },
+    {
+     "type": 41066,
+     "scale": 0.8399999737739563
+    },
+    {
+     "type": 41046,
+     "scale": 0.9300000071525574
+    },
+    {
+     "type": 41023,
+     "scale": 0.8100000023841858
+    }
+   ]
+  },
+  {
+   "key": "HT_BG_38",
+   "maxZoomIn": 0.0,
+   "itemScales": [
+    {
+     "type": 41020,
+     "scale": 0.8199999928474426
+    },
+    {
+     "type": 41045,
+     "scale": 0.8100000023841858
+    },
+    {
+     "type": 41046,
+     "scale": 0.8600000143051147
+    },
+    {
+     "type": 41072,
+     "scale": 0.8799999952316284
+    },
+    {
+     "type": 41054,
+     "scale": 0.8999999761581421
+    },
+    {
+     "type": 41066,
+     "scale": 0.7900000214576721
+    },
+    {
+     "type": 41053,
+     "scale": 0.8299999833106995
+    }
+   ]
+  },
+  {
+   "key": "HT_BG_18",
+   "maxZoomIn": 0.0,
+   "itemScales": [
+    {
+     "type": 43002,
+     "scale": 1.149999976158142
+    },
+    {
+     "type": 41008,
+     "scale": 0.7900000214576721
+    }
+   ]
+  },
+  {
+   "key": "HT_BG_01",
+   "maxZoomIn": 0.0,
+   "itemScales": [
+    {
+     "type": 41065,
+     "scale": 1.2200000286102295
+    }
+   ]
+  },
+  {
+   "key": "HT_BG_09",
+   "maxZoomIn": 0.0,
+   "itemScales": [
+    {
+     "type": 41066,
+     "scale": 0.8500000238418579
+    }
+   ]
+  },
+  {
+   "key": "HT_BG_05",
+   "maxZoomIn": 0.0,
+   "itemScales": [
+    {
+     "type": 41039,
+     "scale": 0.8299999833106995
+    }
+   ]
+  },
+  {
+   "key": "HT_BG_41",
+   "maxZoomIn": 0.0,
+   "itemScales": [
+    {
+     "type": 41051,
+     "scale": 0.7200000286102295
+    },
+    {
+     "type": 41007,
+     "scale": 0.9100000262260437
+    },
+    {
+     "type": 41044,
+     "scale": 0.699999988079071
+    },
+    {
+     "type": 41018,
+     "scale": 0.9200000166893005
+    }
+   ]
+  },
+  {
+   "key": "HT_BG_42",
+   "maxZoomIn": 0.0,
+   "itemScales": [
+    {
+     "type": 41003,
+     "scale": 0.8299999833106995
+    },
+    {
+     "type": 49001,
+     "scale": 0.8600000143051147
+    },
+    {
+     "type": 41008,
+     "scale": 0.8299999833106995
+    }
+   ]
+  },
+  {
+   "key": "HT_BG_43",
+   "maxZoomIn": 0.0,
+   "itemScales": [
+    {
+     "type": 41068,
+     "scale": 0.8399999737739563
+    },
+    {
+     "type": 38003,
+     "scale": 0.8500000238418579
+    }
+   ]
+  },
+  {
+   "key": "HT_BG_51",
+   "maxZoomIn": 0.0,
+   "itemScales": [
+    {
+     "type": 41039,
+     "scale": 0.8500000238418579
+    }
+   ]
+  },
+  {
+   "key": "HT_BG_52",
+   "maxZoomIn": 0.0,
+   "itemScales": [
+    {
+     "type": 71007,
+     "scale": 0.8700000047683716
+    }
+   ]
+  },
+  {
+   "key": "HT_BG_46",
+   "maxZoomIn": 0.0,
+   "itemScales": [
+    {
+     "type": 69007,
+     "scale": 0.8600000143051147
+    }
+   ]
+  },
+  {
+   "key": "HT_BG_47",
+   "maxZoomIn": 0.0,
+   "itemScales": [
+    {
+     "type": 72002,
+     "scale": 0.8700000047683716
+    },
+    {
+     "type": 41068,
+     "scale": 0.8799999952316284
+    }
+   ]
+  },
+  {
+   "key": "HT_BG_48",
+   "maxZoomIn": 0.0,
+   "itemScales": [
+    {
+     "type": 41044,
+     "scale": 0.8100000023841858
+    },
+    {
+     "type": 69001,
+     "scale": 0.8600000143051147
+    },
+    {
+     "type": 69008,
+     "scale": 0.9399999976158142
+    },
+    {
+     "type": 41008,
+     "scale": 0.8899999856948853
+    },
+    {
+     "type": 41019,
+     "scale": 0.8199999928474426
+    }
+   ]
+  },
+  {
+   "key": "HT_BG_49",
+   "maxZoomIn": 0.0,
+   "itemScales": [
+    {
+     "type": 41038,
+     "scale": 0.8700000047683716
+    },
+    {
+     "type": 41032,
+     "scale": 0.9399999976158142
+    },
+    {
+     "type": 41051,
+     "scale": 0.7799999713897705
+    }
+   ]
+  },
+  {
+   "key": "HT_BG_50",
+   "maxZoomIn": 0.0,
+   "itemScales": [
+    {
+     "type": 41019,
+     "scale": 0.8199999928474426
+    },
+    {
+     "type": 41008,
+     "scale": 0.7300000190734863
+    },
+    {
+     "type": 41044,
+     "scale": 0.8299999833106995
+    },
+    {
+     "type": 61004,
+     "scale": 0.8700000047683716
+    }
+   ]
+  },
+  {
+   "key": "HT_BG_60",
+   "maxZoomIn": 0.0,
+   "itemScales": [
+    {
+     "type": 41014,
+     "scale": 0.7699999809265137
+    },
+    {
+     "type": 41038,
+     "scale": 0.8199999928474426
+    }
+   ]
+  },
+  {
+   "key": "HT_BG_04",
+   "maxZoomIn": 0.0,
+   "itemScales": [
+    {
+     "type": 41044,
+     "scale": 0.6899999976158142
+    },
+    {
+     "type": 47003,
+     "scale": 0.8199999928474426
+    }
+   ]
+  }
+ ],
+ "fxLand": {
+  "m_FileID": 0,
+  "m_PathID": 6701
+ },
+ "fxLandScale": 10.0,
+ "fxText": {
+  "m_FileID": 0,
+  "m_PathID": 6370
+ },
+ "fxTextScale": 10.0,
+ "fxSelect": {
+  "m_FileID": 0,
+  "m_PathID": 6373
+ },
+ "fxSelectScale": 1.0,
+ "fxCollect": {
+  "m_FileID": 0,
+  "m_PathID": 6507
+ },
+ "fxCollectScale": 1.0,
+ "fxCollectScaleMode": 3,
+ "fxCollectRefSize": 150.0,
+ "fxClick": {
+  "m_FileID": 0,
+  "m_PathID": 6366
+ },
+ "fxClickScale": 1.0,
+ "boosterClearAnim": {
+  "m_FileID": 0,
+  "m_PathID": 6532
+ },
+ "boosterVacuumAnim": {
+  "m_FileID": 0,
+  "m_PathID": 6394
+ },
+ "suckFrontDistance": 260.0,
+ "suckArcLift": 220.0,
+ "flyTrail": {
+  "m_FileID": 0,
+  "m_PathID": 6375
+ },
+ "flyTrailUnitPx": 100.0,
+ "boxNextDelay": 0.800000011920929,
+ "boxActionLead": 0.10000000149011612,
+ "flyDuration": 0.5,
+ "flyJump": 140.0,
+ "hopHeight": 24.0,
+ "hopUpDuration": 0.11999999731779099,
+ "hopDownDuration": 0.10000000149011612,
+ "hopScale": 1.2999999523162842,
+ "boxFlyDuration": 0.699999988079071,
+ "boxFlyApex": 220.0,
+ "boxFlySize": 140.0,
+ "boxShrinkStart": 0.800000011920929,
+ "storageShrinkStart": 0.5,
+ "storageEndScale": 0.5,
+ "storageGrowDuration": 0.15000000596046448,
+ "storageLaunchStagger": 0.11999999731779099,
+ "popupDelay": 0.4000000059604645,
+ "winCameraDuration": 0.6000000238418579,
+ "fxComplete": {
+  "m_FileID": 0,
+  "m_PathID": 6751
+ },
+ "fxCompleteScale": 1.0,
+ "winPopupWait": 2.0,
+ "tintBlocked": 0
+}
+
+### resources.assets 10791 MechanicDatabaseSO MechanicDatabase
+{
+ "m_GameObject": {
+  "m_FileID": 0,
+  "m_PathID": 0
+ },
+ "m_Enabled": 1,
+ "m_Script": {
+  "m_FileID": 16777216,
+  "m_PathID": 23991418880
+ },
+ "m_Name": "MechanicDatabase",
+ "mechanics": []
+}
+
+### resources.assets 10888 HappyTidy.Gameplay.UI.WinPopup 
+{
+ "m_GameObject": {
+  "m_FileID": 0,
+  "m_PathID": 6673
+ },
+ "m_Enabled": 1,
+ "m_Script": {
+  "m_FileID": 16777216,
+  "m_PathID": 23437770752
+ },
+ "m_Name": "",
+ "showAnimation": {
+  "m_FileID": 0,
+  "m_PathID": 11169
+ },
+ "hideAnimation": {
+  "m_FileID": 0,
+  "m_PathID": 11390
+ },
+ "txtLevel": {
+  "m_FileID": 0,
+  "m_PathID": 10855
+ },
+ "btnClaim": {
+  "m_FileID": 0,
+  "m_PathID": 11111
+ },
+ "txtClaim": {
+  "m_FileID": 0,
+  "m_PathID": 11027
+ },
+ "btnClaimAd": {
+  "m_FileID": 0,
+  "m_PathID": 11248
+ },
+ "txtClaimAd": {
+  "m_FileID": 0,
+  "m_PathID": 11324
+ },
+ "coinClaim": 30,
+ "coinClaimAd": 60,
+ "coinBar": {
+  "m_FileID": 0,
+  "m_PathID": 10808
+ },
+ "sgWin": {
+  "m_FileID": 0,
+  "m_PathID": 11255
+ },
+ "winStartAnim": "start",
+ "winLoopAnim": "idle",
+ "sgWinText": {
+  "m_FileID": 0,
+  "m_PathID": 10939
+ },
+ "winTextStartAnim": "start",
+ "winTextLoopAnim": "idle",
+ "winTextDelay": 0.0,
+ "fxList": [
+  {
+   "fx": {
+    "m_FileID": 0,
+    "m_PathID": 6546
+   },
+   "time": 0.25
+  },
+  {
+   "fx": {
+    "m_FileID": 0,
+    "m_PathID": 6613
+   },
+   "time": 0.20000000298023224
+  }
+ ],
+ "revealScaleDuration": 0.25,
+ "buttonStagger": 0.10000000149011612
+}
+
+### resources.assets 11394 HappyTidy.Gameplay.UI.PopupRevive 
+{
+ "m_GameObject": {
+  "m_FileID": 0,
+  "m_PathID": 6608
+ },
+ "m_Enabled": 1,
+ "m_Script": {
+  "m_FileID": 16777216,
+  "m_PathID": 25316818944
+ },
+ "m_Name": "",
+ "showAnimation": {
+  "m_FileID": 0,
+  "m_PathID": 11003
+ },
+ "hideAnimation": {
+  "m_FileID": 0,
+  "m_PathID": 10887
+ },
+ "btnAd": {
+  "m_FileID": 0,
+  "m_PathID": 11083
+ },
+ "btnCoin": {
+  "m_FileID": 0,
+  "m_PathID": 10856
+ },
+ "txtCoin": {
+  "m_FileID": 0,
+  "m_PathID": 10956
+ },
+ "btnGiveUp": {
+  "m_FileID": 0,
+  "m_PathID": 10883
+ },
+ "txtInfo": {
+  "m_FileID": 0,
+  "m_PathID": 10824
+ },
+ "peek": {
+  "m_FileID": 0,
+  "m_PathID": 0
+ }
+}

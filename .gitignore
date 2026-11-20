@@ -1,0 +1,42 @@
+# Unity and local developer output
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Bb]uild/
+[Bb]uilds/
+.vs/
+.idea/
+*.csproj
+*.sln
+*.slnx
+*.log
+*.tmp
+*.pid
+*.backup
+
+# Dependencies and caches that tools install separately
+node_modules/
+__pycache__/
+.pytest_cache/
+*.pyc
+/APK/**/analysis/vendor/
+/APK/**/*.so
+/APK/**/*.dll
+/APK/**/*.dylib
+/APK/**/*.pyd
+
+# Local credentials and signing material
+.env
+.env.*
+*.keystore
+*.jks
+*.pfx
+*.p12
+/APK/**/GoogleService-Info.plist
+/APK/**/google-services*.json
+/APK/**/firebase-config.js
+
+# This identical snapshot lives in the top-level Level Studio folder.
+/APK/HappyTidyRoom/outputs/Tidy Room Level Studio/

@@ -1,0 +1,358 @@
+STT,Group,Subgroup,Japanese,Korean,French,German,Spanish,Hindi,Portuguese
+1,Art class,Art tools,画材道具,미술 도구,Outils d'art,Malwerkzeuge,Útiles de arte,कला सामग्री,Materiais de arte
+2,Art class,Brushes,絵筆,붓,Pinceaux,Pinsel,Pinceles,ब्रश,Pincéis
+3,Art class,Color,絵の具,물감,Tubes de peinture,Farbtuben,Pinturas,रंग,Tintas
+4,Art class,Color Pallete,パレット,팔레트,Palettes,Farbpaletten,Paletas,रंग पट्टिका,Paletas
+5,Art class,Paintings,絵画,그림,Tableaux,Gemälde,Cuadros,पेंटिंग,Quadros
+6,Art class,Sculptures,彫刻,조각상,Sculptures,Skulpturen,Esculturas,मूर्तियाँ,Esculturas
+7,Art class,Water bucket,筆洗いバケツ,물통,Pots à eau,Wassereimer,Cubos de agua,पानी की बाल्टी,Baldes de água
+8,Bakery,Bakery,パン・焼き菓子,빵,Boulangerie,Backwaren,Panadería,बेकरी,Pães
+9,Bakery,Candy,キャンディ,사탕,Bonbons,Süßigkeiten,Caramelos,टॉफ़ी,Balas
+10,Bakery,Chocolate,チョコレート,초콜릿,Chocolat,Schokolade,Chocolate,चॉकलेट,Chocolates
+11,Basketball court,Banging sticks,応援スティック,응원봉,Bâtons gonflables,Klatschstangen,Palos de animación,चीयर स्टिक,Bastões de torcida
+12,Basketball court,Basketball,バスケットボール,농구공,Ballons de basket,Basketbälle,Balones de básquet,बास्केटबॉल,Bolas de basquete
+13,Basketball court,Basketball shoes,バスケットシューズ,농구화,Chaussures basket,Basketballschuhe,Botas de básquet,बास्केटबॉल जूते,Tênis de basquete
+14,Basketball court,Basketball Shorts,バスケットパンツ,농구 반바지,Shorts de basket,Basketballshorts,Shorts de básquet,बास्केटबॉल शॉर्ट्स,Shorts de basquete
+15,Basketball court,Bottles,ボトル,병,Bouteilles,Flaschen,Botellas,बोतलें,Garrafas
+16,Basketball court,Cooler,クーラーボックス,아이스박스,Glacières,Kühlboxen,Neveras portátiles,आइस बॉक्स,Caixas térmicas
+17,Basketball court,Hat,帽子,모자,Casquettes,Caps,Gorras,कैप,Bonés
+18,Basketball court,Head Band,ヘッドバンド,헤어밴드,Bandeaux,Stirnbänder,Cintas deportivas,हेडबैंड,Faixas de cabeça
+19,Basketball court,Jersey,ユニフォーム,유니폼,Maillots,Trikots,Camisetas de equipo,जर्सी,Camisas de time
+20,Basketball court,Jumping rope,縄跳び,줄넘기,Cordes à sauter,Springseile,Cuerdas para saltar,रस्सी कूद,Cordas de pular
+21,Basketball court,Knee protection,膝サポーター,무릎 보호대,Genouillères,Knieschoner,Rodilleras,घुटने के पैड,Joelheiras
+22,Basketball court,Pom pom,ポンポン,응원 수술,Pompons,Pompons,Pompones,पोम-पोम,Pompons
+23,Basketball court,Skates,スケート靴,스케이트,Patins,Rollschuhe,Patines,स्केट्स,Patins
+24,Basketball court,Sports bag,スポーツバッグ,스포츠 가방,Sacs de sport,Sporttaschen,Bolsas de deporte,स्पोर्ट्स बैग,Bolsas esportivas
+25,Bathroom,Scrub Brush,掃除ブラシ,청소 솔,Brosses à récurer,Scheuerbürsten,Cepillos de fregar,सफ़ाई ब्रश,Escovas de limpeza
+26,Bathroom,Toilet paper,トイレットペーパー,화장지,Papier toilette,Toilettenpapier,Papel higiénico,टॉयलेट पेपर,Papel higiênico
+27,Bathroom,Towels,タオル,수건,Serviettes,Handtücher,Toallas,तौलिये,Toalhas
+28,Boutique,Gift bags,ギフトバッグ,선물 가방,Sacs cadeaux,Geschenktüten,Bolsas de regalo,गिफ़्ट बैग,Sacolas de presente
+29,Boutique,Gift box,ギフトボックス,선물 상자,Boîtes cadeaux,Geschenkboxen,Cajas de regalo,गिफ़्ट बॉक्स,Caixas de presente
+30,Boutique,Jewelry,アクセサリー,주얼리,Bijoux,Schmuck,Joyas,गहने,Joias
+31,Boutique,Sunglasses,サングラス,선글라스,Lunettes de soleil,Sonnenbrillen,Gafas de sol,धूप का चश्मा,Óculos de sol
+32,Boutique,Watches,腕時計,손목시계,Montres,Uhren,Relojes,घड़ियाँ,Relógios
+33,Bowling,Bowling ball,ボウリングの球,볼링공,Boules de bowling,Bowlingkugeln,Bolas de bolos,बॉलिंग बॉल,Bolas de boliche
+34,Bowling,Bowling pins,ボウリングのピン,볼링 핀,Quilles,Bowlingpins,Bolos,बॉलिंग पिन,Pinos de boliche
+35,Bowling,Bowling shoes,ボウリングシューズ,볼링화,Souliers de bowling,Bowlingschuhe,Zapatos de bolos,बॉलिंग जूते,Sapatos de boliche
+36,Bowling,Shoe cover,シューズカバー,신발 커버,Couvre-chaussures,Schuhüberzieher,Cubrezapatos,जूता कवर,Capas de sapato
+37,Bowling,Tickets,チケット,티켓,Tickets,Tickets,Entradas,टिकट,Ingressos
+38,Cafe,Coffee,コーヒー,커피,Café,Kaffee,Café,कॉफ़ी,Café
+39,Classroom,Erasers,消しゴム,지우개,Gommes,Radiergummis,Gomas de borrar,रबड़,Borrachas
+40,Classroom,Pencil,鉛筆,연필,Crayons,Bleistifte,Lápices,पेंसिल,Lápis
+41,Classroom,School Supplies,文房具,학용품,Matériel scolaire,Schulsachen,Material escolar,स्कूल का सामान,Material escolar
+42,Common assets,Apron,エプロン,앞치마,Tabliers,Schürzen,Delantales,एप्रन,Aventais
+43,Common assets,Backpacks,リュック,배낭,Sacs à dos,Rucksäcke,Mochilas,बैकपैक,Mochilas
+44,Common assets,Bluetooth speakers,ワイヤレススピーカー,블루투스 스피커,Enceintes Bluetooth,Lautsprecher,Altavoces Bluetooth,ब्लूटूथ स्पीकर,Caixas de som
+45,Common assets,Books,本,책,Livres,Bücher,Libros,किताबें,Livros
+46,Common assets,Bowls,お椀・ボウル,그릇,Bols,Schüsseln,Cuencos,कटोरे,Tigelas
+47,Common assets,Box of Tissues,ティッシュ箱,티슈 상자,Boîtes de mouchoirs,Taschentuchboxen,Cajas de pañuelos,टिशू बॉक्स,Caixas de lenços
+48,Common assets,Broom,ほうき,빗자루,Balais,Besen,Escobas,झाड़ू,Vassouras
+49,Common assets,Cameras,カメラ,카메라,Appareils photo,Kameras,Cámaras,कैमरे,Câmeras
+50,Common assets,Candles,キャンドル,양초,Bougies,Kerzen,Velas,मोमबत्तियाँ,Velas
+51,Common assets,Canned goods,缶詰,통조림,Conserves,Konserven,Latas de conserva,डिब्बाबंद खाना,Enlatados
+52,Common assets,Carton Box,段ボール箱,종이 상자,Cartons,Kartons,Cajas de cartón,गत्ते के डिब्बे,Caixas de papelão
+53,Common assets,Cleaning products,洗剤,청소용품,Produits ménagers,Reinigungsmittel,Limpiadores,सफ़ाई उत्पाद,Produtos de limpeza
+54,Common assets,Cloths,布巾,행주,Chiffons,Putztücher,Trapos,डस्टर,Panos
+55,Common assets,Controllers,コントローラー,게임 패드,Manettes,Controller,Mandos,कंट्रोलर,Controles de jogo
+56,Common assets,Cosmetics,化粧品,화장품,Cosmétiques,Kosmetik,Cosméticos,मेकअप,Cosméticos
+57,Common assets,Cups,カップ,컵,Tasses,Tassen,Tazas,कप,Xícaras
+58,Common assets,Doctor Outfits,白衣・医療ウェア,의사 가운,Tenues médicales,Arztkittel,Ropa de médico,डॉक्टर की ड्रेस,Jalecos
+59,Common assets,Dustpan,ちりとり,쓰레받기,Pelles à poussière,Kehrschaufeln,Recogedores,डस्टपैन,Pás de lixo
+60,Common assets,Earphones,イヤホン,이어폰,Écouteurs,Ohrhörer,Auriculares in-ear,ईयरफ़ोन,Fones in-ear
+61,Common assets,Electric Kettles,電気ケトル,전기 주전자,Bouilloires,Wasserkocher,Hervidores,इलेक्ट्रिक केतली,Chaleiras elétricas
+62,Common assets,Flashlights,懐中電灯,손전등,Lampes de poche,Taschenlampen,Linternas,टॉर्च,Lanternas
+63,Common assets,Fruit scraps,果物の食べかす,과일 껍질,Épluchures,Obstreste,Restos de fruta,फलों के छिलके,Cascas de frutas
+64,Common assets,Game consoles,ゲーム機,게임기,Consoles de jeu,Spielkonsolen,Consolas,गेम कंसोल,Consoles
+65,Common assets,Gloves,手袋,장갑,Gants,Handschuhe,Guantes,दस्ताने,Luvas
+66,Common assets,Handbags,ハンドバッグ,핸드백,Sacs à main,Handtaschen,Bolsos,हैंडबैग,Bolsas
+67,Common assets,Hanger,ハンガー,옷걸이,Cintres,Kleiderbügel,Perchas,हैंगर,Cabides
+68,Common assets,Hats,帽子,모자,Chapeaux,Hüte,Sombreros,टोपियाँ,Chapéus
+69,Common assets,Headphones,ヘッドホン,헤드폰,Casques audio,Kopfhörer,Auriculares,हेडफ़ोन,Headphones
+70,Common assets,Helmet,ヘルメット,헬멧,Casques,Helme,Cascos,हेलमेट,Capacetes
+71,Common assets,Hospital Gowns,患者衣,환자복,Blouses d'hôpital,Patientenhemden,Batas de hospital,मरीज़ के कपड़े,Roupas de paciente
+72,Common assets,Iron,アイロン,다리미,Fers à repasser,Bügeleisen,Planchas,इस्त्री,Ferros de passar
+73,Common assets,Keyboards,キーボード,키보드,Claviers,Tastaturen,Teclados,कीबोर्ड,Teclados
+74,Common assets,Long skirts,ロングスカート,롱스커트,Jupes longues,Lange Röcke,Faldas largas,लंबी स्कर्ट,Saias longas
+75,Common assets,Long-sleeve wear,長袖,긴소매 옷,Manches longues,Langarmshirts,Ropa de manga larga,फुल स्लीव कपड़े,Mangas compridas
+76,Common assets,Milk,牛乳,우유,Lait,Milch,Leche,दूध,Leite
+77,Common assets,Miniskirts,ミニスカート,미니스커트,Minijupes,Miniröcke,Minifaldas,मिनी स्कर्ट,Minissaias
+78,Common assets,Mirrors,鏡,거울,Miroirs,Spiegel,Espejos,आईने,Espelhos
+79,Common assets,Monitors,モニター,모니터,Écrans,Monitore,Monitores,मॉनिटर,Monitores
+80,Common assets,Mop,モップ,대걸레,Serpillières,Wischmopps,Fregonas,पोछा,Esfregões
+81,Common assets,Newspaper,新聞,신문,Journaux,Zeitungen,Periódicos,अख़बार,Jornais
+82,Common assets,Pants,ズボン,바지,Pantalons,Hosen,Pantalones,पैंट,Calças
+83,Common assets,Paper bags,紙袋,종이봉투,Sacs en papier,Papiertüten,Bolsas de papel,कागज़ के थैले,Sacos de papel
+84,Common assets,Paper Waste,紙くず,종이 쓰레기,Papiers usagés,Papiermüll,Papeles usados,रद्दी कागज़,Papéis usados
+85,Common assets,Phones,スマホ,휴대폰,Téléphones,Handys,Teléfonos,फ़ोन,Celulares
+86,Common assets,Pictures,写真,사진,Photos,Fotos,Fotos,फ़ोटो,Fotos
+87,Common assets,Pillows,枕,베개,Oreillers,Kissen,Almohadas,तकिए,Travesseiros
+88,Common assets,Plastic bags,ビニール袋,비닐봉지,Sacs plastiques,Plastiktüten,Bolsas de plástico,पॉलीथीन,Sacolas plásticas
+89,Common assets,Plates,お皿,접시,Assiettes,Teller,Platos,प्लेटें,Pratos
+90,Common assets,Popcorn,ポップコーン,팝콘,Pop-corn,Popcorn,Palomitas,पॉपकॉर्न,Pipoca
+91,Common assets,Poster,ポスター,포스터,Affiches,Poster,Pósteres,पोस्टर,Pôsteres
+92,Common assets,Projectors,プロジェクター,프로젝터,Projecteurs,Beamer,Proyectores,प्रोजेक्टर,Projetores
+93,Common assets,Reed Diffuser,ルームフレグランス,디퓨저,Diffuseurs,Raumdüfte,Difusores de aroma,डिफ़्यूज़र,Difusores
+94,Common assets,Remotes,リモコン,리모컨,Télécommandes,Fernbedienungen,Mandos a distancia,रिमोट,Controles remotos
+95,Common assets,Sandals,サンダル,샌들,Sandales,Sandalen,Sandalias,सैंडल,Sandálias
+96,Common assets,Scarfs,マフラー,목도리,Écharpes,Schals,Bufandas,मफ़लर,Cachecóis
+97,Common assets,Scissors,はさみ,가위,Ciseaux,Scheren,Tijeras,कैंची,Tesouras
+98,Common assets,Shampoo,シャンプー,샴푸,Shampooings,Shampoos,Champús,शैम्पू,Xampus
+99,Common assets,Shoes,靴,신발,Chaussures,Schuhe,Zapatos,जूते,Sapatos
+100,Common assets,Shorts,ショートパンツ,반바지,Shorts,Shorts,Pantalones cortos,शॉर्ट्स,Shorts
+101,Common assets,Snacks,お菓子,과자,En-cas,Snacks,Aperitivos,स्नैक्स,Salgadinhos
+102,Common assets,Socks,靴下,양말,Chaussettes,Socken,Calcetines,मोज़े,Meias
+103,Common assets,Squeegees,スクイージー,스퀴지,Raclettes,Abzieher,Limpiacristales,वाइपर,Rodos
+104,Common assets,Suitcases,スーツケース,여행 가방,Valises,Koffer,Maletas,सूटकेस,Malas
+105,Common assets,Swimwear,水着,수영복,Maillots de bain,Badebekleidung,Bañadores,स्विमसूट,Roupas de banho
+106,Common assets,T-shirts,Tシャツ,티셔츠,T-shirts,T-Shirts,Camisetas,टी-शर्ट,Camisetas
+107,Common assets,Tablets,タブレット,태블릿,Tablettes,Tablets,Tabletas,टैबलेट,Tablets
+108,Common assets,Tank tops,タンクトップ,민소매 티,Débardeurs,Tanktops,Tops de tirantes,टैंक टॉप,Regatas
+109,Common assets,Teapots,ティーポット,찻주전자,Théières,Teekannen,Teteras,चायदानी,Bules
+110,Common assets,Tie,ネクタイ,넥타이,Cravates,Krawatten,Corbatas,टाई,Gravatas
+111,Common assets,Tote Bags,トートバッグ,토트백,Sacs cabas,Stofftaschen,Bolsas de tela,टोट बैग,Ecobags
+112,Common assets,Tumblers,タンブラー,텀블러,Mugs isothermes,Thermobecher,Vasos térmicos,टंबलर,Copos térmicos
+113,Common assets,Umbrellas,傘,우산,Parapluies,Regenschirme,Paraguas,छाते,Guarda-chuvas
+114,Common assets,Wallets,財布,지갑,Portefeuilles,Geldbörsen,Carteras,बटुए,Carteiras
+115,Common assets,Water bottles,水筒,물병,Gourdes,Trinkflaschen,Botellas de agua,पानी की बोतलें,Garrafas de água
+116,Dentist,Cotton Swab,綿棒,면봉,Cotons-tiges,Wattestäbchen,Bastoncillos,कॉटन बड्स,Cotonetes
+117,Dentist,Dental Instruments,歯科器具,치과 도구,Outils dentaires,Zahnarztinstrumente,Instrumental dental,दंत उपकरण,Ferramentas dentais
+118,Dentist,Documents,書類,서류,Documents,Dokumente,Documentos,दस्तावेज़,Documentos
+119,Dentist,Masks,マスク,마스크,Masques,Masken,Mascarillas,मास्क,Máscaras
+120,Dentist,Medical bags,救急バッグ,구급 가방,Sacs médicaux,Arzttaschen,Maletines médicos,मेडिकल बैग,Maletas médicas
+121,Dentist,Medical Tray,医療トレー,의료용 트레이,Plateaux médicaux,Instrumentenschalen,Bandejas médicas,मेडिकल ट्रे,Bandejas médicas
+122,Dentist,Pill bottles,薬瓶,약병,Flacons de pilules,Tablettendosen,Botes de pastillas,दवा की शीशियाँ,Frascos de remédio
+123,Dentist,Pill packs,錠剤シート,알약 포장,Plaquettes,Tablettenblister,Blísteres,दवा की पत्तियाँ,Cartelas de remédio
+124,Dentist,Pillbox,ピルケース,약통,Piluliers,Pillendosen,Pastilleros,पिल बॉक्स,Porta-comprimidos
+125,Dentist,Sanitizer,消毒液,손 소독제,Gel désinfectant,Desinfektionsmittel,Gel desinfectante,सैनिटाइज़र,Álcool em gel
+126,Dentist,Stethoscope,聴診器,청진기,Stéthoscopes,Stethoskope,Estetoscopios,स्टेथोस्कोप,Estetoscópios
+127,Dentist,Syringe,注射器,주사기,Seringues,Spritzen,Jeringas,सिरिंज,Seringas
+128,Dining,Alcohol,お酒,술,Alcools,Spirituosen,Licores,शराब,Bebidas alcoólicas
+129,Dining,Call Bell,呼び鈴,호출 벨,Sonnettes,Tischklingeln,Timbres de mesa,घंटी,Campainhas
+130,Dining,Cocktail,カクテル,칵테일,Cocktails,Cocktails,Cócteles,कॉकटेल,Coquetéis
+131,Dining,Desserts,デザート,디저트,Desserts,Desserts,Postres,डेज़र्ट,Sobremesas
+132,Dining,Dining Plates,料理の皿,요리 접시,Plats cuisinés,Gerichte,Platos servidos,परोसा खाना,Pratos prontos
+133,Dining,Fast food,ファストフード,패스트푸드,Fast-food,Fast Food,Comida rápida,फ़ास्ट फ़ूड,Fast food
+134,Dining,Fine Dining,高級料理,고급 요리,Gastronomie,Feine Küche,Alta cocina,शाही खाना,Alta gastronomia
+135,Dining,Glass bottles,ガラス瓶,유리병,Bouteilles en verre,Glasflaschen,Botellas de vidrio,काँच की बोतलें,Garrafas de vidro
+136,Dining,Soda,炭酸飲料,탄산음료,Sodas,Limonaden,Refrescos,कोल्ड ड्रिंक,Refrigerantes
+137,Dining,Wine,ワイン,와인,Vins,Wein,Vinos,वाइन,Vinhos
+138,Dining,Wine glasses,ワイングラス,와인잔,Verres à vin,Weingläser,Copas de vino,वाइन गिलास,Taças de vinho
+139,Flower shop,Bouquet,花束,꽃다발,Bouquets,Blumensträuße,Ramos de flores,गुलदस्ते,Buquês
+140,Flower shop,Empty Pots,空の植木鉢,빈 화분,Pots vides,Leere Töpfe,Macetas vacías,खाली गमले,Vasos vazios
+141,Flower shop,Flower pots,鉢植え,화분,Pots de fleurs,Blumentöpfe,Macetas con flores,फूलों के गमले,Vasos de flores
+142,Flower shop,Gardening tools,園芸用品,원예 도구,Outils de jardinage,Gartengeräte,Útiles de jardín,बागवानी औज़ार,Itens de jardinagem
+143,Flower shop,Seed bag,種袋,씨앗 봉투,Sachets de graines,Samentüten,Bolsas de semillas,बीज के पैकेट,Pacotes de sementes
+144,Garage,Car hood,ボンネット,자동차 보닛,Capots,Motorhauben,Capós,कार बोनट,Capôs
+145,Garage,Engine,エンジン,엔진,Moteurs,Motoren,Motores,इंजन,Motores
+146,Garage,Pliers,ペンチ,펜치,Pinces,Zangen,Alicates,प्लास,Alicates
+147,Garage,Power Drill,電動ドリル,전동 드릴,Perceuses,Bohrmaschinen,Taladros,ड्रिल मशीन,Furadeiras
+148,Garage,Screwdriver,ドライバー,드라이버,Tournevis,Schraubenzieher,Destornilladores,पेचकस,Chaves de fenda
+149,Garage,Tires,タイヤ,타이어,Pneus,Reifen,Neumáticos,टायर,Pneus
+150,Garage,Toolbox,工具箱,공구함,Boîtes à outils,Werkzeugkästen,Cajas de útiles,टूलबॉक्स,Kits de ferramentas
+151,Garage,Wheel rim,ホイール,휠,Jantes,Felgen,Llantas,व्हील रिम,Aros de roda
+152,Garage,Windshield,フロントガラス,앞유리,Pare-brise,Windschutzscheiben,Parabrisas,विंडशील्ड,Para-brisas
+153,Garage,Windshield Wipers,ワイパー,와이퍼,Essuie-glaces,Scheibenwischer,Limpiaparabrisas,कार वाइपर,Palhetas
+154,Garage,Wrench,スパナ,렌치,Clés plates,Schraubenschlüssel,Llaves inglesas,रिंच,Chaves inglesas
+155,Hair salon,Comb,くし,빗,Peignes,Kämme,Peines,कंघी,Pentes
+156,Hair salon,Hair Clippers,バリカン,바리캉,Tondeuses,Haarschneider,Cortapelos,ट्रिमर,Máquinas de corte
+157,Hair salon,Hair Wax,ヘアワックス,헤어 왁스,Cires coiffantes,Haarwachs,Ceras para el pelo,हेयर वैक्स,Ceras de cabelo
+158,Hair salon,Wigs,ウィッグ,가발,Perruques,Perücken,Pelucas,विग,Perucas
+159,Kitchen,Cheese,チーズ,치즈,Fromages,Käse,Quesos,चीज़,Queijos
+160,Kitchen,Cooking oil,食用油,식용유,Huiles de cuisine,Speiseöl,Aceites de cocina,खाने का तेल,Óleos de cozinha
+161,Kitchen,Cookware,調理器具,조리 도구,Batterie de cuisine,Kochgeschirr,Menaje de cocina,बर्तन,Panelas
+162,Kitchen,Deli meat,ハム・ソーセージ,햄·소시지,Charcuterie,Wurstwaren,Embutidos,हैम-सॉसेज,Frios
+163,Kitchen,Eggs,卵,달걀,Œufs,Eier,Huevos,अंडे,Ovos
+164,Kitchen,Food trays,ランチトレー,식판,Plateaux-repas,Essenstabletts,Bandejas de comida,खाने की ट्रे,Bandejas de comida
+165,Kitchen,Fruits,果物,과일,Fruits,Obst,Frutas,फल,Frutas
+166,Kitchen,Kitchen Tools,キッチンツール,주방 도구,Ustensiles,Küchenhelfer,Utensilios,रसोई के औज़ार,Utensílios
+167,Kitchen,Noodles,麺類,면,Nouilles,Nudeln,Fideos,नूडल्स,Macarrão
+168,Kitchen,Oven mitts,鍋つかみ,오븐 장갑,Maniques,Ofenhandschuhe,Manoplas de cocina,ओवन दस्ताने,Luvas de forno
+169,Kitchen,Raw meat,生肉,생고기,Viande crue,Rohes Fleisch,Carne cruda,कच्चा मांस,Carne crua
+170,Kitchen,Spices,スパイス,향신료,Épices,Gewürze,Especias,मसाले,Temperos
+171,Kitchen,Vegetables,野菜,채소,Légumes,Gemüse,Verduras,सब्ज़ियाँ,Legumes
+172,Laundry,Clothing Bag,衣類バッグ,옷 가방,Sacs à linge,Kleidersäcke,Bolsas de ropa,कपड़ों का थैला,Sacos de roupa
+173,Laundry,Laundry Basket,洗濯かご,빨래 바구니,Paniers à linge,Wäschekörbe,Cestos de ropa,कपड़ों की टोकरी,Cestos de roupa
+174,Music studio,Musical instruments,楽器,악기,Instruments,Musikinstrumente,Instrumentos,वाद्य यंत्र,Instrumentos
+175,Nail salon,Nail Polish,マニキュア,매니큐어,Vernis à ongles,Nagellack,Esmaltes de uñas,नेल पॉलिश,Esmaltes
+176,Nail salon,Nail tools,ネイル用品,네일 도구,Outils de manucure,Nagelpflegesets,Útiles de manicura,नेल टूल्स,Kits de manicure
+177,Office & Study room,Calculators,電卓,계산기,Calculatrices,Taschenrechner,Calculadoras,कैलकुलेटर,Calculadoras
+178,Office & Study room,Folders,ファイル,파일철,Classeurs,Ordner,Carpetas,फ़ोल्डर,Pastas
+179,Office & Study room,Markers,マーカー,마커,Marqueurs,Marker,Rotuladores,मार्कर,Marcadores
+180,Office & Study room,Paper,紙,종이,Papier,Papier,Papel,कागज़,Papel
+181,Office & Study room,Pens,ペン,펜,Stylos,Kugelschreiber,Bolígrafos,पेन,Canetas
+182,Office & Study room,Printers,プリンター,프린터,Imprimantes,Drucker,Impresoras,प्रिंटर,Impressoras
+183,Office & Study room,Stamps,スタンプ,도장,Tampons,Stempel,Sellos,मुहर,Carimbos
+184,Office & Study room,Staplers,ホッチキス,스테이플러,Agrafeuses,Hefter,Grapadoras,स्टेपलर,Grampeadores
+185,Office & Study room,Sticky notes,付箋,포스트잇,Post-it,Haftnotizen,Notas adhesivas,स्टिकी नोट्स,Post-its
+186,Pet room,Cat litters,猫砂,고양이 모래,Litière pour chat,Katzenstreu,Arena para gatos,कैट लिटर,Areia de gato
+187,Pet room,Cat wands,猫じゃらし,낚싯대 장난감,Cannes à chat,Katzenangeln,Cañas para gatos,बिल्ली की छड़ी,Varinhas de gato
+188,Pet room,Pet bowl,ペット用食器,반려동물 그릇,Gamelles,Futternäpfe,Comederos,पेट बाउल,Comedouros
+189,Pet room,Pet carriers,キャリーバッグ,이동장,Cages de transport,Transportboxen,Transportines,पेट कैरियर,Transportadoras
+190,Pet room,Pet clothes,ペット服,반려동물 옷,Habits pour animaux,Tierkleidung,Ropa para mascotas,पेट के कपड़े,Roupas de pet
+191,Pet room,Pet Collars,首輪,목걸이,Colliers,Halsbänder,Collares,पट्टे,Coleiras
+192,Pet room,Pet food,ペットフード,사료,Croquettes,Tierfutter,Comida de mascotas,पेट फ़ूड,Ração
+193,Pet room,Pet Toy Balls,ペット用ボール,반려동물 공,Balles pour animaux,Tierspielbälle,Pelotas de mascota,पेट की गेंदें,Bolinhas de pet
+194,Pool,Pool Floats,浮き輪,튜브,Bouées,Schwimmtiere,Flotadores,ट्यूब,Boias
+195,Pool,Swimming Goggles,ゴーグル,수경,Lunettes de piscine,Schwimmbrillen,Gafas de natación,स्विमिंग चश्मा,Óculos de natação
+196,Restaurant,Mexican Food,メキシコ料理,멕시코 음식,Cuisine mexicaine,Mexikanisches Essen,Comida mexicana,मैक्सिकन खाना,Comida mexicana
+197,Sport,Champion cups,優勝カップ,우승컵,Trophées,Pokale,Trofeos,ट्रॉफ़ी,Troféus
+198,Sport,Dumbbell,ダンベル,아령,Haltères,Hanteln,Mancuernas,डम्बल,Halteres
+199,Sport,Handgrip,ハンドグリップ,악력기,Handgrips,Handtrainer,Fortalecedores,हैंड ग्रिप,Hand grips
+200,Sport,Kettlebell,ケトルベル,케틀벨,Kettlebells,Kettlebells,Pesas rusas,केटलबेल,Kettlebells
+201,Sport,Medals,メダル,메달,Médailles,Medaillen,Medallas,मेडल,Medalhas
+202,Sport,Scale,体重計,체중계,Pèse-personnes,Waagen,Básculas,वज़न मशीन,Balanças
+203,Sport,Yoga mat,ヨガマット,요가 매트,Tapis de yoga,Yogamatten,Esterillas de yoga,योगा मैट,Tapetes de ioga
+204,Tailor shop,Fabric rolls,布のロール,원단 롤,Rouleaux de tissu,Stoffrollen,Rollos de tela,कपड़े के थान,Rolos de tecido
+205,Tailor shop,Fabric scissors,裁ちばさみ,재단 가위,Ciseaux de couture,Stoffscheren,Tijeras de costura,दर्ज़ी की कैंची,Tesouras de costura
+206,Tailor shop,Measuring tape,メジャー,줄자,Mètres ruban,Maßbänder,Cintas métricas,इंची टेप,Fitas métricas
+207,Tailor shop,Pin cushion,針山,바늘꽂이,Pelotes à épingles,Nadelkissen,Alfileteros,पिन कुशन,Alfineteiros
+208,Tailor shop,Ribbon,リボン,리본,Rubans,Bänder,Cintas,रिबन,Fitas
+209,Tailor shop,Ruler,定規,자,Règles,Lineale,Reglas,स्केल,Réguas
+210,Tailor shop,Sewing box,裁縫箱,반짇고리,Boîtes à couture,Nähkästen,Costureros,सिलाई का डिब्बा,Caixas de costura
+211,Tailor shop,Sewing machine,ミシン,재봉틀,Machines à coudre,Nähmaschinen,Máquinas de coser,सिलाई मशीन,Máquinas de costura
+212,Tailor shop,Swatchbook,生地見本帳,원단 견본집,Nuanciers de tissus,Stoffmusterbücher,Muestrarios de tela,कपड़े के नमूने,Mostruários
+213,Tailor shop,Thread Spool,糸巻き,실패,Bobines de fil,Garnrollen,Carretes de hilo,धागे की रील,Carretéis
+214,Tailor shop,Zipper,ファスナー,지퍼,Fermetures éclair,Reißverschlüsse,Cremalleras,ज़िपर,Zíperes
+215,Toy shop & Playroom,Animal Toys,動物のおもちゃ,동물 장난감,Jouets animaux,Tierfiguren,Animales de juguete,जानवर खिलौने,Bichos de brinquedo
+216,Toy shop & Playroom,Balls,ボール,공,Ballons,Bälle,Pelotas,गेंदें,Bolas
+217,Toy shop & Playroom,Board game,ボードゲーム,보드게임,Jeux de société,Brettspiele,Juegos de mesa,बोर्ड गेम,Jogos de tabuleiro
+218,Toy shop & Playroom,Building Blocks,積み木,블록,Blocs à empiler,Bausteine,Bloques de juguete,बिल्डिंग ब्लॉक्स,Blocos de montar
+219,Toy shop & Playroom,Dolls,人形,인형,Poupées,Puppen,Muñecas,गुड़िया,Bonecas
+220,Toy shop & Playroom,Kitchen toys,おままごとセット,소꿉놀이,Dînettes,Spielküchenzubehör,Juguetes de cocina,किचन सेट,Panelinhas
+221,Toy shop & Playroom,Plushies,ぬいぐるみ,봉제 인형,Peluches,Kuscheltiere,Peluches,सॉफ़्ट टॉय,Pelúcias
+222,Toy shop & Playroom,Puzzle Cube,ルービックキューブ,큐브 퍼즐,Cubes casse-tête,Zauberwürfel,Cubos de Rubik,रूबिक क्यूब,Cubos mágicos
+223,Toy shop & Playroom,Toy Box,おもちゃ箱,장난감 상자,Coffres à jouets,Spielzeugkisten,Baúles de juguetes,खिलौनों का बक्सा,Baús de brinquedos
+224,Toy shop & Playroom,Vehicle Toys,乗り物のおもちゃ,자동차 장난감,Petites voitures,Spielzeugautos,Coches de juguete,खिलौना गाड़ियाँ,Carrinhos
+225,Arcade,Hammer,ピコピコハンマー,뿅망치,Marteaux en mousse,Spielhämmer,Martillos de juguete,खिलौना हथौड़ा,Martelos de brinquedo
+226,Arcade,Gacha ball,ガチャカプセル,가챠 캡슐,Capsules surprises,Überraschungskapseln,Cápsulas sorpresa,गचा कैप्सूल,Cápsulas surpresa
+227,Arcade,Water gun,水鉄砲,물총,Pistolets à eau,Wasserpistolen,Pistolas de agua,वॉटर गन,Pistolas de água
+228,Arcade,VR headset,VRゴーグル,VR 헤드셋,Casques VR,VR-Brillen,Gafas de RV,VR हेडसेट,Óculos de RV
+229,Arcade,Toss ring,輪投げ,링 던지기,Anneaux à lancer,Wurfringe,Aros para lanzar,रिंग टॉस,Argolas de arremesso
+230,Arcade,Token tray,メダルトレー,코인 트레이,Plateaux à jetons,Jetonschalen,Bandejas de fichas,टोकन ट्रे,Bandejas de fichas
+231,Arcade,Ticket roll,チケットロール,티켓 롤,Rouleaux de tickets,Ticketrollen,Rollos de tickets,टिकट रोल,Rolos de tíquetes
+232,Arcade,Ticket eater,チケット回収機,티켓 회수기,Compteurs de tickets,Ticketzähler,Contadores de tickets,टिकट मशीन,Contadores de tíquetes
+233,Arcade,Scoreboard,スコアボード,점수판,Tableaux des scores,Anzeigetafeln,Marcadores,स्कोरबोर्ड,Placares
+234,Christmas,Christmas Hat,サンタ帽,산타 모자,Bonnets de Noël,Weihnachtsmützen,Gorros navideños,क्रिसमस टोपी,Gorros de Natal
+235,Christmas,Christmas Socks,クリスマスソックス,크리스마스 양말,Chaussettes de Noël,Weihnachtsstrümpfe,Calcetines navideños,क्रिसमस मोज़े,Meias de Natal
+236,Christmas,Xmas decor,クリスマス飾り,크리스마스 장식,Décorations de Noël,Weihnachtsdeko,Adornos navideños,क्रिसमस सजावट,Enfeites de Natal
+237,Christmas,Xmas cake,クリスマスケーキ,크리스마스 케이크,Gâteaux de Noël,Weihnachtskuchen,Pasteles navideños,क्रिसमस केक,Bolos de Natal
+238,Christmas,Xmas drink,クリスマスドリンク,크리스마스 음료,Boissons de Noël,Weihnachtsgetränke,Bebidas navideñas,क्रिसमस ड्रिंक,Bebidas de Natal
+239,Christmas,Xmas ice cream,クリスマスアイス,크리스마스 아이스크림,Glaces de Noël,Weihnachtseis,Helados navideños,क्रिसमस आइसक्रीम,Sorvetes de Natal
+240,Christmas,Xmas Toy,クリスマスのおもちゃ,크리스마스 장난감,Jouets de Noël,Weihnachtsspielzeug,Juguetes navideños,क्रिसमस खिलौने,Brinquedos de Natal
+241,Christmas,Snow globe,スノードーム,스노우볼,Boules à neige,Schneekugeln,Bolas de nieve,स्नो ग्लोब,Globos de neve
+242,Christmas,Music box,オルゴール,오르골,Boîtes à musique,Spieluhren,Cajas de música,म्यूज़िक बॉक्स,Caixinhas de música
+243,Christmas,Xmas food,クリスマス料理,크리스마스 음식,Repas de Noël,Weihnachtsessen,Comida navideña,क्रिसमस का खाना,Ceia de Natal
+244,Cinema,3D glasses,3Dメガネ,3D 안경,Lunettes 3D,3D-Brillen,Gafas 3D,3D चश्मा,Óculos 3D
+245,Cinema,Film poster,映画ポスター,영화 포스터,Affiches de film,Filmplakate,Carteles de cine,फ़िल्म पोस्टर,Pôsteres de filme
+246,Cinema,Cinema ticket,映画チケット,영화 티켓,Billets de cinéma,Kinokarten,Entradas de cine,सिनेमा टिकट,Ingressos de cinema
+247,Cinema,Drink cup,ドリンクカップ,음료 컵,Gobelets de soda,Trinkbecher,Vasos de refresco,ड्रिंक कप,Copos de refrigerante
+248,Circus,Magic box,マジックボックス,마술 상자,Boîtes magiques,Zauberkisten,Cajas mágicas,जादुई बक्सा,Caixas mágicas
+249,Circus,Juggling clubs,ジャグリングクラブ,저글링 클럽,Massues de jonglage,Jonglierkeulen,Mazas de malabares,जगलिंग क्लब,Claves de malabares
+250,Circus,Clown hat,ピエロの帽子,광대 모자,Chapeaux de clown,Clownshüte,Sombreros de payaso,जोकर की टोपी,Chapéus de palhaço
+251,Circus,Clown costume,ピエロの衣装,광대 의상,Costumes de clown,Clownskostüme,Disfraces de payaso,जोकर की पोशाक,Fantasias de palhaço
+252,Circus,Circus costume,サーカス衣装,서커스 의상,Costumes de cirque,Zirkuskostüme,Trajes de circo,सर्कस की पोशाक,Figurinos de circo
+253,Hotel Lobby,Magazine,雑誌,잡지,Magazines,Zeitschriften,Revistas,पत्रिकाएँ,Revistas
+254,Hotel Lobby,Landline,固定電話,유선 전화,Téléphones fixes,Festnetztelefone,Teléfonos fijos,लैंडलाइन फ़ोन,Telefones fixos
+255,Hotel Lobby,Key,ルームキー,객실 열쇠,Clés de chambre,Zimmerschlüssel,Llaves de habitación,कमरे की चाबी,Chaves de quarto
+256,Hotel Lobby,Door hanger,ドアプレート,도어 행거,Affichettes de porte,Türhänger,Carteles de puerta,डोर हैंगर,Avisos de porta
+257,Hotel Lobby,Desk clock,置き時計,탁상시계,Horloges de bureau,Tischuhren,Relojes de mesa,टेबल घड़ी,Relógios de mesa
+258,Hotel Lobby,Desk calendar,卓上カレンダー,탁상 달력,Calendriers de bureau,Tischkalender,Calendarios de mesa,टेबल कैलेंडर,Calendários de mesa
+259,Hotel Lobby,Bellboy hat,ベルボーイの帽子,벨보이 모자,Calots de groom,Pagenhüte,Gorros de botones,बेलबॉय टोपी,Chapéus de mensageiro
+260,Ice Cream Shop,Bingsu,かき氷,빙수,Bingsu,Bingsu,Bingsu,बिंगसू,Bingsu
+261,Ice Cream Shop,Ice chest,アイス用冷凍庫,아이스크림 냉동고,Congélateurs à glaces,Eistruhen,Congeladores de helados,आइसक्रीम फ़्रीज़र,Freezers de sorvete
+262,Ice Cream Shop,Ice cream cone,アイスコーン,아이스크림콘,Cornets de glace,Eiswaffeln,Cucuruchos,आइसक्रीम कोन,Casquinhas
+263,Ice Cream Shop,Ice cream cup,カップアイス,컵 아이스크림,Pots de glace,Eisbecher,Tarrinas de helado,आइसक्रीम कप,Copinhos de sorvete
+264,Ice Cream Shop,Ice cream mold,アイスの型,아이스크림 틀,Moules à glace,Eisformen,Moldes de helado,आइसक्रीम साँचा,Formas de picolé
+265,Ice Cream Shop,Ice cream tub,業務用アイス容器,아이스크림 통,Bacs à glace,Eisbehälter,Cubetas de helado,आइसक्रीम टब,Potes de sorvete
+266,Ice Cream Shop,Cone holder,コーンスタンド,콘 거치대,Porte-cornets,Waffelhalter,Soportes para cucuruchos,कोन होल्डर,Suportes de casquinha
+267,Ice Cream Shop,Popsicle,アイスキャンディー,아이스바,Glaces à l'eau,Eis am Stiel,Polos,आइस कैंडी,Picolés
+268,Ice Cream Shop,Scoop,アイスディッシャー,아이스크림 스쿱,Cuillères à glace,Eisportionierer,Cucharas para helado,आइसक्रीम स्कूप,Boleadores de sorvete
+269,Lab,Chemical,薬品,화학 약품,Produits chimiques,Chemikalien,Productos químicos,रसायन,Produtos químicos
+270,Lab,Glassware,実験ガラス器具,실험용 유리 기구,Verrerie de labo,Laborglas,Material de vidrio,काँच के उपकरण,Vidrarias
+271,Lab,Magnifying glass,虫眼鏡,돋보기,Loupes,Lupen,Lupas,आवर्धक लेंस,Lupas
+272,Lab,Microscope,顕微鏡,현미경,Microscopes,Mikroskope,Microscopios,माइक्रोस्कोप,Microscópios
+273,Lab,Protective mask,防護マスク,보호 마스크,Masques de protection,Schutzmasken,Máscaras protectoras,सुरक्षा मास्क,Máscaras de proteção
+274,Lab,Safety goggles,保護メガネ,보안경,Lunettes de protection,Schutzbrillen,Gafas de protección,सेफ़्टी चश्मा,Óculos de proteção
+275,Lab,Specimen,標本,표본,Échantillons,Proben,Muestras,नमूने,Amostras
+276,Museum,Ancient Painting,古画,옛 그림,Peintures anciennes,Alte Gemälde,Pinturas antiguas,प्राचीन चित्र,Pinturas antigas
+277,Museum,Antique Vase,骨董の花瓶,골동품 꽃병,Vases anciens,Antike Vasen,Jarrones antiguos,प्राचीन फूलदान,Vasos antigos
+278,Museum,Display Figurine,展示フィギュア,전시 피규어,Figurines d'exposition,Ausstellungsfiguren,Figuras de exposición,डिस्प्ले फ़िगरीन,Estatuetas de exposição
+279,Museum,Fossil,化石,화석,Fossiles,Fossilien,Fósiles,जीवाश्म,Fósseis
+280,Museum,Ancient Books,古書,고서,Livres anciens,Alte Bücher,Libros antiguos,प्राचीन पुस्तकें,Livros antigos
+281,Museum,Ancient Weapons,古代の武器,고대 무기,Armes anciennes,Antike Waffen,Armas antiguas,प्राचीन हथियार,Armas antigas
+282,Music studio,Musical instruments,楽器,악기,Instruments,Musikinstrumente,Instrumentos,वाद्य यंत्र,Instrumentos
+283,Music studio,Micro,マイク,마이크,Micros,Mikrofone,Micrófonos,माइक,Microfones
+284,Music studio,Recording equipment,録音機材,녹음 장비,Matériel d'enregistrement,Aufnahmegeräte,Equipo de grabación,रिकॉर्डिंग उपकरण,Equipamentos de gravação
+285,Music studio,Music book,楽譜,악보,Partitions,Notenbücher,Partituras,संगीत पुस्तिका,Partituras
+286,Music studio,Music record,レコード,레코드판,Disques vinyles,Schallplatten,Discos de vinilo,ग्रामोफ़ोन रिकॉर्ड,Discos de vinil
+287,Music studio,Music trophy,音楽トロフィー,음악 트로피,Trophées de musique,Musikpreise,Premios musicales,संगीत ट्रॉफ़ी,Troféus de música
+288,Riverside,Riverside costume,川辺の衣装,강변 의상,Costumes de bord de rivière,Flussufer-Kostüme,Trajes de ribera,नदी किनारे की पोशाक,Trajes ribeirinhos
+289,Riverside,Folding fan,扇子,부채,Éventails,Fächer,Abanicos,हाथ का पंखा,Leques
+290,Riverside,Riverside mask,川辺の仮面,강변 가면,Masques de bord de rivière,Flussufer-Masken,Máscaras de ribera,नदी किनारे का मुखौटा,Máscaras ribeirinhas
+291,Riverside,Oar,オール,노,Rames,Ruder,Remos,चप्पू,Remos
+292,Sushi Bar,Side dishes,副菜,반찬,Accompagnements,Beilagen,Guarniciones,साइड डिश,Acompanhamentos
+293,Sushi Bar,Sushi,寿司,초밥,Sushis,Sushi,Sushi,सुशी,Sushis
+294,Sushi Bar,Japanese dishes,和食,일식,Plats japonais,Japanische Gerichte,Platos japoneses,जापानी व्यंजन,Pratos japoneses
+295,Sushi Bar,Knife,包丁,칼,Couteaux,Messer,Cuchillos,चाकू,Facas
+296,Sushi Bar,Food trays,ランチトレー,식판,Plateaux-repas,Essenstabletts,Bandejas de comida,खाने की ट्रे,Bandejas de comida
+297,Sushi Bar,Sake,日本酒,사케,Saké,Sake,Sake,साके,Saquê
+298,Sushi Bar,Chopstick,箸,젓가락,Baguettes japonaises,Essstäbchen,Palillos,चॉपस्टिक,Hashis
+299,Sushi Bar,Wedding invitation,結婚式の招待状,청첩장,Faire-part de mariage,Hochzeitseinladungen,Invitaciones de boda,शादी का कार्ड,Convites de casamento
+300,Sushi Bar,Bridecake,ウェディングケーキ,웨딩 케이크,Pièces montées,Hochzeitstorten,Pasteles de boda,शादी का केक,Bolos de casamento
+301,Sushi Bar,Balloon,風船,풍선,Ballons de baudruche,Luftballons,Globos,गुब्बारे,Balões
+302,Sushi Bar,Flower pots,鉢植え,화분,Pots de fleurs,Blumentöpfe,Macetas con flores,फूलों के गमले,Vasos de flores
+303,Garden,Waterer,じょうろ,물뿌리개,Arrosoirs,Gießkannen,Regaderas,पानी का झारा,Regadores
+304,Garden,Wheelbarrow,手押し車,외바퀴 손수레,Brouettes,Schubkarren,Carretillas,व्हीलबैरो,Carrinhos de mão
+305,Garden,Vegetable plants,野菜の苗,채소 모종,Plants de légumes,Gemüsepflanzen,Plantas de hortalizas,सब्ज़ियों के पौधे,Mudas de hortaliças
+306,Garden,Thermometers,温度計,온도계,Thermomètres,Thermometer,Termómetros,थर्मामीटर,Termômetros
+307,Garden,Plant labels,植物ラベル,식물 이름표,Étiquettes de plantes,Pflanzenschilder,Etiquetas de plantas,पौधों के लेबल,Etiquetas de plantas
+308,Garden,Garden hose,ホース,정원 호스,Tuyaux d'arrosage,Gartenschläuche,Mangueras,बगीचे का पाइप,Mangueiras
+309,Garden,Grow light,植物育成ライト,식물 생장등,Lampes de croissance,Pflanzenlampen,Lámparas de cultivo,ग्रो लाइट,Luzes de cultivo
+310,Airport,Security camera,防犯カメラ,보안 카메라,Caméras de surveillance,Überwachungskameras,Cámaras de seguridad,सीसीटीवी कैमरा,Câmeras de segurança
+311,Airport,Warning sign,警告標識,경고 표지판,Panneaux d'avertissement,Warnschilder,Señales de advertencia,चेतावनी बोर्ड,Placas de aviso
+312,Airport,Flight ticket,航空券,비행기 표,Billets d'avion,Flugtickets,Billetes de avión,हवाई टिकट,Passagens aéreas
+313,Airport,Airport luggage cart,空港カート,공항 카트,Chariots à bagages,Gepäckwagen,Carritos de equipaje,सामान ट्रॉली,Carrinhos de bagagem
+314,Airport,Passport,パスポート,여권,Passeports,Reisepässe,Pasaportes,पासपोर्ट,Passaportes
+315,Airport,Flight attendant costume,CAの制服,승무원 유니폼,Uniformes d'hôtesse,Flugbegleiter-Uniformen,Uniformes de azafata,एयर होस्टेस की ड्रेस,Uniformes de comissário
+316,Airport,Captain hat,機長の帽子,기장 모자,Casquettes de pilote,Pilotenmützen,Gorras de piloto,पायलट की टोपी,Quepes de piloto
+317,Airport,Flight attendant hat,CAの帽子,승무원 모자,Chapeaux d'hôtesse,Stewardessenhüte,Gorros de azafata,एयर होस्टेस की टोपी,Chapéus de comissária
+318,Birthday,Birthday banner,誕生日バナー,생일 가랜드,Banderoles d'anniversaire,Geburtstagsbanner,Pancartas de cumpleaños,बर्थडे बैनर,Faixas de aniversário
+319,Birthday,Birthday cake,バースデーケーキ,생일 케이크,Gâteaux d'anniversaire,Geburtstagstorten,Pasteles de cumpleaños,बर्थडे केक,Bolos de aniversário
+320,Birthday,Birthday glasses,パーティーメガネ,파티 안경,Lunettes de fête,Partybrillen,Gafas de fiesta,पार्टी चश्मा,Óculos de festa
+321,Birthday,Birthday hat,パーティー帽,고깔모자,Chapeaux pointus,Partyhüte,Gorros de cumpleaños,बर्थडे टोपी,Chapéus de aniversário
+322,Birthday,Party blower,吹き戻し,파티 나팔,Langues de belle-mère,Luftrüssel,Matasuegras,पार्टी ब्लोअर,Línguas de sogra
+323,Birthday,Party popper,クラッカー,파티 폭죽,Canons à confettis,Partyknaller,Lanzaconfetis,पार्टी पॉपर,Lança-confetes
+324,Birthday,Gift box,ギフトボックス,선물 상자,Boîtes cadeaux,Geschenkboxen,Cajas de regalo,गिफ़्ट बॉक्स,Caixas de presente
+325,Birthday,Pinata,ピニャータ,피냐타,Piñatas,Piñatas,Piñatas,पिनाटा,Piñatas
+326,Magic,Witchs hat,魔女の帽子,마녀 모자,Chapeaux de sorcière,Hexenhüte,Sombreros de bruja,चुड़ैल की टोपी,Chapéus de bruxa
+327,Magic,Magic mushrooms,魔法のキノコ,마법 버섯,Champignons magiques,Zauberpilze,Setas mágicas,जादुई मशरूम,Cogumelos mágicos
+328,Magic,Magic orb,魔法の水晶玉,마법 구슬,Orbes magiques,Zauberkugeln,Orbes mágicos,जादुई गोला,Orbes mágicos
+329,Magic,Magic scroll,魔法の巻物,마법 두루마리,Parchemins magiques,Zauberschriftrollen,Pergaminos mágicos,जादुई पत्र,Pergaminhos mágicos
+330,Magic,Magic stone,魔法石,마법석,Pierres magiques,Zaubersteine,Piedras mágicas,जादुई पत्थर,Pedras mágicas
+331,Magic,Magic wand,魔法の杖,마법 지팡이,Baguettes magiques,Zauberstäbe,Varitas mágicas,जादू की छड़ी,Varinhas mágicas
+332,Magic,Poison,毒薬,독약,Poisons,Gifte,Venenos,ज़हर,Venenos
+333,Photo studio,Reflector,レフ板,반사판,Réflecteurs,Reflektoren,Reflectores,रिफ़्लेक्टर,Rebatedores
+334,Photo studio,Camera,撮影用カメラ,촬영용 카메라,Appareils photo pro,Profikameras,Cámaras profesionales,प्रोफ़ेशनल कैमरा,Câmeras profissionais
+335,Photo studio,Film poster,映画ポスター,영화 포스터,Affiches de film,Filmplakate,Carteles de cine,फ़िल्म पोस्टर,Pôsteres de filme
+336,Photo studio,Tripod,三脚,삼각대,Trépieds,Stative,Trípodes,ट्राइपॉड,Tripés
+337,Photo studio,Lens,レンズ,렌즈,Objectifs,Objektive,Objetivos,लेंस,Lentes
+338,Photo studio,Photography light,撮影ライト,촬영 조명,Éclairages photo,Fotoleuchten,Luces de fotografía,फ़ोटोग्राफ़ी लाइट,Iluminação fotográfica
+339,Photo studio,Backdrop,背景布,배경지,Toiles de fond,Fotohintergründe,Fondos fotográficos,बैकड्रॉप,Fundos fotográficos
+340,Photo studio,Clapper board,カチンコ,슬레이트,Claps de cinéma,Filmklappen,Claquetas,क्लैपरबोर्ड,Claquetes
+341,Photo studio,Slider,カメラスライダー,카메라 슬라이더,Glissières de caméra,Kameraslider,Sliders de cámara,कैमरा स्लाइडर,Sliders de câmera
+342,Photo studio,Light stand,ライトスタンド,조명 스탠드,Pieds d'éclairage,Lampenstative,Soportes de luz,लाइट स्टैंड,Tripés de iluminação
+343,Plane Cabin,Sleep mask,アイマスク,수면 안대,Masques de sommeil,Schlafmasken,Antifaces,स्लीप मास्क,Máscaras de dormir
+344,Plane Cabin,Travel neck pillow,ネックピロー,목베개,Coussins de voyage,Nackenkissen,Almohadas de viaje,नेक पिलो,Travesseiros de pescoço
+345,Plane Cabin,Meal tray,機内食トレー,기내식 트레이,Plateaux-repas d'avion,Bordmenü-Tabletts,Bandejas de avión,फ़्लाइट मील ट्रे,Bandejas de bordo
+346,Plane Cabin,Life jacket,救命胴衣,구명조끼,Gilets de sauvetage,Schwimmwesten,Chalecos salvavidas,लाइफ़ जैकेट,Coletes salva-vidas
+347,Plane Cabin,Oxygen mask,酸素マスク,산소마스크,Masques à oxygène,Sauerstoffmasken,Máscaras de oxígeno,ऑक्सीजन मास्क,Máscaras de oxigênio
+348,Plane Cabin,Airline trolley,機内カート,기내 카트,Chariots de service,Servierwagen,Carritos de avión,फ़्लाइट ट्रॉली,Carrinhos de bordo
+349,Sauna,Bath brush,ボディブラシ,목욕 솔,Brosses de bain,Badebürsten,Cepillos de baño,नहाने का ब्रश,Escovas de banho
+350,Sauna,Bathrobe,バスローブ,목욕 가운,Peignoirs,Bademäntel,Albornoces,बाथरोब,Roupões
+351,Sauna,Scented candle,アロマキャンドル,향초,Bougies parfumées,Duftkerzen,Velas aromáticas,सुगंधित मोमबत्ती,Velas aromáticas
+352,Sauna,Hair dryer,ドライヤー,헤어드라이어,Sèche-cheveux,Föhne,Secadores de pelo,हेयर ड्रायर,Secadores de cabelo
+353,Street Food Stall,BBQ grilled,バーベキュー料理,바비큐 구이,Grillades,Gegrilltes,Parrillada,ग्रिल्ड खाना,Churrasco
+354,Street Food Stall,BBQ tool,BBQ道具,바비큐 도구,Ustensiles de barbecue,Grillbesteck,Utensilios de barbacoa,बीबीक्यू टूल्स,Utensílios de churrasco
+355,Street Food Stall,Grilled vegetables,焼き野菜,구운 채소,Légumes grillés,Grillgemüse,Verduras a la parrilla,ग्रिल्ड सब्ज़ियाँ,Legumes grelhados
+356,Street Food Stall,Skewers,串焼き,꼬치,Brochettes,Spieße,Brochetas,सीख़,Espetinhos
+357,Street Food Stall,Papercup,紙コップ,종이컵,Gobelets en carton,Pappbecher,Vasos de papel,पेपर कप,Copos de papel

@@ -1,0 +1,1 @@
+const PLACEMENT={buffer:"tray_unlock",undo:"prop_undo",clear:"prop_clear",eagle_eye:"prop_eagle_eye",erase:"prop_erase",next_box_preview_permanent:"next_box_preview",next_box_preview_round:"next_box_preview"},adPlacement=kind=>PLACEMENT[kind]??kind;export{adPlacement};

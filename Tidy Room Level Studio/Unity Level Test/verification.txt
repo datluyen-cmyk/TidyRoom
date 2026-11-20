@@ -1,0 +1,14 @@
+Unity 2022.3.62f2 · click replay · strict tray=True
+Level 1: won in 26 clicks; peak tray 0/5.
+Level 2: won in 80 clicks; peak tray 2/5.
+Level 3: won in 209 clicks; peak tray 3/5.
+Level 4: won in 203 clicks; peak tray 3/5.
+Level 5: won in 200 clicks; peak tray 3/5.
+Level 6: won in 201 clicks; peak tray 4/5.
+Level 7: won in 201 clicks; peak tray 3/5.
+Level 8: won in 202 clicks; peak tray 4/5.
+Level 9: won in 193 clicks; peak tray 2/5.
+Level 10: won in 192 clicks; peak tray 3/5.
+Level 11: won in 200 clicks; peak tray 2/5.
+Level 12: won in 202 clicks; peak tray 2/5.
+12 levels; 351 textures. Blocked click, buffer transfer and full tray verified.

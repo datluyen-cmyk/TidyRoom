@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<title>Amochiroom Puzzle: Room Sort</title>
+<style>
+  :root { --brown: rgb(108,69,31); --orange: #f5902a; --cream: #fff8ec; --sand: #f6e7cf; --ink: #4a3a2a; }
+  html, body { margin: 0; height: 100%; background: #111; overflow: hidden; touch-action: none; }
+  body { display: flex; justify-content: center; font-family: "PingFang SC","Microsoft YaHei",sans-serif; -webkit-user-select: none; user-select: none; }
+  canvas { display: block; touch-action: none; }
+  button { font: inherit; cursor: pointer; border: 0; -webkit-tap-highlight-color: transparent; }
+  button.primary { font-size: 20px; font-weight: bold; color: #fff; background: var(--orange); border-radius: 999px; padding: 12px 36px; box-shadow: 0 4px 0 #c46d14; }
+  button.ghost { font-size: 17px; font-weight: bold; color: var(--brown); background: var(--cream); border: 2px solid var(--brown); border-radius: 999px; padding: 8px 24px; }
+  button:active { transform: translateY(2px); }
+
+  .screen { position: fixed; inset: 0; background: linear-gradient(#ffd98a, #f6e7cf 45%); display: flex; flex-direction: column; align-items: center; z-index: 10; }
+  .screen .top { width: 100%; box-sizing: border-box; padding: 14px 16px; display: flex; justify-content: space-between; align-items: center; }
+  .energy { color: var(--brown); font-weight: bold; font-size: 18px; background: var(--cream); border-radius: 999px; padding: 6px 14px; }
+  .energy b { color: #e0463b; }
+  .energy span { margin-left: 10px; font-size: 14px; color: #8a6a4a; font-weight: normal; }
+  button.icon { background: none; padding: 0; width: 48px; height: 48px; display: flex; align-items: center; justify-content: center; }
+  button.icon img { width: 40px; height: auto; }
+  /* 首页（设计稿版）：背景铺满整窗，界面在和游戏画布同宽的一列里，元素位置由 screens.js 按设计单位算 */
+  .home2 { background: #e9c58f center / cover no-repeat; display: block; }
+  .home2 .col { position: relative; height: 100%; margin: 0 auto; }
+  .home2 .col > * { position: absolute; }
+  .home2 .hb { background: none; padding: 0; }
+  .home2 .hb img, .home2 .logo { width: 100%; height: 100%; display: block; }
+  .home2 .hb:active { transform: scale(0.95); filter: brightness(0.92); }
+  /* 按钮上的字（原图是画死的中文，换成无字图后由这里按语言画）：米白字 + 原图描边色 */
+  .home2 .hb .lbl { position: absolute; display: flex; align-items: center; white-space: nowrap; font-weight: 900; line-height: 1; color: #fff8e6; pointer-events: none;
+    --o: calc(var(--u) * 3); --c: #5c2b05;
+    text-shadow: var(--o) 0 var(--c), calc(var(--o) * -1) 0 var(--c), 0 var(--o) var(--c), 0 calc(var(--o) * -1) var(--c),
+      var(--o) var(--o) var(--c), calc(var(--o) * -1) var(--o) var(--c), var(--o) calc(var(--o) * -1) var(--c), calc(var(--o) * -1) calc(var(--o) * -1) var(--c); }
+  .home2 .start .lbl { --c: #024246; }
+  /* 爱心跟着字号缩放：设计稿里爱心约 1.2 个字宽，和字隔约 0.45 个字 */
+  .home2 .start .lbl .ico { height: 1.25em; width: 1.25em; margin-left: 0.4em; flex: none; } /* 宽度写死（图是方的）：排版时图还没加载完也按有爱心算 */
+  .home2 .cap { background: rgba(70, 40, 20, 0.55); border-radius: 999px; display: flex; align-items: center; justify-content: flex-end; box-sizing: border-box; padding-right: calc(var(--u) * 28); }
+  .home2 .heart { position: absolute; left: calc(var(--u) * -18); top: 50%; transform: translateY(-50%); width: calc(var(--u) * 72); height: calc(var(--u) * 72); }
+  .home2 .heart img { width: 100%; height: 100%; }
+  .home2 .heart b { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; color: #fff; font-size: calc(var(--u) * 30); padding-bottom: calc(var(--u) * 4); }
+  .home2 .timer { color: #fff; font-weight: bold; font-size: calc(var(--u) * 30); letter-spacing: 1px; }
+  /* 体力不满时的「+」：打开补体力弹窗 */
+  .home2 .cap .plus, .lv2 .en .plus { flex: none; display: flex; align-items: center; justify-content: center; padding: 0; border: none; border-radius: 50%;
+    background: #f2a43a; color: #fff; font-weight: 900; line-height: 1; box-shadow: 0 calc(var(--u) * 3) 0 #c27a1f; }
+  .home2 .cap .plus { position: absolute; right: calc(var(--u) * -22); top: 50%; transform: translateY(-50%); width: calc(var(--u) * 52); height: calc(var(--u) * 52); font-size: calc(var(--u) * 36); }
+  .lv2 .en .plus { position: absolute; right: calc(var(--u) * -54); top: 50%; transform: translateY(-50%); width: calc(var(--u) * 46); height: calc(var(--u) * 46); font-size: calc(var(--u) * 32); }
+  .home2 .cap .plus[hidden], .lv2 .en .plus[hidden] { display: none; }
+  /* 有「+」时倒计时放在心和「+」之间居中，不压在「+」下面 */
+  .home2 .cap.has-plus { justify-content: center; padding-left: calc(var(--u) * 56); padding-right: calc(var(--u) * 34); }
+  .lv2 .en.has-plus span { margin-left: auto; margin-right: auto; position: relative; left: calc(var(--u) * 5); }
+  .home2 .cap .plus::after, .lv2 .en .plus::after { content: ""; position: absolute; inset: -10px; } /* 热区 ≈ 44pt */
+  .home2 .lvl img { width: 100%; height: 100%; }
+  /* 「第N关」：米黄字、深棕描边（按设计稿）。描边用多层 text-shadow：
+     -webkit-text-stroke + paint-order 在部分 WebView 上会把描边盖在字上，字被糊成深色 */
+  .home2 .lvl span { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; color: #fbe7ae; font-weight: 900; font-size: calc(var(--u) * 37); line-height: 1;
+    --o: calc(var(--u) * 2.5);
+    text-shadow: var(--o) 0 #6b3f1a, calc(var(--o) * -1) 0 #6b3f1a, 0 var(--o) #6b3f1a, 0 calc(var(--o) * -1) #6b3f1a,
+      var(--o) var(--o) #6b3f1a, calc(var(--o) * -1) var(--o) #6b3f1a, var(--o) calc(var(--o) * -1) #6b3f1a, calc(var(--o) * -1) calc(var(--o) * -1) #6b3f1a; }
+  /* 四角星：上面那颗带两段淡金细线；尺寸由 screens.js 按设计单位给 */
+  .home2 .spark { pointer-events: none; }
+  .home2 .spark svg { position: absolute; left: 50%; top: 50%; width: calc(var(--u) * 19); height: calc(var(--u) * 19); transform: translate(-50%, -50%); display: block; }
+  .home2 .spark i { position: absolute; top: 50%; width: calc(var(--u) * 22); height: calc(var(--u) * 1.5); margin-top: calc(var(--u) * -0.75); background: rgba(233, 168, 74, 0.6); }
+  .home2 .spark i:first-child { right: calc(50% + var(--u) * 12); }
+  .home2 .spark i:last-of-type { left: calc(50% + var(--u) * 12); }
+  .home h1 { margin: 22vh 0 6vh; font-size: 44px; color: var(--brown); letter-spacing: 2px; }
+  .home .start { font-size: 26px; padding: 16px 64px; margin-bottom: 18px; }
+
+
+  /* 选关（第二版设计）：背景是首页那张图虚化；尺寸都按 --u（设计单位，列宽 720）。数值见 screens.js showLevels */
+  .lv2 { display: block; background: #e9c58f; overflow: hidden; }
+  .lv2 .bgblur { position: absolute; inset: -24px; background: center / cover no-repeat; filter: blur(4px); }
+  .lv2 .col { position: relative; height: 100%; margin: 0 auto; display: flex; flex-direction: column; }
+  .lv2 .hd { flex: none; position: relative; height: calc(var(--u) * 160); } /* 胶囊下沿在 152：滚动区从它下面开始，卡片不会钻到胶囊底下 */
+  .lv2 .pill { position: absolute; top: calc(var(--u) * 73); height: calc(var(--u) * 79); box-sizing: border-box; padding: 0;
+    border-style: solid; border-color: transparent; border-width: 0 calc(var(--u) * 39.5); border-image-slice: 0 80 fill; border-image-repeat: stretch;
+    display: flex; align-items: center; color: #6b3f1a; font-weight: bold; background: none; }
+  .lv2 .back { left: calc(var(--u) * 37); width: calc(var(--u) * 176); justify-content: center; gap: calc(var(--u) * 8); font-size: calc(var(--u) * 29); }
+  .lv2 .back svg { width: calc(var(--u) * 34); height: calc(var(--u) * 34); margin-left: calc(var(--u) * -14); flex: none; }
+  .lv2 .back:active { transform: scale(0.95); filter: brightness(0.95); }
+  .lv2 .en { right: calc(var(--u) * 41); width: calc(var(--u) * 279); justify-content: space-between; }
+  .lv2 .en img { width: calc(var(--u) * 50); height: calc(var(--u) * 50); margin-left: calc(var(--u) * -14); flex: none; }
+  .lv2 .en b { color: #e0352b; font-size: calc(var(--u) * 31); margin-left: calc(var(--u) * 4); }
+  .lv2 .en span { color: #8a6a4a; font-size: calc(var(--u) * 26); margin-left: auto; letter-spacing: 1px; }
+  .lv2 .gr { flex: 1; overflow-y: auto; touch-action: pan-y; scrollbar-width: none; display: grid; grid-template-columns: 1fr 1fr; align-content: start;
+    column-gap: calc(var(--u) * 14); row-gap: calc(var(--u) * 15); padding: calc(var(--u) * 44) calc(var(--u) * 39) calc(var(--u) * 60) calc(var(--u) * 37);
+    /* 上下边缘渐隐：卡片滚到顶栏下面是慢慢淡掉，不是被一刀切开（切开那条线显得很挤） */
+    --fade: linear-gradient(to bottom, transparent 0, #000 calc(var(--u) * 40), #000 calc(100% - var(--u) * 48), transparent 100%);
+    -webkit-mask-image: var(--fade); mask-image: var(--fade); }
+  .lc { position: relative; height: calc(var(--u) * 192); padding: 0; border-radius: calc(var(--u) * 24); background: #f5e6c9;
+    border: calc(var(--u) * 2) solid #ead4ad; box-shadow: 0 calc(var(--u) * 4) 0 #d9c09a; color: #5a3415; }
+  .lc:active { transform: scale(0.97); }
+  .lc.cur { background: #fff7e1; border: calc(var(--u) * 3.5) solid #f2a43a; box-shadow: 0 0 0 calc(var(--u) * 3) rgba(255, 205, 120, 0.55), 0 calc(var(--u) * 4) 0 #e0b06c; }
+  .lc .th { position: absolute; left: calc(var(--u) * 22); top: calc(var(--u) * 23); width: calc(var(--u) * 112); height: calc(var(--u) * 142);
+    border-radius: calc(var(--u) * 18); background: rgba(150, 110, 60, 0.1) center / cover no-repeat; }
+  .lc .tx { position: absolute; left: calc(var(--u) * 140); right: calc(var(--u) * 6); top: 0; bottom: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; }
+  .lc .no { font-size: calc(var(--u) * 29); line-height: 1.2; white-space: nowrap; }
+  .lc .nm { margin-top: calc(var(--u) * 8); font-size: calc(var(--u) * 22); line-height: 1.2; color: #6b4a2a; max-width: 100%; hyphens: manual; -webkit-hyphens: manual; } /* 只在译文标的软连字符处折，浏览器自动断词断得很怪 */
+  .lc .st { margin-top: calc(var(--u) * 17); display: flex; gap: calc(var(--u) * 10); }
+  .lc .st img { width: calc(var(--u) * 33); height: calc(var(--u) * 33); display: block; }
+  .lc .st.lk { margin-top: calc(var(--u) * 12); }
+  .lc .st.lk img { width: calc(var(--u) * 36); height: calc(var(--u) * 44); }
+  .lv2.no-thumbs .lc .tx { left: calc(var(--u) * 12); right: calc(var(--u) * 12); }
+  .lc .best { margin-top: calc(var(--u) * 8); max-width: 100%; color: #82603c; font-size: calc(var(--u) * 22); line-height: 1.2;
+    font-variant-numeric: tabular-nums; white-space: nowrap; }
+  /* 通过率条 + 难度档（A/B ui_level_hints_v1 的 hints 组）：卡片加高放一行 */
+  .lv2.with-odds .lc { height: calc(var(--u) * 236); }
+  .lc .od { margin-top: calc(var(--u) * 12); width: 92%; display: flex; flex-direction: column; align-items: center; gap: calc(var(--u) * 5); }
+  .lc .od i { display: block; width: 100%; height: calc(var(--u) * 12); border-radius: calc(var(--u) * 6); background: #e4cfa8; overflow: hidden; }
+  .lc .od s { display: block; height: 100%; border-radius: inherit; background: var(--od); }
+  .lc .od b { font-size: calc(var(--u) * 21); line-height: 1.1; color: var(--od); white-space: nowrap; }
+  .lc .od[data-band="easy"] { --od: #4f9a48; }
+  .lc .od[data-band="middle"] { --od: #d98a1c; }
+  .lc .od[data-band="hard"] { --od: #c8452e; }
+  .lc.locked .od { opacity: .6; }
+  .lc.locked .no { color: #8f7558; }
+  .lc.locked .nm { color: #a08a70; }
+  .popup { position: fixed; inset: 0; display: flex; align-items: center; justify-content: center; background: rgba(0,0,0,.55); z-index: 20; }
+  .ad-mock { position: fixed; inset: 0; background: #000; color: #fff; display: flex; align-items: center; justify-content: center; z-index: 50; text-align: center; }
+  .ad-mock b { font-size: 24px; }
+  .ad-mock p { color: #ccc; }
+  .ad-mock .ad-count { display: block; margin: 20px 0; font-size: 18px; color: #ffd98a; }
+  .ad-mock button { color: #fff; background: #444; border-radius: 999px; padding: 6px 20px; }
+</style>
+<link rel="stylesheet" href="src/view/ui-theme.css">
+<link rel="stylesheet" href="src/view/level-loading.css">
+<link rel="preload" as="image" href="../assets/home/background.jpg">
+<link rel="preload" as="image" href="../assets/home/logo.png">
+  <link rel="stylesheet" href="src/view/memory-album.css">
+<link rel="stylesheet" href="src/view/weekly.css">
+</head>
+<body>
+<canvas id="game"></canvas>
+<!-- Visible while the module graph loads; showLevelLoading adopts this same layer. -->
+<div class="popup level-loading" data-kind="level-loading" data-startup-loading aria-busy="true">
+  <div class="level-loading__content">
+    <img class="level-loading__logo" src="../assets/home/logo.png" alt="Amochiroom Puzzle" width="1920" height="819">
+    <div class="level-loading__footer">
+      <div class="level-loading__title" role="status" aria-live="polite"></div>
+      <div class="level-loading__track" role="progressbar" aria-label="" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+        <div class="level-loading__fill"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="module" src="src/view/recovery-text.js"></script>
+<script type="module" src="src/view/main.js"></script>
+</body>
+</html>

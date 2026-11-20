@@ -1,0 +1,2084 @@
+[
+  {
+    "id": 104,
+    "name": "Reward Catalog SO",
+    "class": "_Game.Scripts.IAP.IAPRewardCatalogSO",
+    "file": "sharedassets0.assets"
+  },
+  {
+    "id": 399,
+    "name": "",
+    "class": "GameAnalyticsSDK.GameAnalytics",
+    "file": "level0"
+  },
+  {
+    "id": 449,
+    "name": "",
+    "class": "BackgroundScaler",
+    "file": "level0"
+  },
+  {
+    "id": 451,
+    "name": "",
+    "class": "_Game.Scripts.CampaignSegment.AFCampaignTracking",
+    "file": "level0"
+  },
+  {
+    "id": 459,
+    "name": "",
+    "class": "GameAnalyticsSDK.Events.GA_SpecialEvents",
+    "file": "level0"
+  },
+  {
+    "id": 462,
+    "name": "",
+    "class": "GameManager",
+    "file": "level0"
+  },
+  {
+    "id": 466,
+    "name": "",
+    "class": "_Game.Scripts.GameEntry",
+    "file": "level0"
+  },
+  {
+    "id": 467,
+    "name": "",
+    "class": "_Game.Scripts.HeartSystemManager",
+    "file": "level0"
+  },
+  {
+    "id": 469,
+    "name": "",
+    "class": "Databuckets",
+    "file": "level0"
+  },
+  {
+    "id": 470,
+    "name": "",
+    "class": "HappyTidy.Localization.LocalizedText",
+    "file": "level0"
+  },
+  {
+    "id": 484,
+    "name": "",
+    "class": "BravestarsSDK.FirebaseManager",
+    "file": "level0"
+  },
+  {
+    "id": 487,
+    "name": "",
+    "class": "BravestarsSDK.Scripts.NewSDKV4.InterV4",
+    "file": "level0"
+  },
+  {
+    "id": 488,
+    "name": "",
+    "class": "BravestarsSDK.Scripts.NewSDKV4.RewardV4",
+    "file": "level0"
+  },
+  {
+    "id": 489,
+    "name": "",
+    "class": "BravestarsSDK.Scripts.NewSDKV4.AdControllerV4",
+    "file": "level0"
+  },
+  {
+    "id": 490,
+    "name": "",
+    "class": "EffectUIManager",
+    "file": "level0"
+  },
+  {
+    "id": 494,
+    "name": "",
+    "class": "UMPManager",
+    "file": "level0"
+  },
+  {
+    "id": 495,
+    "name": "",
+    "class": "_KIT.KitScaleCanvas",
+    "file": "level0"
+  },
+  {
+    "id": 501,
+    "name": "",
+    "class": "BravestarsSDK.AdsConfigManager",
+    "file": "level0"
+  },
+  {
+    "id": 504,
+    "name": "",
+    "class": "BravestarsSDK.Scripts.AppOpenAdManager",
+    "file": "level0"
+  },
+  {
+    "id": 514,
+    "name": "",
+    "class": "_KIT.KitSafeArea",
+    "file": "level0"
+  },
+  {
+    "id": 519,
+    "name": "",
+    "class": "_KIT.KitScaleCanvas",
+    "file": "level0"
+  },
+  {
+    "id": 520,
+    "name": "",
+    "class": "_KIT.KitScaleCanvas",
+    "file": "level0"
+  },
+  {
+    "id": 525,
+    "name": "",
+    "class": "DEVTOOLCheatTime",
+    "file": "level0"
+  },
+  {
+    "id": 527,
+    "name": "",
+    "class": "DEVTOOL",
+    "file": "level0"
+  },
+  {
+    "id": 529,
+    "name": "",
+    "class": "_KIT.KitScaleCanvas",
+    "file": "level0"
+  },
+  {
+    "id": 532,
+    "name": "",
+    "class": "_KIT.KitTooltipManager",
+    "file": "level0"
+  },
+  {
+    "id": 544,
+    "name": "",
+    "class": "BravestarsSDK.SDKManager",
+    "file": "level0"
+  },
+  {
+    "id": 548,
+    "name": "",
+    "class": "_Game.Scripts.SplashItem",
+    "file": "level0"
+  },
+  {
+    "id": 557,
+    "name": "",
+    "class": "_KIT.KitTooltip",
+    "file": "level0"
+  },
+  {
+    "id": 569,
+    "name": "",
+    "class": "_Game.Scripts.IAPManager",
+    "file": "level0"
+  },
+  {
+    "id": 573,
+    "name": "",
+    "class": "AppsFlyerObjectScript",
+    "file": "level0"
+  },
+  {
+    "id": 576,
+    "name": "",
+    "class": "HappyTidy.UI.SceneTransitionBG",
+    "file": "level0"
+  },
+  {
+    "id": 577,
+    "name": "",
+    "class": "BravestarsSDK.Banner",
+    "file": "level0"
+  },
+  {
+    "id": 578,
+    "name": "",
+    "class": "BravestarsSDK.Rewarded",
+    "file": "level0"
+  },
+  {
+    "id": 579,
+    "name": "",
+    "class": "BravestarsSDK.Interstitials",
+    "file": "level0"
+  },
+  {
+    "id": 580,
+    "name": "",
+    "class": "BravestarsSDK.MediationManager",
+    "file": "level0"
+  },
+  {
+    "id": 581,
+    "name": "",
+    "class": "BravestarsSDK.Mrec",
+    "file": "level0"
+  },
+  {
+    "id": 584,
+    "name": "",
+    "class": "CheckQC",
+    "file": "level0"
+  },
+  {
+    "id": 585,
+    "name": "",
+    "class": "FrameManager",
+    "file": "level0"
+  },
+  {
+    "id": 593,
+    "name": "",
+    "class": "AudioAndVibrationManager",
+    "file": "level0"
+  },
+  {
+    "id": 109,
+    "name": "",
+    "class": "HappyTidy.Gameplay.Tutorial.TutorialTooltip",
+    "file": "sharedassets1.assets"
+  },
+  {
+    "id": 114,
+    "name": "",
+    "class": "HappyTidy.Gameplay.StorageTooltip",
+    "file": "sharedassets1.assets"
+  },
+  {
+    "id": 116,
+    "name": "",
+    "class": "HappyTidy.Localization.LocalizedText",
+    "file": "sharedassets1.assets"
+  },
+  {
+    "id": 508,
+    "name": "",
+    "class": "HappyTidy.Localization.LocalizedText",
+    "file": "level1"
+  },
+  {
+    "id": 512,
+    "name": "",
+    "class": "FitPositionWithAds",
+    "file": "level1"
+  },
+  {
+    "id": 513,
+    "name": "",
+    "class": "HappyTidy.Gameplay.BoosterAddBox",
+    "file": "level1"
+  },
+  {
+    "id": 514,
+    "name": "",
+    "class": "HappyTidy.Localization.LocalizedText",
+    "file": "level1"
+  },
+  {
+    "id": 516,
+    "name": "",
+    "class": "HappyTidy.Gameplay.QueueSlot",
+    "file": "level1"
+  },
+  {
+    "id": 518,
+    "name": "",
+    "class": "_KIT.KitButton",
+    "file": "level1"
+  },
+  {
+    "id": 521,
+    "name": "",
+    "class": "HappyTidy.Gameplay.BoosterClear",
+    "file": "level1"
+  },
+  {
+    "id": 522,
+    "name": "",
+    "class": "HappyTidy.Gameplay.BoosterMagnet",
+    "file": "level1"
+  },
+  {
+    "id": 523,
+    "name": "",
+    "class": "HappyTidy.Gameplay.QueueSlot",
+    "file": "level1"
+  },
+  {
+    "id": 526,
+    "name": "",
+    "class": "HappyTidy.Gameplay.UI.GameplayHUD",
+    "file": "level1"
+  },
+  {
+    "id": 530,
+    "name": "",
+    "class": "HappyTidy.Gameplay.UI.HudSafeAreaTop",
+    "file": "level1"
+  },
+  {
+    "id": 531,
+    "name": "",
+    "class": "HappyTidy.Gameplay.Queue",
+    "file": "level1"
+  },
+  {
+    "id": 534,
+    "name": "",
+    "class": "HappyTidy.Gameplay.QueueSlot",
+    "file": "level1"
+  },
+  {
+    "id": 542,
+    "name": "",
+    "class": "HappyTidy.Gameplay.Tutorial.TutorialOverlayUI",
+    "file": "level1"
+  },
+  {
+    "id": 548,
+    "name": "",
+    "class": "HappyTidy.Gameplay.QueueSlot",
+    "file": "level1"
+  },
+  {
+    "id": 551,
+    "name": "",
+    "class": "HappyTidy.Gameplay.Tutorial.GestureHint",
+    "file": "level1"
+  },
+  {
+    "id": 552,
+    "name": "",
+    "class": "HappyTidy.Gameplay.UI.GameplayWarningUI",
+    "file": "level1"
+  },
+  {
+    "id": 555,
+    "name": "",
+    "class": "HappyTidy.Gameplay.GameplayManager",
+    "file": "level1"
+  },
+  {
+    "id": 560,
+    "name": "",
+    "class": "_KIT.KitButton",
+    "file": "level1"
+  },
+  {
+    "id": 562,
+    "name": "",
+    "class": "HappyTidy.Gameplay.UI.GameplayToast",
+    "file": "level1"
+  },
+  {
+    "id": 563,
+    "name": "",
+    "class": "HappyTidy.Gameplay.QueueSlot",
+    "file": "level1"
+  },
+  {
+    "id": 566,
+    "name": "",
+    "class": "HappyTidy.Gameplay.BoxController",
+    "file": "level1"
+  },
+  {
+    "id": 568,
+    "name": "",
+    "class": "HappyTidy.Gameplay.Tutorial.GameplayTutorialController",
+    "file": "level1"
+  },
+  {
+    "id": 569,
+    "name": "",
+    "class": "_KIT.KitSafeArea",
+    "file": "level1"
+  },
+  {
+    "id": 570,
+    "name": "",
+    "class": "HappyTidy.Gameplay.QueueSlot",
+    "file": "level1"
+  },
+  {
+    "id": 573,
+    "name": "",
+    "class": "HappyTidy.Gameplay.BoosterManager",
+    "file": "level1"
+  },
+  {
+    "id": 574,
+    "name": "",
+    "class": "HappyTidy.Gameplay.Tutorial.TutorialNarration",
+    "file": "level1"
+  },
+  {
+    "id": 575,
+    "name": "",
+    "class": "HappyTidy.Gameplay.Storage",
+    "file": "level1"
+  },
+  {
+    "id": 576,
+    "name": "",
+    "class": "_KIT.KitButton",
+    "file": "level1"
+  },
+  {
+    "id": 578,
+    "name": "",
+    "class": "HappyTidy.Gameplay.QueueSlot",
+    "file": "level1"
+  },
+  {
+    "id": 580,
+    "name": "",
+    "class": "HappyTidy.Gameplay.MapCamera",
+    "file": "level1"
+  },
+  {
+    "id": 587,
+    "name": "",
+    "class": "_Game.Scripts.CoinBar",
+    "file": "level1"
+  },
+  {
+    "id": 591,
+    "name": "",
+    "class": "HappyTidy.Localization.LocalizedText",
+    "file": "level1"
+  },
+  {
+    "id": 593,
+    "name": "",
+    "class": "_KIT.KitButton",
+    "file": "level1"
+  },
+  {
+    "id": 594,
+    "name": "",
+    "class": "_KIT.KitButton",
+    "file": "level1"
+  },
+  {
+    "id": 597,
+    "name": "",
+    "class": "_Game.Scripts.HeartBar",
+    "file": "level1"
+  },
+  {
+    "id": 603,
+    "name": "",
+    "class": "HappyTidy.Gameplay.UI.BoosterButtonUI",
+    "file": "level1"
+  },
+  {
+    "id": 609,
+    "name": "",
+    "class": "HappyTidy.Localization.LocalizedText",
+    "file": "level1"
+  },
+  {
+    "id": 614,
+    "name": "",
+    "class": "_KIT.KitButton",
+    "file": "level1"
+  },
+  {
+    "id": 615,
+    "name": "",
+    "class": "HappyTidy.Gameplay.Box",
+    "file": "level1"
+  },
+  {
+    "id": 616,
+    "name": "",
+    "class": "HappyTidy.Gameplay.Box",
+    "file": "level1"
+  },
+  {
+    "id": 617,
+    "name": "",
+    "class": "HappyTidy.Localization.LocalizedText",
+    "file": "level1"
+  },
+  {
+    "id": 621,
+    "name": "",
+    "class": "_KIT.KitButton",
+    "file": "level1"
+  },
+  {
+    "id": 626,
+    "name": "",
+    "class": "HappyTidy.Gameplay.UI.BoosterButtonUI",
+    "file": "level1"
+  },
+  {
+    "id": 627,
+    "name": "",
+    "class": "HappyTidy.Localization.LocalizedText",
+    "file": "level1"
+  },
+  {
+    "id": 628,
+    "name": "",
+    "class": "HappyTidy.Localization.LocalizedText",
+    "file": "level1"
+  },
+  {
+    "id": 636,
+    "name": "",
+    "class": "HappyTidy.Localization.LocalizedText",
+    "file": "level1"
+  },
+  {
+    "id": 637,
+    "name": "",
+    "class": "HappyTidy.Gameplay.Box",
+    "file": "level1"
+  },
+  {
+    "id": 638,
+    "name": "",
+    "class": "_KIT.KitButton",
+    "file": "level1"
+  },
+  {
+    "id": 639,
+    "name": "",
+    "class": "CountDownTextUI",
+    "file": "level1"
+  },
+  {
+    "id": 640,
+    "name": "",
+    "class": "HappyTidy.Localization.LocalizedText",
+    "file": "level1"
+  },
+  {
+    "id": 643,
+    "name": "",
+    "class": "HappyTidy.Localization.LocalizedText",
+    "file": "level1"
+  },
+  {
+    "id": 644,
+    "name": "",
+    "class": "HappyTidy.Localization.LocalizedText",
+    "file": "level1"
+  },
+  {
+    "id": 653,
+    "name": "",
+    "class": "_KIT.KitButton",
+    "file": "level1"
+  },
+  {
+    "id": 660,
+    "name": "",
+    "class": "_KIT.KitButton",
+    "file": "level1"
+  },
+  {
+    "id": 7829,
+    "name": "AudioDefaultSO",
+    "class": "AudioDefaultSO",
+    "file": "resources.assets"
+  },
+  {
+    "id": 7833,
+    "name": "GeneralConfig",
+    "class": "_Game.Scripts.GeneralConfig",
+    "file": "resources.assets"
+  },
+  {
+    "id": 7836,
+    "name": "RemoteConfigData",
+    "class": "BravestarsSDK.BS_RemoteConfig",
+    "file": "resources.assets"
+  },
+  {
+    "id": 7861,
+    "name": "ItemCatalog",
+    "class": "HappyTidy.ItemCatalog",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10788,
+    "name": "BoosterDatabase",
+    "class": "BoosterDatabaseSO",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10789,
+    "name": "GameplayConfig",
+    "class": "HappyTidy.GameplayConfigSO",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10790,
+    "name": "ItemCodesCatalog",
+    "class": "HappyTidy.ItemCodesCatalog",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10791,
+    "name": "MechanicDatabase",
+    "class": "MechanicDatabaseSO",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10795,
+    "name": "",
+    "class": "_Game.Scripts.IAP.IAPItemView",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10803,
+    "name": "",
+    "class": "HappyTidy.Localization.LocalizedText",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10808,
+    "name": "",
+    "class": "_Game.Scripts.CoinBar",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10809,
+    "name": "",
+    "class": "_KIT.KitSafeArea",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10810,
+    "name": "",
+    "class": "_KIT.KitSafeArea",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10811,
+    "name": "",
+    "class": "_KIT.KitSafeArea",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10812,
+    "name": "",
+    "class": "HappyTidy.Gameplay.UI.PopupRateUs",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10813,
+    "name": "",
+    "class": "HappyTidy.Gameplay.UI.LosePopup",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10814,
+    "name": "",
+    "class": "HappyTidy.Localization.LocalizedText",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10816,
+    "name": "",
+    "class": "UIAnimation",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10817,
+    "name": "",
+    "class": "UIAnimation",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10819,
+    "name": "",
+    "class": "UIAnimation",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10821,
+    "name": "",
+    "class": "_Game.Scripts.HeartBar",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10825,
+    "name": "",
+    "class": "HappyTidy.Gameplay.UI.PopupAreYouSure",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10830,
+    "name": "",
+    "class": "_Game.Scripts.CoinBar",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10832,
+    "name": "",
+    "class": "UIScale",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10833,
+    "name": "",
+    "class": "_KIT.KitButton",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10853,
+    "name": "",
+    "class": "PopupSettings",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10856,
+    "name": "",
+    "class": "_KIT.KitButton",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10862,
+    "name": "",
+    "class": "UIAnimation",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10863,
+    "name": "",
+    "class": "UIAnimation",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10864,
+    "name": "",
+    "class": "HappyTidy.Localization.LocalizedText",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10866,
+    "name": "",
+    "class": "_KIT.KitButton",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10867,
+    "name": "",
+    "class": "UIAnimation",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10872,
+    "name": "",
+    "class": "PurchaseSuccessItem",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10878,
+    "name": "",
+    "class": "HappyTidy.Localization.LocalizedText",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10882,
+    "name": "",
+    "class": "_KIT.KitButton",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10883,
+    "name": "",
+    "class": "_KIT.KitButton",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10885,
+    "name": "",
+    "class": "UIAnimation",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10886,
+    "name": "",
+    "class": "UIAnimation",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10887,
+    "name": "",
+    "class": "UIAnimation",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10888,
+    "name": "",
+    "class": "HappyTidy.Gameplay.UI.WinPopup",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10893,
+    "name": "",
+    "class": "_KIT.KitButton",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10900,
+    "name": "",
+    "class": "HappyTidy.Gameplay.UI.PopupBuyBooster",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10903,
+    "name": "",
+    "class": "UIScale",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10904,
+    "name": "",
+    "class": "UIScale",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10905,
+    "name": "",
+    "class": "UIScale",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10906,
+    "name": "",
+    "class": "UIScale",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10908,
+    "name": "",
+    "class": "UIFadeImage",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10912,
+    "name": "",
+    "class": "SwitchButton",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10913,
+    "name": "",
+    "class": "HappyTidy.Localization.LocalizedText",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10916,
+    "name": "",
+    "class": "_KIT.KitButton",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10920,
+    "name": "",
+    "class": "UIScale",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10921,
+    "name": "",
+    "class": "UIScale",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10923,
+    "name": "",
+    "class": "HappyTidy.Localization.LocalizedText",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10924,
+    "name": "",
+    "class": "_KIT.KitButton",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10928,
+    "name": "",
+    "class": "UITextPulseAnim",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10931,
+    "name": "",
+    "class": "UIAnimation",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10932,
+    "name": "",
+    "class": "UIAnchorPosition",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10935,
+    "name": "",
+    "class": "HappyTidy.Localization.LocalizedText",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10937,
+    "name": "",
+    "class": "_KIT.KitButton",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10938,
+    "name": "",
+    "class": "_KIT.KitButton",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10943,
+    "name": "",
+    "class": "ManualIAPButton",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10944,
+    "name": "",
+    "class": "UIScale",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10945,
+    "name": "",
+    "class": "UIScale",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10946,
+    "name": "",
+    "class": "UIScale",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10955,
+    "name": "",
+    "class": "DatabucketsButtonIAP",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10957,
+    "name": "",
+    "class": "UIFade",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10973,
+    "name": "",
+    "class": "_KIT.KitButton",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10976,
+    "name": "",
+    "class": "DatabucketsButtonIAP",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10977,
+    "name": "",
+    "class": "UIAnimation",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10978,
+    "name": "",
+    "class": "PurchaseSuccessPopup",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10980,
+    "name": "",
+    "class": "UIFadeImage",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10981,
+    "name": "",
+    "class": "HappyTidy.Localization.LocalizedText",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10983,
+    "name": "",
+    "class": "UIFade",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10984,
+    "name": "",
+    "class": "UIFade",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10985,
+    "name": "",
+    "class": "UIFade",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10986,
+    "name": "",
+    "class": "UIFade",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10987,
+    "name": "",
+    "class": "DatabucketsButtonIAP",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10988,
+    "name": "",
+    "class": "UIScale",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10989,
+    "name": "",
+    "class": "ManualIAPButton",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10990,
+    "name": "",
+    "class": "_Game.Scripts.IAP.IAPItemView",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10997,
+    "name": "",
+    "class": "DatabucketsButtonIAP",
+    "file": "resources.assets"
+  },
+  {
+    "id": 10999,
+    "name": "",
+    "class": "UIScale",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11001,
+    "name": "",
+    "class": "UIAnimation",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11002,
+    "name": "",
+    "class": "UIAnimation",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11003,
+    "name": "",
+    "class": "UIAnimation",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11007,
+    "name": "",
+    "class": "HappyTidy.Localization.LocalizedText",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11008,
+    "name": "",
+    "class": "UIAnimation",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11009,
+    "name": "",
+    "class": "UIAnimation",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11010,
+    "name": "",
+    "class": "UIAnimation",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11011,
+    "name": "",
+    "class": "UIAnimation",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11017,
+    "name": "",
+    "class": "_Game.Scripts.HomeShop",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11018,
+    "name": "",
+    "class": "DatabucketsButtonIAP",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11020,
+    "name": "",
+    "class": "_KIT.KitButton",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11025,
+    "name": "",
+    "class": "DatabucketsButtonIAP",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11028,
+    "name": "",
+    "class": "UIFade",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11029,
+    "name": "",
+    "class": "UIFade",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11030,
+    "name": "",
+    "class": "UIFade",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11032,
+    "name": "",
+    "class": "HappyTidy.Gameplay.UIWorldFx",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11034,
+    "name": "",
+    "class": "_Game.Scripts.CoinBar",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11035,
+    "name": "",
+    "class": "_KIT.KitButton",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11037,
+    "name": "",
+    "class": "_KIT.KitButton",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11038,
+    "name": "",
+    "class": "UIFade",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11049,
+    "name": "",
+    "class": "_KIT.KitButton",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11050,
+    "name": "",
+    "class": "UIAnimation",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11054,
+    "name": "",
+    "class": "HappyTidy.Localization.LocalizedText",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11058,
+    "name": "",
+    "class": "UIFade",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11061,
+    "name": "",
+    "class": "_KIT.KitButton",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11062,
+    "name": "",
+    "class": "_KIT.KitButton",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11063,
+    "name": "",
+    "class": "UIAnimation",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11065,
+    "name": "",
+    "class": "_KIT.KitButton",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11070,
+    "name": "",
+    "class": "UIScale",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11071,
+    "name": "",
+    "class": "UIScale",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11072,
+    "name": "",
+    "class": "UIScale",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11073,
+    "name": "",
+    "class": "UIScale",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11074,
+    "name": "",
+    "class": "UIFade",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11075,
+    "name": "",
+    "class": "UIFade",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11076,
+    "name": "",
+    "class": "UIFade",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11078,
+    "name": "",
+    "class": "HappyTidy.Localization.LocalizedText",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11080,
+    "name": "",
+    "class": "HappyTidy.Localization.LanguageSelector",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11081,
+    "name": "",
+    "class": "_KIT.KitButton",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11082,
+    "name": "",
+    "class": "_KIT.KitButton",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11083,
+    "name": "",
+    "class": "_KIT.KitButton",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11085,
+    "name": "",
+    "class": "HappyTidy.Localization.LocalizedText",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11088,
+    "name": "",
+    "class": "HappyTidy.Localization.LocalizedText",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11090,
+    "name": "",
+    "class": "_KIT.KitButton",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11091,
+    "name": "",
+    "class": "HappyTidy.Localization.LocalizedText",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11102,
+    "name": "",
+    "class": "_KIT.KitButton",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11103,
+    "name": "",
+    "class": "PopupUnlockMechanic",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11105,
+    "name": "",
+    "class": "_KIT.KitButton",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11107,
+    "name": "",
+    "class": "SwitchButton",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11111,
+    "name": "",
+    "class": "_KIT.KitButton",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11112,
+    "name": "",
+    "class": "_KIT.KitButton",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11115,
+    "name": "",
+    "class": "HappyTidy.Localization.LocalizedText",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11116,
+    "name": "",
+    "class": "CountDownTextUI",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11117,
+    "name": "",
+    "class": "UIAnimation",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11120,
+    "name": "",
+    "class": "UIAnimation",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11123,
+    "name": "",
+    "class": "HappyTidy.Localization.LocalizedText",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11124,
+    "name": "",
+    "class": "UIFade",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11129,
+    "name": "",
+    "class": "_KIT.KitButton",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11134,
+    "name": "",
+    "class": "HappyTidy.Localization.LocalizedText",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11135,
+    "name": "",
+    "class": "_KIT.KitButton",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11136,
+    "name": "",
+    "class": "HappyTidy.Localization.LocalizedText",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11138,
+    "name": "",
+    "class": "UIScale",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11139,
+    "name": "",
+    "class": "UIScale",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11140,
+    "name": "",
+    "class": "UIScale",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11145,
+    "name": "",
+    "class": "_KIT.KitButton",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11146,
+    "name": "",
+    "class": "HappyTidy.Localization.LocalizedText",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11147,
+    "name": "",
+    "class": "PurchaseSuccessItem",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11148,
+    "name": "",
+    "class": "DatabucketsButtonIAP",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11151,
+    "name": "",
+    "class": "_Game.Scripts.IAP.IAPItemView",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11153,
+    "name": "",
+    "class": "HappyTidy.Gameplay.UI.PopupOutOfLives",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11156,
+    "name": "",
+    "class": "UIFade",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11162,
+    "name": "",
+    "class": "_KIT.KitButton",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11163,
+    "name": "",
+    "class": "UIFade",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11164,
+    "name": "",
+    "class": "UIFade",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11168,
+    "name": "",
+    "class": "_KIT.KitButton",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11169,
+    "name": "",
+    "class": "UIAnimation",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11170,
+    "name": "",
+    "class": "HappyTidy.Localization.LocalizedText",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11171,
+    "name": "",
+    "class": "HappyTidy.Localization.LocalizedText",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11174,
+    "name": "",
+    "class": "_Game.Scripts.ShopPopup",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11175,
+    "name": "",
+    "class": "_KIT.KitButton",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11176,
+    "name": "",
+    "class": "PurchaseSuccessItem",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11180,
+    "name": "",
+    "class": "HappyTidy.Localization.LocalizedText",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11181,
+    "name": "",
+    "class": "PurchaseSuccessItem",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11184,
+    "name": "",
+    "class": "PurchaseSuccessItem",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11188,
+    "name": "",
+    "class": "_Game.Scripts.IAP.IAPItemView",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11190,
+    "name": "",
+    "class": "UIFade",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11191,
+    "name": "",
+    "class": "UIFade",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11195,
+    "name": "",
+    "class": "DatabucketsButtonIAP",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11199,
+    "name": "",
+    "class": "_KIT.KitButton",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11200,
+    "name": "",
+    "class": "PopupUnlockBooster",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11201,
+    "name": "",
+    "class": "_KIT.KitButton",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11202,
+    "name": "",
+    "class": "_Game.Scripts.NoAdsPopup",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11208,
+    "name": "",
+    "class": "UIFade",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11209,
+    "name": "",
+    "class": "HappyTidy.Localization.LocalizedText",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11212,
+    "name": "",
+    "class": "_KIT.KitButton",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11214,
+    "name": "",
+    "class": "_Game.Scripts.IAP.IAPItemView",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11219,
+    "name": "",
+    "class": "_Game.Scripts.IAP.IAPItemView",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11221,
+    "name": "",
+    "class": "UIFade",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11222,
+    "name": "",
+    "class": "UIFade",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11223,
+    "name": "",
+    "class": "UIFade",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11224,
+    "name": "",
+    "class": "UIFade",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11225,
+    "name": "",
+    "class": "_KIT.KitSafeArea",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11226,
+    "name": "",
+    "class": "_KIT.KitButton",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11227,
+    "name": "",
+    "class": "_KIT.KitButton",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11232,
+    "name": "",
+    "class": "UIScale",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11233,
+    "name": "",
+    "class": "UIScale",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11236,
+    "name": "",
+    "class": "HappyTidy.Localization.LocalizedText",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11237,
+    "name": "",
+    "class": "_KIT.KitButton",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11238,
+    "name": "",
+    "class": "_KIT.KitButton",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11241,
+    "name": "",
+    "class": "_Game.Scripts.CoinBar",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11242,
+    "name": "",
+    "class": "UIAnimation",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11244,
+    "name": "",
+    "class": "HappyTidy.Localization.LocalizedText",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11246,
+    "name": "",
+    "class": "_Game.Scripts.IAP.IAPItemView",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11248,
+    "name": "",
+    "class": "_KIT.KitButton",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11252,
+    "name": "",
+    "class": "UIScale",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11253,
+    "name": "",
+    "class": "UIAnimation",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11254,
+    "name": "",
+    "class": "UIAnimation",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11260,
+    "name": "",
+    "class": "HappyTidy.Localization.LocalizedText",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11263,
+    "name": "",
+    "class": "_KIT.KitButton",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11267,
+    "name": "",
+    "class": "UIScale",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11268,
+    "name": "",
+    "class": "_Game.Scripts.CoinBar",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11270,
+    "name": "",
+    "class": "ManualIAPButton",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11272,
+    "name": "",
+    "class": "ManualIAPButton",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11283,
+    "name": "",
+    "class": "_Game.Scripts.LoadingPopUp",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11287,
+    "name": "",
+    "class": "ManualIAPButton",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11291,
+    "name": "",
+    "class": "_KIT.KitButton",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11293,
+    "name": "",
+    "class": "UIFade",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11296,
+    "name": "",
+    "class": "_Game.Scripts.IAPPurchaseFailedPopUp",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11301,
+    "name": "",
+    "class": "HappyTidy.Localization.LocalizedText",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11302,
+    "name": "",
+    "class": "ManualIAPButton",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11306,
+    "name": "",
+    "class": "HappyTidy.Localization.LocalizedText",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11309,
+    "name": "",
+    "class": "_KIT.KitButton",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11315,
+    "name": "",
+    "class": "ManualIAPButton",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11317,
+    "name": "",
+    "class": "HappyTidy.Localization.LocalizedText",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11318,
+    "name": "",
+    "class": "HappyTidy.Localization.LocalizedText",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11319,
+    "name": "",
+    "class": "UIFade",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11321,
+    "name": "",
+    "class": "_KIT.KitButton",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11325,
+    "name": "",
+    "class": "HappyTidy.Localization.LocalizedText",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11326,
+    "name": "",
+    "class": "UIAnchorPosition",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11327,
+    "name": "",
+    "class": "HappyTidy.Localization.LocalizedText",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11332,
+    "name": "",
+    "class": "HappyTidy.Localization.LocalizedText",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11338,
+    "name": "",
+    "class": "_KIT.KitButton",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11346,
+    "name": "",
+    "class": "UIFade",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11347,
+    "name": "",
+    "class": "HappyTidy.Localization.LocalizedText",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11348,
+    "name": "",
+    "class": "HappyTidy.Localization.LocalizedText",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11358,
+    "name": "",
+    "class": "UIAnimation",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11359,
+    "name": "",
+    "class": "UIAnimation",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11360,
+    "name": "",
+    "class": "UIAnimation",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11361,
+    "name": "",
+    "class": "UIAnimation",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11363,
+    "name": "",
+    "class": "_KIT.KitButton",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11369,
+    "name": "",
+    "class": "UIScale",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11370,
+    "name": "",
+    "class": "HappyTidy.Localization.LocalizedText",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11372,
+    "name": "",
+    "class": "_KIT.KitButton",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11384,
+    "name": "",
+    "class": "UIFade",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11386,
+    "name": "",
+    "class": "_KIT.KitButton",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11389,
+    "name": "",
+    "class": "HappyTidy.Localization.LocalizedText",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11390,
+    "name": "",
+    "class": "UIAnimation",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11391,
+    "name": "",
+    "class": "UIFade",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11392,
+    "name": "",
+    "class": "UIFade",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11393,
+    "name": "",
+    "class": "HappyTidy.Localization.LocalizedText",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11394,
+    "name": "",
+    "class": "HappyTidy.Gameplay.UI.PopupRevive",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11396,
+    "name": "",
+    "class": "PopupQuickBreak",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11399,
+    "name": "",
+    "class": "ManualIAPButton",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11400,
+    "name": "",
+    "class": "HappyTidy.Localization.LocalizedText",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11402,
+    "name": "",
+    "class": "UIAnimation",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11403,
+    "name": "",
+    "class": "_KIT.KitButton",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11406,
+    "name": "",
+    "class": "HappyTidy.Localization.LocalizedText",
+    "file": "resources.assets"
+  },
+  {
+    "id": 11411,
+    "name": "",
+    "class": "_KIT.KitButton",
+    "file": "resources.assets"
+  }
+]

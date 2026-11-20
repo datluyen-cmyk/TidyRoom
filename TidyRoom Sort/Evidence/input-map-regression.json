@@ -1,0 +1,3225 @@
+{
+  "utc": "2026-11-20T08:56:35.0195258Z",
+  "maps": 204,
+  "rapidTaps": 80,
+  "bursts": 14,
+  "failures": [],
+  "results": [
+    {
+      "test": "Source solution exists for pointer burst regression",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 0 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 78 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 1 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 75 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 2 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 66 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 3 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 43 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 4 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 33 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 5 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 79 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Every pointer in burst 1 is accepted before flights finish",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 6 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 77 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 7 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 56 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 8 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 31 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 9 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 32 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 10 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 50 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 11 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 57 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Every pointer in burst 2 is accepted before flights finish",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 12 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 8 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 13 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 76 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 14 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 36 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 15 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 74 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 16 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 35 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 17 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 51 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Every pointer in burst 3 is accepted before flights finish",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 18 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 65 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 19 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 64 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 20 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 34 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 21 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 73 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 22 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 71 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 23 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 68 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Every pointer in burst 4 is accepted before flights finish",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 24 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 69 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 25 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 72 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 26 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 70 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 27 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 62 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 28 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 67 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 29 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 63 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Every pointer in burst 5 is accepted before flights finish",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 30 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 54 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 31 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 52 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 32 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 49 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 33 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 42 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 34 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 6 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 35 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 55 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Every pointer in burst 6 is accepted before flights finish",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 36 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 48 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 37 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 44 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 38 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 47 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 39 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 45 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 40 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 37 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 41 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 46 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Every pointer in burst 7 is accepted before flights finish",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 42 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 38 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 43 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 41 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 44 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 61 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 45 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 16 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 46 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 60 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 47 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 59 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Every pointer in burst 8 is accepted before flights finish",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 48 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 58 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 49 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 26 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 50 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 23 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 51 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 22 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 52 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 21 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 53 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 25 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Every pointer in burst 9 is accepted before flights finish",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 54 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 40 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 55 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 24 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 56 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 53 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 57 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 19 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 58 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 18 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 59 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 20 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Every pointer in burst 10 is accepted before flights finish",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 60 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 17 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 61 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 11 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 62 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 14 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 63 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 13 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 64 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 10 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 65 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 39 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Every pointer in burst 11 is accepted before flights finish",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 66 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 27 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 67 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 15 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 68 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 29 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 69 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 12 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 70 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 3 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 71 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 30 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Every pointer in burst 12 is accepted before flights finish",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 72 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 2 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 73 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 1 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 74 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 28 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 75 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 7 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 76 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 9 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 77 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 5 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Every pointer in burst 13 is accepted before flights finish",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 78 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 4 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer 79 updates items, slots and box counters immediately",
+      "pass": true
+    },
+    {
+      "test": "Repeated UID 0 is counted once",
+      "pass": true
+    },
+    {
+      "test": "Every pointer in burst 14 is accepted before flights finish",
+      "pass": true
+    },
+    {
+      "test": "Rapid pointer solution wins across box changes and slot refills",
+      "pass": true
+    },
+    {
+      "test": "Changing level immediately clears concurrent flying items",
+      "pass": true
+    },
+    {
+      "test": "Old flights cannot change counters or survive on the next map",
+      "pass": true
+    },
+    {
+      "test": "room_001 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_001 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_001 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_001 actual room texture retains source aspect and full UVs",
+      "pass": true
+    },
+    {
+      "test": "room_001 zoom and extreme drags never stretch background",
+      "pass": true
+    },
+    {
+      "test": "room_002 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_002 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_002 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_002 actual room texture retains source aspect and full UVs",
+      "pass": true
+    },
+    {
+      "test": "room_002 zoom and extreme drags never stretch background",
+      "pass": true
+    },
+    {
+      "test": "room_003 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_003 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_003 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_003 actual room texture retains source aspect and full UVs",
+      "pass": true
+    },
+    {
+      "test": "room_003 zoom and extreme drags never stretch background",
+      "pass": true
+    },
+    {
+      "test": "room_004 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_004 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_004 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_005 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_005 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_005 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_006 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_006 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_006 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_007 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_007 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_007 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_008 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_008 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_008 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_009 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_009 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_009 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_010 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_010 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_010 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_011 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_011 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_011 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_012 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_012 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_012 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_013 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_013 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_013 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_014 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_014 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_014 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_015 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_015 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_015 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_016 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_016 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_016 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_017 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_017 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_017 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_018 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_018 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_018 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_019 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_019 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_019 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_020 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_020 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_020 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_021 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_021 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_021 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_022 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_022 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_022 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_023 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_023 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_023 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_024 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_024 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_024 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_025 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_025 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_025 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_026 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_026 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_026 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_027 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_027 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_027 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_028 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_028 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_028 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_029 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_029 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_029 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_030 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_030 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_030 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_031 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_031 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_031 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_032 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_032 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_032 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_033 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_033 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_033 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_034 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_034 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_034 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_035 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_035 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_035 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_036 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_036 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_036 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_037 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_037 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_037 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_038 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_038 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_038 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_039 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_039 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_039 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_040 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_040 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_040 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_041 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_041 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_041 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_042 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_042 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_042 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_043 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_043 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_043 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_044 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_044 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_044 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_045 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_045 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_045 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_046 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_046 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_046 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_047 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_047 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_047 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_048 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_048 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_048 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_049 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_049 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_049 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_050 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_050 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_050 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_051 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_051 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_051 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_052 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_052 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_052 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_053 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_053 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_053 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_054 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_054 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_054 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_055 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_055 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_055 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_056 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_056 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_056 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_057 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_057 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_057 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_058 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_058 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_058 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_059 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_059 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_059 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_060 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_060 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_060 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_061 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_061 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_061 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_062 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_062 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_062 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_063 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_063 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_063 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_064 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_064 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_064 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_065 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_065 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_065 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_066 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_066 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_066 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_067 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_067 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_067 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_067 actual room texture retains source aspect and full UVs",
+      "pass": true
+    },
+    {
+      "test": "room_067 zoom and extreme drags never stretch background",
+      "pass": true
+    },
+    {
+      "test": "room_068 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_068 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_068 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_069 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_069 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_069 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_070 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_070 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_070 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_071 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_071 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_071 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_072 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_072 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_072 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_073 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_073 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_073 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_074 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_074 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_074 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_075 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_075 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_075 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_076 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_076 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_076 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_077 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_077 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_077 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_078 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_078 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_078 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_079 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_079 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_079 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_080 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_080 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_080 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_081 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_081 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_081 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_082 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_082 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_082 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_083 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_083 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_083 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_084 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_084 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_084 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_085 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_085 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_085 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_086 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_086 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_086 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_087 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_087 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_087 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_088 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_088 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_088 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_089 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_089 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_089 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_090 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_090 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_090 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_091 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_091 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_091 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_092 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_092 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_092 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_093 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_093 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_093 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_094 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_094 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_094 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_095 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_095 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_095 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_096 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_096 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_096 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_097 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_097 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_097 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_098 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_098 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_098 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_099 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_099 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_099 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_100 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_100 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_100 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_101 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_101 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_101 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_102 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_102 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_102 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_103 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_103 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_103 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_104 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_104 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_104 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_105 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_105 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_105 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_106 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_106 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_106 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_107 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_107 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_107 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_108 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_108 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_108 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_109 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_109 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_109 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_110 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_110 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_110 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_111 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_111 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_111 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_112 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_112 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_112 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_113 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_113 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_113 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_114 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_114 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_114 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_115 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_115 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_115 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_116 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_116 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_116 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_117 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_117 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_117 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_118 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_118 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_118 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_119 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_119 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_119 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_120 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_120 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_120 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_121 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_121 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_121 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_122 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_122 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_122 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_123 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_123 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_123 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_124 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_124 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_124 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_125 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_125 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_125 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_126 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_126 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_126 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_127 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_127 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_127 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_128 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_128 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_128 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_129 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_129 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_129 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_130 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_130 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_130 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_130 actual room texture retains source aspect and full UVs",
+      "pass": true
+    },
+    {
+      "test": "room_130 zoom and extreme drags never stretch background",
+      "pass": true
+    },
+    {
+      "test": "ladder_b_v1_2 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "ladder_b_v1_2 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "ladder_b_v1_2 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "ladder_b_v1_3 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "ladder_b_v1_3 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "ladder_b_v1_3 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "ladder_c_v1_2 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "ladder_c_v1_2 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "ladder_c_v1_2 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "ladder_c_v1_3 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "ladder_c_v1_3 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "ladder_c_v1_3 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "ladder_b_v2_2 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "ladder_b_v2_2 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "ladder_b_v2_2 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "ladder_b_v2_3 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "ladder_b_v2_3 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "ladder_b_v2_3 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "ladder_c_v2_2 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "ladder_c_v2_2 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "ladder_c_v2_2 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "ladder_c_v2_3 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "ladder_c_v2_3 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "ladder_c_v2_3 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "room_tissue_001 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "room_tissue_001 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "room_tissue_001 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_001 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_001 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_001 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_001 actual room texture retains source aspect and full UVs",
+      "pass": true
+    },
+    {
+      "test": "happy_001 zoom and extreme drags never stretch background",
+      "pass": true
+    },
+    {
+      "test": "happy_002 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_002 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_002 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_003 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_003 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_003 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_004 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_004 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_004 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_005 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_005 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_005 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_006 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_006 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_006 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_007 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_007 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_007 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_008 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_008 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_008 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_009 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_009 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_009 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_010 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_010 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_010 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_011 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_011 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_011 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_012 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_012 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_012 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_013 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_013 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_013 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_014 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_014 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_014 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_015 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_015 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_015 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_016 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_016 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_016 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_017 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_017 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_017 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_018 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_018 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_018 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_019 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_019 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_019 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_020 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_020 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_020 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_021 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_021 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_021 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_022 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_022 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_022 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_023 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_023 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_023 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_024 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_024 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_024 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_025 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_025 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_025 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_026 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_026 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_026 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_027 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_027 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_027 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_028 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_028 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_028 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_029 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_029 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_029 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_030 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_030 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_030 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_031 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_031 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_031 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_032 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_032 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_032 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_033 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_033 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_033 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_034 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_034 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_034 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_035 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_035 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_035 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_036 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_036 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_036 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_037 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_037 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_037 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_038 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_038 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_038 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_039 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_039 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_039 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_040 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_040 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_040 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_041 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_041 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_041 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_042 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_042 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_042 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_043 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_043 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_043 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_044 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_044 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_044 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_045 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_045 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_045 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_046 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_046 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_046 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_047 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_047 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_047 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_048 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_048 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_048 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_049 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_049 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_049 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_050 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_050 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_050 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_051 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_051 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_051 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_052 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_052 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_052 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_053 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_053 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_053 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_054 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_054 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_054 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_055 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_055 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_055 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_056 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_056 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_056 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_057 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_057 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_057 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_058 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_058 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_058 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_059 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_059 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_059 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_060 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_060 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_060 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_061 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_061 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_061 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_062 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_062 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_062 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_063 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_063 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_063 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_064 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_064 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_064 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_065 default background decodes",
+      "pass": true
+    },
+    {
+      "test": "happy_065 all item edges reachable between HUD and footer at pan limits",
+      "pass": true
+    },
+    {
+      "test": "happy_065 room spans phone dimensions at original aspect",
+      "pass": true
+    },
+    {
+      "test": "happy_065 actual room texture retains source aspect and full UVs",
+      "pass": true
+    },
+    {
+      "test": "happy_065 zoom and extreme drags never stretch background",
+      "pass": true
+    }
+  ]
+}

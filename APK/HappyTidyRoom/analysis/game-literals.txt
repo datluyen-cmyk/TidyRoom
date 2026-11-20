@@ -1,0 +1,235 @@
+398:  on non-Android runtime
+511: " which is readonly at runtime and can be modified only through Project Settings. The value provided as initialization option will be ignored. Please update InitializationOptions in order to remove this warning.
+522: "timestamp"\s*:\s*"([^"]+)"
+728: ' suddenly changed optimization state due to either format 
+823: 'timeStampAndCrls' cannot be null, or contain null
+1425: /configuration/system.runtime.remoting
+1429: /etc/localtime
+2763: <time>#
+2829: A Unity Runtime error occurred!
+2846: A different Id has already been assigned for value '{0}'. This error may be caused by an object being reused multiple times during deserialization and can be fixed with the setting ObjectCreationHandling.Replace.
+2870: A time zone was specified. SqlDateTime does not support time zones.
+3189: An object that does not derive from System.Exception has been wrapped in a RuntimeWrappedException.
+3234: AppDomain data '{0}' contains an invalid value or object for specifying a default matching timeout for System.Text.RegularExpressions.Regex.
+3739: Bounding Box Follower not valid! Slot [
+3740: Bounding Box Follower tried to rebuild as a prefab.
+3741: BoundingBoxFollower tried to follow a slot that contains non-boundingbox attachments: 
+3742: BoundingBoxFollower tried to match a non-boundingbox attachment. It will treat it as null.
+3743: BoundingBoxFollowerGraphic tried to follow a slot that contains non-boundingbox attachments: 
+3744: BoundingBoxFollowerGraphic tried to match a non-boundingbox attachment. It will treat it as null.
+3754: Box of Tissues
+4056: Can only unbox from an object or interface type to a value type.
+4066: Can't get timezone name.
+4131: Cannot assign to a group in a different timeline
+4211: Cannot create boxed TypedReference, ArgIterator, or RuntimeArgumentHandle Objects.
+4216: Cannot delete a clip from this timeline
+4338: Cannot queue state event for control '{0}' on device '{1}' because device has not been added to system
+4339: Cannot queue state event for device '{0}' because device has not been added to system
+4736: Common Language Runtime detected an invalid program.
+4787: Connection timed out
+4792: Constant-time lookup not supported
+4824: ContentInfo object not for a time stamp.
+4994: Could not validate time of certificate.
+5553: Done loading scene, time load: 
+5584: Due time too large
+5600: Duplicate order requested for confirmation. Please refrain from passing the same `PendingOrder` multiple times.
+5785: Either the IAsyncResult object did not come from the corresponding async method on this type, or EndRead was called multiple times with the same IAsyncResult.
+5786: Either the IAsyncResult object did not come from the corresponding async method on this type, or EndWrite was called multiple times with the same IAsyncResult.
+5787: Either the IAsyncResult object did not come from the corresponding async method on this type, or the End method was called multiple times with the same IAsyncResult.
+5951: Error events are ideal for capturing run-time bugs and exceptions.
+5954: Error generating time-stamp token
+6093: ExecuteTask may not be called for a task which was previously queued to a different TaskScheduler.
+6172: Expiration time is unassigned
+6204: ExtendedKeyUsage not solely time stamping.
+6476: FieldInfo must be a runtime FieldInfo object.
+6493: Fill a box instantly!
+6530: Firebase.Storage.FirebaseStorage, Firebase.Storage
+6771: Game time: {0:yyyy-MM-dd HH:mm:ss}
+
+6866: GetRuntimeVariables
+7103: Handshake timed out
+7141: Heartbeat timed out
+7271: ICU Data not available. The data should be automatically assigned to the PanelSettings in the editor if the advanced text option is enable in the project settings. It will not be present on PanelSettings created at runtime, so make sure the build contains at least one PanelSettings asset
+7620: Insufficient Storage
+7662: Internal error in the runtime.
+7672: Interstitial blocked by rw_int_time cooldown after rewarded ad
+7824: Invalid date time handling value.
+7931: Invalid storage type: {0}.
+7939: Invalid time unit: 
+7940: Invalid time value
+7941: Invalid time value assigned
+7942: Invalid time value: 
+7943: Invalid timeline type for a bone: 
+7944: Invalid timeline type for a slot: 
+8351: Khong tim thay default config cho new_sdk_v4_configs trong RemoteConfig/RemoteConfigData.
+8405: LV_RW_revive
+8471: LegacyRuntime
+8472: LegacyRuntime.ttf
+8572: LocalDataStoreSlot storage has been freed.
+8829: Maximum number of queued events exceeded. Set the 'maxQueuedEventsPerUpdate' setting to a higher value if you need to queue more events than this. 
+8926: Microsoft.CSharp.RuntimeBinder.Binder, Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+8927: Microsoft.CSharp.RuntimeBinder.CSharpArgumentInfo, Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+8928: Microsoft.CSharp.RuntimeBinder.CSharpArgumentInfoFlags, Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+8929: Microsoft.CSharp.RuntimeBinder.CSharpBinderFlags, Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+9281: No box can be filled
+9359: No valid CRL for current time found.
+9729: One tidy shelf at a time. You’re doing great, come back!
+10036: Package registration has been locked. Make sure to register service packages in[RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)].
+10454: Provided range for time one exceeds total of 14 hours.
+10519: Queue empty.
+10520: Queue grow factor must be between {0} and {1}.
+10521: QueueOrCreateDataConection
+10676: Real time: {0:yyyy-MM-dd HH:mm:ss}  ({1})
+
+10759: Remote data loaded and ready (last fetch time {0}).
+10769: Removal is an invalid operation for Stack or Queue.
+10807: Request rate limited. Could not retrieve wait time.
+10838: Resource events track virtually anything representing currency (Gold, Gems, Coins). Currencies and item types must be configured in settings.
+10861: Revive and clear the holding tray!
+10920: Runtime cursors other than the default cursor need to be defined using a texture.
+10921: RuntimePanel
+11706: Skeleton data could not be loaded. Data version: {0}. Required version: {1}.
+Please re-export skeleton data with Spine {1} or change runtime to version {2}.{3}.
+11804: Specified time is not supported in this calendar. It should be between {0} (Gregorian date) and {1} (Gregorian date), inclusive.
+11830: SpriteSilhouette (runtime)
+11899: Storage_Action
+11900: Storage_idle
+12058: System.Collections.Concurrent.ConcurrentQueue`1
+12063: System.Collections.Immutable.IImmutableQueue`1
+12074: System.Collections.Immutable.ImmutableQueue
+12075: System.Collections.Immutable.ImmutableQueue`1
+12106: System.Runtime.CompilerServices.IsByRefLikeAttribute
+12293: Tap a locked box to add one more!
+12294: Tap items that MATCH a box to tidy up!
+12412: The DataSet Xml persistency does not support the value '{0}' as Char value, please use Byte storage instead.
+12475: The NeutralResourcesLanguageAttribute specifies an invalid or unrecognized ultimate resource fallback location: "{0}".
+12488: The RegEx engine has timed out while trying to match a pattern to an input string. This can occur for many reasons, including very large inputs or excessive backtracking caused by nested quantifiers, back-references and other factors.
+12515: The UTC time represented when the offset is applied must be between year 0 and 10,000.
+12587: The conversion could not be completed because the supplied DateTime did not have the Kind property set correctly.  For example, when the Kind property is DateTimeKind.Local, the source time zone must be TimeZoneInfo.Local.
+12748: The object is owned by Unity runtime, you shouldn't call Dispose on it.
+12755: The operation has timed out.
+12787: The property renderPipelineShaderTag has not been overridden. At build time, any shader variants that use any RenderPipeline tag will be stripped.
+12891: The supplied DateTime must have the Year, Month, and Day properties set to 1.  The time cannot be specified more precisely than whole milliseconds.
+12892: The supplied DateTime represents an invalid time.  For example, when the clock is adjusted forward, any time in the period that is skipped is invalid.
+12914: The time source is not available.
+12915: The time zone offset must be within plus or minus 14 hours.
+12916: The timeout must be a value between -1 and Int32.MaxValue, inclusive.
+12917: The timeout must represent a value between -1 and Int32.MaxValue, inclusive.
+12966: The value needs to be either -1 (signifying an infinite timeout), 0 or a positive integer.
+13149: Tidy time, sweetie! 💖
+13222: TopBar/CoinBar
+13300: TransitionHole (runtime)
+13364: TutorialSpotlight (runtime)
+13405: Type must be a runtime Type object.
+13406: Type must be a type provided by the runtime.
+13474: UIElementsRuntimeUtility.DoDispatch(Repaint Event)
+13495: UIR.ShaderInfoStorage.CopyTexture
+13496: UIR.ShaderInfoStorage.GetTextureData
+13497: UIR.ShaderInfoStorage.UpdateTexture
+13772: UnityEngine.PolygonCollider2D does not support weighted or animated points. Collider points will not be animated and may have incorrect orientation. If you want to use it as a collider, please remove weights and animations from the bounding box in Spine editor.
+13787: UnityWebRequest has already been sent; cannot modify the timeout
+13801: Unknown S-Box - possible types: "Default", "E-Test", "E-A", "E-B", "E-C", "E-D", "D-Test", "D-A".
+13821: Unknown hash algorithm specified in timestamp
+13912: Update Runtime Bindings
+14052: Validation time is in future.
+14228: When removing the first head command, the command before this one in the queue should belong to an other parent
+14361: Xbox 
+14480: [ none | <single-transition-property> ] || <time> || <easing-function> || <time>
+14523: [HappyTidy] 
+14524: [HappyTidy] GestureHint: không có anim "
+14525: [HappyTidy] Hết vật nhưng còn đơn chưa xong — order của level không khớp content
+14526: [HappyTidy] In-App Review lỗi → mở store. 
+14527: [HappyTidy] Không có Resources/{0}/level_{1}.json — dùng level_1
+14528: [HappyTidy] Không thấy shader Resources/Shaders/TutorialSpotlight — tutorial sẽ không có lỗ sáng
+14529: [HappyTidy] Level thiếu ảnh đồ vật: 
+14530: [HappyTidy] Level {0} -> thứ tự {1} -> {2}
+14531: [HappyTidy] Max peel layer = {0} ({1} items)
+14532: [HappyTidy] Vacuum: không có bone "
+14533: [HappyTidy] interval_ad_option JSON lỗi: 
+14534: [HappyTidy] toast: 
+14566: [NewSDKV4] [Inter] blocked by rw_int_time cooldown after rewarded ad
+14601: [TrustTime] Server time ({0}) {1:O}; nhảy {2:+0.0;-0.0}s; giờ máy lệch {3:+0;-0}s
+14615: [UI Toolkit] Internal group box error. Expected a radio button element. Please report this using Help -> Report a bug...
+14701: ] does not contain any Bounding Box Attachments!
+14717: ]. Please make sure all types are declared ahead of time using [GeneratePropertyBagAttribute], [GeneratePropertyBagsForTypeAttribute] or [GeneratePropertyBagsForTypesQualifiedWithAttribute]
+15162: af_inters_displayed_times
+15163: af_inters_displayed_{0}_times
+15400: attempt to absorb with odd length queue
+15840: cannot parse time stamp
+15911: certificate not valid when time stamp created.
+16048: coin
+16049: coin_start
+16621: deactivation_time
+16666: dequeue_query_products_time
+16667: dequeue_query_purchases_time
+16914: elapsedRealtime
+17017: end_time
+17160: expiration_timestamp
+17239: failed to construct UTC time from byte[]: 
+17245: failed to construct generalized time from byte[]: 
+17423: free_coin
+17976: id={0} type={1} device={2} size={3} time={4}
+18021: imp_timestamp
+18175: interstitial_timeout
+18205: invalid S-box passed to GOST28147 init
+18334: isIgnoringBatteryOptimizations
+18716: level_win_multi_coin
+18719: lifetime
+18753: linear | <timing-function>
+18788: load_time
+18807: localtime
+18903: malformed timestamp response: 
+19348: no signing certificate attribute found, time stamp invalid.
+19351: no time stamp token found and one expected.
+19715: package_init_time
+19724: padding-box | content-box
+19832: period_end_time
+19833: period_start_time
+20095: purchase_time
+20131: queue
+20226: remaining_time_in_seconds
+20324: revive
+20325: revive_cancel
+20326: revive_coin
+20327: revive_level
+20328: revive_next
+20329: revive_used
+20330: revive_view
+20341: reward_timeout
+20426: runtime
+20429: rw_int_time
+20603: sequence_time
+20839: shaderRuntimeInfo
+20908: show_time
+20949: signed_certificate_timestamp
+20954: signing-time
+20955: signing-time attribute value not a valid 'Time' structure
+21174: storage
+21288: system.runtime.remoting
+21435: this hinders control hot path optimization, please call control.ApplyParameterChanges() after the changes to the control to fix this error.
+21450: time
+21451: time stamp token found in failed request.
+21452: time.tz
+21453: timeInterval
+21454: timeOfDay
+21455: timePeriod
+21456: timeStamp
+21457: timeStampAndCrl
+21458: timeString
+21459: time_in_app
+21460: time_in_app_no_ads
+21461: timelines
+21462: timelines cannot be null.
+21463: timeout
+21464: timeoutMillis
+21465: timeoutTicks
+21466: timing-function
+21589: transition-timing-function
+21616: trust_time_debug_offset
+21617: trust_time_v1
+21889: unity.installation_timestamp
+21890: unity.installation_timestamp,
+22738: {{ action={0} phase={1} time={2} control={3} value={4} interaction={5} duration={6} }}
+22739: {{ action={0} phase={1} time={2} control={3} value={4} interaction={5} }}
+22740: {{ control={0} value={1} time={2} }}
+22745: {{id={0} finger={1} phase={2} position={3} delta={4} time={5}}}

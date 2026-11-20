@@ -1,0 +1,13 @@
+import fs from 'node:fs/promises';
+import {fit,signature,hash} from './studio.js';
+const root=new URL('./data/',import.meta.url);
+const ref=JSON.parse(await fs.readFile(new URL('references.json',root),'utf8'));
+if(Object.keys(ref.odds).length!==59)throw Error('Expected 59 packaged labels');
+const model=fit(ref);
+model.fingerprints=ref.levels.map(l=>signature(l,ref.shapes));
+model.rulesHash=hash(await fs.readFile(new URL('./core/game.js',import.meta.url),'utf8'));
+model.adapterHash=hash(await fs.readFile(new URL('./studio.js',import.meta.url),'utf8'));
+model.geometryHash=hash(await fs.readFile(new URL('./core/geometry.js',import.meta.url),'utf8'));
+model.rulesConfigHash=hash(await fs.readFile(new URL('./core/rules.js',import.meta.url),'utf8'));
+await fs.writeFile(new URL('model.json',root),JSON.stringify(model));
+console.log(JSON.stringify({...model.validation,folds:undefined},null,2));

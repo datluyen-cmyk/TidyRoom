@@ -1,0 +1,2497 @@
+{
+    "bgPosX": 0.0,
+    "bg": "HT_BG_42",
+    "levelName": "42",
+    "order": [
+        {
+            "type": 65004,
+            "count": 5,
+            "box": 6688,
+            "diff": 0
+        },
+        {
+            "type": 49001,
+            "count": 3,
+            "box": 6689,
+            "diff": 0
+        },
+        {
+            "type": 65001,
+            "count": 4,
+            "box": 6690,
+            "diff": 0
+        },
+        {
+            "type": 41046,
+            "count": 4,
+            "box": 6691,
+            "diff": 0
+        },
+        {
+            "type": 35003,
+            "count": 3,
+            "box": 6692,
+            "diff": 0
+        },
+        {
+            "type": 65002,
+            "count": 5,
+            "box": 6693,
+            "diff": 0
+        },
+        {
+            "type": 58003,
+            "count": 5,
+            "box": 6694,
+            "diff": 0
+        },
+        {
+            "type": 38004,
+            "count": 4,
+            "box": 6695,
+            "diff": 0
+        },
+        {
+            "type": 41008,
+            "count": 4,
+            "box": 6696,
+            "diff": 0
+        },
+        {
+            "type": 41003,
+            "count": 5,
+            "box": 6697,
+            "diff": 0
+        },
+        {
+            "type": 41008,
+            "count": 3,
+            "box": 6698,
+            "diff": 0
+        },
+        {
+            "type": 41028,
+            "count": 4,
+            "box": 6699,
+            "diff": 0
+        },
+        {
+            "type": 38004,
+            "count": 5,
+            "box": 6700,
+            "diff": 0
+        },
+        {
+            "type": 65003,
+            "count": 3,
+            "box": 6701,
+            "diff": 0
+        },
+        {
+            "type": 41028,
+            "count": 5,
+            "box": 6702,
+            "diff": 0
+        },
+        {
+            "type": 41022,
+            "count": 5,
+            "box": 6703,
+            "diff": 0
+        },
+        {
+            "type": 35003,
+            "count": 5,
+            "box": 6704,
+            "diff": 0
+        },
+        {
+            "type": 49001,
+            "count": 3,
+            "box": 6705,
+            "diff": 0
+        },
+        {
+            "type": 41046,
+            "count": 4,
+            "box": 6706,
+            "diff": 0
+        },
+        {
+            "type": 65002,
+            "count": 4,
+            "box": 6707,
+            "diff": 1
+        },
+        {
+            "type": 65001,
+            "count": 5,
+            "box": 6708,
+            "diff": 0
+        },
+        {
+            "type": 65004,
+            "count": 4,
+            "box": 6709,
+            "diff": 1
+        },
+        {
+            "type": 65003,
+            "count": 5,
+            "box": 6710,
+            "diff": 0
+        },
+        {
+            "type": 65006,
+            "count": 3,
+            "box": 6711,
+            "diff": 1
+        },
+        {
+            "type": 58003,
+            "count": 4,
+            "box": 6712,
+            "diff": 0
+        },
+        {
+            "type": 41003,
+            "count": 4,
+            "box": 6713,
+            "diff": 1
+        },
+        {
+            "type": 65004,
+            "count": 3,
+            "box": 6714,
+            "diff": 0
+        },
+        {
+            "type": 41025,
+            "count": 3,
+            "box": 6715,
+            "diff": 1
+        },
+        {
+            "type": 41033,
+            "count": 5,
+            "box": 6716,
+            "diff": 0
+        },
+        {
+            "type": 41006,
+            "count": 3,
+            "box": 6717,
+            "diff": 0
+        },
+        {
+            "type": 65001,
+            "count": 4,
+            "box": 6718,
+            "diff": 0
+        },
+        {
+            "type": 65003,
+            "count": 3,
+            "box": 6719,
+            "diff": 0
+        },
+        {
+            "type": 58003,
+            "count": 3,
+            "box": 6720,
+            "diff": 0
+        },
+        {
+            "type": 41022,
+            "count": 4,
+            "box": 6721,
+            "diff": 0
+        },
+        {
+            "type": 41033,
+            "count": 4,
+            "box": 6722,
+            "diff": 0
+        }
+    ],
+    "content": [
+        {
+            "id": "LongDress_3",
+            "x": -335.0,
+            "y": -816.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": -26.0,
+            "box": 6722
+        },
+        {
+            "id": "LongDress_9",
+            "x": 670.0,
+            "y": -753.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 20.0,
+            "box": 6722
+        },
+        {
+            "id": "LongDress_10",
+            "x": 333.0,
+            "y": -545.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": -19.0,
+            "box": 6722
+        },
+        {
+            "id": "LongDress_11",
+            "x": 286.0,
+            "y": 376.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 0.800000011920929,
+            "box": 6722
+        },
+        {
+            "id": "Paring_16",
+            "x": 759.0,
+            "y": -256.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": -5.0,
+            "box": 6721
+        },
+        {
+            "id": "Paring_5",
+            "x": -90.0,
+            "y": -900.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": -20.0,
+            "box": 6721
+        },
+        {
+            "id": "Paring_7",
+            "x": -466.0,
+            "y": -936.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": 4.0,
+            "box": 6721
+        },
+        {
+            "id": "Paring_9",
+            "x": -267.0,
+            "y": -56.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 12.0,
+            "box": 6721
+        },
+        {
+            "id": "Music_Box_3",
+            "x": -781.0,
+            "y": -535.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": -2.0,
+            "box": 6720
+        },
+        {
+            "id": "Music_Box_1",
+            "x": 638.0,
+            "y": -531.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": -30.0,
+            "box": 6720
+        },
+        {
+            "id": "Music_Box_2",
+            "x": -689.0,
+            "y": -912.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": 30.0,
+            "box": 6720
+        },
+        {
+            "id": "Music_Record_8",
+            "x": -57.0,
+            "y": -171.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 21.0,
+            "box": 6719
+        },
+        {
+            "id": "Music_Record_3",
+            "x": 697.0,
+            "y": -744.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": -0.30000001192092898,
+            "box": 6719
+        },
+        {
+            "id": "Music_Record_7",
+            "x": 135.0,
+            "y": -898.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": -20.0,
+            "box": 6719
+        },
+        {
+            "id": "Micro_1",
+            "x": -610.0,
+            "y": -710.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": 13.0,
+            "box": 6718
+        },
+        {
+            "id": "Micro_4",
+            "x": -177.0,
+            "y": -37.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": 91.80000305175781,
+            "box": 6718
+        },
+        {
+            "id": "Micro_3",
+            "x": 359.0,
+            "y": -653.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": -19.0,
+            "box": 6718
+        },
+        {
+            "id": "Micro_2",
+            "x": -539.0,
+            "y": -454.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 15.0,
+            "box": 6718
+        },
+        {
+            "id": "Paper_Napkin_8",
+            "x": 402.0,
+            "y": -390.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": 28.0,
+            "box": 6717
+        },
+        {
+            "id": "Paper_Napkin_3",
+            "x": -79.0,
+            "y": -6.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 68.30000305175781,
+            "box": 6717
+        },
+        {
+            "id": "Tissue_7",
+            "x": -579.0,
+            "y": -912.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": -28.0,
+            "box": 6717
+        },
+        {
+            "id": "LongDress_1",
+            "x": -122.0,
+            "y": -386.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": 14.0,
+            "box": 6716
+        },
+        {
+            "id": "LongDress_2",
+            "x": 315.0,
+            "y": -824.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": 7.0,
+            "box": 6716
+        },
+        {
+            "id": "LongDress_4",
+            "x": 557.0,
+            "y": -381.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": 5.0,
+            "box": 6716
+        },
+        {
+            "id": "HandBag_12",
+            "x": -443.0,
+            "y": 287.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 119.0,
+            "box": 6715
+        },
+        {
+            "id": "LongDress_6",
+            "x": -259.0,
+            "y": 224.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 9.0,
+            "box": 6716
+        },
+        {
+            "id": "LongDress_7",
+            "x": 617.0,
+            "y": 227.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 4.400000095367432,
+            "box": 6716
+        },
+        {
+            "id": "HandBag_13",
+            "x": -24.0,
+            "y": -939.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": 146.89999389648438,
+            "box": 6715
+        },
+        {
+            "id": "HandBag_17",
+            "x": -338.0,
+            "y": -878.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": 117.0,
+            "box": 6715
+        },
+        {
+            "id": "Speaker_4",
+            "x": 855.0,
+            "y": -474.0,
+            "scaleX": -0.8299999833106995,
+            "scaleY": 0.8299999833106995,
+            "angle": 103.0999984741211,
+            "box": 6713
+        },
+        {
+            "id": "Music_Trophy_5",
+            "x": 844.0,
+            "y": -478.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 13.0,
+            "box": 6714
+        },
+        {
+            "id": "Music_Trophy_6",
+            "x": 607.0,
+            "y": -836.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 15.0,
+            "box": 6714
+        },
+        {
+            "id": "Music_Trophy_2",
+            "x": -881.0,
+            "y": -216.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": -119.19999694824219,
+            "box": 6714
+        },
+        {
+            "id": "Speaker_2",
+            "x": 378.0,
+            "y": -611.0,
+            "scaleX": 0.8299999833106995,
+            "scaleY": 0.8299999833106995,
+            "angle": 23.0,
+            "box": 6713
+        },
+        {
+            "id": "Speaker_5",
+            "x": 284.0,
+            "y": -859.0,
+            "scaleX": -0.8299999833106995,
+            "scaleY": 0.8299999833106995,
+            "angle": -17.0,
+            "box": 6713
+        },
+        {
+            "id": "Speaker_7",
+            "x": 62.0,
+            "y": -112.0,
+            "scaleX": 0.8299999833106995,
+            "scaleY": 0.8299999833106995,
+            "angle": -128.0,
+            "box": 6713
+        },
+        {
+            "id": "Music_Box_4",
+            "x": -84.0,
+            "y": -194.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 20.0,
+            "box": 6712
+        },
+        {
+            "id": "Music_Box_2",
+            "x": -63.0,
+            "y": 138.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": -11.800000190734864,
+            "box": 6712
+        },
+        {
+            "id": "Recording_Equipment_7",
+            "x": 170.0,
+            "y": 60.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 1.399999976158142,
+            "box": 6711
+        },
+        {
+            "id": "Music_Box_3",
+            "x": 243.0,
+            "y": 34.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": -15.0,
+            "box": 6712
+        },
+        {
+            "id": "Music_Box_1",
+            "x": 574.0,
+            "y": 479.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": -20.0,
+            "box": 6712
+        },
+        {
+            "id": "Music_Trophy_4",
+            "x": 447.0,
+            "y": -165.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": 16.0,
+            "box": 6709
+        },
+        {
+            "id": "Recording_Equipment_8",
+            "x": 384.0,
+            "y": -169.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 1.0,
+            "box": 6711
+        },
+        {
+            "id": "Recording_Equipment_6",
+            "x": 829.0,
+            "y": -366.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 4.699999809265137,
+            "box": 6711
+        },
+        {
+            "id": "Music_Record_6",
+            "x": -352.0,
+            "y": -933.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": -6.0,
+            "box": 6710
+        },
+        {
+            "id": "Music_Record_10",
+            "x": 350.0,
+            "y": -264.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": 1.0,
+            "box": 6710
+        },
+        {
+            "id": "Music_Record_5",
+            "x": 402.0,
+            "y": -845.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 12.0,
+            "box": 6710
+        },
+        {
+            "id": "Music_Record_4",
+            "x": -870.0,
+            "y": -502.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": -20.0,
+            "box": 6710
+        },
+        {
+            "id": "Music_Record_1",
+            "x": -511.0,
+            "y": -526.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": 93.0,
+            "box": 6710
+        },
+        {
+            "id": "Music_Book_2",
+            "x": -110.0,
+            "y": -698.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": 5.0,
+            "box": 6707
+        },
+        {
+            "id": "Music_Trophy_7",
+            "x": -156.0,
+            "y": -607.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 19.0,
+            "box": 6709
+        },
+        {
+            "id": "Music_Trophy_8",
+            "x": 879.0,
+            "y": -207.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": -9.0,
+            "box": 6709
+        },
+        {
+            "id": "Music_Trophy_1",
+            "x": 341.0,
+            "y": -436.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": -7.0,
+            "box": 6709
+        },
+        {
+            "id": "Micro_5",
+            "x": -146.0,
+            "y": -832.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": -9.0,
+            "box": 6708
+        },
+        {
+            "id": "Micro_6",
+            "x": 425.0,
+            "y": -700.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": -2.0,
+            "box": 6708
+        },
+        {
+            "id": "Micro_7",
+            "x": 660.0,
+            "y": -270.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": -1.0,
+            "box": 6708
+        },
+        {
+            "id": "Micro_1",
+            "x": 792.0,
+            "y": -643.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": 6.0,
+            "box": 6708
+        },
+        {
+            "id": "Micro_3",
+            "x": 119.0,
+            "y": -149.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 27.0,
+            "box": 6708
+        },
+        {
+            "id": "Music_Book_9",
+            "x": -566.0,
+            "y": -139.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 13.0,
+            "box": 6707
+        },
+        {
+            "id": "Music_Book_8",
+            "x": -663.0,
+            "y": -704.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 7.0,
+            "box": 6707
+        },
+        {
+            "id": "Music_Book_7",
+            "x": 622.0,
+            "y": -860.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": -12.0,
+            "box": 6707
+        },
+        {
+            "id": "Pillow_2",
+            "x": 434.0,
+            "y": -503.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": 6.0,
+            "box": 6706
+        },
+        {
+            "id": "Pillow_12",
+            "x": 31.0,
+            "y": 117.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": 16.0,
+            "box": 6706
+        },
+        {
+            "id": "Pillow_14",
+            "x": 568.0,
+            "y": -234.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 16.0,
+            "box": 6706
+        },
+        {
+            "id": "Pillow_3",
+            "x": 211.0,
+            "y": -829.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": -27.0,
+            "box": 6706
+        },
+        {
+            "id": "MusicalInstrument_2",
+            "x": -627.0,
+            "y": -338.0,
+            "scaleX": -0.8600000143051148,
+            "scaleY": 0.8600000143051148,
+            "angle": -86.5999984741211,
+            "box": 6705
+        },
+        {
+            "id": "MusicalInstrument_14",
+            "x": -267.0,
+            "y": 91.0,
+            "scaleX": 0.8600000143051148,
+            "scaleY": 0.8600000143051148,
+            "angle": 100.69999694824219,
+            "box": 6705
+        },
+        {
+            "id": "MusicalInstrument_8",
+            "x": -195.0,
+            "y": -158.0,
+            "scaleX": -0.8600000143051148,
+            "scaleY": 0.8600000143051148,
+            "angle": -96.9000015258789,
+            "box": 6705
+        },
+        {
+            "id": "Chocolate_6",
+            "x": -580.0,
+            "y": -601.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": -7.0,
+            "box": 6704
+        },
+        {
+            "id": "Chocolate_9",
+            "x": 433.0,
+            "y": -828.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": 16.0,
+            "box": 6704
+        },
+        {
+            "id": "Chocolate_7",
+            "x": -314.0,
+            "y": -671.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": -128.1999969482422,
+            "box": 6704
+        },
+        {
+            "id": "Chocolate_8",
+            "x": -575.0,
+            "y": -1000.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": -126.5999984741211,
+            "box": 6704
+        },
+        {
+            "id": "Chocolate_5",
+            "x": 902.0,
+            "y": -625.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": -10.300000190734864,
+            "box": 6704
+        },
+        {
+            "id": "Paring_8",
+            "x": 647.0,
+            "y": -681.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": -5.0,
+            "box": 6703
+        },
+        {
+            "id": "Paring_11",
+            "x": 651.0,
+            "y": -72.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": -13.0,
+            "box": 6703
+        },
+        {
+            "id": "Paring_3",
+            "x": 259.0,
+            "y": -787.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 3.0,
+            "box": 6703
+        },
+        {
+            "id": "Paring_1",
+            "x": -383.0,
+            "y": -765.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": 11.0,
+            "box": 6703
+        },
+        {
+            "id": "Paring_2",
+            "x": -592.0,
+            "y": -278.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": -6.199999809265137,
+            "box": 6703
+        },
+        {
+            "id": "Headphones_2",
+            "x": -28.0,
+            "y": -696.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 20.0,
+            "box": 6702
+        },
+        {
+            "id": "Headphones_4",
+            "x": 270.0,
+            "y": -570.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 24.0,
+            "box": 6702
+        },
+        {
+            "id": "Headphones_5",
+            "x": 549.0,
+            "y": -528.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": 29.0,
+            "box": 6702
+        },
+        {
+            "id": "Headphones_3",
+            "x": -574.0,
+            "y": -682.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 2.0,
+            "box": 6702
+        },
+        {
+            "id": "Headphones_1",
+            "x": 885.0,
+            "y": -302.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": -2.0,
+            "box": 6702
+        },
+        {
+            "id": "Music_Record_9",
+            "x": 407.0,
+            "y": -566.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": 30.0,
+            "box": 6701
+        },
+        {
+            "id": "Music_Record_2",
+            "x": -540.0,
+            "y": -717.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 4.0,
+            "box": 6701
+        },
+        {
+            "id": "Music_Record_8",
+            "x": 841.0,
+            "y": -140.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": -0.8999999761581421,
+            "box": 6701
+        },
+        {
+            "id": "Eyeglasses_3",
+            "x": -26.0,
+            "y": -120.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": 9.0,
+            "box": 6700
+        },
+        {
+            "id": "Eyeglasses_6",
+            "x": 622.0,
+            "y": 440.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": -22.0,
+            "box": 6700
+        },
+        {
+            "id": "Eyeglasses_1",
+            "x": 275.0,
+            "y": -927.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": 6.0,
+            "box": 6700
+        },
+        {
+            "id": "Eyeglasses_5",
+            "x": -417.0,
+            "y": 261.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 5.0,
+            "box": 6700
+        },
+        {
+            "id": "Eyeglasses_4",
+            "x": 793.0,
+            "y": -442.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": -1.0,
+            "box": 6700
+        },
+        {
+            "id": "Headphones_4",
+            "x": -653.0,
+            "y": -373.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": 0.0,
+            "box": 6699
+        },
+        {
+            "id": "Headphones_2",
+            "x": -193.0,
+            "y": -187.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": -24.0,
+            "box": 6699
+        },
+        {
+            "id": "Headphones_1",
+            "x": 340.0,
+            "y": -970.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 22.0,
+            "box": 6699
+        },
+        {
+            "id": "Headphones_3",
+            "x": -851.0,
+            "y": -579.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 17.0,
+            "box": 6699
+        },
+        {
+            "id": "Camera_2",
+            "x": -681.0,
+            "y": -241.0,
+            "scaleX": 0.8299999833106995,
+            "scaleY": 0.8299999833106995,
+            "angle": -127.69999694824219,
+            "box": 6698
+        },
+        {
+            "id": "Camera_1",
+            "x": 567.0,
+            "y": -224.0,
+            "scaleX": 0.8299999833106995,
+            "scaleY": 0.8299999833106995,
+            "angle": 19.0,
+            "box": 6698
+        },
+        {
+            "id": "Decor_20",
+            "x": -446.0,
+            "y": -6.0,
+            "scaleX": -0.8299999833106995,
+            "scaleY": 0.8299999833106995,
+            "angle": 115.4000015258789,
+            "box": 6698
+        },
+        {
+            "id": "Speaker_1",
+            "x": 7.0,
+            "y": -557.0,
+            "scaleX": 0.8299999833106995,
+            "scaleY": 0.8299999833106995,
+            "angle": -24.5,
+            "box": 6697
+        },
+        {
+            "id": "Speaker_6",
+            "x": -807.0,
+            "y": -679.0,
+            "scaleX": -0.8299999833106995,
+            "scaleY": 0.8299999833106995,
+            "angle": 3.0,
+            "box": 6697
+        },
+        {
+            "id": "Speaker_3",
+            "x": -879.0,
+            "y": -268.0,
+            "scaleX": -0.8299999833106995,
+            "scaleY": 0.8299999833106995,
+            "angle": 24.0,
+            "box": 6697
+        },
+        {
+            "id": "Speaker_8",
+            "x": 129.0,
+            "y": 551.0,
+            "scaleX": -0.8299999833106995,
+            "scaleY": 0.8299999833106995,
+            "angle": -2.799999952316284,
+            "box": 6697
+        },
+        {
+            "id": "Speaker_2",
+            "x": 420.0,
+            "y": -187.0,
+            "scaleX": -0.8299999833106995,
+            "scaleY": 0.8299999833106995,
+            "angle": -15.0,
+            "box": 6697
+        },
+        {
+            "id": "Camera_5",
+            "x": -498.0,
+            "y": 271.0,
+            "scaleX": -0.8299999833106995,
+            "scaleY": 0.8299999833106995,
+            "angle": 22.0,
+            "box": 6696
+        },
+        {
+            "id": "Camera_4",
+            "x": 643.0,
+            "y": -452.0,
+            "scaleX": 0.8299999833106995,
+            "scaleY": 0.8299999833106995,
+            "angle": -23.0,
+            "box": 6696
+        },
+        {
+            "id": "Camera_3",
+            "x": 582.0,
+            "y": -939.0,
+            "scaleX": -0.8299999833106995,
+            "scaleY": 0.8299999833106995,
+            "angle": -3.0,
+            "box": 6696
+        },
+        {
+            "id": "Camera_6",
+            "x": -391.0,
+            "y": -961.0,
+            "scaleX": -0.8299999833106995,
+            "scaleY": 0.8299999833106995,
+            "angle": -20.0,
+            "box": 6696
+        },
+        {
+            "id": "Eyeglasses_2",
+            "x": -634.0,
+            "y": -174.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": -28.0,
+            "box": 6695
+        },
+        {
+            "id": "Eyeglasses_1",
+            "x": 356.0,
+            "y": -125.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": 0.0,
+            "box": 6695
+        },
+        {
+            "id": "Eyeglasses_5",
+            "x": -850.0,
+            "y": -367.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 8.0,
+            "box": 6695
+        },
+        {
+            "id": "Eyeglasses_3",
+            "x": -288.0,
+            "y": -960.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": -30.0,
+            "box": 6695
+        },
+        {
+            "id": "Music_Box_4",
+            "x": -517.0,
+            "y": -197.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": -4.0,
+            "box": 6694
+        },
+        {
+            "id": "Music_Box_1",
+            "x": -233.0,
+            "y": 375.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": -56.900001525878909,
+            "box": 6694
+        },
+        {
+            "id": "Music_Box_2",
+            "x": -543.0,
+            "y": -71.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": -4.0,
+            "box": 6694
+        },
+        {
+            "id": "Music_Box_3",
+            "x": 601.0,
+            "y": -281.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": -27.0,
+            "box": 6694
+        },
+        {
+            "id": "Music_Box_4",
+            "x": -819.0,
+            "y": -269.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 28.0,
+            "box": 6694
+        },
+        {
+            "id": "Music_Book_4",
+            "x": 468.0,
+            "y": -376.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": -5.0,
+            "box": 6693
+        },
+        {
+            "id": "Music_Book_3",
+            "x": -241.0,
+            "y": -219.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 143.3000030517578,
+            "box": 6693
+        },
+        {
+            "id": "Music_Book_1",
+            "x": -340.0,
+            "y": -580.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": -109.30000305175781,
+            "box": 6693
+        },
+        {
+            "id": "Music_Book_6",
+            "x": 176.0,
+            "y": -955.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": -18.0,
+            "box": 6693
+        },
+        {
+            "id": "Music_Book_5",
+            "x": 849.0,
+            "y": -758.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 125.0999984741211,
+            "box": 6693
+        },
+        {
+            "id": "Chocolate_1",
+            "x": 757.0,
+            "y": -99.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 24.0,
+            "box": 6692
+        },
+        {
+            "id": "Chocolate_2",
+            "x": 97.0,
+            "y": 150.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": 8.0,
+            "box": 6692
+        },
+        {
+            "id": "Chocolate_3",
+            "x": 730.0,
+            "y": -578.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 5.0,
+            "box": 6692
+        },
+        {
+            "id": "Pillow_1",
+            "x": 46.0,
+            "y": -726.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": -111.80000305175781,
+            "box": 6691
+        },
+        {
+            "id": "Pillow_5",
+            "x": 752.0,
+            "y": 404.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 20.0,
+            "box": 6691
+        },
+        {
+            "id": "Pillow_13",
+            "x": -604.0,
+            "y": -802.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": 28.0,
+            "box": 6691
+        },
+        {
+            "id": "Pillow_10",
+            "x": 409.0,
+            "y": 550.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": -13.0,
+            "box": 6691
+        },
+        {
+            "id": "Micro_4",
+            "x": -836.0,
+            "y": -785.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": -5.0,
+            "box": 6690
+        },
+        {
+            "id": "Micro_5",
+            "x": 906.0,
+            "y": -58.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 18.0,
+            "box": 6690
+        },
+        {
+            "id": "Micro_7",
+            "x": -604.0,
+            "y": -498.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": -103.30000305175781,
+            "box": 6690
+        },
+        {
+            "id": "Micro_2",
+            "x": -745.0,
+            "y": -356.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": -50.79999923706055,
+            "box": 6690
+        },
+        {
+            "id": "MusicalInstrument_15",
+            "x": 471.0,
+            "y": -618.0,
+            "scaleX": 0.8600000143051148,
+            "scaleY": 0.8600000143051148,
+            "angle": 12.0,
+            "box": 6689
+        },
+        {
+            "id": "MusicalInstrument_1",
+            "x": 397.0,
+            "y": -902.0,
+            "scaleX": -0.8600000143051148,
+            "scaleY": 0.8600000143051148,
+            "angle": 30.0,
+            "box": 6689
+        },
+        {
+            "id": "MusicalInstrument_4",
+            "x": 449.0,
+            "y": -151.0,
+            "scaleX": 0.8600000143051148,
+            "scaleY": 0.8600000143051148,
+            "angle": 27.0,
+            "box": 6689
+        },
+        {
+            "id": "Music_Trophy_9",
+            "x": 238.0,
+            "y": -885.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": 25.0,
+            "box": 6688
+        },
+        {
+            "id": "Music_Trophy_3",
+            "x": 322.0,
+            "y": 8.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": -27.0,
+            "box": 6688
+        },
+        {
+            "id": "Music_Trophy_1",
+            "x": 22.0,
+            "y": -188.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": -16.0,
+            "box": 6688
+        },
+        {
+            "id": "Music_Trophy_6",
+            "x": -223.0,
+            "y": -890.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": -6.0,
+            "box": 6688
+        },
+        {
+            "id": "Music_Trophy_8",
+            "x": -547.0,
+            "y": 237.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": 10.0,
+            "box": 6688
+        }
+    ],
+    "plan": {
+        "tray": [],
+        "quick": [],
+        "regionPct": false,
+        "regionShares": [],
+        "stack": false,
+        "flip": true,
+        "onlyAnnot": true,
+        "rotMax": 30,
+        "tries": 300,
+        "retries": 3,
+        "minVisible": 15,
+        "arrangeLayers": 0,
+        "minOverlap": 4,
+        "seed": 564301,
+        "nextId": 6723,
+        "layers": [
+            {
+                "boxes": [
+                    {
+                        "id": 6688,
+                        "type": 65004,
+                        "count": 5,
+                        "diff": 0,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 6689,
+                        "type": 49001,
+                        "count": 3,
+                        "diff": 0,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 6690,
+                        "type": 65001,
+                        "count": 4,
+                        "diff": 0,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 6691,
+                        "type": 41046,
+                        "count": 4,
+                        "diff": 0,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 6692,
+                        "type": 35003,
+                        "count": 3,
+                        "diff": 0,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 6693,
+                        "type": 65002,
+                        "count": 5,
+                        "diff": 0,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 6694,
+                        "type": 58003,
+                        "count": 5,
+                        "diff": 0,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 6695,
+                        "type": 38004,
+                        "count": 4,
+                        "diff": 0,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 6696,
+                        "type": 41008,
+                        "count": 4,
+                        "diff": 0,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 6697,
+                        "type": 41003,
+                        "count": 5,
+                        "diff": 0,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 6698,
+                        "type": 41008,
+                        "count": 3,
+                        "diff": 0,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 6699,
+                        "type": 41028,
+                        "count": 4,
+                        "diff": 0,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 6700,
+                        "type": 38004,
+                        "count": 5,
+                        "diff": 0,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 6701,
+                        "type": 65003,
+                        "count": 3,
+                        "diff": 0,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 6702,
+                        "type": 41028,
+                        "count": 5,
+                        "diff": 0,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 6703,
+                        "type": 41022,
+                        "count": 5,
+                        "diff": 0,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 6704,
+                        "type": 35003,
+                        "count": 5,
+                        "diff": 0,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 6705,
+                        "type": 49001,
+                        "count": 3,
+                        "diff": 0,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 6706,
+                        "type": 41046,
+                        "count": 4,
+                        "diff": 0,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 6707,
+                        "type": 65002,
+                        "count": 4,
+                        "diff": 1,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 6708,
+                        "type": 65001,
+                        "count": 5,
+                        "diff": 0,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 6709,
+                        "type": 65004,
+                        "count": 4,
+                        "diff": 1,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 6710,
+                        "type": 65003,
+                        "count": 5,
+                        "diff": 0,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 6711,
+                        "type": 65006,
+                        "count": 3,
+                        "diff": 1,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 6712,
+                        "type": 58003,
+                        "count": 4,
+                        "diff": 0,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 6713,
+                        "type": 41003,
+                        "count": 4,
+                        "diff": 1,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 6714,
+                        "type": 65004,
+                        "count": 3,
+                        "diff": 0,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 6715,
+                        "type": 41025,
+                        "count": 3,
+                        "diff": 1,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 6716,
+                        "type": 41033,
+                        "count": 5,
+                        "diff": 0,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 6717,
+                        "type": 41006,
+                        "count": 3,
+                        "diff": 0,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 6718,
+                        "type": 65001,
+                        "count": 4,
+                        "diff": 0,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 6719,
+                        "type": 65003,
+                        "count": 3,
+                        "diff": 0,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 6720,
+                        "type": 58003,
+                        "count": 3,
+                        "diff": 0,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 6721,
+                        "type": 41022,
+                        "count": 4,
+                        "diff": 0,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 6722,
+                        "type": 41033,
+                        "count": 4,
+                        "diff": 0,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    }
+                ],
+                "locked": false
+            }
+        ],
+        "filters": [
+            {
+                "type": 17001,
+                "off": [
+                    "Long-sleevedShirt_4",
+                    "Long-sleevedShirt_5"
+                ]
+            },
+            {
+                "type": 14001,
+                "off": [
+                    "Notebook_5"
+                ]
+            },
+            {
+                "type": 16002,
+                "off": [
+                    "Wiper_2",
+                    "Wiper_3",
+                    "Wiper_4",
+                    "Wiper_5",
+                    "Wiper_1"
+                ]
+            },
+            {
+                "type": 25002,
+                "off": [
+                    "HandBag_11",
+                    "HandBag_27",
+                    "HandBag_4",
+                    "HandBag_5",
+                    "HandBag_7",
+                    "HandBag_1",
+                    "HandBag_23",
+                    "HandBag_15",
+                    "HandBag_16",
+                    "HandBag_14",
+                    "HandBag_21",
+                    "HandBag_13",
+                    "HandBag_10",
+                    "HandBag_12",
+                    "HandBag_19"
+                ]
+            },
+            {
+                "type": 13001,
+                "off": []
+            },
+            {
+                "type": 25005,
+                "off": [
+                    "Socks_6"
+                ]
+            },
+            {
+                "type": 19001,
+                "off": [
+                    "Cereal_10",
+                    "Cereal_6",
+                    "Cereal_5",
+                    "Cereal_8",
+                    "Cereal_3"
+                ]
+            },
+            {
+                "type": 25004,
+                "off": []
+            },
+            {
+                "type": 16001,
+                "off": []
+            },
+            {
+                "type": 26002,
+                "off": [
+                    "Stuffies_3",
+                    "Stuffies_4",
+                    "Stuffies_5-1"
+                ]
+            },
+            {
+                "type": 28003,
+                "off": []
+            },
+            {
+                "type": 25015,
+                "off": []
+            },
+            {
+                "type": 14013,
+                "off": [
+                    "Geometry set_2",
+                    "Geometry set_8"
+                ]
+            },
+            {
+                "type": 16003,
+                "off": []
+            },
+            {
+                "type": 27003,
+                "off": [
+                    "Scrap_Paper_10",
+                    "Scrap_Paper_12",
+                    "Scrap_Paper_4",
+                    "Scrap_Paper_6",
+                    "Scrap_Paper_3",
+                    "Scrap_Paper_2",
+                    "Scrap_Paper_7",
+                    "Scrap_Paper_8"
+                ]
+            },
+            {
+                "type": 27001,
+                "off": []
+            },
+            {
+                "type": 1010,
+                "off": []
+            },
+            {
+                "type": 1012,
+                "off": []
+            },
+            {
+                "type": 1014,
+                "off": []
+            },
+            {
+                "type": 1011,
+                "off": []
+            },
+            {
+                "type": 14011,
+                "off": []
+            },
+            {
+                "type": 17003,
+                "off": []
+            },
+            {
+                "type": 17004,
+                "off": [
+                    "Tank_top_3",
+                    "Short-sleevedShirt_7",
+                    "Tank_top_10",
+                    "Tank_top_2",
+                    "Tank_top_11",
+                    "Tank_top_12",
+                    "Tank_top_13",
+                    "Short_sleevShirt_15",
+                    "Short_sleevShirt_14",
+                    "Short-sleevedShirt_9",
+                    "Short-sleevedShirt_8"
+                ]
+            },
+            {
+                "type": 19023,
+                "off": []
+            },
+            {
+                "type": 14010,
+                "off": []
+            },
+            {
+                "type": 16014,
+                "off": [
+                    "Long_Scarf_2",
+                    "Long_Scarf_3",
+                    "Towel_11",
+                    "Bath_towel_4",
+                    "Bath_towel_5",
+                    "Towel_12",
+                    "Towel_1",
+                    "Towel_9",
+                    "Towel_7",
+                    "Towel_6",
+                    "Towel_5",
+                    "Towel_14",
+                    "Towel_10",
+                    "Towel_15",
+                    "Towel_2",
+                    "Long_Scarf_5",
+                    "Long_Scarf_4",
+                    "Bath_towel_3",
+                    "Bath_towel_1",
+                    "Long_Scarf_6",
+                    "Long_Scarf_1"
+                ]
+            },
+            {
+                "type": 14003,
+                "off": [
+                    "Schoolbag_4"
+                ]
+            },
+            {
+                "type": 14006,
+                "off": []
+            },
+            {
+                "type": 26003,
+                "off": []
+            },
+            {
+                "type": 26004,
+                "off": [
+                    "Board_Game_07",
+                    "Board_Game_01"
+                ]
+            },
+            {
+                "type": 19004,
+                "off": [
+                    "Candy_8",
+                    "Candy_7"
+                ]
+            },
+            {
+                "type": 16004,
+                "off": []
+            },
+            {
+                "type": 25006,
+                "off": [
+                    "Shoes_12",
+                    "Shoes_3",
+                    "Shoes_4",
+                    "Shoes_6",
+                    "Shoes_7",
+                    "Shoes_11",
+                    "Shoes_1"
+                ]
+            },
+            {
+                "type": 19025,
+                "off": []
+            },
+            {
+                "type": 19026,
+                "off": []
+            },
+            {
+                "type": 19016,
+                "off": []
+            },
+            {
+                "type": 19020,
+                "off": []
+            },
+            {
+                "type": 21009,
+                "off": []
+            },
+            {
+                "type": 13008,
+                "off": []
+            },
+            {
+                "type": 27002,
+                "off": [
+                    "Nylon_3"
+                ]
+            },
+            {
+                "type": 16006,
+                "off": []
+            },
+            {
+                "type": 18006,
+                "off": []
+            },
+            {
+                "type": 18003,
+                "off": []
+            },
+            {
+                "type": 17010,
+                "off": []
+            },
+            {
+                "type": 17005,
+                "off": []
+            },
+            {
+                "type": 17002,
+                "off": []
+            },
+            {
+                "type": 25009,
+                "off": []
+            },
+            {
+                "type": 16005,
+                "off": []
+            },
+            {
+                "type": 16007,
+                "off": []
+            },
+            {
+                "type": 15006,
+                "off": []
+            },
+            {
+                "type": 28001,
+                "off": []
+            },
+            {
+                "type": 28007,
+                "off": []
+            },
+            {
+                "type": 28008,
+                "off": []
+            },
+            {
+                "type": 27005,
+                "off": []
+            },
+            {
+                "type": 16012,
+                "off": []
+            },
+            {
+                "type": 28009,
+                "off": []
+            },
+            {
+                "type": 28002,
+                "off": []
+            },
+            {
+                "type": 25003,
+                "off": []
+            },
+            {
+                "type": 9008,
+                "off": []
+            },
+            {
+                "type": 25010,
+                "off": [
+                    "Glove_2",
+                    "Gardening_Gloves_1",
+                    "Glove_5",
+                    "Glove_4"
+                ]
+            },
+            {
+                "type": 14005,
+                "off": []
+            },
+            {
+                "type": 9006,
+                "off": []
+            },
+            {
+                "type": 14007,
+                "off": [
+                    "Calculator_4"
+                ]
+            },
+            {
+                "type": 14008,
+                "off": []
+            },
+            {
+                "type": 12005,
+                "off": []
+            },
+            {
+                "type": 12003,
+                "off": []
+            },
+            {
+                "type": 19027,
+                "off": []
+            },
+            {
+                "type": 1008,
+                "off": []
+            },
+            {
+                "type": 13004,
+                "off": []
+            },
+            {
+                "type": 17006,
+                "off": [
+                    "Trouser_13",
+                    "Trouser_16",
+                    "Trouser_15",
+                    "Trouser_14",
+                    "Trouser_5",
+                    "Trouser_4",
+                    "Trouser_30"
+                ]
+            },
+            {
+                "type": 14009,
+                "off": [
+                    "Folder_5",
+                    "Folder_4"
+                ]
+            },
+            {
+                "type": 20003,
+                "off": []
+            },
+            {
+                "type": 14015,
+                "off": []
+            },
+            {
+                "type": 9005,
+                "off": []
+            },
+            {
+                "type": 25013,
+                "off": []
+            },
+            {
+                "type": 23005,
+                "off": []
+            },
+            {
+                "type": 21003,
+                "off": []
+            },
+            {
+                "type": 41013,
+                "off": [
+                    "Kitchen_Towel_4",
+                    "Kitchen_Towel_5",
+                    "Wiper_4",
+                    "Kitchen_Towel_3",
+                    "Kitchen_Towel_2",
+                    "Kitchen_Towel_1"
+                ]
+            },
+            {
+                "type": 41067,
+                "off": []
+            },
+            {
+                "type": 41036,
+                "off": []
+            },
+            {
+                "type": 41041,
+                "off": [
+                    "Trouser_30",
+                    "Trouser_13",
+                    "Trouser_15",
+                    "Trouser_14",
+                    "Trouser_10",
+                    "Trouser_11"
+                ]
+            },
+            {
+                "type": 41025,
+                "off": []
+            },
+            {
+                "type": 61005,
+                "off": []
+            },
+            {
+                "type": 36007,
+                "off": []
+            },
+            {
+                "type": 41058,
+                "off": []
+            },
+            {
+                "type": 41034,
+                "off": []
+            },
+            {
+                "type": 65006,
+                "off": []
+            }
+        ],
+        "useCurve": false,
+        "slots": [],
+        "curve": {
+            "serializedVersion": "2",
+            "m_Curve": [],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+        },
+        "autoLower": true,
+        "v2": true,
+        "v2Rows": [
+            {
+                "type": 58003,
+                "boxes": 3
+            },
+            {
+                "type": 49001,
+                "boxes": 2
+            },
+            {
+                "type": 65001,
+                "boxes": 3
+            },
+            {
+                "type": 65002,
+                "boxes": 2
+            },
+            {
+                "type": 65004,
+                "boxes": 3
+            },
+            {
+                "type": 65003,
+                "boxes": 3
+            },
+            {
+                "type": 65006,
+                "boxes": 1
+            },
+            {
+                "type": 41028,
+                "boxes": 2
+            },
+            {
+                "type": 38004,
+                "boxes": 2
+            },
+            {
+                "type": 41025,
+                "boxes": 1
+            },
+            {
+                "type": 41003,
+                "boxes": 2
+            },
+            {
+                "type": 41008,
+                "boxes": 2
+            },
+            {
+                "type": 41006,
+                "boxes": 1
+            },
+            {
+                "type": 41046,
+                "boxes": 2
+            },
+            {
+                "type": 41033,
+                "boxes": 2
+            },
+            {
+                "type": 41022,
+                "boxes": 2
+            },
+            {
+                "type": 35003,
+                "boxes": 2
+            }
+        ],
+        "v2Curve": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "v2Order": [
+            65004,
+            49001,
+            65001,
+            41046,
+            35003,
+            65002,
+            58003,
+            38004,
+            41008,
+            41003,
+            41008,
+            41028,
+            38004,
+            65003,
+            41028,
+            41022,
+            35003,
+            49001,
+            41046,
+            65002,
+            65001,
+            65004,
+            65003,
+            65006,
+            58003,
+            41003,
+            65004,
+            41025,
+            41033,
+            41006,
+            65001,
+            65003,
+            58003,
+            41022,
+            41033
+        ],
+        "v2Dropped": [],
+        "maxCover": 66,
+        "v2Gen": [],
+        "v2Solve": []
+    }
+}

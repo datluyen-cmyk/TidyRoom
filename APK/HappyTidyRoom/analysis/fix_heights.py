@@ -1,0 +1,2 @@
+from pathlib import Path
+p=Path('analysis/build_original_format.mjs');s=p.read_text(encoding='utf8');s=s.replace("return Math.max(48,...row.map((x,i)=>", "return Math.ceil(1.28*Math.max(48,...row.map((x,i)=>");s=s.replace("return lines*19+14;}));}","return lines*19+14;})));}");s=s.replace("sh.getRange('B3:C3').merge();", "sh.getRange('B3:L3').format.rowHeightPx=65;\nsh.getRange('B3:C3').merge();");p.write_text(s,encoding='utf8')

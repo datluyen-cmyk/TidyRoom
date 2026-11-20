@@ -1,0 +1,2212 @@
+[
+  {
+    "level": 1,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\001.webp",
+    "roomSize": [
+      1220,
+      1560
+    ],
+    "tidy": "breakfast_bar",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 5613,
+    "mae": 40.76,
+    "sizeRatio": 0.8472,
+    "runnerUp": 40.956214904785156
+  },
+  {
+    "level": 2,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\002.webp",
+    "roomSize": [
+      1220,
+      1560
+    ],
+    "tidy": "baking_kitchen",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 5340,
+    "mae": 34.74,
+    "sizeRatio": 0.8472,
+    "runnerUp": 34.961151123046875
+  },
+  {
+    "level": 3,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\003.webp",
+    "roomSize": [
+      1461,
+      1560
+    ],
+    "tidy": "private_office",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 3008,
+    "mae": 33.46,
+    "sizeRatio": 1.0146,
+    "runnerUp": 33.62238693237305
+  },
+  {
+    "level": 4,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\004.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "walk_in_closet",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 3651,
+    "mae": 36.58,
+    "sizeRatio": 1.0,
+    "runnerUp": 37.314239501953125
+  },
+  {
+    "level": 5,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\005.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "kids_bedroom",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 3252,
+    "mae": 28.0,
+    "sizeRatio": 1.0,
+    "runnerUp": 30.0103702545166
+  },
+  {
+    "level": 6,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\006.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "kids_bedroom",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 3252,
+    "mae": 30.21,
+    "sizeRatio": 1.0,
+    "runnerUp": 33.09185028076172
+  },
+  {
+    "level": 7,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\007.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "sewing_room",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 5194,
+    "mae": 35.46,
+    "sizeRatio": 1.0,
+    "runnerUp": 36.68181228637695
+  },
+  {
+    "level": 8,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\008.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "kids_bedroom",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 3252,
+    "mae": 36.09,
+    "sizeRatio": 1.0,
+    "runnerUp": 36.855472564697266
+  },
+  {
+    "level": 9,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\009.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "kids_bedroom",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 3252,
+    "mae": 30.45,
+    "sizeRatio": 1.0,
+    "runnerUp": 32.44378662109375
+  },
+  {
+    "level": 10,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\010.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "saloon",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 3336,
+    "mae": 37.84,
+    "sizeRatio": 1.0,
+    "runnerUp": 42.978599548339844
+  },
+  {
+    "level": 11,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\011.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "walk_in_closet",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 3651,
+    "mae": 33.14,
+    "sizeRatio": 1.0,
+    "runnerUp": 34.467159271240234
+  },
+  {
+    "level": 12,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\012.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "wedding_bedroom",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 3809,
+    "mae": 30.94,
+    "sizeRatio": 1.0,
+    "runnerUp": 32.38419723510742
+  },
+  {
+    "level": 13,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\013.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "kindergarten",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 3138,
+    "mae": 29.58,
+    "sizeRatio": 1.0,
+    "runnerUp": 29.74222183227539
+  },
+  {
+    "level": 14,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\014.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "entryway",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 4572,
+    "mae": 29.57,
+    "sizeRatio": 1.0,
+    "runnerUp": 31.832921981811523
+  },
+  {
+    "level": 15,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\015.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "kids_bedroom",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 3252,
+    "mae": 30.96,
+    "sizeRatio": 1.0,
+    "runnerUp": 33.436378479003906
+  },
+  {
+    "level": 16,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\016.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "bakery",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 4967,
+    "mae": 38.49,
+    "sizeRatio": 1.0,
+    "runnerUp": 39.02732467651367
+  },
+  {
+    "level": 17,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\017.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "kitchen",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 3783,
+    "mae": 30.26,
+    "sizeRatio": 1.0,
+    "runnerUp": 30.514732360839844
+  },
+  {
+    "level": 18,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\018.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "kids_bedroom",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 3252,
+    "mae": 31.83,
+    "sizeRatio": 1.0,
+    "runnerUp": 32.35670852661133
+  },
+  {
+    "level": 19,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\019.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "clothing_boutique",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 3522,
+    "mae": 28.0,
+    "sizeRatio": 1.0,
+    "runnerUp": 30.51934242248535
+  },
+  {
+    "level": 20,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\020.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "entryway",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 4572,
+    "mae": 27.3,
+    "sizeRatio": 1.0,
+    "runnerUp": 30.6051025390625
+  },
+  {
+    "level": 21,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\021.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "dining_room_2",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 4809,
+    "mae": 29.42,
+    "sizeRatio": 1.0,
+    "runnerUp": 32.02403259277344
+  },
+  {
+    "level": 22,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\022.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "kids_bedroom",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 3252,
+    "mae": 24.55,
+    "sizeRatio": 1.0,
+    "runnerUp": 26.852510452270508
+  },
+  {
+    "level": 23,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\023.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "walk_in_closet",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 3651,
+    "mae": 35.49,
+    "sizeRatio": 1.0,
+    "runnerUp": 35.514404296875
+  },
+  {
+    "level": 24,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\024.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "entryway",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 4572,
+    "mae": 31.21,
+    "sizeRatio": 1.0,
+    "runnerUp": 31.36905288696289
+  },
+  {
+    "level": 25,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\025.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "kids_bedroom",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 3252,
+    "mae": 27.56,
+    "sizeRatio": 1.0,
+    "runnerUp": 29.888559341430664
+  },
+  {
+    "level": 26,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\026.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "kids_bedroom",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 3252,
+    "mae": 30.33,
+    "sizeRatio": 1.0,
+    "runnerUp": 32.539588928222656
+  },
+  {
+    "level": 27,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\027.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "sewing_room",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 5194,
+    "mae": 35.2,
+    "sizeRatio": 1.0,
+    "runnerUp": 36.438026428222656
+  },
+  {
+    "level": 28,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\028.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "pink_dorm_room",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 4955,
+    "mae": 29.12,
+    "sizeRatio": 1.0,
+    "runnerUp": 31.541893005371094
+  },
+  {
+    "level": 29,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\029.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "lobby",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 3313,
+    "mae": 27.61,
+    "sizeRatio": 1.0,
+    "runnerUp": 29.457942962646484
+  },
+  {
+    "level": 30,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\030.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "baking_kitchen",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 5340,
+    "mae": 35.21,
+    "sizeRatio": 1.0,
+    "runnerUp": 35.85070037841797
+  },
+  {
+    "level": 31,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\031.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "office_kitchenette",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 5207,
+    "mae": 32.87,
+    "sizeRatio": 1.0,
+    "runnerUp": 35.712921142578125
+  },
+  {
+    "level": 32,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\032.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "private_office",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 3008,
+    "mae": 34.39,
+    "sizeRatio": 1.0,
+    "runnerUp": 37.76625442504883
+  },
+  {
+    "level": 33,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\033.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "office",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 3179,
+    "mae": 32.44,
+    "sizeRatio": 1.0,
+    "runnerUp": 32.992591857910156
+  },
+  {
+    "level": 34,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\034.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "walk_in_closet",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 3651,
+    "mae": 40.06,
+    "sizeRatio": 1.0,
+    "runnerUp": 40.826171875
+  },
+  {
+    "level": 35,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\035.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "sewing_room",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 5194,
+    "mae": 36.76,
+    "sizeRatio": 1.0,
+    "runnerUp": 44.049713134765625
+  },
+  {
+    "level": 36,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\036.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "kids_bedroom",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 3252,
+    "mae": 40.78,
+    "sizeRatio": 1.0,
+    "runnerUp": 41.08460998535156
+  },
+  {
+    "level": 37,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\037.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "attic",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 5108,
+    "mae": 38.55,
+    "sizeRatio": 1.0,
+    "runnerUp": 39.134979248046875
+  },
+  {
+    "level": 38,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\038.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "clothing_store",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 4665,
+    "mae": 35.62,
+    "sizeRatio": 1.0,
+    "runnerUp": 37.38123321533203
+  },
+  {
+    "level": 39,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\039.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "sewing_room",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 5194,
+    "mae": 33.88,
+    "sizeRatio": 1.0,
+    "runnerUp": 36.25218200683594
+  },
+  {
+    "level": 40,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\040.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "pink_dorm_room",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 4955,
+    "mae": 32.16,
+    "sizeRatio": 1.0,
+    "runnerUp": 35.97300338745117
+  },
+  {
+    "level": 41,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\041.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "kids_bedroom",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 3252,
+    "mae": 34.21,
+    "sizeRatio": 1.0,
+    "runnerUp": 35.288394927978516
+  },
+  {
+    "level": 42,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\042.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "clothing_store",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 4665,
+    "mae": 32.49,
+    "sizeRatio": 1.0,
+    "runnerUp": 32.50584411621094
+  },
+  {
+    "level": 43,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\043.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "bakery",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 4967,
+    "mae": 37.75,
+    "sizeRatio": 1.0,
+    "runnerUp": 38.42502212524414
+  },
+  {
+    "level": 44,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\044.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "basement",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 5505,
+    "mae": 44.55,
+    "sizeRatio": 1.0,
+    "runnerUp": 45.4431266784668
+  },
+  {
+    "level": 45,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\045.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "clothing_boutique",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 3522,
+    "mae": 29.5,
+    "sizeRatio": 1.0,
+    "runnerUp": 29.922468185424805
+  },
+  {
+    "level": 46,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\046.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "gift_shop",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 5115,
+    "mae": 38.35,
+    "sizeRatio": 1.0,
+    "runnerUp": 38.85070037841797
+  },
+  {
+    "level": 47,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\047.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "walk_in_closet",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 3651,
+    "mae": 32.74,
+    "sizeRatio": 1.0,
+    "runnerUp": 34.43423843383789
+  },
+  {
+    "level": 48,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\048.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "clothing_store",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 4665,
+    "mae": 37.48,
+    "sizeRatio": 1.0,
+    "runnerUp": 39.550453186035156
+  },
+  {
+    "level": 49,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\049.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "grocery_store",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 3398,
+    "mae": 35.13,
+    "sizeRatio": 1.0,
+    "runnerUp": 35.44098663330078
+  },
+  {
+    "level": 50,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\050.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "pink_dorm_room",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 4955,
+    "mae": 33.11,
+    "sizeRatio": 1.0,
+    "runnerUp": 33.797203063964844
+  },
+  {
+    "level": 51,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\051.webp",
+    "roomSize": [
+      1524,
+      1652
+    ],
+    "tidy": "pink_dorm_room",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 4955,
+    "mae": 40.58,
+    "sizeRatio": 0.9994,
+    "runnerUp": 42.38666534423828
+  },
+  {
+    "level": 52,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\052.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "bathroom",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 5468,
+    "mae": 38.35,
+    "sizeRatio": 1.0,
+    "runnerUp": 38.45958709716797
+  },
+  {
+    "level": 53,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\054.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "pastel_shop",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 3299,
+    "mae": 31.49,
+    "sizeRatio": 1.0,
+    "runnerUp": 31.756378173828125
+  },
+  {
+    "level": 54,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\055.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "bathroom",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 5468,
+    "mae": 30.14,
+    "sizeRatio": 1.0,
+    "runnerUp": 32.4284782409668
+  },
+  {
+    "level": 55,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\056.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "bathroom",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 5468,
+    "mae": 32.3,
+    "sizeRatio": 1.0,
+    "runnerUp": 33.64543151855469
+  },
+  {
+    "level": 56,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\057.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "pink_dorm_room",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 4955,
+    "mae": 31.11,
+    "sizeRatio": 1.0,
+    "runnerUp": 31.633909225463867
+  },
+  {
+    "level": 57,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\058.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "pink_dorm_room",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 4955,
+    "mae": 28.0,
+    "sizeRatio": 1.0,
+    "runnerUp": 29.048065185546875
+  },
+  {
+    "level": 58,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\059.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "clothing_store",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 4665,
+    "mae": 30.99,
+    "sizeRatio": 1.0,
+    "runnerUp": 32.63621520996094
+  },
+  {
+    "level": 59,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\060.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "bus_stop",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 5645,
+    "mae": 35.35,
+    "sizeRatio": 1.0,
+    "runnerUp": 42.8865852355957
+  },
+  {
+    "level": 60,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\061.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "warehouse",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 3704,
+    "mae": 43.49,
+    "sizeRatio": 1.0,
+    "runnerUp": 44.70732498168945
+  },
+  {
+    "level": 61,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\062.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "makeup_room",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 3298,
+    "mae": 45.39,
+    "sizeRatio": 1.0,
+    "runnerUp": 46.31193542480469
+  },
+  {
+    "level": 62,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\063.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "bakery",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 4967,
+    "mae": 38.25,
+    "sizeRatio": 1.0,
+    "runnerUp": 38.82633590698242
+  },
+  {
+    "level": 63,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\064.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "cafeteria",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 4628,
+    "mae": 36.83,
+    "sizeRatio": 1.0,
+    "runnerUp": 36.9338264465332
+  },
+  {
+    "level": 64,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\065.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "scooter_garage",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 4424,
+    "mae": 36.64,
+    "sizeRatio": 1.0,
+    "runnerUp": 41.67160415649414
+  },
+  {
+    "level": 65,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\066.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "private_office",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 3008,
+    "mae": 42.21,
+    "sizeRatio": 1.0,
+    "runnerUp": 42.7307014465332
+  },
+  {
+    "level": 66,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\067.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "pink_dorm_room",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 4955,
+    "mae": 37.83,
+    "sizeRatio": 1.0,
+    "runnerUp": 41.129547119140625
+  },
+  {
+    "level": 67,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\068.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "kitchenware_shop",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 3635,
+    "mae": 40.77,
+    "sizeRatio": 1.0,
+    "runnerUp": 40.90156555175781
+  },
+  {
+    "level": 68,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\069.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "pink_dorm_room",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 4955,
+    "mae": 40.79,
+    "sizeRatio": 1.0,
+    "runnerUp": 41.90518569946289
+  },
+  {
+    "level": 69,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\070.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "gift_shop",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 5115,
+    "mae": 44.72,
+    "sizeRatio": 1.0,
+    "runnerUp": 47.45942306518555
+  },
+  {
+    "level": 70,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\071.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "spa",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 5148,
+    "mae": 47.34,
+    "sizeRatio": 1.0,
+    "runnerUp": 48.684608459472656
+  },
+  {
+    "level": 71,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\072.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "coffee_bar",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 4512,
+    "mae": 39.0,
+    "sizeRatio": 1.0,
+    "runnerUp": 42.79670715332031
+  },
+  {
+    "level": 72,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\074.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "bathroom",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 5468,
+    "mae": 36.97,
+    "sizeRatio": 1.0,
+    "runnerUp": 37.293827056884766
+  },
+  {
+    "level": 73,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\075.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "saloon",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 3336,
+    "mae": 55.79,
+    "sizeRatio": 1.0,
+    "runnerUp": 56.78995895385742
+  },
+  {
+    "level": 74,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\076.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "art_studio",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 3863,
+    "mae": 37.26,
+    "sizeRatio": 1.0,
+    "runnerUp": 38.92033004760742
+  },
+  {
+    "level": 75,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\077.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "photo_studio",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 4225,
+    "mae": 38.66,
+    "sizeRatio": 1.0,
+    "runnerUp": 39.33942413330078
+  },
+  {
+    "level": 76,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\078.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "sewing_room",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 5194,
+    "mae": 30.59,
+    "sizeRatio": 1.0,
+    "runnerUp": 37.037696838378906
+  },
+  {
+    "level": 77,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\080.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "dining_room",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 5370,
+    "mae": 45.83,
+    "sizeRatio": 1.0,
+    "runnerUp": 46.081809997558594
+  },
+  {
+    "level": 78,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\081.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "art_studio",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 3863,
+    "mae": 32.19,
+    "sizeRatio": 1.0,
+    "runnerUp": 36.12213897705078
+  },
+  {
+    "level": 79,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\082.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "bakery",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 4967,
+    "mae": 36.13,
+    "sizeRatio": 1.0,
+    "runnerUp": 36.3562126159668
+  },
+  {
+    "level": 80,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\083.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "walk_in_closet",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 3651,
+    "mae": 42.8,
+    "sizeRatio": 1.0,
+    "runnerUp": 44.27177047729492
+  },
+  {
+    "level": 81,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\084.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "sunroom",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 5604,
+    "mae": 41.29,
+    "sizeRatio": 1.0,
+    "runnerUp": 41.973167419433594
+  },
+  {
+    "level": 82,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\085.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "terrace_restaurant",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 4536,
+    "mae": 36.68,
+    "sizeRatio": 1.0,
+    "runnerUp": 36.97185134887695
+  },
+  {
+    "level": 83,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\086.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "live_music_stage",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 4725,
+    "mae": 32.9,
+    "sizeRatio": 1.0,
+    "runnerUp": 35.80740737915039
+  },
+  {
+    "level": 84,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\087.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "clothing_store",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 4665,
+    "mae": 42.89,
+    "sizeRatio": 1.0,
+    "runnerUp": 42.991275787353516
+  },
+  {
+    "level": 85,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\088.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "garden_wedding",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 4846,
+    "mae": 41.87,
+    "sizeRatio": 1.0,
+    "runnerUp": 44.99473190307617
+  },
+  {
+    "level": 86,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\089.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "spa",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 5148,
+    "mae": 31.5,
+    "sizeRatio": 1.0,
+    "runnerUp": 33.70979309082031
+  },
+  {
+    "level": 87,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\090.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "clothing_boutique",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 3522,
+    "mae": 29.12,
+    "sizeRatio": 1.0,
+    "runnerUp": 31.47753143310547
+  },
+  {
+    "level": 88,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\091.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "saloon",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 3336,
+    "mae": 43.02,
+    "sizeRatio": 1.0,
+    "runnerUp": 43.11819076538086
+  },
+  {
+    "level": 89,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\092.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "ice_cream_truck",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 4376,
+    "mae": 39.53,
+    "sizeRatio": 1.0,
+    "runnerUp": 40.72444534301758
+  },
+  {
+    "level": 90,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\093.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "campsite",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 4810,
+    "mae": 46.94,
+    "sizeRatio": 1.0,
+    "runnerUp": 47.10172653198242
+  },
+  {
+    "level": 91,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\094.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "terrace_restaurant",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 4536,
+    "mae": 39.53,
+    "sizeRatio": 1.0,
+    "runnerUp": 41.058929443359375
+  },
+  {
+    "level": 92,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\095.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "campsite",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 4810,
+    "mae": 47.4,
+    "sizeRatio": 1.0,
+    "runnerUp": 47.54650115966797
+  },
+  {
+    "level": 93,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\096.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "spa",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 5148,
+    "mae": 34.32,
+    "sizeRatio": 1.0,
+    "runnerUp": 35.400657653808594
+  },
+  {
+    "level": 94,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\097.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "burger_diner",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 4863,
+    "mae": 45.57,
+    "sizeRatio": 1.0,
+    "runnerUp": 48.14946365356445
+  },
+  {
+    "level": 95,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\099.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "sewing_room",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 5194,
+    "mae": 38.68,
+    "sizeRatio": 1.0,
+    "runnerUp": 40.597694396972656
+  },
+  {
+    "level": 96,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\100.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "makeup_room",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 3298,
+    "mae": 33.19,
+    "sizeRatio": 1.0,
+    "runnerUp": 34.261070251464844
+  },
+  {
+    "level": 97,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\101.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "tea_room",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 3492,
+    "mae": 42.13,
+    "sizeRatio": 1.0,
+    "runnerUp": 44.002140045166016
+  },
+  {
+    "level": 98,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\102.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "nursery",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 4152,
+    "mae": 16.83,
+    "sizeRatio": 1.0,
+    "runnerUp": 29.493003845214844
+  },
+  {
+    "level": 99,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\103.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "bank",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 4631,
+    "mae": 38.12,
+    "sizeRatio": 1.0,
+    "runnerUp": 38.154239654541016
+  },
+  {
+    "level": 100,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\104.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "kids_bedroom",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 3252,
+    "mae": 37.47,
+    "sizeRatio": 1.0,
+    "runnerUp": 38.43357849121094
+  },
+  {
+    "level": 101,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\105.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "sushi_bar",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 5093,
+    "mae": 15.86,
+    "sizeRatio": 1.0,
+    "runnerUp": 42.90633773803711
+  },
+  {
+    "level": 102,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\106.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "canteen",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 4958,
+    "mae": 20.21,
+    "sizeRatio": 1.0,
+    "runnerUp": 41.243125915527344
+  },
+  {
+    "level": 103,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\107.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "teppanyaki_bar",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 4460,
+    "mae": 39.21,
+    "sizeRatio": 1.0,
+    "runnerUp": 40.3504524230957
+  },
+  {
+    "level": 104,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\108.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "sewing_room",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 5194,
+    "mae": 33.35,
+    "sizeRatio": 1.0,
+    "runnerUp": 36.76493835449219
+  },
+  {
+    "level": 105,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\109.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "dining_room",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 5370,
+    "mae": 35.42,
+    "sizeRatio": 1.0,
+    "runnerUp": 35.68230438232422
+  },
+  {
+    "level": 106,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\110.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "lounge_bar",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 3880,
+    "mae": 14.15,
+    "sizeRatio": 1.0,
+    "runnerUp": 37.76362228393555
+  },
+  {
+    "level": 107,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\111.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "playground",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 3821,
+    "mae": 14.79,
+    "sizeRatio": 1.0,
+    "runnerUp": 41.93300247192383
+  },
+  {
+    "level": 108,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\112.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "kitchen_2",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 5703,
+    "mae": 13.9,
+    "sizeRatio": 1.0,
+    "runnerUp": 35.5252685546875
+  },
+  {
+    "level": 109,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\113.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "kindergarten",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 3138,
+    "mae": 38.04,
+    "sizeRatio": 1.0,
+    "runnerUp": 38.798683166503906
+  },
+  {
+    "level": 110,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\114.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "kitchen",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 3783,
+    "mae": 31.1,
+    "sizeRatio": 1.0,
+    "runnerUp": 32.367408752441406
+  },
+  {
+    "level": 111,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\115.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "showroom",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 3412,
+    "mae": 45.28,
+    "sizeRatio": 1.0,
+    "runnerUp": 46.2498779296875
+  },
+  {
+    "level": 112,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\116.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "showroom",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 3412,
+    "mae": 46.7,
+    "sizeRatio": 1.0,
+    "runnerUp": 49.0543212890625
+  },
+  {
+    "level": 113,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\117.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "vintage_photo_studio",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 3074,
+    "mae": 34.86,
+    "sizeRatio": 1.0,
+    "runnerUp": 38.89382553100586
+  },
+  {
+    "level": 114,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\118.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "kids_bedroom",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 3252,
+    "mae": 32.55,
+    "sizeRatio": 1.0,
+    "runnerUp": 36.02485656738281
+  },
+  {
+    "level": 115,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\119.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "kindergarten",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 3138,
+    "mae": 13.44,
+    "sizeRatio": 1.0,
+    "runnerUp": 30.372180938720703
+  },
+  {
+    "level": 116,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\120.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "aquarium_bedroom",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 3465,
+    "mae": 38.32,
+    "sizeRatio": 1.0,
+    "runnerUp": 40.26633834838867
+  },
+  {
+    "level": 117,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\121.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "saloon",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 3336,
+    "mae": 43.55,
+    "sizeRatio": 1.0,
+    "runnerUp": 46.48691177368164
+  },
+  {
+    "level": 118,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\122.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "craft_workshop",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 3167,
+    "mae": 30.95,
+    "sizeRatio": 1.0,
+    "runnerUp": 35.38041305541992
+  },
+  {
+    "level": 119,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\123.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "clothing_store",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 4665,
+    "mae": 13.93,
+    "sizeRatio": 1.0,
+    "runnerUp": 33.10172653198242
+  },
+  {
+    "level": 120,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\124.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "playground",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 3821,
+    "mae": 34.49,
+    "sizeRatio": 1.0,
+    "runnerUp": 39.31884765625
+  },
+  {
+    "level": 121,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\125.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "fireworks_shop",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 3297,
+    "mae": 49.23,
+    "sizeRatio": 1.0,
+    "runnerUp": 50.05382537841797
+  },
+  {
+    "level": 122,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\126.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "grocery_store",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 3398,
+    "mae": 32.81,
+    "sizeRatio": 1.0,
+    "runnerUp": 34.39045333862305
+  },
+  {
+    "level": 123,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\127.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "victorian_parlor",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 3021,
+    "mae": 22.45,
+    "sizeRatio": 1.0,
+    "runnerUp": 39.44641876220703
+  },
+  {
+    "level": 124,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\128.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "front_porch",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 4091,
+    "mae": 35.32,
+    "sizeRatio": 1.0,
+    "runnerUp": 35.46963119506836
+  },
+  {
+    "level": 125,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\129.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "pink_dorm_room",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 4955,
+    "mae": 31.08,
+    "sizeRatio": 1.0,
+    "runnerUp": 31.703702926635742
+  },
+  {
+    "level": 126,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\130.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "pink_dorm_room",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 4955,
+    "mae": 33.37,
+    "sizeRatio": 1.0,
+    "runnerUp": 34.14567947387695
+  },
+  {
+    "level": 127,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\131.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "pink_dorm_room",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 4955,
+    "mae": 36.73,
+    "sizeRatio": 1.0,
+    "runnerUp": 36.8539924621582
+  },
+  {
+    "level": 128,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\132.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "bathroom",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 5468,
+    "mae": 11.87,
+    "sizeRatio": 1.0,
+    "runnerUp": 29.122304916381836
+  },
+  {
+    "level": 129,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\134.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "saloon",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 3336,
+    "mae": 31.74,
+    "sizeRatio": 1.0,
+    "runnerUp": 36.220245361328125
+  },
+  {
+    "level": 130,
+    "path": "D:\\APK Works\\RoomSort\\analysis\\www\\assets\\art\\bg_raw_20261106\\backgrounds\\135.webp",
+    "roomSize": [
+      1440,
+      1560
+    ],
+    "tidy": "pink_dorm_room",
+    "tidySize": [
+      1440,
+      1560
+    ],
+    "sprite": 4955,
+    "mae": 29.7,
+    "sizeRatio": 1.0,
+    "runnerUp": 30.030288696289062
+  }
+]

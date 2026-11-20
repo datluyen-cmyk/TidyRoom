@@ -1,0 +1,71 @@
+{
+  "status": "complete",
+  "requested": 3,
+  "accepted": 3,
+  "sourceStructuralNovelty": 130,
+  "priorStructuralNovelty": 16,
+  "rule": "RoomSort + reject witness reaching 5 filled slots",
+  "noBoosters": true,
+  "inputs": {
+    "source": "6c782eb0220d03b5197035f44d49e98568c41ad4156d3565ba16ce94c17ff050",
+    "models": "1eef9d6e4f52b9fbd95306a89197ecdf33f841a7467925301a43bbfd98a802e4",
+    "art": "2b11f7462e04e16a0c1910e734fa7be9b86c4b1dcc06c37f6bcf8dac911dc55f",
+    "sourceProfiles": "27817fd7dc7c94013d3bd65330d8cbd318c5f9a738ada7f9ab0b05b73a874f40",
+    "adapter": "01056479a22aa189d9b5e6cc9258cba48731aab24757cf49595a98fd6815a621",
+    "core": "9be5fe03d603591942dc89b425743cafc5368033f590eb4a2a02c966d5f105cd",
+    "geometry": "634cfecd6330f7e6580432eddfd35e706778022cd8b453de86b097386832cda0",
+    "rules": "d5644fb4d2833093d5da4737868e9acf2a6cd49ae77ed91af6479a0002e39eb4"
+  },
+  "packHash": "45e33c250c2d5b1e431d5fbd2637fbd732b2348bc1161193ddc1cd08868fba2c",
+  "rejections": {
+    "reference geometry band": 7
+  },
+  "blocked": [],
+  "levels": [
+    {
+      "position": 128,
+      "sourceOdds": null,
+      "estimateOdds": 42.77,
+      "items": 193,
+      "boxes": 39,
+      "groups": 38,
+      "freeRef": 0.28,
+      "freeStudio": 0.166,
+      "contactsRef": 2.363,
+      "contactsStudio": 3.668,
+      "peak": 3,
+      "waits": 40,
+      "signature": "66d7dd469a79dd0cc63d9f18e2142e5052a29f30df10a52433361e4c90f9c8ca"
+    },
+    {
+      "position": 129,
+      "sourceOdds": null,
+      "estimateOdds": 36.593,
+      "items": 180,
+      "boxes": 38,
+      "groups": 37,
+      "freeRef": 0.344,
+      "freeStudio": 0.328,
+      "contactsRef": 1.878,
+      "contactsStudio": 2.283,
+      "peak": 3,
+      "waits": 38,
+      "signature": "9d2356e65c861e1150422a0f867f21cefa89bc1fadb77306e736cb7232a06c29"
+    },
+    {
+      "position": 130,
+      "sourceOdds": null,
+      "estimateOdds": 37.958,
+      "items": 200,
+      "boxes": 40,
+      "groups": 21,
+      "freeRef": 0.23,
+      "freeStudio": 0.22,
+      "contactsRef": 2.65,
+      "contactsStudio": 3.545,
+      "peak": 3,
+      "waits": 42,
+      "signature": "7ae0ada7bc7261d960ab0264123d5fe5b536a0a659e5186d11ef8ba121eab19d"
+    }
+  ]
+}

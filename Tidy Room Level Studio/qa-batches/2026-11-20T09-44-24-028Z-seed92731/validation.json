@@ -1,0 +1,42 @@
+{
+  "status": "complete",
+  "requested": 1,
+  "accepted": 1,
+  "sourceStructuralNovelty": 130,
+  "priorStructuralNovelty": 0,
+  "rule": "RoomSort + reject witness reaching 5 filled slots",
+  "noBoosters": true,
+  "replay": "UID and actual RoomSort hit-test coordinates",
+  "inputs": {
+    "source": "6c782eb0220d03b5197035f44d49e98568c41ad4156d3565ba16ce94c17ff050",
+    "models": "dafc0fccc70f04ce734176e963b1f6cb87474f3d057e1b48ec4fdc0dfd63c0f8",
+    "art": "2b11f7462e04e16a0c1910e734fa7be9b86c4b1dcc06c37f6bcf8dac911dc55f",
+    "sourceProfiles": "27817fd7dc7c94013d3bd65330d8cbd318c5f9a738ada7f9ab0b05b73a874f40",
+    "adapter": "86f05afb15b69bb0b34103e6d4d1700cda01312b7d9061a5729ca6ebe30e6e20",
+    "core": "9be5fe03d603591942dc89b425743cafc5368033f590eb4a2a02c966d5f105cd",
+    "geometry": "634cfecd6330f7e6580432eddfd35e706778022cd8b453de86b097386832cda0",
+    "rules": "d5644fb4d2833093d5da4737868e9acf2a6cd49ae77ed91af6479a0002e39eb4"
+  },
+  "packHash": "cab33fc327ceb560584ed3b3db387a8c6b6b547b0ed7fc55eaaac1044b692a7d",
+  "rejections": {
+    "reference geometry band": 4
+  },
+  "blocked": [],
+  "levels": [
+    {
+      "position": 1,
+      "sourceOdds": 84,
+      "estimateOdds": 60.167,
+      "items": 26,
+      "boxes": 5,
+      "groups": 5,
+      "freeRef": 0.5,
+      "freeStudio": 0.5,
+      "contactsRef": 1.308,
+      "contactsStudio": 1.038,
+      "peak": 0,
+      "waits": 0,
+      "signature": "cd6ce7c6e6a0a96fa7e83a140b7bdc5d402a5dd52e3e2d0d1be3f3dde9775f78"
+    }
+  ]
+}

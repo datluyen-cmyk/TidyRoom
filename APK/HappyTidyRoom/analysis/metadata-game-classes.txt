@@ -1,0 +1,237 @@
+### System.Collections.Queue fields 7 methods 15
+_array
+_head
+_tail
+_size
+_growFactor
+_version
+_syncRoot
+METHODS .ctor, .ctor, .ctor, .ctor, get_Count, Clone, get_IsSynchronized, get_SyncRoot, CopyTo, Enqueue, GetEnumerator, Dequeue, Peek, GetElement, SetCapacity
+### UnityEngine.UIElements.Box fields 1 methods 2
+ussClassName
+METHODS .ctor, .cctor
+### .BoosterType fields 8 methods 0
+value__
+Magnet type=23099 data=1501946 hex=00020406080a0c00 compressedInt=0 float32=2.482791005730524e-35
+Shuffle type=23099 data=1501947 hex=020406080a0c0002 compressedInt=1 float32=4.0328869371560656e-34
+Ufo type=23099 data=1501948 hex=0406080a0c000204 compressedInt=2 float32=6.549293224229268e-33
+Revive type=23099 data=1501949 hex=06080a0c00020406 compressedInt=3 float32=1.063354775841413e-31
+Clear type=23099 data=1501950 hex=080a0c0002040608 compressedInt=4 float32=1.1056244883522807e-39
+ExtraBox type=23099 data=1501951 hex=0a0c000204060801 compressedInt=5 float32=9.40740984807194e-38
+ExtraSlot type=23099 data=1501952 hex=0c00020406080100 compressedInt=6 float32=1.528144808463415e-36
+METHODS 
+### .Configs fields 25 methods 4
+FADE_DURATION type=28383 data=1502046 hex=cdcccc3e00000040 compressedInt=115762719 float32=0.4000000059604645
+BELT_ARROW_SPEED type=28383 data=1502050 hex=0000004000000040 compressedInt=0 float32=2.0
+DEADLOCK_CHECK_INTERVAL type=28383 data=1502054 hex=000000400000803f compressedInt=0 float32=2.0
+DEADLOCK_RECHECK_INTERVAL type=28383 data=1502058 hex=0000803f0000803f compressedInt=0 float32=1.0
+BELT_SPEED_UP_CHECK_INTERVAL type=28383 data=1502062 hex=0000803f14cdcc4c compressedInt=0 float32=1.0
+UFO_MAX_SELECTABLE_BUS_COUNT type=23099 data=1502066 hex=14cdcc4c3e0c02ab compressedInt=10 float32=107374752.0
+RAIL_RAY_INTERVAL type=28383 data=1502067 hex=cdcc4c3e0c02ab3e compressedInt=115746335 float32=0.20000000298023224
+BUS_SLOT_OFFSET_Z type=28383 data=1502071 hex=0c02ab3e333313c0 compressedInt=6 float32=0.33399999141693115
+BUS_ROOF_OFFSET_Z type=28383 data=1502075 hex=333313c00000803f compressedInt=-26 float32=-2.299999952316284
+TIME_RESET_CLICKED type=28383 data=1502079 hex=0000803f85788e10 compressedInt=0 float32=1.0
+REFILL_HEART_COST type=23099 data=1502083 hex=85788e106484b086 compressedInt=700 float32=5.619481400998615e-29
+TIME_HEART_COUNTDOWN type=23099 data=1502085 hex=8e106484b0864000 compressedInt=1800 float32=-2.680887273844967e-36
+SHOP_FREE_COIN_AMOUNT type=23099 data=1502087 hex=6484b08640000000 compressedInt=50 float32=-6.63983723780479e-35
+NEW_USER_START_COIN type=23099 data=1502088 hex=84b086400000003f compressedInt=600 float32=4.209047317504883
+REVIVE_COIN_COST type=23099 data=1502090 hex=86400000003f0000 compressedInt=800 float32=2.314664803371733e-41
+BUS_BOARD_FLIGHT_DURATION type=28383 data=1502092 hex=0000003f0000c040 compressedInt=0 float32=0.5
+BOOSTER_HOP_Z type=28383 data=1502096 hex=0000c040cdcc4c3d compressedInt=0 float32=6.0
+BOOSTER_FLIGHT_INTERVAL type=28383 data=1502100 hex=cdcc4c3d3333333f compressedInt=-115746335 float32=0.05000000074505806
+BOOSTER_FLIGHT_DURATION type=28383 data=1502104 hex=3333333f0ad7a33c compressedInt=-26 float32=0.699999988079071
+PASSENGER_FALL_RISE_STAGGER type=28383 data=1502108 hex=0ad7a33c2850780a compressedInt=5 float32=0.019999999552965164
+LEVEL_WIN_REWARD_EASY type=23099 data=1502112 hex=2850780a0e000204 compressedInt=20 float32=1.1955841370250158e-32
+LEVEL_WIN_REWARD_HARD type=23099 data=1502113 hex=50780a0e00020400 compressedInt=40 float32=1.706774163043659e-30
+LEVEL_WIN_REWARD_SUPER_HARD type=23099 data=1502114 hex=780a0e0002040000 compressedInt=60 float32=1.2894524260962675e-39
+LEVEL_SHOW_RW_END_GAME type=23099 data=1502115 hex=0a0e000204000002 compressedInt=5 float32=9.407983819922927e-38
+LEVEL_START_LOOP type=23099 data=1502116 hex=0e00020400000204 compressedInt=7 float32=1.5281451671958218e-36
+METHODS GetMaxHeart, GetBoosterCoinCost, TrySpendCoin, GetLevelWinReward
+### HappyTidy.Gameplay.BlockRule fields 2 methods 3
+pixels
+maxFrac
+METHODS .ctor, Of, Need
+### HappyTidy.Gameplay.BoosterManager fields 6 methods 24
+DatabasePath type=29011 data=1505529 hex=2e436f6e66696773 compressedInt=23 float32=1.8512033151518466e+28
+AdAmount type=23099 data=1505553 hex=0212426f785f7374 compressedInt=1 float32=6.006186201482697e+28
+database
+boosters
+Used
+<HelpSource>k__BackingField
+METHODS add_Used, remove_Used, get_Database, get_Data, OnAwake, OnLevelLoaded, GetInfo, Get, IsEnabled, GetUnlockLevel, IsUnlocked, IsAvailable, GetCount, HasCount, get_IsAnyExecuting, GetUnavailableReason, get_HelpSource, set_HelpSource, Activate, ShowPurchase, TrackNonInventoryBooster, OnExecuted, StopAll, .ctor
+### HappyTidy.Gameplay.Box fields 36 methods 49
+body
+available
+backBody
+backAvailable
+inside
+countFrame
+front
+icon
+nameText
+countText
+lockLayer
+lockButton
+reserved
+arrived
+<Index>k__BackingField
+<Order>k__BackingField
+<IsLocked>k__BackingField
+<IsCompleting>k__BackingField
+onLockedTap
+anim
+AnimStart type=29011 data=1505554 hex=12426f785f737461 compressedInt=9 float32=1.941092209891547e+34
+AnimIdle type=29011 data=1505564 hex=10426f785f69646c compressedInt=8 float32=1.9410919623035391e+34
+AnimLockedStart type=29011 data=1505573 hex=20426f785f6c6f63 compressedInt=16 float32=1.941093943007602e+34
+AnimLockedIdle type=29011 data=1505590 hex=1e426f785f6c6f63 compressedInt=15 float32=1.9410936954195941e+34
+AnimCom type=29011 data=1505606 hex=0e426f785f436f6d compressedInt=7 float32=1.9410917147155313e+34
+AnimAddSlot type=29011 data=1505614 hex=16426f785f416464 compressedInt=11 float32=1.9410927050675627e+34
+AnimAction type=29011 data=1505626 hex=14426f785f616374 compressedInt=10 float32=1.9410924574795548e+34
+AnimStartEmpty type=29011 data=1505637 hex=2e426f785f737461 compressedInt=23 float32=1.941095676123657e+34
+AnimComIdle type=29011 data=1505661 hex=18426f785f636f6d compressedInt=12 float32=1.9410929526555706e+34
+closeSfxTime
+closedEmpty
+innerFx
+innerFxOn
+suppressInnerFx
+playing
+onClipEnd
+METHODS get_Index, set_Index, get_Order, set_Order, get_SubGroup, get_Capacity, get_IsActive, get_IsLocked, set_IsLocked, get_IsCompleting, set_IsCompleting, get_ReservedCount, get_Reserved, get_CountRect, get_FreeSeats, get_Target, get_Rect, get_DiveParent, get_DiveIndex, Awake, LateUpdate, Init, get_IdleState, PlayClip, ToIdle, PlayThenIdle, SpawnComTail, PlayComTail, PrepareIntro, PlayIntro, get_IntroState, RestoreState, PlayIncoming, HappyTidy.Gameplay.IDiveTarget.OnIncoming, HappyTidy.Gameplay.IDiveTarget.get_IncomingSfx, PlayAddSlot, SetLocked, Assign, SetEmpty, CanAccept, Reserve, Arrive, Punch, PlayComplete, Refresh, .ctor, <Awake>b__65_0, <PlayComTail>b__79_0, <PlayIntro>b__81_0
+### HappyTidy.Gameplay.GameplayManager fields 46 methods 122
+mapCamera
+boxes
+queue
+storage
+hud
+hudCanvas
+flyLayer
+config
+<State>k__BackingField
+<IsPaused>k__BackingField
+<Board>k__BackingField
+<Level>k__BackingField
+<ContentLevel>k__BackingField
+<LevelId>k__BackingField
+<LevelData>k__BackingField
+<IsPlaytest>k__BackingField
+PickFilter
+LevelLoaded
+ObjectPicked
+BoxCompleted
+busy
+inputLocks
+reviveCount
+evaluateRequested
+noRevive
+redirected
+screenSize
+levelHash
+resumeAllowed
+resumeDirty
+loseAtUnix
+storageBound
+fx
+prepare
+preparing
+prepareBudgetMs type=28383 data=1505711 hex=000080400000003f compressedInt=0 float32=4.0
+prepareWaitMax type=28383 data=1505715 hex=0000003f00007041 compressedInt=0 float32=0.5
+prepared
+startSfx
+levelPopups
+levelPopupMaxWait type=28383 data=1505719 hex=000070411a4f7574 compressedInt=0 float32=15.0
+ObjectTapped
+winSeq
+winBlocker
+LoseReason type=29011 data=1505723 hex=1a4f7574206f6620 compressedInt=13 float32=7.774152225536784e+31
+nextStorageLaunch
+METHODS get_FlyLayer, get_State, set_State, get_IsPaused, set_IsPaused, get_Config, get_AdsOff, get_Board, set_Board, get_MapCam, get_Boxes, get_Queue, get_Storage, get_HUD, get_Level, set_Level, get_ContentLevel, set_ContentLevel, get_LevelId, set_LevelId, get_LevelData, set_LevelData, get_IsPlaytest, set_IsPlaytest, add_LevelLoaded, remove_LevelLoaded, add_ObjectPicked, remove_ObjectPicked, add_BoxCompleted, remove_BoxCompleted, get_TotalItems, get_RemainingItems, get_ReviveCount, get_HeartsOn, get_HeartPending, get_QuitCostsHeart, ShowOutOfLives, get_CanAcceptInput, OnAwake, FillLevelSnapshot, TrackHelp, TrackPickAction, TrackProgress, OnApplicationPause, SetupFx, PlayFx, Start, CurrentLevelNumber, LoadCurrentLevel, LoadCurrentLevelWithTransition, StopPrepare, LoadWhenPrepared, PrepareLevel, RetryLevel, StartSfxAfterTransition, get_IsTransitionVisible, RestartFromSettings, LoadLevel, LevelStartPopups, SetGameplayPaused, InstantWin, InstantLose, ApplyViewport, Update, add_ObjectTapped, remove_ObjectTapped, OnTap, OnArriveBox, ResolveWaiting, SendToStorage, MarkStorageBound, UnmarkStorageBound, OnLockedBoxTap, UnlockBox, Begin, End, LockInput, UnlockInput, Evaluate, Win, WinSequence, SetWinBlock, Lose, ShowRevive, ConfirmGiveUp, get_CanRevive, ShowLose, Revive, MarkDirty, EndResume, get_CanSaveResume, get_BoardSaveBlocked, FlushResume, LateUpdate, CaptureResume, ApplyResume, FlyFromWorld, PoseRotation, PoseOf, ApplyPose, FlyFromUI, CollectFxScale, Fly, SuckFromWorld, FlyFromStorage, FlyDive, AttachTrail, DiveControlY, CubicBezier, TapWrong, Shake, RefreshTint, .ctor, <OnAwake>b__93_0, <OnAwake>b__93_1, <LoadCurrentLevelWithTransition>b__105_0, <Lose>b__151_0, <ShowRevive>b__152_0, <ConfirmGiveUp>b__153_0, <ShowLose>b__156_0, <ShowLose>b__156_1, <ApplyResume>g__Resolve|167_0
+### HappyTidy.Gameplay.GameSfx fields 0 methods 3
+METHODS Play, PlayDelayed, Haptic
+### HappyTidy.Gameplay.LevelResolver fields 3 methods 10
+ResourceFolder type=29011 data=1505838 hex=0c4c6576656c73a7 compressedInt=6 float32=1.1626742133518586e+33
+MaxPlayableLevels type=23099 data=1505845 hex=a710040000003053 compressedInt=5000 float32=3.7331571998538154e-40
+playableCount
+METHODS ResetCache, get_General, LevelId, get_LevelVer, Load, get_PlayableCount, ContentLevel, Asset, Mode, .cctor
+### HappyTidy.Gameplay.Queue fields 24 methods 35
+slotViews
+slotsHomeX
+slotsStorageX
+shiftDuration
+bonusSlot
+bonusSlots
+bonusUnlockedSprite
+slots
+warningTween
+shiftTween
+shifted
+bonusLockedSprite
+unlockedBonus
+bonusButtons
+designPos
+designSize
+<IsWarning>k__BackingField
+Changed
+lastWarn
+screenWarn
+lastWarnTween
+screenSeq
+lastWarnOn
+lastWarnFromPrefab
+METHODS get_Slots, get_FreeCount, get_IsFull, get_IsWarning, set_IsWarning, get_BonusUnlocked, get_NextLockedBonus, get_Bonus, add_Changed, remove_Changed, get_ShiftDuration, SetStorageVisible, Setup, Layout, SetupBonus, OnBonusTap, UnlockBonus, OpenBonus, get_BonusUnlockedCount, get_BonusTotal, Restore, RefreshState, Reserve, Arrive, PlaceInstant, Release, Compact, Update, RefreshWarning, SetLastSlotWarning, PlayScreenWarning, StopScreenWarning, .ctor, <get_NextLockedBonus>b__29_0, <PlayScreenWarning>b__64_0
+### HappyTidy.Gameplay.Storage fields 33 methods 33
+front
+back
+queue
+slideDistance
+startScale
+appearDuration
+animBlend
+tooltipPrefab
+tooltip
+tipItems
+items
+arriving
+leaving
+group
+home
+homeSet
+shown
+shownT
+showTween
+anim
+animCtrl
+animReady
+inAction
+actionClip
+reversing
+hideAfterReverse
+reverseStart
+reverseFromPos
+reverseFromScale
+reverseFromRot
+AnimIdle
+AnimAction
+visuals
+METHODS get_Items, get_Target, get_DiveParent, get_DiveIndex, get_IncomingSfx, Awake, EnsureInit, Setup, Reserve, CancelReserve, get_IsShown, get_AppearDuration, Arrive, RestoreInstant, Release, Left, Refresh, OnPointerClick, ShowTooltip, Apply, SetShown, ResetVisual, get_Visuals, StartIdle, StopAnim, OnIncoming, PlayAction, OnLaunch, SampleReverse, LateUpdate, .ctor, .cctor, <SetShown>b__59_0
+### HappyTidy.Gameplay.IdleHint fields 14 methods 14
+ShaderPath type=29011 data=1505851 hex=3053686164657273 compressedInt=24 float32=2.6785243226279038e+20
+silhouette
+idle
+shownFor
+target
+baseScale
+rims
+rimRoot
+seq
+pulse
+hooked
+CloseHintKey type=29011 data=1505876 hex=1a6c765f636c6f73 compressedInt=13 float32=1.7756596018117345e+19
+closeAtLevel
+closeRead
+METHODS get_Gm, Update, OnObjectTapped, Touched, LevelAllows, CanHint, Pick, Play, BuildRims, Cancel, Clear, OnDisable, OnDestroy, .ctor
+### _Game.Scripts.HeartSystemManager fields 1 methods 6
+next
+METHODS Awake, OnStart, Update, OnApplicationFocus, Sync, .ctor
+### .Queue fields 1 methods 3
+m_DurationMilliseconds
+METHODS .ctor, get_Duration, CreateTimer

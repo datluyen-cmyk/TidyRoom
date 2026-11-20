@@ -1,0 +1,1 @@
+const bound=new WeakSet;function bindButtonSounds(root,play){bound.has(root)||(bound.add(root),root.addEventListener("click",event=>{if(event.button!=null&&event.button!==0)return;const button=event.target?.closest?.("button");!button||button.disabled||button.getAttribute("aria-disabled")==="true"||play("clickButton")},{capture:!0}))}export{bindButtonSounds};

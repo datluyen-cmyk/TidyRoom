@@ -1,0 +1,1 @@
+{"m_GameObject": {"m_FileID": 0, "m_PathID": 6658}, "m_Enabled": 1, "m_Script": {"m_FileID": 16777216, "m_PathID": 26357006336}, "m_Name": "", "delay": 0.0, "duration": 0.30000001192092896, "ease": 1, "target": {"m_FileID": 0, "m_PathID": 7592}, "from": {"x": 0.0, "y": 0.0}, "to": {"x": 0.0, "y": -3000.0}, "snapping": 0}

@@ -1,0 +1,4233 @@
+{
+  "roomStats": [
+    {
+      "level": 1,
+      "name": "我的书房",
+      "items": 26,
+      "uniqueAssets": 25,
+      "types": 5,
+      "boxes": 5,
+      "boxSizeCounts": {
+        "4": 1,
+        "5": 2,
+        "6": 2
+      },
+      "repeatBoxes": 0,
+      "repeatGapMin": null,
+      "repeatGapAvg": null,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 2,
+      "name": "谁的房间",
+      "items": 80,
+      "uniqueAssets": 65,
+      "types": 15,
+      "boxes": 16,
+      "boxSizeCounts": {
+        "4": 5,
+        "5": 6,
+        "6": 5
+      },
+      "repeatBoxes": 1,
+      "repeatGapMin": 9,
+      "repeatGapAvg": 9,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 3,
+      "name": "混乱的客厅",
+      "items": 209,
+      "uniqueAssets": 119,
+      "types": 23,
+      "boxes": 41,
+      "boxSizeCounts": {
+        "4": 8,
+        "5": 21,
+        "6": 12
+      },
+      "repeatBoxes": 18,
+      "repeatGapMin": 7,
+      "repeatGapAvg": 15.222222222222221,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 4,
+      "name": "顶楼阳台",
+      "items": 203,
+      "uniqueAssets": 112,
+      "types": 22,
+      "boxes": 40,
+      "boxSizeCounts": {
+        "4": 8,
+        "5": 21,
+        "6": 11
+      },
+      "repeatBoxes": 18,
+      "repeatGapMin": 2,
+      "repeatGapAvg": 12.11111111111111,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 5,
+      "name": "我的房间",
+      "items": 200,
+      "uniqueAssets": 126,
+      "types": 23,
+      "boxes": 38,
+      "boxSizeCounts": {
+        "4": 3,
+        "5": 22,
+        "6": 13
+      },
+      "repeatBoxes": 15,
+      "repeatGapMin": 9,
+      "repeatGapAvg": 16.2,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 6,
+      "name": "厨房",
+      "items": 201,
+      "uniqueAssets": 105,
+      "types": 20,
+      "boxes": 38,
+      "boxSizeCounts": {
+        "4": 9,
+        "5": 14,
+        "6": 10,
+        "7": 5
+      },
+      "repeatBoxes": 18,
+      "repeatGapMin": 2,
+      "repeatGapAvg": 12.444444444444445,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 7,
+      "name": "地下车库",
+      "items": 201,
+      "uniqueAssets": 147,
+      "types": 31,
+      "boxes": 41,
+      "boxSizeCounts": {
+        "4": 13,
+        "5": 20,
+        "6": 7,
+        "7": 1
+      },
+      "repeatBoxes": 10,
+      "repeatGapMin": 4,
+      "repeatGapAvg": 16.8,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 8,
+      "name": "教室",
+      "items": 202,
+      "uniqueAssets": 90,
+      "types": 16,
+      "boxes": 39,
+      "boxSizeCounts": {
+        "3": 1,
+        "4": 8,
+        "5": 15,
+        "6": 13,
+        "7": 2
+      },
+      "repeatBoxes": 23,
+      "repeatGapMin": 3,
+      "repeatGapAvg": 12.217391304347826,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 9,
+      "name": "学校食堂",
+      "items": 193,
+      "uniqueAssets": 101,
+      "types": 17,
+      "boxes": 36,
+      "boxSizeCounts": {
+        "3": 1,
+        "4": 5,
+        "5": 16,
+        "6": 8,
+        "7": 6
+      },
+      "repeatBoxes": 19,
+      "repeatGapMin": 2,
+      "repeatGapAvg": 9.473684210526315,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 10,
+      "name": "操场",
+      "items": 192,
+      "uniqueAssets": 75,
+      "types": 15,
+      "boxes": 34,
+      "boxSizeCounts": {
+        "4": 3,
+        "5": 14,
+        "6": 9,
+        "7": 8
+      },
+      "repeatBoxes": 19,
+      "repeatGapMin": 3,
+      "repeatGapAvg": 10.526315789473685,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 11,
+      "name": "男生宿舍",
+      "items": 200,
+      "uniqueAssets": 129,
+      "types": 25,
+      "boxes": 40,
+      "boxSizeCounts": {
+        "4": 11,
+        "5": 20,
+        "6": 7,
+        "7": 2
+      },
+      "repeatBoxes": 15,
+      "repeatGapMin": 3,
+      "repeatGapAvg": 14.733333333333333,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 12,
+      "name": "校长办公室",
+      "items": 202,
+      "uniqueAssets": 134,
+      "types": 28,
+      "boxes": 42,
+      "boxSizeCounts": {
+        "4": 15,
+        "5": 21,
+        "6": 5,
+        "7": 1
+      },
+      "repeatBoxes": 14,
+      "repeatGapMin": 4,
+      "repeatGapAvg": 16.285714285714285,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 13,
+      "name": "女生宿舍",
+      "items": 200,
+      "uniqueAssets": 146,
+      "types": 28,
+      "boxes": 39,
+      "boxSizeCounts": {
+        "4": 7,
+        "5": 23,
+        "6": 6,
+        "7": 3
+      },
+      "repeatBoxes": 11,
+      "repeatGapMin": 4,
+      "repeatGapAvg": 16.363636363636363,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 14,
+      "name": "自习室",
+      "items": 200,
+      "uniqueAssets": 91,
+      "types": 18,
+      "boxes": 40,
+      "boxSizeCounts": {
+        "4": 10,
+        "5": 22,
+        "6": 6,
+        "7": 2
+      },
+      "repeatBoxes": 22,
+      "repeatGapMin": 3,
+      "repeatGapAvg": 13.681818181818182,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 15,
+      "name": "茶水室",
+      "items": 204,
+      "uniqueAssets": 93,
+      "types": 18,
+      "boxes": 37,
+      "boxSizeCounts": {
+        "4": 9,
+        "5": 10,
+        "6": 9,
+        "7": 8,
+        "8": 1
+      },
+      "repeatBoxes": 19,
+      "repeatGapMin": 2,
+      "repeatGapAvg": 11.052631578947368,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 16,
+      "name": "校园理发室",
+      "items": 199,
+      "uniqueAssets": 96,
+      "types": 21,
+      "boxes": 39,
+      "boxSizeCounts": {
+        "4": 8,
+        "5": 21,
+        "6": 8,
+        "7": 2
+      },
+      "repeatBoxes": 18,
+      "repeatGapMin": 4,
+      "repeatGapAvg": 11.11111111111111,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 17,
+      "name": "棋牌室",
+      "items": 198,
+      "uniqueAssets": 107,
+      "types": 26,
+      "boxes": 37,
+      "boxSizeCounts": {
+        "4": 12,
+        "5": 8,
+        "6": 9,
+        "7": 8
+      },
+      "repeatBoxes": 11,
+      "repeatGapMin": 5,
+      "repeatGapAvg": 13.272727272727273,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 18,
+      "name": "影音室",
+      "items": 188,
+      "uniqueAssets": 126,
+      "types": 28,
+      "boxes": 38,
+      "boxSizeCounts": {
+        "4": 11,
+        "5": 20,
+        "6": 5,
+        "7": 2
+      },
+      "repeatBoxes": 10,
+      "repeatGapMin": 10,
+      "repeatGapAvg": 18.5,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 19,
+      "name": "阳台",
+      "items": 188,
+      "uniqueAssets": 106,
+      "types": 21,
+      "boxes": 37,
+      "boxSizeCounts": {
+        "4": 9,
+        "5": 18,
+        "6": 8,
+        "7": 2
+      },
+      "repeatBoxes": 16,
+      "repeatGapMin": 4,
+      "repeatGapAvg": 14.75,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 20,
+      "name": "玄关",
+      "items": 181,
+      "uniqueAssets": 123,
+      "types": 25,
+      "boxes": 40,
+      "boxSizeCounts": {
+        "4": 22,
+        "5": 15,
+        "6": 3
+      },
+      "repeatBoxes": 15,
+      "repeatGapMin": 9,
+      "repeatGapAvg": 17.933333333333334,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 21,
+      "name": "餐厅",
+      "items": 197,
+      "uniqueAssets": 119,
+      "types": 26,
+      "boxes": 37,
+      "boxSizeCounts": {
+        "4": 11,
+        "5": 9,
+        "6": 11,
+        "7": 6
+      },
+      "repeatBoxes": 11,
+      "repeatGapMin": 6,
+      "repeatGapAvg": 14.909090909090908,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 22,
+      "name": "宠物区",
+      "items": 170,
+      "uniqueAssets": 104,
+      "types": 24,
+      "boxes": 34,
+      "boxSizeCounts": {
+        "4": 15,
+        "5": 6,
+        "6": 11,
+        "7": 2
+      },
+      "repeatBoxes": 10,
+      "repeatGapMin": 11,
+      "repeatGapAvg": 17.3,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 23,
+      "name": "地下室",
+      "items": 195,
+      "uniqueAssets": 142,
+      "types": 34,
+      "boxes": 41,
+      "boxSizeCounts": {
+        "4": 20,
+        "5": 13,
+        "6": 6,
+        "7": 2
+      },
+      "repeatBoxes": 7,
+      "repeatGapMin": 10,
+      "repeatGapAvg": 24.714285714285715,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 24,
+      "name": "健身房",
+      "items": 186,
+      "uniqueAssets": 126,
+      "types": 28,
+      "boxes": 35,
+      "boxSizeCounts": {
+        "4": 11,
+        "5": 10,
+        "6": 7,
+        "7": 6,
+        "8": 1
+      },
+      "repeatBoxes": 7,
+      "repeatGapMin": 5,
+      "repeatGapAvg": 15.714285714285714,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 25,
+      "name": "衣帽间",
+      "items": 192,
+      "uniqueAssets": 136,
+      "types": 26,
+      "boxes": 37,
+      "boxSizeCounts": {
+        "4": 9,
+        "5": 16,
+        "6": 8,
+        "7": 4
+      },
+      "repeatBoxes": 11,
+      "repeatGapMin": 11,
+      "repeatGapAvg": 21,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 26,
+      "name": "儿童房",
+      "items": 188,
+      "uniqueAssets": 101,
+      "types": 28,
+      "boxes": 37,
+      "boxSizeCounts": {
+        "4": 15,
+        "5": 12,
+        "6": 3,
+        "7": 6,
+        "8": 1
+      },
+      "repeatBoxes": 9,
+      "repeatGapMin": 6,
+      "repeatGapAvg": 19.77777777777778,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 27,
+      "name": "电影院",
+      "items": 181,
+      "uniqueAssets": 80,
+      "types": 18,
+      "boxes": 34,
+      "boxSizeCounts": {
+        "4": 10,
+        "5": 10,
+        "6": 8,
+        "7": 5,
+        "8": 1
+      },
+      "repeatBoxes": 16,
+      "repeatGapMin": 3,
+      "repeatGapAvg": 13.0625,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 28,
+      "name": "泳池边",
+      "items": 200,
+      "uniqueAssets": 107,
+      "types": 26,
+      "boxes": 37,
+      "boxSizeCounts": {
+        "4": 11,
+        "5": 11,
+        "6": 5,
+        "7": 9,
+        "8": 1
+      },
+      "repeatBoxes": 11,
+      "repeatGapMin": 11,
+      "repeatGapAvg": 17.363636363636363,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 29,
+      "name": "公司前台",
+      "items": 200,
+      "uniqueAssets": 130,
+      "types": 26,
+      "boxes": 37,
+      "boxSizeCounts": {
+        "4": 8,
+        "5": 15,
+        "6": 7,
+        "7": 5,
+        "8": 2
+      },
+      "repeatBoxes": 11,
+      "repeatGapMin": 6,
+      "repeatGapAvg": 15.818181818181818,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 30,
+      "name": "办公区",
+      "items": 190,
+      "uniqueAssets": 117,
+      "types": 27,
+      "boxes": 38,
+      "boxSizeCounts": {
+        "3": 1,
+        "4": 16,
+        "5": 9,
+        "6": 7,
+        "7": 4,
+        "8": 1
+      },
+      "repeatBoxes": 11,
+      "repeatGapMin": 6,
+      "repeatGapAvg": 16.545454545454547,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 31,
+      "name": "公司茶水间",
+      "items": 205,
+      "uniqueAssets": 122,
+      "types": 19,
+      "boxes": 38,
+      "boxSizeCounts": {
+        "4": 3,
+        "5": 21,
+        "6": 10,
+        "7": 4
+      },
+      "repeatBoxes": 19,
+      "repeatGapMin": 9,
+      "repeatGapAvg": 16.94736842105263,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 32,
+      "name": "会议室",
+      "items": 187,
+      "uniqueAssets": 131,
+      "types": 27,
+      "boxes": 34,
+      "boxSizeCounts": {
+        "4": 10,
+        "5": 10,
+        "6": 5,
+        "7": 5,
+        "8": 4
+      },
+      "repeatBoxes": 7,
+      "repeatGapMin": 13,
+      "repeatGapAvg": 19.714285714285715,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 33,
+      "name": "财务室",
+      "items": 196,
+      "uniqueAssets": 111,
+      "types": 16,
+      "boxes": 35,
+      "boxSizeCounts": {
+        "5": 17,
+        "6": 15,
+        "7": 3
+      },
+      "repeatBoxes": 19,
+      "repeatGapMin": 5,
+      "repeatGapAvg": 13.368421052631579,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 34,
+      "name": "老板办公室",
+      "items": 195,
+      "uniqueAssets": 125,
+      "types": 32,
+      "boxes": 38,
+      "boxSizeCounts": {
+        "4": 16,
+        "5": 9,
+        "6": 6,
+        "7": 6,
+        "8": 1
+      },
+      "repeatBoxes": 6,
+      "repeatGapMin": 6,
+      "repeatGapAvg": 18,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 35,
+      "name": "牛排店",
+      "items": 208,
+      "uniqueAssets": 117,
+      "types": 19,
+      "boxes": 36,
+      "boxSizeCounts": {
+        "4": 1,
+        "5": 12,
+        "6": 18,
+        "7": 4,
+        "8": 1
+      },
+      "repeatBoxes": 17,
+      "repeatGapMin": 13,
+      "repeatGapAvg": 16.88235294117647,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 36,
+      "name": "果蔬店",
+      "items": 198,
+      "uniqueAssets": 115,
+      "types": 20,
+      "boxes": 36,
+      "boxSizeCounts": {
+        "4": 2,
+        "5": 17,
+        "6": 14,
+        "7": 3
+      },
+      "repeatBoxes": 16,
+      "repeatGapMin": 8,
+      "repeatGapAvg": 15.0625,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 37,
+      "name": "儿童游乐场",
+      "items": 172,
+      "uniqueAssets": 107,
+      "types": 28,
+      "boxes": 31,
+      "boxSizeCounts": {
+        "3": 1,
+        "4": 9,
+        "5": 8,
+        "6": 5,
+        "7": 1,
+        "8": 7
+      },
+      "repeatBoxes": 3,
+      "repeatGapMin": 4,
+      "repeatGapAvg": 16.666666666666668,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 38,
+      "name": "奶茶店",
+      "items": 188,
+      "uniqueAssets": 120,
+      "types": 25,
+      "boxes": 36,
+      "boxSizeCounts": {
+        "4": 9,
+        "5": 14,
+        "6": 10,
+        "7": 2,
+        "8": 1
+      },
+      "repeatBoxes": 11,
+      "repeatGapMin": 5,
+      "repeatGapAvg": 15.545454545454545,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 39,
+      "name": "咖啡厅",
+      "items": 191,
+      "uniqueAssets": 107,
+      "types": 21,
+      "boxes": 36,
+      "boxSizeCounts": {
+        "4": 4,
+        "5": 20,
+        "6": 9,
+        "7": 3
+      },
+      "repeatBoxes": 15,
+      "repeatGapMin": 9,
+      "repeatGapAvg": 16.733333333333334,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 40,
+      "name": "宠物店",
+      "items": 196,
+      "uniqueAssets": 118,
+      "types": 23,
+      "boxes": 37,
+      "boxSizeCounts": {
+        "4": 2,
+        "5": 23,
+        "6": 11,
+        "7": 1
+      },
+      "repeatBoxes": 14,
+      "repeatGapMin": 10,
+      "repeatGapAvg": 16.785714285714285,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 41,
+      "name": "母婴店",
+      "items": 200,
+      "uniqueAssets": 113,
+      "types": 20,
+      "boxes": 35,
+      "boxSizeCounts": {
+        "4": 1,
+        "5": 13,
+        "6": 16,
+        "7": 5
+      },
+      "repeatBoxes": 15,
+      "repeatGapMin": 10,
+      "repeatGapAvg": 16.266666666666666,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 42,
+      "name": "药店",
+      "items": 207,
+      "uniqueAssets": 132,
+      "types": 23,
+      "boxes": 35,
+      "boxSizeCounts": {
+        "4": 1,
+        "5": 11,
+        "6": 13,
+        "7": 10
+      },
+      "repeatBoxes": 12,
+      "repeatGapMin": 10,
+      "repeatGapAvg": 18.083333333333332,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 43,
+      "name": "面包店",
+      "items": 200,
+      "uniqueAssets": 103,
+      "types": 20,
+      "boxes": 36,
+      "boxSizeCounts": {
+        "4": 1,
+        "5": 19,
+        "6": 11,
+        "7": 5
+      },
+      "repeatBoxes": 16,
+      "repeatGapMin": 6,
+      "repeatGapAvg": 13.625,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 44,
+      "name": "游戏机厅",
+      "items": 202,
+      "uniqueAssets": 103,
+      "types": 20,
+      "boxes": 35,
+      "boxSizeCounts": {
+        "4": 1,
+        "5": 15,
+        "6": 10,
+        "7": 9
+      },
+      "repeatBoxes": 15,
+      "repeatGapMin": 9,
+      "repeatGapAvg": 15.733333333333333,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 45,
+      "name": "美甲店",
+      "items": 194,
+      "uniqueAssets": 148,
+      "types": 35,
+      "boxes": 40,
+      "boxSizeCounts": {
+        "4": 20,
+        "5": 10,
+        "6": 7,
+        "7": 2,
+        "8": 1
+      },
+      "repeatBoxes": 5,
+      "repeatGapMin": 8,
+      "repeatGapAvg": 15,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 46,
+      "name": "名牌店",
+      "items": 183,
+      "uniqueAssets": 89,
+      "types": 18,
+      "boxes": 31,
+      "boxSizeCounts": {
+        "5": 10,
+        "6": 14,
+        "7": 7
+      },
+      "repeatBoxes": 13,
+      "repeatGapMin": 9,
+      "repeatGapAvg": 15,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 47,
+      "name": "数码产品店",
+      "items": 207,
+      "uniqueAssets": 136,
+      "types": 22,
+      "boxes": 34,
+      "boxSizeCounts": {
+        "5": 6,
+        "6": 19,
+        "7": 9
+      },
+      "repeatBoxes": 12,
+      "repeatGapMin": 11,
+      "repeatGapAvg": 18.083333333333332,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 48,
+      "name": "食品区",
+      "items": 191,
+      "uniqueAssets": 94,
+      "types": 18,
+      "boxes": 36,
+      "boxSizeCounts": {
+        "4": 12,
+        "5": 9,
+        "6": 10,
+        "7": 2,
+        "8": 3
+      },
+      "repeatBoxes": 18,
+      "repeatGapMin": 3,
+      "repeatGapAvg": 13.944444444444445,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 49,
+      "name": "生鲜区",
+      "items": 188,
+      "uniqueAssets": 105,
+      "types": 18,
+      "boxes": 39,
+      "boxSizeCounts": {
+        "4": 12,
+        "5": 23,
+        "6": 3,
+        "7": 1
+      },
+      "repeatBoxes": 21,
+      "repeatGapMin": 6,
+      "repeatGapAvg": 15.142857142857142,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 50,
+      "name": "文具店",
+      "items": 195,
+      "uniqueAssets": 138,
+      "types": 26,
+      "boxes": 36,
+      "boxSizeCounts": {
+        "4": 9,
+        "5": 13,
+        "6": 8,
+        "7": 2,
+        "8": 4
+      },
+      "repeatBoxes": 10,
+      "repeatGapMin": 8,
+      "repeatGapAvg": 15.4,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 51,
+      "name": "便利店",
+      "items": 193,
+      "uniqueAssets": 102,
+      "types": 19,
+      "boxes": 38,
+      "boxSizeCounts": {
+        "4": 8,
+        "5": 19,
+        "6": 11
+      },
+      "repeatBoxes": 19,
+      "repeatGapMin": 8,
+      "repeatGapAvg": 16.94736842105263,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 52,
+      "name": "餐厅后厨",
+      "items": 199,
+      "uniqueAssets": 128,
+      "types": 19,
+      "boxes": 40,
+      "boxSizeCounts": {
+        "4": 7,
+        "5": 27,
+        "6": 6
+      },
+      "repeatBoxes": 21,
+      "repeatGapMin": 8,
+      "repeatGapAvg": 16.285714285714285,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 53,
+      "name": "玩具店",
+      "items": 201,
+      "uniqueAssets": 106,
+      "types": 19,
+      "boxes": 42,
+      "boxSizeCounts": {
+        "4": 13,
+        "5": 25,
+        "6": 4
+      },
+      "repeatBoxes": 23,
+      "repeatGapMin": 5,
+      "repeatGapAvg": 14.652173913043478,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 54,
+      "name": "病房",
+      "items": 198,
+      "uniqueAssets": 119,
+      "types": 21,
+      "boxes": 40,
+      "boxSizeCounts": {
+        "4": 8,
+        "5": 26,
+        "6": 6
+      },
+      "repeatBoxes": 19,
+      "repeatGapMin": 11,
+      "repeatGapAvg": 18.894736842105264,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 55,
+      "name": "值班室",
+      "items": 200,
+      "uniqueAssets": 127,
+      "types": 23,
+      "boxes": 42,
+      "boxSizeCounts": {
+        "4": 13,
+        "5": 26,
+        "6": 3
+      },
+      "repeatBoxes": 19,
+      "repeatGapMin": 8,
+      "repeatGapAvg": 14.210526315789474,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 56,
+      "name": "医生办公室",
+      "items": 186,
+      "uniqueAssets": 110,
+      "types": 21,
+      "boxes": 39,
+      "boxSizeCounts": {
+        "4": 11,
+        "5": 26,
+        "6": 2
+      },
+      "repeatBoxes": 18,
+      "repeatGapMin": 10,
+      "repeatGapAvg": 17.11111111111111,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 57,
+      "name": "药房",
+      "items": 187,
+      "uniqueAssets": 111,
+      "types": 18,
+      "boxes": 38,
+      "boxSizeCounts": {
+        "4": 9,
+        "5": 23,
+        "6": 6
+      },
+      "repeatBoxes": 20,
+      "repeatGapMin": 8,
+      "repeatGapAvg": 16.5,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 58,
+      "name": "休息室",
+      "items": 195,
+      "uniqueAssets": 159,
+      "types": 35,
+      "boxes": 42,
+      "boxSizeCounts": {
+        "3": 1,
+        "4": 18,
+        "5": 19,
+        "6": 3,
+        "7": 1
+      },
+      "repeatBoxes": 7,
+      "repeatGapMin": 8,
+      "repeatGapAvg": 22.857142857142858,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 59,
+      "name": "公交站",
+      "items": 206,
+      "uniqueAssets": 104,
+      "types": 19,
+      "boxes": 40,
+      "boxSizeCounts": {
+        "4": 5,
+        "5": 24,
+        "6": 11
+      },
+      "repeatBoxes": 21,
+      "repeatGapMin": 8,
+      "repeatGapAvg": 17.142857142857142,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 60,
+      "name": "高铁车厢",
+      "items": 196,
+      "uniqueAssets": 119,
+      "types": 21,
+      "boxes": 41,
+      "boxSizeCounts": {
+        "4": 11,
+        "5": 28,
+        "6": 2
+      },
+      "repeatBoxes": 20,
+      "repeatGapMin": 10,
+      "repeatGapAvg": 20.45,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 61,
+      "name": "影院售票",
+      "items": 198,
+      "uniqueAssets": 107,
+      "types": 19,
+      "boxes": 41,
+      "boxSizeCounts": {
+        "4": 11,
+        "5": 26,
+        "6": 4
+      },
+      "repeatBoxes": 22,
+      "repeatGapMin": 6,
+      "repeatGapAvg": 17.545454545454547,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 62,
+      "name": "娱乐中心",
+      "items": 190,
+      "uniqueAssets": 113,
+      "types": 25,
+      "boxes": 34,
+      "boxSizeCounts": {
+        "4": 9,
+        "5": 8,
+        "6": 8,
+        "7": 6,
+        "8": 3
+      },
+      "repeatBoxes": 9,
+      "repeatGapMin": 6,
+      "repeatGapAvg": 12.666666666666666,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 63,
+      "name": "进站口",
+      "items": 199,
+      "uniqueAssets": 109,
+      "types": 20,
+      "boxes": 41,
+      "boxSizeCounts": {
+        "4": 10,
+        "5": 27,
+        "6": 4
+      },
+      "repeatBoxes": 21,
+      "repeatGapMin": 10,
+      "repeatGapAvg": 18.666666666666668,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 64,
+      "name": "维修厂",
+      "items": 207,
+      "uniqueAssets": 132,
+      "types": 23,
+      "boxes": 40,
+      "boxSizeCounts": {
+        "4": 3,
+        "5": 27,
+        "6": 10
+      },
+      "repeatBoxes": 17,
+      "repeatGapMin": 6,
+      "repeatGapAvg": 16.705882352941178,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 65,
+      "name": "机场值机",
+      "items": 197,
+      "uniqueAssets": 118,
+      "types": 21,
+      "boxes": 40,
+      "boxSizeCounts": {
+        "4": 7,
+        "5": 29,
+        "6": 4
+      },
+      "repeatBoxes": 19,
+      "repeatGapMin": 7,
+      "repeatGapAvg": 19.842105263157894,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 66,
+      "name": "候车厅",
+      "items": 186,
+      "uniqueAssets": 103,
+      "types": 19,
+      "boxes": 37,
+      "boxSizeCounts": {
+        "4": 4,
+        "5": 28,
+        "6": 5
+      },
+      "repeatBoxes": 18,
+      "repeatGapMin": 9,
+      "repeatGapAvg": 18.27777777777778,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 67,
+      "name": "汽车工厂",
+      "items": 207,
+      "uniqueAssets": 126,
+      "types": 25,
+      "boxes": 42,
+      "boxSizeCounts": {
+        "4": 8,
+        "5": 29,
+        "6": 5
+      },
+      "repeatBoxes": 17,
+      "repeatGapMin": 8,
+      "repeatGapAvg": 18.058823529411764,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 68,
+      "name": "游戏厅",
+      "items": 199,
+      "uniqueAssets": 117,
+      "types": 22,
+      "boxes": 40,
+      "boxSizeCounts": {
+        "4": 10,
+        "5": 23,
+        "6": 6,
+        "8": 1
+      },
+      "repeatBoxes": 18,
+      "repeatGapMin": 8,
+      "repeatGapAvg": 18.555555555555557,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 69,
+      "name": "邮局",
+      "items": 209,
+      "uniqueAssets": 112,
+      "types": 21,
+      "boxes": 41,
+      "boxSizeCounts": {
+        "4": 6,
+        "5": 25,
+        "6": 10
+      },
+      "repeatBoxes": 20,
+      "repeatGapMin": 12,
+      "repeatGapAvg": 20.3,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 70,
+      "name": "银行营业厅",
+      "items": 200,
+      "uniqueAssets": 96,
+      "types": 18,
+      "boxes": 41,
+      "boxSizeCounts": {
+        "4": 8,
+        "5": 30,
+        "6": 3
+      },
+      "repeatBoxes": 23,
+      "repeatGapMin": 7,
+      "repeatGapAvg": 16.26086956521739,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 71,
+      "name": "音乐排练室",
+      "items": 190,
+      "uniqueAssets": 104,
+      "types": 19,
+      "boxes": 39,
+      "boxSizeCounts": {
+        "4": 9,
+        "5": 26,
+        "6": 4
+      },
+      "repeatBoxes": 20,
+      "repeatGapMin": 5,
+      "repeatGapAvg": 15.75,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 72,
+      "name": "化妆后台",
+      "items": 193,
+      "uniqueAssets": 134,
+      "types": 28,
+      "boxes": 35,
+      "boxSizeCounts": {
+        "4": 10,
+        "5": 8,
+        "6": 10,
+        "7": 3,
+        "8": 4
+      },
+      "repeatBoxes": 7,
+      "repeatGapMin": 8,
+      "repeatGapAvg": 20.571428571428573,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 73,
+      "name": "KTV包厢",
+      "items": 204,
+      "uniqueAssets": 112,
+      "types": 19,
+      "boxes": 40,
+      "boxSizeCounts": {
+        "4": 6,
+        "5": 26,
+        "6": 7,
+        "8": 1
+      },
+      "repeatBoxes": 21,
+      "repeatGapMin": 9,
+      "repeatGapAvg": 18.142857142857142,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 74,
+      "name": "洗衣房",
+      "items": 209,
+      "uniqueAssets": 154,
+      "types": 29,
+      "boxes": 39,
+      "boxSizeCounts": {
+        "4": 6,
+        "5": 19,
+        "6": 9,
+        "7": 4,
+        "8": 1
+      },
+      "repeatBoxes": 10,
+      "repeatGapMin": 8,
+      "repeatGapAvg": 18.8,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 75,
+      "name": "摄影棚",
+      "items": 204,
+      "uniqueAssets": 125,
+      "types": 22,
+      "boxes": 42,
+      "boxSizeCounts": {
+        "4": 10,
+        "5": 28,
+        "6": 4
+      },
+      "repeatBoxes": 20,
+      "repeatGapMin": 6,
+      "repeatGapAvg": 17.95,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 76,
+      "name": "手工体验店",
+      "items": 200,
+      "uniqueAssets": 126,
+      "types": 24,
+      "boxes": 40,
+      "boxSizeCounts": {
+        "4": 5,
+        "5": 30,
+        "6": 5
+      },
+      "repeatBoxes": 16,
+      "repeatGapMin": 11,
+      "repeatGapAvg": 22.875,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 77,
+      "name": "修鞋店",
+      "items": 187,
+      "uniqueAssets": 112,
+      "types": 22,
+      "boxes": 39,
+      "boxSizeCounts": {
+        "4": 11,
+        "5": 25,
+        "6": 3
+      },
+      "repeatBoxes": 17,
+      "repeatGapMin": 6,
+      "repeatGapAvg": 14,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 78,
+      "name": "美术画室",
+      "items": 191,
+      "uniqueAssets": 113,
+      "types": 24,
+      "boxes": 36,
+      "boxSizeCounts": {
+        "4": 9,
+        "5": 13,
+        "6": 10,
+        "7": 2,
+        "8": 2
+      },
+      "repeatBoxes": 12,
+      "repeatGapMin": 7,
+      "repeatGapAvg": 11.75,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 79,
+      "name": "炸串店",
+      "items": 204,
+      "uniqueAssets": 119,
+      "types": 18,
+      "boxes": 40,
+      "boxSizeCounts": {
+        "4": 8,
+        "5": 22,
+        "6": 8,
+        "7": 2
+      },
+      "repeatBoxes": 22,
+      "repeatGapMin": 8,
+      "repeatGapAvg": 16.272727272727273,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 80,
+      "name": "安保室",
+      "items": 192,
+      "uniqueAssets": 104,
+      "types": 20,
+      "boxes": 40,
+      "boxSizeCounts": {
+        "4": 12,
+        "5": 24,
+        "6": 4
+      },
+      "repeatBoxes": 20,
+      "repeatGapMin": 9,
+      "repeatGapAvg": 19.9,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 81,
+      "name": "房车露营",
+      "items": 200,
+      "uniqueAssets": 142,
+      "types": 23,
+      "boxes": 40,
+      "boxSizeCounts": {
+        "4": 5,
+        "5": 30,
+        "6": 5
+      },
+      "repeatBoxes": 17,
+      "repeatGapMin": 11,
+      "repeatGapAvg": 20,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 82,
+      "name": "野外露营",
+      "items": 200,
+      "uniqueAssets": 160,
+      "types": 30,
+      "boxes": 40,
+      "boxSizeCounts": {
+        "4": 6,
+        "5": 28,
+        "6": 6
+      },
+      "repeatBoxes": 10,
+      "repeatGapMin": 9,
+      "repeatGapAvg": 23.4,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 83,
+      "name": "桌游馆",
+      "items": 197,
+      "uniqueAssets": 121,
+      "types": 20,
+      "boxes": 41,
+      "boxSizeCounts": {
+        "4": 9,
+        "5": 31,
+        "6": 1
+      },
+      "repeatBoxes": 21,
+      "repeatGapMin": 7,
+      "repeatGapAvg": 15.761904761904763,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 84,
+      "name": "理发店",
+      "items": 199,
+      "uniqueAssets": 160,
+      "types": 36,
+      "boxes": 38,
+      "boxSizeCounts": {
+        "4": 11,
+        "5": 16,
+        "6": 5,
+        "7": 3,
+        "8": 3
+      },
+      "repeatBoxes": 2,
+      "repeatGapMin": 15,
+      "repeatGapAvg": 22.5,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 85,
+      "name": "社区娱乐",
+      "items": 205,
+      "uniqueAssets": 121,
+      "types": 22,
+      "boxes": 41,
+      "boxSizeCounts": {
+        "4": 5,
+        "5": 31,
+        "6": 5
+      },
+      "repeatBoxes": 19,
+      "repeatGapMin": 9,
+      "repeatGapAvg": 19.842105263157894,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 86,
+      "name": "美容店",
+      "items": 207,
+      "uniqueAssets": 143,
+      "types": 24,
+      "boxes": 39,
+      "boxSizeCounts": {
+        "4": 1,
+        "5": 26,
+        "6": 11,
+        "7": 1
+      },
+      "repeatBoxes": 15,
+      "repeatGapMin": 9,
+      "repeatGapAvg": 21.333333333333332,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 87,
+      "name": "服装店",
+      "items": 202,
+      "uniqueAssets": 119,
+      "types": 20,
+      "boxes": 38,
+      "boxSizeCounts": {
+        "4": 2,
+        "5": 24,
+        "6": 10,
+        "7": 2
+      },
+      "repeatBoxes": 18,
+      "repeatGapMin": 9,
+      "repeatGapAvg": 17.555555555555557,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 88,
+      "name": "铜炉火锅店",
+      "items": 208,
+      "uniqueAssets": 124,
+      "types": 20,
+      "boxes": 40,
+      "boxSizeCounts": {
+        "4": 9,
+        "5": 16,
+        "6": 13,
+        "7": 2
+      },
+      "repeatBoxes": 20,
+      "repeatGapMin": 8,
+      "repeatGapAvg": 16.9,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 89,
+      "name": "冰淇淋餐车",
+      "items": 205,
+      "uniqueAssets": 111,
+      "types": 19,
+      "boxes": 40,
+      "boxSizeCounts": {
+        "4": 5,
+        "5": 26,
+        "6": 8,
+        "7": 1
+      },
+      "repeatBoxes": 21,
+      "repeatGapMin": 7,
+      "repeatGapAvg": 16.476190476190474,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 90,
+      "name": "婚礼现场",
+      "items": 191,
+      "uniqueAssets": 142,
+      "types": 31,
+      "boxes": 33,
+      "boxSizeCounts": {
+        "4": 10,
+        "5": 6,
+        "6": 7,
+        "7": 2,
+        "8": 7,
+        "9": 1
+      },
+      "repeatBoxes": 2,
+      "repeatGapMin": 12,
+      "repeatGapAvg": 13,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 91,
+      "name": "户外烧烤",
+      "items": 200,
+      "uniqueAssets": 124,
+      "types": 22,
+      "boxes": 41,
+      "boxSizeCounts": {
+        "4": 8,
+        "5": 30,
+        "6": 3
+      },
+      "repeatBoxes": 19,
+      "repeatGapMin": 6,
+      "repeatGapAvg": 17.31578947368421,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 92,
+      "name": "钓鱼",
+      "items": 181,
+      "uniqueAssets": 130,
+      "types": 27,
+      "boxes": 33,
+      "boxSizeCounts": {
+        "4": 6,
+        "5": 13,
+        "6": 8,
+        "7": 4,
+        "8": 2
+      },
+      "repeatBoxes": 6,
+      "repeatGapMin": 8,
+      "repeatGapAvg": 18.333333333333332,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 93,
+      "name": "储藏室",
+      "items": 202,
+      "uniqueAssets": 144,
+      "types": 26,
+      "boxes": 41,
+      "boxSizeCounts": {
+        "4": 8,
+        "5": 28,
+        "6": 5
+      },
+      "repeatBoxes": 15,
+      "repeatGapMin": 12,
+      "repeatGapAvg": 20.733333333333334,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 94,
+      "name": "西式快餐店",
+      "items": 200,
+      "uniqueAssets": 130,
+      "types": 23,
+      "boxes": 40,
+      "boxSizeCounts": {
+        "4": 7,
+        "5": 28,
+        "6": 3,
+        "7": 2
+      },
+      "repeatBoxes": 17,
+      "repeatGapMin": 8,
+      "repeatGapAvg": 16.352941176470587,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 95,
+      "name": "烤肉店",
+      "items": 190,
+      "uniqueAssets": 103,
+      "types": 18,
+      "boxes": 38,
+      "boxSizeCounts": {
+        "4": 8,
+        "5": 23,
+        "6": 6,
+        "7": 1
+      },
+      "repeatBoxes": 20,
+      "repeatGapMin": 8,
+      "repeatGapAvg": 15.85,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 96,
+      "name": "物流中心",
+      "items": 185,
+      "uniqueAssets": 162,
+      "types": 30,
+      "boxes": 31,
+      "boxSizeCounts": {
+        "4": 2,
+        "5": 11,
+        "6": 8,
+        "7": 6,
+        "8": 4
+      },
+      "repeatBoxes": 1,
+      "repeatGapMin": 20,
+      "repeatGapAvg": 20,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 97,
+      "name": "台球区",
+      "items": 210,
+      "uniqueAssets": 132,
+      "types": 24,
+      "boxes": 42,
+      "boxSizeCounts": {
+        "4": 5,
+        "5": 32,
+        "6": 5
+      },
+      "repeatBoxes": 18,
+      "repeatGapMin": 8,
+      "repeatGapAvg": 16.055555555555557,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 98,
+      "name": "婴儿房",
+      "items": 209,
+      "uniqueAssets": 118,
+      "types": 19,
+      "boxes": 42,
+      "boxSizeCounts": {
+        "4": 8,
+        "5": 27,
+        "6": 7
+      },
+      "repeatBoxes": 23,
+      "repeatGapMin": 7,
+      "repeatGapAvg": 14.565217391304348,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 99,
+      "name": "工厂流水线",
+      "items": 208,
+      "uniqueAssets": 135,
+      "types": 23,
+      "boxes": 43,
+      "boxSizeCounts": {
+        "4": 9,
+        "5": 32,
+        "6": 2
+      },
+      "repeatBoxes": 20,
+      "repeatGapMin": 12,
+      "repeatGapAvg": 21.4,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 100,
+      "name": "会客厅",
+      "items": 202,
+      "uniqueAssets": 153,
+      "types": 26,
+      "boxes": 41,
+      "boxSizeCounts": {
+        "4": 5,
+        "5": 34,
+        "6": 2
+      },
+      "repeatBoxes": 15,
+      "repeatGapMin": 14,
+      "repeatGapAvg": 22.266666666666666,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 101,
+      "name": "日料店",
+      "items": 207,
+      "uniqueAssets": 131,
+      "types": 23,
+      "boxes": 41,
+      "boxSizeCounts": {
+        "4": 9,
+        "5": 24,
+        "6": 5,
+        "7": 3
+      },
+      "repeatBoxes": 18,
+      "repeatGapMin": 7,
+      "repeatGapAvg": 16.77777777777778,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 102,
+      "name": "员工餐厅",
+      "items": 205,
+      "uniqueAssets": 136,
+      "types": 23,
+      "boxes": 41,
+      "boxSizeCounts": {
+        "4": 9,
+        "5": 24,
+        "6": 7,
+        "7": 1
+      },
+      "repeatBoxes": 18,
+      "repeatGapMin": 11,
+      "repeatGapAvg": 21.11111111111111,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 103,
+      "name": "小木屋",
+      "items": 207,
+      "uniqueAssets": 149,
+      "types": 25,
+      "boxes": 42,
+      "boxSizeCounts": {
+        "4": 5,
+        "5": 35,
+        "6": 2
+      },
+      "repeatBoxes": 17,
+      "repeatGapMin": 10,
+      "repeatGapAvg": 22.235294117647058,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 104,
+      "name": "西式厨房",
+      "items": 202,
+      "uniqueAssets": 142,
+      "types": 25,
+      "boxes": 41,
+      "boxSizeCounts": {
+        "4": 9,
+        "5": 26,
+        "6": 6
+      },
+      "repeatBoxes": 16,
+      "repeatGapMin": 2,
+      "repeatGapAvg": 20.8125,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 105,
+      "name": "茶室",
+      "items": 206,
+      "uniqueAssets": 127,
+      "types": 22,
+      "boxes": 41,
+      "boxSizeCounts": {
+        "4": 5,
+        "5": 30,
+        "6": 6
+      },
+      "repeatBoxes": 19,
+      "repeatGapMin": 7,
+      "repeatGapAvg": 19.894736842105264,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 106,
+      "name": "家庭酒窖",
+      "items": 201,
+      "uniqueAssets": 104,
+      "types": 19,
+      "boxes": 40,
+      "boxSizeCounts": {
+        "4": 6,
+        "5": 27,
+        "6": 7
+      },
+      "repeatBoxes": 21,
+      "repeatGapMin": 9,
+      "repeatGapAvg": 15.333333333333334,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 107,
+      "name": "室外乐园",
+      "items": 202,
+      "uniqueAssets": 127,
+      "types": 22,
+      "boxes": 40,
+      "boxSizeCounts": {
+        "4": 5,
+        "5": 28,
+        "6": 7
+      },
+      "repeatBoxes": 18,
+      "repeatGapMin": 8,
+      "repeatGapAvg": 18.944444444444443,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 108,
+      "name": "备餐区",
+      "items": 205,
+      "uniqueAssets": 149,
+      "types": 25,
+      "boxes": 40,
+      "boxSizeCounts": {
+        "4": 11,
+        "5": 17,
+        "6": 8,
+        "7": 4
+      },
+      "repeatBoxes": 15,
+      "repeatGapMin": 7,
+      "repeatGapAvg": 17.266666666666666,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 109,
+      "name": "阳光房",
+      "items": 198,
+      "uniqueAssets": 140,
+      "types": 28,
+      "boxes": 40,
+      "boxSizeCounts": {
+        "4": 7,
+        "5": 28,
+        "6": 5
+      },
+      "repeatBoxes": 12,
+      "repeatGapMin": 5,
+      "repeatGapAvg": 19,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 110,
+      "name": "阁楼",
+      "items": 202,
+      "uniqueAssets": 156,
+      "types": 27,
+      "boxes": 41,
+      "boxSizeCounts": {
+        "4": 9,
+        "5": 26,
+        "6": 6
+      },
+      "repeatBoxes": 14,
+      "repeatGapMin": 11,
+      "repeatGapAvg": 24.214285714285715,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 111,
+      "name": "乐器店",
+      "items": 204,
+      "uniqueAssets": 128,
+      "types": 20,
+      "boxes": 40,
+      "boxSizeCounts": {
+        "4": 3,
+        "5": 31,
+        "6": 5,
+        "7": 1
+      },
+      "repeatBoxes": 20,
+      "repeatGapMin": 8,
+      "repeatGapAvg": 17.9,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 112,
+      "name": "网吧",
+      "items": 203,
+      "uniqueAssets": 143,
+      "types": 27,
+      "boxes": 40,
+      "boxSizeCounts": {
+        "4": 7,
+        "5": 23,
+        "6": 10
+      },
+      "repeatBoxes": 13,
+      "repeatGapMin": 15,
+      "repeatGapAvg": 22.384615384615383,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 113,
+      "name": "照相馆",
+      "items": 198,
+      "uniqueAssets": 145,
+      "types": 25,
+      "boxes": 39,
+      "boxSizeCounts": {
+        "4": 4,
+        "5": 28,
+        "6": 7
+      },
+      "repeatBoxes": 14,
+      "repeatGapMin": 9,
+      "repeatGapAvg": 19.642857142857142,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 114,
+      "name": "文艺花店",
+      "items": 201,
+      "uniqueAssets": 137,
+      "types": 28,
+      "boxes": 41,
+      "boxSizeCounts": {
+        "4": 9,
+        "5": 28,
+        "6": 3,
+        "7": 1
+      },
+      "repeatBoxes": 13,
+      "repeatGapMin": 7,
+      "repeatGapAvg": 17.76923076923077,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 115,
+      "name": "玩具室",
+      "items": 203,
+      "uniqueAssets": 159,
+      "types": 29,
+      "boxes": 40,
+      "boxSizeCounts": {
+        "4": 5,
+        "5": 27,
+        "6": 8
+      },
+      "repeatBoxes": 11,
+      "repeatGapMin": 7,
+      "repeatGapAvg": 17.545454545454547,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 116,
+      "name": "水族房",
+      "items": 196,
+      "uniqueAssets": 123,
+      "types": 19,
+      "boxes": 40,
+      "boxSizeCounts": {
+        "3": 1,
+        "4": 6,
+        "5": 29,
+        "6": 4
+      },
+      "repeatBoxes": 21,
+      "repeatGapMin": 9,
+      "repeatGapAvg": 16.38095238095238,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 117,
+      "name": "唱片店",
+      "items": 198,
+      "uniqueAssets": 110,
+      "types": 21,
+      "boxes": 39,
+      "boxSizeCounts": {
+        "4": 3,
+        "5": 31,
+        "6": 4,
+        "7": 1
+      },
+      "repeatBoxes": 18,
+      "repeatGapMin": 10,
+      "repeatGapAvg": 19.11111111111111,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 118,
+      "name": "陶瓷手工",
+      "items": 196,
+      "uniqueAssets": 108,
+      "types": 21,
+      "boxes": 40,
+      "boxSizeCounts": {
+        "4": 9,
+        "5": 26,
+        "6": 5
+      },
+      "repeatBoxes": 19,
+      "repeatGapMin": 11,
+      "repeatGapAvg": 15.578947368421053,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 119,
+      "name": "鞋店",
+      "items": 195,
+      "uniqueAssets": 83,
+      "types": 20,
+      "boxes": 40,
+      "boxSizeCounts": {
+        "4": 9,
+        "5": 27,
+        "6": 4
+      },
+      "repeatBoxes": 20,
+      "repeatGapMin": 10,
+      "repeatGapAvg": 18.7,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 120,
+      "name": "狗屋",
+      "items": 197,
+      "uniqueAssets": 119,
+      "types": 23,
+      "boxes": 39,
+      "boxSizeCounts": {
+        "4": 2,
+        "5": 33,
+        "6": 4
+      },
+      "repeatBoxes": 16,
+      "repeatGapMin": 8,
+      "repeatGapAvg": 17.75,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 121,
+      "name": "厨具店",
+      "items": 203,
+      "uniqueAssets": 110,
+      "types": 19,
+      "boxes": 39,
+      "boxSizeCounts": {
+        "4": 5,
+        "5": 21,
+        "6": 13
+      },
+      "repeatBoxes": 20,
+      "repeatGapMin": 6,
+      "repeatGapAvg": 17.05,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 122,
+      "name": "庭院",
+      "items": 197,
+      "uniqueAssets": 140,
+      "types": 26,
+      "boxes": 39,
+      "boxSizeCounts": {
+        "4": 6,
+        "5": 25,
+        "6": 8
+      },
+      "repeatBoxes": 13,
+      "repeatGapMin": 11,
+      "repeatGapAvg": 19.23076923076923,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 123,
+      "name": "万圣狂欢一",
+      "items": 201,
+      "uniqueAssets": 164,
+      "types": 35,
+      "boxes": 39,
+      "boxSizeCounts": {
+        "4": 16,
+        "5": 9,
+        "6": 8,
+        "7": 4,
+        "8": 2
+      },
+      "repeatBoxes": 4,
+      "repeatGapMin": 12,
+      "repeatGapAvg": 18.25,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 124,
+      "name": "万圣狂欢二",
+      "items": 192,
+      "uniqueAssets": 168,
+      "types": 37,
+      "boxes": 39,
+      "boxSizeCounts": {
+        "4": 19,
+        "5": 10,
+        "6": 5,
+        "7": 4,
+        "8": 1
+      },
+      "repeatBoxes": 2,
+      "repeatGapMin": 7,
+      "repeatGapAvg": 20.5,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 125,
+      "name": "糖果店",
+      "items": 153,
+      "uniqueAssets": 115,
+      "types": 24,
+      "boxes": 31,
+      "boxSizeCounts": {
+        "4": 13,
+        "5": 10,
+        "6": 6,
+        "7": 1,
+        "8": 1
+      },
+      "repeatBoxes": 7,
+      "repeatGapMin": 14,
+      "repeatGapAvg": 20,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 126,
+      "name": "盲盒店",
+      "items": 200,
+      "uniqueAssets": 105,
+      "types": 19,
+      "boxes": 40,
+      "boxSizeCounts": {
+        "4": 6,
+        "5": 29,
+        "6": 4,
+        "7": 1
+      },
+      "repeatBoxes": 21,
+      "repeatGapMin": 4,
+      "repeatGapAvg": 15.761904761904763,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 127,
+      "name": "益智玩具店",
+      "items": 200,
+      "uniqueAssets": 120,
+      "types": 20,
+      "boxes": 39,
+      "boxSizeCounts": {
+        "4": 2,
+        "5": 30,
+        "6": 7
+      },
+      "repeatBoxes": 19,
+      "repeatGapMin": 6,
+      "repeatGapAvg": 15.842105263157896,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 128,
+      "name": "浴室",
+      "items": 193,
+      "uniqueAssets": 173,
+      "types": 38,
+      "boxes": 39,
+      "boxSizeCounts": {
+        "4": 14,
+        "5": 15,
+        "6": 9,
+        "8": 1
+      },
+      "repeatBoxes": 1,
+      "repeatGapMin": 15,
+      "repeatGapAvg": 15,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 129,
+      "name": "万圣狂欢三",
+      "items": 180,
+      "uniqueAssets": 166,
+      "types": 37,
+      "boxes": 38,
+      "boxSizeCounts": {
+        "3": 1,
+        "4": 18,
+        "5": 9,
+        "6": 10
+      },
+      "repeatBoxes": 1,
+      "repeatGapMin": 34,
+      "repeatGapAvg": 34,
+      "orderMatchesItems": true
+    },
+    {
+      "level": 130,
+      "name": "烟花店",
+      "items": 200,
+      "uniqueAssets": 110,
+      "types": 21,
+      "boxes": 40,
+      "boxSizeCounts": {
+        "4": 5,
+        "5": 30,
+        "6": 5
+      },
+      "repeatBoxes": 19,
+      "repeatGapMin": 8,
+      "repeatGapAvg": 17.473684210526315,
+      "orderMatchesItems": true
+    }
+  ],
+  "happyStats": [
+    {
+      "level": "3208_level_1.txt",
+      "name": "1",
+      "items": 36,
+      "uniqueAssets": 36,
+      "types": 10,
+      "boxes": 10,
+      "boxSizeCounts": {
+        "3": 5,
+        "4": 4,
+        "5": 1
+      },
+      "repeatBoxes": 0,
+      "repeatGapMin": null,
+      "repeatGapAvg": null,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3245_level_2.txt",
+      "name": "2",
+      "items": 57,
+      "uniqueAssets": 53,
+      "types": 13,
+      "boxes": 14,
+      "boxSizeCounts": {
+        "3": 5,
+        "4": 3,
+        "5": 6
+      },
+      "repeatBoxes": 1,
+      "repeatGapMin": 5,
+      "repeatGapAvg": 5,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3229_level_3.txt",
+      "name": "4",
+      "items": 97,
+      "uniqueAssets": 82,
+      "types": 16,
+      "boxes": 24,
+      "boxSizeCounts": {
+        "3": 8,
+        "4": 7,
+        "5": 9
+      },
+      "repeatBoxes": 8,
+      "repeatGapMin": 1,
+      "repeatGapAvg": 5.25,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3190_level_3_A.txt",
+      "name": "4",
+      "items": 92,
+      "uniqueAssets": 82,
+      "types": 15,
+      "boxes": 23,
+      "boxSizeCounts": {
+        "3": 8,
+        "4": 7,
+        "5": 8
+      },
+      "repeatBoxes": 8,
+      "repeatGapMin": 5,
+      "repeatGapAvg": 8.75,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3193_level_4.txt",
+      "name": "7",
+      "items": 92,
+      "uniqueAssets": 83,
+      "types": 14,
+      "boxes": 23,
+      "boxSizeCounts": {
+        "3": 8,
+        "4": 7,
+        "5": 8
+      },
+      "repeatBoxes": 9,
+      "repeatGapMin": 3,
+      "repeatGapAvg": 9.11111111111111,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3238_level_4_A.txt",
+      "name": "7",
+      "items": 86,
+      "uniqueAssets": 82,
+      "types": 14,
+      "boxes": 21,
+      "boxSizeCounts": {
+        "3": 6,
+        "4": 7,
+        "5": 8
+      },
+      "repeatBoxes": 7,
+      "repeatGapMin": 2,
+      "repeatGapAvg": 9.142857142857142,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3228_level_5.txt",
+      "name": "5",
+      "items": 156,
+      "uniqueAssets": 139,
+      "types": 23,
+      "boxes": 36,
+      "boxSizeCounts": {
+        "3": 7,
+        "4": 12,
+        "5": 15,
+        "6": 2
+      },
+      "repeatBoxes": 13,
+      "repeatGapMin": 2,
+      "repeatGapAvg": 9.461538461538462,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3179_level_5_A.txt",
+      "name": "5",
+      "items": 138,
+      "uniqueAssets": 100,
+      "types": 16,
+      "boxes": 34,
+      "boxSizeCounts": {
+        "3": 13,
+        "4": 7,
+        "5": 13,
+        "6": 1
+      },
+      "repeatBoxes": 18,
+      "repeatGapMin": 2,
+      "repeatGapAvg": 12.555555555555555,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3244_level_6.txt",
+      "name": "6",
+      "items": 97,
+      "uniqueAssets": 91,
+      "types": 16,
+      "boxes": 27,
+      "boxSizeCounts": {
+        "3": 15,
+        "4": 8,
+        "5": 4
+      },
+      "repeatBoxes": 11,
+      "repeatGapMin": 3,
+      "repeatGapAvg": 11.818181818181818,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3165_level_7.txt",
+      "name": "3",
+      "items": 106,
+      "uniqueAssets": 86,
+      "types": 15,
+      "boxes": 26,
+      "boxSizeCounts": {
+        "3": 7,
+        "4": 10,
+        "5": 9
+      },
+      "repeatBoxes": 11,
+      "repeatGapMin": 2,
+      "repeatGapAvg": 9,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3187_level_8.txt",
+      "name": "8",
+      "items": 141,
+      "uniqueAssets": 102,
+      "types": 15,
+      "boxes": 34,
+      "boxSizeCounts": {
+        "3": 7,
+        "4": 15,
+        "5": 12
+      },
+      "repeatBoxes": 19,
+      "repeatGapMin": 4,
+      "repeatGapAvg": 12.263157894736842,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3233_level_8_A.txt",
+      "name": "8",
+      "items": 160,
+      "uniqueAssets": 125,
+      "types": 17,
+      "boxes": 40,
+      "boxSizeCounts": {
+        "3": 12,
+        "4": 16,
+        "5": 12
+      },
+      "repeatBoxes": 23,
+      "repeatGapMin": 2,
+      "repeatGapAvg": 13.304347826086957,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3215_level_9.txt",
+      "name": "9",
+      "items": 105,
+      "uniqueAssets": 96,
+      "types": 17,
+      "boxes": 27,
+      "boxSizeCounts": {
+        "3": 13,
+        "4": 4,
+        "5": 10
+      },
+      "repeatBoxes": 10,
+      "repeatGapMin": 2,
+      "repeatGapAvg": 7.7,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3236_level_10.txt",
+      "name": "10",
+      "items": 138,
+      "uniqueAssets": 128,
+      "types": 20,
+      "boxes": 34,
+      "boxSizeCounts": {
+        "3": 13,
+        "4": 7,
+        "5": 13,
+        "6": 1
+      },
+      "repeatBoxes": 14,
+      "repeatGapMin": 3,
+      "repeatGapAvg": 11.5,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3188_level_11.txt",
+      "name": "11",
+      "items": 138,
+      "uniqueAssets": 101,
+      "types": 18,
+      "boxes": 35,
+      "boxSizeCounts": {
+        "3": 13,
+        "4": 11,
+        "5": 11
+      },
+      "repeatBoxes": 17,
+      "repeatGapMin": 2,
+      "repeatGapAvg": 12.470588235294118,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3227_level_11_A.txt",
+      "name": "11",
+      "items": 134,
+      "uniqueAssets": 94,
+      "types": 14,
+      "boxes": 34,
+      "boxSizeCounts": {
+        "3": 13,
+        "4": 10,
+        "5": 11
+      },
+      "repeatBoxes": 20,
+      "repeatGapMin": 2,
+      "repeatGapAvg": 8.5,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3209_level_12.txt",
+      "name": "12",
+      "items": 141,
+      "uniqueAssets": 109,
+      "types": 21,
+      "boxes": 36,
+      "boxSizeCounts": {
+        "3": 11,
+        "4": 17,
+        "5": 8
+      },
+      "repeatBoxes": 15,
+      "repeatGapMin": 3,
+      "repeatGapAvg": 12.533333333333333,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3171_level_13.txt",
+      "name": "14",
+      "items": 121,
+      "uniqueAssets": 116,
+      "types": 19,
+      "boxes": 30,
+      "boxSizeCounts": {
+        "3": 10,
+        "4": 9,
+        "5": 11
+      },
+      "repeatBoxes": 11,
+      "repeatGapMin": 2,
+      "repeatGapAvg": 13.545454545454545,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3201_level_14.txt",
+      "name": "13",
+      "items": 123,
+      "uniqueAssets": 100,
+      "types": 18,
+      "boxes": 33,
+      "boxSizeCounts": {
+        "3": 19,
+        "4": 6,
+        "5": 6,
+        "6": 2
+      },
+      "repeatBoxes": 15,
+      "repeatGapMin": 2,
+      "repeatGapAvg": 11.333333333333334,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3248_level_15.txt",
+      "name": "15",
+      "items": 139,
+      "uniqueAssets": 123,
+      "types": 17,
+      "boxes": 34,
+      "boxSizeCounts": {
+        "3": 11,
+        "4": 9,
+        "5": 14
+      },
+      "repeatBoxes": 17,
+      "repeatGapMin": 2,
+      "repeatGapAvg": 11.235294117647058,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3172_level_16.txt",
+      "name": "24",
+      "items": 160,
+      "uniqueAssets": 115,
+      "types": 19,
+      "boxes": 39,
+      "boxSizeCounts": {
+        "3": 9,
+        "4": 17,
+        "5": 13
+      },
+      "repeatBoxes": 20,
+      "repeatGapMin": 2,
+      "repeatGapAvg": 10.7,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3185_level_17.txt",
+      "name": "17",
+      "items": 140,
+      "uniqueAssets": 124,
+      "types": 21,
+      "boxes": 35,
+      "boxSizeCounts": {
+        "3": 11,
+        "4": 13,
+        "5": 11
+      },
+      "repeatBoxes": 14,
+      "repeatGapMin": 1,
+      "repeatGapAvg": 11.571428571428571,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3247_level_18.txt",
+      "name": "23",
+      "items": 271,
+      "uniqueAssets": 193,
+      "types": 32,
+      "boxes": 67,
+      "boxSizeCounts": {
+        "3": 17,
+        "4": 30,
+        "5": 20
+      },
+      "repeatBoxes": 35,
+      "repeatGapMin": 1,
+      "repeatGapAvg": 17.057142857142857,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3200_level_19.txt",
+      "name": "20",
+      "items": 146,
+      "uniqueAssets": 108,
+      "types": 18,
+      "boxes": 37,
+      "boxSizeCounts": {
+        "3": 14,
+        "4": 11,
+        "5": 12
+      },
+      "repeatBoxes": 19,
+      "repeatGapMin": 3,
+      "repeatGapAvg": 11.421052631578947,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3219_level_20.txt",
+      "name": "19",
+      "items": 196,
+      "uniqueAssets": 129,
+      "types": 24,
+      "boxes": 49,
+      "boxSizeCounts": {
+        "3": 17,
+        "4": 15,
+        "5": 17
+      },
+      "repeatBoxes": 25,
+      "repeatGapMin": 1,
+      "repeatGapAvg": 11.44,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3169_level_21.txt",
+      "name": "35",
+      "items": 161,
+      "uniqueAssets": 118,
+      "types": 20,
+      "boxes": 39,
+      "boxSizeCounts": {
+        "3": 9,
+        "4": 16,
+        "5": 14
+      },
+      "repeatBoxes": 19,
+      "repeatGapMin": 2,
+      "repeatGapAvg": 11.789473684210526,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3235_level_22.txt",
+      "name": "18",
+      "items": 159,
+      "uniqueAssets": 132,
+      "types": 24,
+      "boxes": 38,
+      "boxSizeCounts": {
+        "3": 12,
+        "4": 10,
+        "5": 13,
+        "6": 3
+      },
+      "repeatBoxes": 14,
+      "repeatGapMin": 2,
+      "repeatGapAvg": 12.214285714285714,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3231_level_23.txt",
+      "name": "21",
+      "items": 191,
+      "uniqueAssets": 129,
+      "types": 19,
+      "boxes": 47,
+      "boxSizeCounts": {
+        "3": 13,
+        "4": 18,
+        "5": 16
+      },
+      "repeatBoxes": 28,
+      "repeatGapMin": 2,
+      "repeatGapAvg": 12.392857142857142,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3216_level_24.txt",
+      "name": "16",
+      "items": 202,
+      "uniqueAssets": 116,
+      "types": 18,
+      "boxes": 49,
+      "boxSizeCounts": {
+        "3": 15,
+        "4": 13,
+        "5": 21
+      },
+      "repeatBoxes": 31,
+      "repeatGapMin": 2,
+      "repeatGapAvg": 13.225806451612904,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3220_level_25.txt",
+      "name": "25",
+      "items": 166,
+      "uniqueAssets": 120,
+      "types": 21,
+      "boxes": 41,
+      "boxSizeCounts": {
+        "3": 13,
+        "4": 13,
+        "5": 15
+      },
+      "repeatBoxes": 20,
+      "repeatGapMin": 2,
+      "repeatGapAvg": 17.4,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3237_level_26.txt",
+      "name": "27",
+      "items": 174,
+      "uniqueAssets": 101,
+      "types": 17,
+      "boxes": 46,
+      "boxSizeCounts": {
+        "3": 19,
+        "4": 18,
+        "5": 9
+      },
+      "repeatBoxes": 29,
+      "repeatGapMin": 1,
+      "repeatGapAvg": 12.448275862068966,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3234_level_27.txt",
+      "name": "26",
+      "items": 145,
+      "uniqueAssets": 92,
+      "types": 15,
+      "boxes": 37,
+      "boxSizeCounts": {
+        "3": 12,
+        "4": 16,
+        "5": 9
+      },
+      "repeatBoxes": 22,
+      "repeatGapMin": 2,
+      "repeatGapAvg": 9.909090909090908,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3192_level_28.txt",
+      "name": "28",
+      "items": 186,
+      "uniqueAssets": 121,
+      "types": 18,
+      "boxes": 46,
+      "boxSizeCounts": {
+        "3": 15,
+        "4": 14,
+        "5": 17
+      },
+      "repeatBoxes": 28,
+      "repeatGapMin": 2,
+      "repeatGapAvg": 12.857142857142858,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3212_level_29.txt",
+      "name": "29",
+      "items": 187,
+      "uniqueAssets": 135,
+      "types": 18,
+      "boxes": 47,
+      "boxSizeCounts": {
+        "3": 16,
+        "4": 16,
+        "5": 15
+      },
+      "repeatBoxes": 29,
+      "repeatGapMin": 2,
+      "repeatGapAvg": 12.517241379310345,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3214_level_30.txt",
+      "name": "31",
+      "items": 166,
+      "uniqueAssets": 97,
+      "types": 12,
+      "boxes": 40,
+      "boxSizeCounts": {
+        "3": 9,
+        "4": 17,
+        "5": 13,
+        "6": 1
+      },
+      "repeatBoxes": 28,
+      "repeatGapMin": 2,
+      "repeatGapAvg": 8.928571428571429,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3174_level_31.txt",
+      "name": "30",
+      "items": 114,
+      "uniqueAssets": 106,
+      "types": 17,
+      "boxes": 29,
+      "boxSizeCounts": {
+        "3": 12,
+        "4": 7,
+        "5": 10
+      },
+      "repeatBoxes": 12,
+      "repeatGapMin": 2,
+      "repeatGapAvg": 8.833333333333334,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3207_level_32.txt",
+      "name": "32",
+      "items": 158,
+      "uniqueAssets": 129,
+      "types": 19,
+      "boxes": 39,
+      "boxSizeCounts": {
+        "3": 10,
+        "4": 17,
+        "5": 12
+      },
+      "repeatBoxes": 20,
+      "repeatGapMin": 3,
+      "repeatGapAvg": 11.3,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3241_level_33.txt",
+      "name": "34",
+      "items": 144,
+      "uniqueAssets": 132,
+      "types": 24,
+      "boxes": 38,
+      "boxSizeCounts": {
+        "3": 18,
+        "4": 11,
+        "5": 8,
+        "6": 1
+      },
+      "repeatBoxes": 14,
+      "repeatGapMin": 2,
+      "repeatGapAvg": 13.571428571428571,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3178_level_34.txt",
+      "name": "33",
+      "items": 172,
+      "uniqueAssets": 115,
+      "types": 20,
+      "boxes": 42,
+      "boxSizeCounts": {
+        "3": 12,
+        "4": 14,
+        "5": 16
+      },
+      "repeatBoxes": 22,
+      "repeatGapMin": 2,
+      "repeatGapAvg": 14.727272727272727,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3176_level_35.txt",
+      "name": "22",
+      "items": 184,
+      "uniqueAssets": 135,
+      "types": 19,
+      "boxes": 49,
+      "boxSizeCounts": {
+        "3": 24,
+        "4": 13,
+        "5": 12
+      },
+      "repeatBoxes": 30,
+      "repeatGapMin": 2,
+      "repeatGapAvg": 14.333333333333334,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3222_level_36.txt",
+      "name": "36",
+      "items": 227,
+      "uniqueAssets": 183,
+      "types": 26,
+      "boxes": 55,
+      "boxSizeCounts": {
+        "3": 15,
+        "4": 18,
+        "5": 22
+      },
+      "repeatBoxes": 29,
+      "repeatGapMin": 1,
+      "repeatGapAvg": 13.379310344827585,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3204_level_37.txt",
+      "name": "37",
+      "items": 202,
+      "uniqueAssets": 117,
+      "types": 17,
+      "boxes": 50,
+      "boxSizeCounts": {
+        "3": 16,
+        "4": 16,
+        "5": 18
+      },
+      "repeatBoxes": 33,
+      "repeatGapMin": 2,
+      "repeatGapAvg": 14.696969696969697,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3210_level_38.txt",
+      "name": "39",
+      "items": 175,
+      "uniqueAssets": 158,
+      "types": 23,
+      "boxes": 46,
+      "boxSizeCounts": {
+        "3": 20,
+        "4": 15,
+        "5": 11
+      },
+      "repeatBoxes": 23,
+      "repeatGapMin": 3,
+      "repeatGapAvg": 13.695652173913043,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3243_level_39.txt",
+      "name": "38",
+      "items": 152,
+      "uniqueAssets": 114,
+      "types": 19,
+      "boxes": 37,
+      "boxSizeCounts": {
+        "3": 10,
+        "4": 14,
+        "5": 12,
+        "6": 1
+      },
+      "repeatBoxes": 18,
+      "repeatGapMin": 3,
+      "repeatGapAvg": 12.61111111111111,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3202_level_40.txt",
+      "name": "40",
+      "items": 159,
+      "uniqueAssets": 109,
+      "types": 18,
+      "boxes": 41,
+      "boxSizeCounts": {
+        "3": 19,
+        "4": 8,
+        "5": 14
+      },
+      "repeatBoxes": 23,
+      "repeatGapMin": 2,
+      "repeatGapAvg": 11.130434782608695,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3218_level_41.txt",
+      "name": "41",
+      "items": 132,
+      "uniqueAssets": 98,
+      "types": 16,
+      "boxes": 33,
+      "boxSizeCounts": {
+        "3": 11,
+        "4": 11,
+        "5": 11
+      },
+      "repeatBoxes": 17,
+      "repeatGapMin": 3,
+      "repeatGapAvg": 10.235294117647058,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3239_level_42.txt",
+      "name": "42",
+      "items": 140,
+      "uniqueAssets": 114,
+      "types": 17,
+      "boxes": 35,
+      "boxSizeCounts": {
+        "3": 11,
+        "4": 13,
+        "5": 11
+      },
+      "repeatBoxes": 18,
+      "repeatGapMin": 2,
+      "repeatGapAvg": 11.38888888888889,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3230_level_43.txt",
+      "name": "43",
+      "items": 132,
+      "uniqueAssets": 99,
+      "types": 17,
+      "boxes": 33,
+      "boxSizeCounts": {
+        "3": 11,
+        "4": 11,
+        "5": 11
+      },
+      "repeatBoxes": 16,
+      "repeatGapMin": 3,
+      "repeatGapAvg": 10.8125,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3184_level_44.txt",
+      "name": "44",
+      "items": 153,
+      "uniqueAssets": 116,
+      "types": 17,
+      "boxes": 38,
+      "boxSizeCounts": {
+        "3": 11,
+        "4": 15,
+        "5": 12
+      },
+      "repeatBoxes": 21,
+      "repeatGapMin": 2,
+      "repeatGapAvg": 11.857142857142858,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3256_level_45.txt",
+      "name": "45",
+      "items": 169,
+      "uniqueAssets": 118,
+      "types": 16,
+      "boxes": 42,
+      "boxSizeCounts": {
+        "3": 13,
+        "4": 15,
+        "5": 14
+      },
+      "repeatBoxes": 26,
+      "repeatGapMin": 2,
+      "repeatGapAvg": 11.23076923076923,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3197_level_46.txt",
+      "name": "46",
+      "items": 197,
+      "uniqueAssets": 145,
+      "types": 19,
+      "boxes": 49,
+      "boxSizeCounts": {
+        "3": 15,
+        "4": 18,
+        "5": 16
+      },
+      "repeatBoxes": 30,
+      "repeatGapMin": 3,
+      "repeatGapAvg": 14.366666666666667,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3251_level_47.txt",
+      "name": "47",
+      "items": 170,
+      "uniqueAssets": 114,
+      "types": 15,
+      "boxes": 42,
+      "boxSizeCounts": {
+        "3": 13,
+        "4": 14,
+        "5": 15
+      },
+      "repeatBoxes": 27,
+      "repeatGapMin": 2,
+      "repeatGapAvg": 12.62962962962963,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3254_level_48.txt",
+      "name": "48",
+      "items": 171,
+      "uniqueAssets": 103,
+      "types": 17,
+      "boxes": 42,
+      "boxSizeCounts": {
+        "3": 12,
+        "4": 15,
+        "5": 15
+      },
+      "repeatBoxes": 25,
+      "repeatGapMin": 2,
+      "repeatGapAvg": 10.68,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3182_level_49.txt",
+      "name": "49",
+      "items": 178,
+      "uniqueAssets": 105,
+      "types": 18,
+      "boxes": 44,
+      "boxSizeCounts": {
+        "3": 13,
+        "4": 16,
+        "5": 15
+      },
+      "repeatBoxes": 26,
+      "repeatGapMin": 4,
+      "repeatGapAvg": 14.076923076923077,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3166_level_50.txt",
+      "name": "50",
+      "items": 187,
+      "uniqueAssets": 116,
+      "types": 17,
+      "boxes": 46,
+      "boxSizeCounts": {
+        "3": 13,
+        "4": 17,
+        "5": 16
+      },
+      "repeatBoxes": 29,
+      "repeatGapMin": 2,
+      "repeatGapAvg": 10.689655172413794,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3226_level_51.txt",
+      "name": "51",
+      "items": 157,
+      "uniqueAssets": 121,
+      "types": 16,
+      "boxes": 39,
+      "boxSizeCounts": {
+        "3": 12,
+        "4": 14,
+        "5": 13
+      },
+      "repeatBoxes": 23,
+      "repeatGapMin": 2,
+      "repeatGapAvg": 10.173913043478262,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3249_level_52.txt",
+      "name": "52",
+      "items": 140,
+      "uniqueAssets": 115,
+      "types": 17,
+      "boxes": 35,
+      "boxSizeCounts": {
+        "3": 11,
+        "4": 13,
+        "5": 11
+      },
+      "repeatBoxes": 18,
+      "repeatGapMin": 2,
+      "repeatGapAvg": 11.222222222222221,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3180_level_53.txt",
+      "name": "53",
+      "items": 158,
+      "uniqueAssets": 108,
+      "types": 18,
+      "boxes": 40,
+      "boxSizeCounts": {
+        "3": 16,
+        "4": 10,
+        "5": 14
+      },
+      "repeatBoxes": 22,
+      "repeatGapMin": 2,
+      "repeatGapAvg": 9.545454545454545,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3203_level_54.txt",
+      "name": "54",
+      "items": 167,
+      "uniqueAssets": 119,
+      "types": 20,
+      "boxes": 41,
+      "boxSizeCounts": {
+        "3": 12,
+        "4": 16,
+        "5": 11,
+        "6": 2
+      },
+      "repeatBoxes": 21,
+      "repeatGapMin": 2,
+      "repeatGapAvg": 10.857142857142858,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3217_level_55.txt",
+      "name": "55",
+      "items": 147,
+      "uniqueAssets": 84,
+      "types": 16,
+      "boxes": 38,
+      "boxSizeCounts": {
+        "3": 11,
+        "4": 21,
+        "5": 6
+      },
+      "repeatBoxes": 22,
+      "repeatGapMin": 1,
+      "repeatGapAvg": 7.5,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3246_level_56.txt",
+      "name": "56",
+      "items": 157,
+      "uniqueAssets": 118,
+      "types": 18,
+      "boxes": 40,
+      "boxSizeCounts": {
+        "3": 12,
+        "4": 19,
+        "5": 9
+      },
+      "repeatBoxes": 22,
+      "repeatGapMin": 1,
+      "repeatGapAvg": 5.818181818181818,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3211_level_57.txt",
+      "name": "57",
+      "items": 172,
+      "uniqueAssets": 141,
+      "types": 18,
+      "boxes": 42,
+      "boxSizeCounts": {
+        "3": 13,
+        "4": 12,
+        "5": 17
+      },
+      "repeatBoxes": 24,
+      "repeatGapMin": 2,
+      "repeatGapAvg": 10.541666666666666,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3250_level_58.txt",
+      "name": "58",
+      "items": 178,
+      "uniqueAssets": 127,
+      "types": 20,
+      "boxes": 44,
+      "boxSizeCounts": {
+        "3": 14,
+        "4": 14,
+        "5": 16
+      },
+      "repeatBoxes": 24,
+      "repeatGapMin": 2,
+      "repeatGapAvg": 9.833333333333334,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3225_level_59.txt",
+      "name": "59",
+      "items": 126,
+      "uniqueAssets": 98,
+      "types": 16,
+      "boxes": 34,
+      "boxSizeCounts": {
+        "3": 17,
+        "4": 10,
+        "5": 7
+      },
+      "repeatBoxes": 18,
+      "repeatGapMin": 2,
+      "repeatGapAvg": 9.222222222222221,
+      "orderMatchesItems": true
+    },
+    {
+      "level": "3255_level_60.txt",
+      "name": "60",
+      "items": 178,
+      "uniqueAssets": 108,
+      "types": 16,
+      "boxes": 44,
+      "boxSizeCounts": {
+        "3": 13,
+        "4": 16,
+        "5": 15
+      },
+      "repeatBoxes": 28,
+      "repeatGapMin": 2,
+      "repeatGapAvg": 11.464285714285714,
+      "orderMatchesItems": true
+    }
+  ],
+  "rooms": [
+    {
+      "key": "baseline_1",
+      "level": 1,
+      "name": "我的书房",
+      "items": 26,
+      "uniqueAssets": 25,
+      "types": 5,
+      "boxes": 5,
+      "boxSizeCounts": {
+        "4": 1,
+        "5": 2,
+        "6": 2
+      },
+      "repeatBoxes": 0,
+      "repeatGapMin": null,
+      "repeatGapAvg": null,
+      "orderMatchesItems": true,
+      "freeAtStart": 13,
+      "directAtStart": 6,
+      "orderCheck": null,
+      "feelCheck": null
+    },
+    {
+      "key": "baseline_2",
+      "level": 2,
+      "name": "谁的房间",
+      "items": 80,
+      "uniqueAssets": 65,
+      "types": 15,
+      "boxes": 16,
+      "boxSizeCounts": {
+        "4": 5,
+        "5": 6,
+        "6": 5
+      },
+      "repeatBoxes": 1,
+      "repeatGapMin": 9,
+      "repeatGapAvg": 9,
+      "orderMatchesItems": true,
+      "freeAtStart": 31,
+      "directAtStart": 11,
+      "orderCheck": null,
+      "feelCheck": null
+    },
+    {
+      "key": "baseline_3",
+      "level": 3,
+      "name": "混乱的客厅",
+      "items": 209,
+      "uniqueAssets": 119,
+      "types": 23,
+      "boxes": 41,
+      "boxSizeCounts": {
+        "4": 8,
+        "5": 21,
+        "6": 12
+      },
+      "repeatBoxes": 18,
+      "repeatGapMin": 7,
+      "repeatGapAvg": 15.222222222222221,
+      "orderMatchesItems": true,
+      "freeAtStart": 69,
+      "directAtStart": 7,
+      "orderCheck": null,
+      "feelCheck": null
+    },
+    {
+      "key": "baseline_4",
+      "level": 4,
+      "name": "顶楼阳台",
+      "items": 203,
+      "uniqueAssets": 112,
+      "types": 22,
+      "boxes": 40,
+      "boxSizeCounts": {
+        "4": 8,
+        "5": 21,
+        "6": 11
+      },
+      "repeatBoxes": 18,
+      "repeatGapMin": 2,
+      "repeatGapAvg": 12.11111111111111,
+      "orderMatchesItems": true,
+      "freeAtStart": 80,
+      "directAtStart": 10,
+      "orderCheck": null,
+      "feelCheck": "类 7 第 17、19 箱只隔 2 位"
+    },
+    {
+      "key": "baseline_5",
+      "level": 5,
+      "name": "我的房间",
+      "items": 200,
+      "uniqueAssets": 126,
+      "types": 23,
+      "boxes": 38,
+      "boxSizeCounts": {
+        "4": 3,
+        "5": 22,
+        "6": 13
+      },
+      "repeatBoxes": 15,
+      "repeatGapMin": 9,
+      "repeatGapAvg": 16.2,
+      "orderMatchesItems": true,
+      "freeAtStart": 69,
+      "directAtStart": 9,
+      "orderCheck": null,
+      "feelCheck": null
+    },
+    {
+      "key": "baseline_6",
+      "level": 6,
+      "name": "厨房",
+      "items": 201,
+      "uniqueAssets": 105,
+      "types": 20,
+      "boxes": 38,
+      "boxSizeCounts": {
+        "4": 9,
+        "5": 14,
+        "6": 10,
+        "7": 5
+      },
+      "repeatBoxes": 18,
+      "repeatGapMin": 2,
+      "repeatGapAvg": 12.444444444444445,
+      "orderMatchesItems": true,
+      "freeAtStart": 88,
+      "directAtStart": 15,
+      "orderCheck": "箱子件数 7 不在 3~6",
+      "feelCheck": "类 19 第 3、5 箱只隔 2 位"
+    },
+    {
+      "key": "baseline_7",
+      "level": 7,
+      "name": "地下车库",
+      "items": 201,
+      "uniqueAssets": 147,
+      "types": 31,
+      "boxes": 41,
+      "boxSizeCounts": {
+        "4": 13,
+        "5": 20,
+        "6": 7,
+        "7": 1
+      },
+      "repeatBoxes": 10,
+      "repeatGapMin": 4,
+      "repeatGapAvg": 16.8,
+      "orderMatchesItems": true,
+      "freeAtStart": 52,
+      "directAtStart": 9,
+      "orderCheck": "箱子件数 7 不在 3~6",
+      "feelCheck": null
+    },
+    {
+      "key": "baseline_8",
+      "level": 8,
+      "name": "教室",
+      "items": 202,
+      "uniqueAssets": 90,
+      "types": 16,
+      "boxes": 39,
+      "boxSizeCounts": {
+        "3": 1,
+        "4": 8,
+        "5": 15,
+        "6": 13,
+        "7": 2
+      },
+      "repeatBoxes": 23,
+      "repeatGapMin": 3,
+      "repeatGapAvg": 12.217391304347826,
+      "orderMatchesItems": true,
+      "freeAtStart": 53,
+      "directAtStart": 8,
+      "orderCheck": "箱子件数 7 不在 3~6",
+      "feelCheck": "第 37 箱只有 3 件"
+    },
+    {
+      "key": "baseline_9",
+      "level": 9,
+      "name": "学校食堂",
+      "items": 193,
+      "uniqueAssets": 101,
+      "types": 17,
+      "boxes": 36,
+      "boxSizeCounts": {
+        "3": 1,
+        "4": 5,
+        "5": 16,
+        "6": 8,
+        "7": 6
+      },
+      "repeatBoxes": 19,
+      "repeatGapMin": 2,
+      "repeatGapAvg": 9.473684210526315,
+      "orderMatchesItems": true,
+      "freeAtStart": 52,
+      "directAtStart": 14,
+      "orderCheck": "箱子件数 7 不在 3~6",
+      "feelCheck": "第 22 箱只有 3 件"
+    },
+    {
+      "key": "baseline_10",
+      "level": 10,
+      "name": "操场",
+      "items": 192,
+      "uniqueAssets": 75,
+      "types": 15,
+      "boxes": 34,
+      "boxSizeCounts": {
+        "4": 3,
+        "5": 14,
+        "6": 9,
+        "7": 8
+      },
+      "repeatBoxes": 19,
+      "repeatGapMin": 3,
+      "repeatGapAvg": 10.526315789473685,
+      "orderMatchesItems": true,
+      "freeAtStart": 65,
+      "directAtStart": 23,
+      "orderCheck": "箱子件数 7 不在 3~6",
+      "feelCheck": "类 9 第 14、17 箱只隔 3 位"
+    },
+    {
+      "key": "my_room",
+      "level": 1,
+      "items": 26,
+      "uniqueAssets": 25,
+      "types": 5,
+      "boxes": 5,
+      "boxSizeCounts": {
+        "4": 1,
+        "5": 2,
+        "6": 2
+      },
+      "repeatBoxes": 0,
+      "repeatGapMin": null,
+      "repeatGapAvg": null,
+      "orderMatchesItems": true,
+      "freeAtStart": 13,
+      "directAtStart": 7,
+      "orderCheck": null,
+      "feelCheck": null
+    },
+    {
+      "key": "my_room_legacy",
+      "level": 1,
+      "items": 26,
+      "uniqueAssets": 25,
+      "types": 5,
+      "boxes": 5,
+      "boxSizeCounts": {
+        "4": 1,
+        "5": 2,
+        "6": 2
+      },
+      "repeatBoxes": 0,
+      "repeatGapMin": null,
+      "repeatGapAvg": null,
+      "orderMatchesItems": true,
+      "freeAtStart": 14,
+      "directAtStart": 7,
+      "orderCheck": null,
+      "feelCheck": null
+    },
+    {
+      "key": "bedroom",
+      "level": 2,
+      "items": 84,
+      "uniqueAssets": 84,
+      "types": 16,
+      "boxes": 17,
+      "boxSizeCounts": {
+        "4": 6,
+        "5": 6,
+        "6": 5
+      },
+      "repeatBoxes": 1,
+      "repeatGapMin": 9,
+      "repeatGapAvg": 9,
+      "orderMatchesItems": true,
+      "freeAtStart": 42,
+      "directAtStart": 10,
+      "orderCheck": null,
+      "feelCheck": null
+    },
+    {
+      "key": "childroom",
+      "level": 2,
+      "items": 64,
+      "uniqueAssets": 64,
+      "types": 8,
+      "boxes": 8,
+      "boxSizeCounts": {
+        "4": 1,
+        "6": 3,
+        "8": 1,
+        "10": 1,
+        "12": 2
+      },
+      "repeatBoxes": 0,
+      "repeatGapMin": null,
+      "repeatGapAvg": null,
+      "orderMatchesItems": true,
+      "freeAtStart": 29,
+      "directAtStart": 15,
+      "orderCheck": "箱子件数 12 不在 3~6",
+      "feelCheck": null
+    },
+    {
+      "key": "whose_room",
+      "level": 2,
+      "items": 80,
+      "uniqueAssets": 57,
+      "types": 15,
+      "boxes": 16,
+      "boxSizeCounts": {
+        "4": 5,
+        "5": 6,
+        "6": 5
+      },
+      "repeatBoxes": 1,
+      "repeatGapMin": 9,
+      "repeatGapAvg": 9,
+      "orderMatchesItems": true,
+      "freeAtStart": 32,
+      "directAtStart": 11,
+      "orderCheck": null,
+      "feelCheck": null
+    },
+    {
+      "key": "christmas_room",
+      "level": 2,
+      "items": 80,
+      "uniqueAssets": 80,
+      "types": 15,
+      "boxes": 16,
+      "boxSizeCounts": {
+        "4": 5,
+        "5": 6,
+        "6": 5
+      },
+      "repeatBoxes": 1,
+      "repeatGapMin": 9,
+      "repeatGapAvg": 9,
+      "orderMatchesItems": true,
+      "freeAtStart": 25,
+      "directAtStart": 10,
+      "orderCheck": null,
+      "feelCheck": null
+    },
+    {
+      "key": "tang_room",
+      "level": 2,
+      "items": 80,
+      "uniqueAssets": 80,
+      "types": 15,
+      "boxes": 16,
+      "boxSizeCounts": {
+        "4": 5,
+        "5": 6,
+        "6": 5
+      },
+      "repeatBoxes": 1,
+      "repeatGapMin": 9,
+      "repeatGapAvg": 9,
+      "orderMatchesItems": true,
+      "freeAtStart": 17,
+      "directAtStart": 8,
+      "orderCheck": null,
+      "feelCheck": null
+    },
+    {
+      "key": "super_room",
+      "level": 2,
+      "items": 80,
+      "uniqueAssets": 52,
+      "types": 15,
+      "boxes": 16,
+      "boxSizeCounts": {
+        "4": 5,
+        "5": 6,
+        "6": 5
+      },
+      "repeatBoxes": 1,
+      "repeatGapMin": 9,
+      "repeatGapAvg": 9,
+      "orderMatchesItems": true,
+      "freeAtStart": 29,
+      "directAtStart": 10,
+      "orderCheck": null,
+      "feelCheck": null
+    },
+    {
+      "key": "level3_super",
+      "level": 3,
+      "name": "混乱的客厅",
+      "items": 209,
+      "uniqueAssets": 99,
+      "types": 23,
+      "boxes": 41,
+      "boxSizeCounts": {
+        "4": 8,
+        "5": 21,
+        "6": 12
+      },
+      "repeatBoxes": 18,
+      "repeatGapMin": 7,
+      "repeatGapAvg": 14.722222222222221,
+      "orderMatchesItems": true,
+      "freeAtStart": 68,
+      "directAtStart": 7,
+      "orderCheck": null,
+      "feelCheck": null
+    },
+    {
+      "key": "tang_room_v2",
+      "level": 2,
+      "items": 80,
+      "uniqueAssets": 80,
+      "types": 14,
+      "boxes": 16,
+      "boxSizeCounts": {
+        "4": 5,
+        "5": 6,
+        "6": 5
+      },
+      "repeatBoxes": 2,
+      "repeatGapMin": 5,
+      "repeatGapAvg": 7,
+      "orderMatchesItems": true,
+      "freeAtStart": 14,
+      "directAtStart": 8,
+      "orderCheck": null,
+      "feelCheck": null
+    },
+    {
+      "key": "tang_room_v3",
+      "level": 2,
+      "items": 80,
+      "uniqueAssets": 80,
+      "types": 16,
+      "boxes": 17,
+      "boxSizeCounts": {
+        "3": 2,
+        "4": 5,
+        "5": 6,
+        "6": 4
+      },
+      "repeatBoxes": 1,
+      "repeatGapMin": 4,
+      "repeatGapAvg": 4,
+      "orderMatchesItems": true,
+      "freeAtStart": 24,
+      "directAtStart": 10,
+      "orderCheck": null,
+      "feelCheck": "第 13 箱只有 3 件"
+    },
+    {
+      "key": "retro_room",
+      "level": 3,
+      "items": 209,
+      "uniqueAssets": 127,
+      "types": 23,
+      "boxes": 41,
+      "boxSizeCounts": {
+        "4": 8,
+        "5": 21,
+        "6": 12
+      },
+      "repeatBoxes": 18,
+      "repeatGapMin": 7,
+      "repeatGapAvg": 15.222222222222221,
+      "orderMatchesItems": true,
+      "freeAtStart": 42,
+      "directAtStart": 7,
+      "orderCheck": null,
+      "feelCheck": null
+    },
+    {
+      "key": "retro_room_v5",
+      "level": 3,
+      "items": 209,
+      "uniqueAssets": 127,
+      "types": 23,
+      "boxes": 41,
+      "boxSizeCounts": {
+        "4": 8,
+        "5": 21,
+        "6": 12
+      },
+      "repeatBoxes": 18,
+      "repeatGapMin": 7,
+      "repeatGapAvg": 15.222222222222221,
+      "orderMatchesItems": true,
+      "freeAtStart": 36,
+      "directAtStart": 7,
+      "orderCheck": null,
+      "feelCheck": null
+    },
+    {
+      "key": "entryway",
+      "level": 1,
+      "items": 26,
+      "uniqueAssets": 26,
+      "types": 5,
+      "boxes": 5,
+      "boxSizeCounts": {
+        "5": 4,
+        "6": 1
+      },
+      "repeatBoxes": 0,
+      "repeatGapMin": null,
+      "repeatGapAvg": null,
+      "orderMatchesItems": true,
+      "freeAtStart": 16,
+      "directAtStart": 9,
+      "orderCheck": null,
+      "feelCheck": null
+    },
+    {
+      "key": "kitchen",
+      "level": 2,
+      "items": 80,
+      "uniqueAssets": 79,
+      "types": 14,
+      "boxes": 16,
+      "boxSizeCounts": {
+        "5": 16
+      },
+      "repeatBoxes": 2,
+      "repeatGapMin": 2,
+      "repeatGapAvg": 3,
+      "orderMatchesItems": true,
+      "freeAtStart": 27,
+      "directAtStart": 8,
+      "orderCheck": null,
+      "feelCheck": "类 21002 第 13、15 箱只隔 2 位"
+    },
+    {
+      "key": "attic",
+      "level": 3,
+      "items": 209,
+      "uniqueAssets": 125,
+      "types": 19,
+      "boxes": 41,
+      "boxSizeCounts": {
+        "4": 8,
+        "5": 21,
+        "6": 12
+      },
+      "repeatBoxes": 22,
+      "repeatGapMin": 4,
+      "repeatGapAvg": 16.545454545454547,
+      "orderMatchesItems": true,
+      "freeAtStart": 60,
+      "directAtStart": 16,
+      "orderCheck": null,
+      "feelCheck": null
+    },
+    {
+      "key": "study",
+      "level": 1,
+      "items": 26,
+      "uniqueAssets": 25,
+      "types": 5,
+      "boxes": 5,
+      "boxSizeCounts": {
+        "4": 1,
+        "5": 2,
+        "6": 2
+      },
+      "repeatBoxes": 0,
+      "repeatGapMin": null,
+      "repeatGapAvg": null,
+      "orderMatchesItems": true,
+      "freeAtStart": 13,
+      "directAtStart": 5,
+      "orderCheck": null,
+      "feelCheck": null
+    },
+    {
+      "key": "tatami",
+      "level": 2,
+      "items": 80,
+      "uniqueAssets": 70,
+      "types": 15,
+      "boxes": 16,
+      "boxSizeCounts": {
+        "4": 5,
+        "5": 6,
+        "6": 5
+      },
+      "repeatBoxes": 1,
+      "repeatGapMin": 6,
+      "repeatGapAvg": 6,
+      "orderMatchesItems": true,
+      "freeAtStart": 31,
+      "directAtStart": 11,
+      "orderCheck": null,
+      "feelCheck": null
+    },
+    {
+      "key": "livingroom",
+      "level": 3,
+      "items": 147,
+      "uniqueAssets": 89,
+      "types": 15,
+      "boxes": 29,
+      "boxSizeCounts": {
+        "4": 9,
+        "5": 9,
+        "6": 11
+      },
+      "repeatBoxes": 14,
+      "repeatGapMin": 4,
+      "repeatGapAvg": 9.214285714285714,
+      "orderMatchesItems": true,
+      "freeAtStart": 67,
+      "directAtStart": 21,
+      "orderCheck": null,
+      "feelCheck": null
+    }
+  ],
+  "proofs": [
+    {
+      "variant": "ladder_b_v1",
+      "level": 2,
+      "state": "win",
+      "items": 80,
+      "boxes": 17,
+      "slots": 5,
+      "orderSlots": 2,
+      "pathLength": 80,
+      "peakBuffer": 2,
+      "blocked": 0
+    },
+    {
+      "variant": "ladder_b_v1",
+      "level": 3,
+      "state": "win",
+      "items": 209,
+      "boxes": 51,
+      "slots": 5,
+      "orderSlots": 2,
+      "pathLength": 209,
+      "peakBuffer": 5,
+      "blocked": 0
+    },
+    {
+      "variant": "ladder_c_v1",
+      "level": 2,
+      "state": "win",
+      "items": 80,
+      "boxes": 17,
+      "slots": 5,
+      "orderSlots": 2,
+      "pathLength": 80,
+      "peakBuffer": 2,
+      "blocked": 0
+    },
+    {
+      "variant": "ladder_c_v1",
+      "level": 3,
+      "state": "win",
+      "items": 147,
+      "boxes": 33,
+      "slots": 5,
+      "orderSlots": 2,
+      "pathLength": 147,
+      "peakBuffer": 3,
+      "blocked": 0
+    },
+    {
+      "variant": "ladder_b_v2",
+      "level": 2,
+      "state": "win",
+      "items": 80,
+      "boxes": 17,
+      "slots": 5,
+      "orderSlots": 2,
+      "pathLength": 80,
+      "peakBuffer": 1,
+      "blocked": 0
+    },
+    {
+      "variant": "ladder_b_v2",
+      "level": 3,
+      "state": "win",
+      "items": 209,
+      "boxes": 42,
+      "slots": 5,
+      "orderSlots": 2,
+      "pathLength": 209,
+      "peakBuffer": 2,
+      "blocked": 0
+    },
+    {
+      "variant": "ladder_c_v2",
+      "level": 2,
+      "state": "win",
+      "items": 80,
+      "boxes": 17,
+      "slots": 5,
+      "orderSlots": 2,
+      "pathLength": 80,
+      "peakBuffer": 1,
+      "blocked": 0
+    },
+    {
+      "variant": "ladder_c_v2",
+      "level": 3,
+      "state": "win",
+      "items": 147,
+      "boxes": 29,
+      "slots": 5,
+      "orderSlots": 2,
+      "pathLength": 147,
+      "peakBuffer": 3,
+      "blocked": 0
+    }
+  ],
+  "mechanicsProbe": {
+    "fullBufferState": "playing",
+    "fullBufferUsed": 5,
+    "finalState": "win"
+  },
+  "levelOdds": {
+    "bands": {
+      "easy": 60,
+      "middle": 25
+    },
+    "levels": {
+      "1": 84,
+      "2": 67,
+      "3": 36,
+      "4": 26,
+      "5": 42,
+      "6": 18,
+      "7": 46,
+      "8": 13,
+      "9": 63,
+      "10": 32,
+      "11": 67,
+      "12": 66,
+      "13": 5,
+      "14": 28,
+      "15": 34,
+      "16": 49,
+      "17": 16,
+      "18": 12,
+      "19": 66,
+      "20": 25,
+      "21": 6,
+      "22": 42,
+      "23": 76,
+      "24": 55,
+      "25": 18,
+      "26": 24,
+      "27": 6,
+      "28": 5,
+      "29": 14,
+      "30": 5,
+      "31": 40,
+      "32": 75,
+      "33": 45,
+      "34": 5,
+      "35": 32,
+      "36": 55,
+      "37": 60,
+      "38": 17,
+      "39": 46,
+      "40": 23,
+      "41": 5,
+      "42": 5,
+      "43": 8,
+      "44": 22,
+      "45": 75,
+      "46": 11,
+      "47": 24,
+      "48": 42,
+      "49": 67,
+      "50": 26,
+      "51": 51,
+      "52": 52,
+      "53": 66,
+      "54": 44,
+      "55": 32,
+      "56": 26,
+      "57": 46,
+      "58": 48,
+      "59": 43
+    }
+  }
+}

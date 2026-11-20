@@ -1,0 +1,6745 @@
+[
+  {
+    "name": "Overview",
+    "state": "visible",
+    "rows": [
+      {
+        "row": 1,
+        "cells": {
+          "B": "HAPPY TIDY ROOM"
+        }
+      },
+      {
+        "row": 2,
+        "cells": {
+          "A": "Overview",
+          "B": "Happy Tidy Room là game giải đố dọn phòng. Người chơi tìm đồ trong căn phòng bừa bộn và thu gom vào các hộp theo đúng nhóm để hoàn thành màn chơi."
+        }
+      },
+      {
+        "row": 3,
+        "cells": {
+          "A": "Core mechanic",
+          "B": "Chạm item để dọn vào hộp chứa đúng nhóm; item chưa có hộp nhận sẽ vào slot chờ. Đồ vật xếp theo layer; đồ bị đè chưa lấy được, cần dọn đồ phía trên trước."
+        }
+      },
+      {
+        "row": 4,
+        "cells": {
+          "A": "Ending Rewards",
+          "B": "Hoàn thành màn để nhận coin, kèm lựa chọn xem quảng cáo để nhận thêm thưởng."
+        }
+      },
+      {
+        "row": 5,
+        "cells": {
+          "A": "Màn hình",
+          "B": "Màn hình dọc, chơi trên điện thoại."
+        }
+      },
+      {
+        "row": 6,
+        "cells": {
+          "A": "Camera",
+          "B": "Góc nhìn isometric giả lập bằng đồ họa 2D, nhìn chéo từ trên xuống để bao quát căn phòng. Có thể kéo và thu phóng để tìm đồ."
+        }
+      },
+      {
+        "row": 7,
+        "cells": {
+          "A": "Genre / Sub-genre",
+          "B": "Casual puzzle, kết hợp tìm đồ, phân loại và quản lý chỗ trống trong khay chờ."
+        }
+      },
+      {
+        "row": 8,
+        "cells": {
+          "A": "Target Audience",
+          "B": "Người chơi yêu thích tìm đồ, sắp xếp và giải đố nhẹ nhàng với thao tác đơn giản."
+        }
+      },
+      {
+        "row": 9,
+        "cells": {
+          "A": "Art style",
+          "B": "Đồ họa 2D phong cách hoạt hình, màu sắc dịu mắt. Căn phòng có chiều sâu giả lập; đồ vật có hình dáng và đường viền rõ để dễ nhận diện."
+        }
+      },
+      {
+        "row": 10,
+        "cells": {
+          "A": "Control",
+          "B": "Chạm để chọn đồ, kéo để di chuyển góc nhìn và dùng hai ngón tay để thu phóng."
+        }
+      },
+      {
+        "row": 11,
+        "cells": {
+          "A": "Monetize",
+          "B": "Quảng cáo nhận thưởng, quảng cáo xen kẽ và banner. Mua trong ứng dụng gồm gói bỏ quảng cáo và các gói coin."
+        }
+      },
+      {
+        "row": 12,
+        "cells": {
+          "A": "IGC",
+          "B": "Coin dùng cho các tính năng hỗ trợ. Tim giới hạn lượt chơi sau thất bại; booster giúp xử lý các tình huống khó."
+        }
+      },
+      {
+        "row": 13,
+        "cells": {
+          "A": "USP",
+          "B": "Kết hợp cảm giác dọn gọn căn phòng với bài toán chọn thứ tự thu gom: tìm đúng đồ, đưa vào đúng hộp và tránh làm đầy khay chờ."
+        }
+      }
+    ],
+    "images": [],
+    "comments": []
+  },
+  {
+    "name": "Gameplay",
+    "state": "visible",
+    "rows": [
+      {
+        "row": 1,
+        "cells": {
+          "A": "Core gameplay",
+          "B": "Chạm item để dọn vào hộp chứa đúng nhóm.\n\nItem chưa có hộp nhận sẽ vào slot chờ và chuyển vào hộp khi có nhóm phù hợp.\n\nĐồ vật xếp theo layer; đồ bị đè chưa lấy được, cần dọn đồ phía trên trước."
+        }
+      },
+      {
+        "row": 2,
+        "cells": {
+          "A": "Win",
+          "B": "Khi toàn bộ item trên level được dọn sạch vào các hộp chứa."
+        }
+      },
+      {
+        "row": 3,
+        "cells": {
+          "A": "Lose",
+          "B": "Khi đầy hết slot chờ mà vẫn còn item trên màn chơi, các hộp chứa chưa được đầy hết."
+        }
+      },
+      {
+        "row": 4,
+        "cells": {
+          "A": "Revive",
+          "B": "Dùng coin hoặc xem quảng cáo để dọn slot chờ và tiếp tục chơi."
+        }
+      }
+    ],
+    "images": [],
+    "comments": []
+  },
+  {
+    "name": "Object",
+    "state": "visible",
+    "rows": [
+      {
+        "row": 1,
+        "cells": {
+          "A": "STT",
+          "B": "Tên hình dạng",
+          "C": "Mô tả chi tiết",
+          "D": "Ảnh",
+          "F": "LƯU Ý"
+        }
+      },
+      {
+        "row": 2,
+        "cells": {
+          "A": 1,
+          "B": "Đồ vật thu gom",
+          "C": "Đồ vật là các sprite riêng đặt rải và chồng lên nhau trong căn phòng. Mỗi món có nhóm phân loại, vị trí, góc xoay và biến thể hình ảnh. Các trạng thái được khai báo gồm trên bàn, đang bay, trong hộp, trong khay và trong kho.",
+          "F": "Một nhóm có thể chứa nhiều hình khác nhau, chẳng hạn giày, tất, quần, áo, mũ hoặc móc áo. Nhãn hộp là căn cứ chọn món. Cùng màu không đồng nghĩa cùng nhóm; cùng nhóm cũng không cần giống hệt nhau."
+        }
+      },
+      {
+        "row": 3,
+        "cells": {
+          "A": 2,
+          "B": "Hộp đang mở",
+          "C": "Mỗi hộp hiển thị loại đồ cần thu và bộ đếm. Cấu hình khởi đầu có 2 hộp mở cùng lúc. Hộp hoàn thành sẽ đóng, rời vị trí và nhường chỗ cho yêu cầu tiếp theo.",
+          "F": "Một dữ liệu màn có hộp nhận 3 túi xách, 3 mũ, 4 móc áo và 4 quần. Các số này minh họa rằng sức chứa thay đổi theo từng yêu cầu; không có cơ sở dùng một quy tắc cố định 3 món cho mọi hộp."
+        }
+      },
+      {
+        "row": 4,
+        "cells": {
+          "A": 3,
+          "B": "Hộp khóa",
+          "C": "Bàn có tối đa 3 vị trí hộp, trong đó một vị trí có thể ở trạng thái khóa. Extra Box mở thêm hộp, giúp người chơi xử lý nhiều nhóm đồ hơn cùng lúc. Chưa xác minh mở hộp có kéo dài sang màn sau hay không.",
+          "F": "Hiệu lực mở hộp qua màn sau: cần chơi xác nhận."
+        }
+      },
+      {
+        "row": 5,
+        "cells": {
+          "A": 4,
+          "B": "Khay chờ",
+          "C": "Khay mặc định có 5 ô. Mỗi món chưa được nhận chiếm một ô, tạo ra giới hạn dễ đọc cho người chơi. Scene còn có 2 ô bổ sung và hệ thống mở ô; đây là phần mở rộng, không tính vào sức chứa mặc định.",
+          "F": "Mặc định 5 ô; scene còn 2 ô bổ sung."
+        }
+      },
+      {
+        "row": 6,
+        "cells": {
+          "A": 5,
+          "B": "Kho tạm",
+          "C": "Kho là nơi nhận đồ được Broom chuyển ra khỏi khay. Mục đích của thao tác này là lấy lại chỗ trống mà vẫn giữ đồ trong luồng thu gom. Chưa xác minh giới hạn kho và thứ tự trả đồ khi nhiều hộp có thể nhận.",
+          "F": "Giới hạn kho và thứ tự trả đồ: cần chơi xác nhận."
+        }
+      },
+      {
+        "row": 7,
+        "cells": {
+          "A": 6,
+          "B": "Phông phòng",
+          "C": "Phòng là nền bối cảnh cho đồ vật, có nội thất minh họa sẵn. Catalog chứa 60 mục nền. Không có bằng chứng trong phần đã đọc cho một hệ thống tự mua và đặt nội thất để trang trí phòng.",
+          "F": "Catalog chứa 2.863 mục đồ vật, 76 mục nhóm và 607 mục nhóm con; một số nhóm mang cờ removed. Đây là quy mô dữ liệu đóng gói, không phải cam kết tất cả đều xuất hiện trong bản chơi hoặc đều đang được sử dụng."
+        }
+      }
+    ],
+    "images": [
+      {
+        "row": 2,
+        "col": 4
+      },
+      {
+        "row": 3,
+        "col": 4
+      },
+      {
+        "row": 4,
+        "col": 4
+      },
+      {
+        "row": 5,
+        "col": 4
+      },
+      {
+        "row": 6,
+        "col": 4
+      },
+      {
+        "row": 7,
+        "col": 4
+      }
+    ],
+    "comments": []
+  },
+  {
+    "name": "Element",
+    "state": "visible",
+    "rows": [
+      {
+        "row": 1,
+        "cells": {
+          "A": "STT",
+          "B": "Tên element",
+          "C": "Mô tả chi tiết",
+          "D": "Mô tả chức năng",
+          "E": "Hình ảnh tham khảo",
+          "G": "Unlock"
+        }
+      },
+      {
+        "row": 2,
+        "cells": {
+          "A": "—",
+          "B": "Chưa ghi nhận",
+          "C": "Chưa xác nhận cơ chế đặc biệt đang hoạt động trong Happy Tidy Room.",
+          "D": "Không đưa khay chờ, hộp thu gom, cảnh báo, độ khó hoặc trợ giúp vào danh sách Element. Danh sách cơ chế đặc biệt đóng gói đang rỗng.",
+          "G": "—"
+        }
+      },
+      {
+        "row": 5,
+        "cells": {
+          "A": "TÀI NGUYÊN CƠ CHẾ ẨN CÒN TRONG APK — CHƯA XÁC NHẬN SỬ DỤNG"
+        }
+      },
+      {
+        "row": 6,
+        "cells": {
+          "B": "HiddenPassenger",
+          "C": "Có icon và tiêu đề cơ chế ẩn trong tài nguyên. Hình ảnh dùng nhân vật hành khách, không phải đồ vật Happy Tidy Room.",
+          "D": "Chưa đủ bằng chứng để coi đây là cơ chế của bản game này. Không xác định luật chơi, hiệu ứng hay mốc mở từ tên asset.",
+          "G": "Chưa xác nhận"
+        }
+      }
+    ],
+    "images": [
+      {
+        "row": 6,
+        "col": 5
+      },
+      {
+        "row": 7,
+        "col": 5
+      }
+    ],
+    "comments": []
+  },
+  {
+    "name": "Booster",
+    "state": "visible",
+    "rows": [
+      {
+        "row": 1,
+        "cells": {
+          "A": "STT",
+          "B": "Tên booster",
+          "C": "Des",
+          "D": "Flow",
+          "E": "Giá",
+          "F": "Unlock",
+          "G": "Ảnh",
+          "H": "REF"
+        }
+      },
+      {
+        "row": 2,
+        "cells": {
+          "A": 1,
+          "B": "Vacuum",
+          "C": "Hoàn tất ngay 1 hộp. Chưa chốt quy tắc chọn hộp mục tiêu.",
+          "D": "Bấm Vacuum → dùng lượt hiện có hoặc mở popup mua → phát hiệu ứng hút → hoàn tất 1 hộp. Nếu không có đích, báo “No box can be filled”.",
+          "E": "Coin / Ads; giá hiệu lực chưa xác minh",
+          "F": "Level 3",
+          "H": "S04, S07, S08"
+        }
+      },
+      {
+        "row": 3,
+        "cells": {
+          "A": 2,
+          "B": "Broom",
+          "C": "Chuyển toàn bộ đồ từ khay chờ sang kho tạm, giải phóng chỗ trống.",
+          "D": "Bấm Broom → dùng lượt hoặc mua → quét các món từ khay sang kho → tiếp tục thu gom. Khay trống sẽ báo “No items in the waiting slots”.",
+          "E": "Coin / Ads; giá hiệu lực chưa xác minh",
+          "F": "Level 6",
+          "H": "S04, S07, S08"
+        }
+      },
+      {
+        "row": 4,
+        "cells": {
+          "A": 3,
+          "B": "Extra Box",
+          "C": "Mở thêm 1 hộp đang khóa, tối đa 3 hộp cùng lúc.",
+          "D": "Chạm hộp khóa → chọn cách mở → hộp được thêm vào hàng đang nhận đồ. Hiệu lực qua màn sau chưa xác minh.",
+          "E": "Có luồng mua; chưa chốt giá",
+          "F": "Chưa xác minh",
+          "H": "S02, S04, S07"
+        }
+      },
+      {
+        "row": 5,
+        "cells": {
+          "A": 4,
+          "B": "Extra Slot",
+          "C": "Mở thêm chỗ chứa trong khay. Scene có 2 ô bổ sung.",
+          "D": "Chạm ô khóa → mở popup → nhận thêm chỗ chứa. Cần xác minh số ô được mở mỗi lần và hiệu lực qua màn.",
+          "E": "Có luồng mua; chưa chốt giá",
+          "F": "Chưa xác minh",
+          "H": "S04, S07"
+        }
+      },
+      {
+        "row": 6,
+        "cells": {
+          "A": 5,
+          "B": "Hint",
+          "C": "Gợi ý đồ phù hợp bằng viền vàng và nhịp phóng nhẹ.",
+          "D": "Không thao tác 7 giây → hiện gợi ý. Có điều khiển khả dụng từ Remote Config.",
+          "E": "Chưa thấy giá mua",
+          "F": "Bật trong cấu hình",
+          "G": "Gợi ý bằng viền vàng quanh đồ vật; không có icon booster riêng được xác nhận.",
+          "H": "S02, S09"
+        }
+      }
+    ],
+    "images": [
+      {
+        "row": 2,
+        "col": 7
+      },
+      {
+        "row": 3,
+        "col": 7
+      },
+      {
+        "row": 4,
+        "col": 7
+      },
+      {
+        "row": 5,
+        "col": 7
+      }
+    ],
+    "comments": []
+  },
+  {
+    "name": "Level Progress",
+    "state": "visible",
+    "rows": [
+      {
+        "row": 1,
+        "cells": {
+          "A": "Level",
+          "B": "Name File",
+          "C": "Độ khó"
+        }
+      },
+      {
+        "row": 2,
+        "cells": {
+          "A": "Chưa viết",
+          "B": "Theo yêu cầu, tạm thời chưa biên soạn Level Progress."
+        }
+      }
+    ],
+    "images": [],
+    "comments": []
+  },
+  {
+    "name": "Category Object",
+    "state": "visible",
+    "rows": [
+      {
+        "row": 1,
+        "cells": {
+          "A": "CATEGORY OBJECT"
+        }
+      },
+      {
+        "row": 2,
+        "cells": {
+          "A": "355 tên nhóm đồ hộp nhận, ứng với 356 mã category và 2,863 asset. order.type trong dữ liệu màn trỏ tới mã category; tên nhóm giữ nguyên theo catalog. Các category cùng tên được gộp và cộng số asset (Gift box: 2 mã, 13 asset). Bối cảnh là nhóm tài nguyên trong catalog, dùng tham khảo khi chọn bộ đồ cho level; không giới hạn nơi đồ vật được xuất hiện. Mỗi asset tính một lần theo ID, không tính số bản sao đặt trong màn. Cột asset dùng trong dữ liệu màn đếm ID xuất hiện trong 65 file màn: 2,638. Nguồn: S05, S11."
+        }
+      },
+      {
+        "row": 4,
+        "cells": {
+          "A": "STT",
+          "B": "Nhóm đồ hộp nhận",
+          "C": "Bối cảnh trong catalog",
+          "D": "Số asset",
+          "E": "Ảnh đại diện",
+          "F": "Asset dùng trong dữ liệu màn",
+          "G": "Mã category",
+          "H": "Ví dụ asset"
+        }
+      },
+      {
+        "row": 5,
+        "cells": {
+          "A": 1,
+          "B": "Ancient Books",
+          "C": "Bảo tàng",
+          "D": 10,
+          "F": 10,
+          "G": "64002",
+          "H": "Ancient_Books_1"
+        }
+      },
+      {
+        "row": 6,
+        "cells": {
+          "A": 2,
+          "B": "Ancient Painting",
+          "D": 4,
+          "F": 0,
+          "G": "64001",
+          "H": "Ancient_Painting_1"
+        }
+      },
+      {
+        "row": 7,
+        "cells": {
+          "A": 3,
+          "B": "Ancient Weapons",
+          "D": 5,
+          "F": 5,
+          "G": "64003",
+          "H": "Ancient_Weapons_1"
+        }
+      },
+      {
+        "row": 8,
+        "cells": {
+          "A": 4,
+          "B": "Antique Vase",
+          "D": 8,
+          "F": 8,
+          "G": "64004",
+          "H": "Antique_Vase_1"
+        }
+      },
+      {
+        "row": 9,
+        "cells": {
+          "A": 5,
+          "B": "Display Figurine",
+          "D": 10,
+          "F": 10,
+          "G": "64005",
+          "H": "Display_Figurine_1"
+        }
+      },
+      {
+        "row": 10,
+        "cells": {
+          "A": 6,
+          "B": "Fossil",
+          "D": 12,
+          "F": 12,
+          "G": "64006",
+          "H": "Fossil_1"
+        }
+      },
+      {
+        "row": 11,
+        "cells": {
+          "A": 7,
+          "B": "Bowling ball",
+          "C": "Bowling",
+          "D": 7,
+          "F": 7,
+          "G": "15001",
+          "H": "BowlingBall_1"
+        }
+      },
+      {
+        "row": 12,
+        "cells": {
+          "A": 8,
+          "B": "Bowling pins",
+          "D": 6,
+          "F": 6,
+          "G": "15002",
+          "H": "BowllingPins_1"
+        }
+      },
+      {
+        "row": 13,
+        "cells": {
+          "A": 9,
+          "B": "Bowling shoes",
+          "D": 6,
+          "F": 6,
+          "G": "15003",
+          "H": "bowling_shoes_1"
+        }
+      },
+      {
+        "row": 14,
+        "cells": {
+          "A": 10,
+          "B": "Shoe cover",
+          "D": 5,
+          "F": 5,
+          "G": "15008",
+          "H": "SlideSock_Bowling_1"
+        }
+      },
+      {
+        "row": 15,
+        "cells": {
+          "A": 11,
+          "B": "Tickets",
+          "D": 4,
+          "F": 4,
+          "G": "15007",
+          "H": "Ticker_bowling_1"
+        }
+      },
+      {
+        "row": 16,
+        "cells": {
+          "A": 12,
+          "B": "Animal Toys",
+          "C": "Cửa hàng đồ chơi / phòng chơi",
+          "D": 10,
+          "F": 10,
+          "G": "56001",
+          "H": "Animal_Figures_1"
+        }
+      },
+      {
+        "row": 17,
+        "cells": {
+          "A": 13,
+          "B": "Balls",
+          "D": 7,
+          "F": 7,
+          "G": "56002",
+          "H": "Ball_1"
+        }
+      },
+      {
+        "row": 18,
+        "cells": {
+          "A": 14,
+          "B": "Board game",
+          "D": 5,
+          "F": 5,
+          "G": "56003",
+          "H": "Board_Game_01"
+        }
+      },
+      {
+        "row": 19,
+        "cells": {
+          "A": 15,
+          "B": "Building Blocks",
+          "D": 4,
+          "F": 4,
+          "G": "56006",
+          "H": "Lego_3"
+        }
+      },
+      {
+        "row": 20,
+        "cells": {
+          "A": 16,
+          "B": "Dolls",
+          "D": 5,
+          "F": 5,
+          "G": "56004",
+          "H": "Doll_1"
+        }
+      },
+      {
+        "row": 21,
+        "cells": {
+          "A": 17,
+          "B": "Kitchen toys",
+          "D": 9,
+          "F": 9,
+          "G": "56005",
+          "H": "Cooking_Playset_1"
+        }
+      },
+      {
+        "row": 22,
+        "cells": {
+          "A": 18,
+          "B": "Plushies",
+          "D": 7,
+          "F": 6,
+          "G": "56007",
+          "H": "Stuffies_1"
+        }
+      },
+      {
+        "row": 23,
+        "cells": {
+          "A": 19,
+          "B": "Puzzle Cube",
+          "D": 5,
+          "F": 5,
+          "G": "56008",
+          "H": "Rubik_1"
+        }
+      },
+      {
+        "row": 24,
+        "cells": {
+          "A": 20,
+          "B": "Toy Box",
+          "D": 4,
+          "F": 4,
+          "G": "56009",
+          "H": "Toy_Box_1"
+        }
+      },
+      {
+        "row": 25,
+        "cells": {
+          "A": 21,
+          "B": "Vehicle Toys",
+          "D": 12,
+          "F": 12,
+          "G": "56010",
+          "H": "Toy_Transport_1"
+        }
+      },
+      {
+        "row": 26,
+        "cells": {
+          "A": 22,
+          "B": "Bouquet",
+          "C": "Cửa hàng hoa",
+          "D": 8,
+          "F": 8,
+          "G": "44001",
+          "H": "Bouquet_1"
+        }
+      },
+      {
+        "row": 27,
+        "cells": {
+          "A": 23,
+          "B": "Empty Pots",
+          "D": 10,
+          "F": 10,
+          "G": "44002",
+          "H": "PlantPot_1"
+        }
+      },
+      {
+        "row": 28,
+        "cells": {
+          "A": 24,
+          "B": "Flower pots",
+          "D": 17,
+          "F": 17,
+          "G": "44003",
+          "H": "Decor_13"
+        }
+      },
+      {
+        "row": 29,
+        "cells": {
+          "A": 25,
+          "B": "Gardening tools",
+          "D": 6,
+          "F": 6,
+          "G": "44004",
+          "H": "GardenTrowel_1"
+        }
+      },
+      {
+        "row": 30,
+        "cells": {
+          "A": 26,
+          "B": "Seed bag",
+          "D": 9,
+          "F": 9,
+          "G": "44005",
+          "H": "Seed_1"
+        }
+      },
+      {
+        "row": 31,
+        "cells": {
+          "A": 27,
+          "B": "Gift bags",
+          "C": "Cửa hàng thời trang",
+          "D": 5,
+          "F": 5,
+          "G": "38001",
+          "H": "PackagingMaterials_1"
+        }
+      },
+      {
+        "row": 32,
+        "cells": {
+          "A": 28,
+          "B": "Jewelry",
+          "D": 17,
+          "F": 17,
+          "G": "38003",
+          "H": "Jewelry_2"
+        }
+      },
+      {
+        "row": 33,
+        "cells": {
+          "A": 29,
+          "B": "Sunglasses",
+          "D": 6,
+          "F": 6,
+          "G": "38004",
+          "H": "Eyeglasses_1"
+        }
+      },
+      {
+        "row": 34,
+        "cells": {
+          "A": 30,
+          "B": "Watches",
+          "D": 7,
+          "F": 7,
+          "G": "38005",
+          "H": "Watch_1"
+        }
+      },
+      {
+        "row": 35,
+        "cells": {
+          "A": 31,
+          "B": "Gift box",
+          "C": "Cửa hàng thời trang / Sinh nhật",
+          "D": 13,
+          "F": 13,
+          "G": "38002, 70005",
+          "H": "PackagingMaterials_6"
+        }
+      },
+      {
+        "row": 36,
+        "cells": {
+          "A": 32,
+          "B": "Apron",
+          "C": "Đồ dùng chung",
+          "D": 19,
+          "F": 19,
+          "G": "41001",
+          "H": "Apron_1"
+        }
+      },
+      {
+        "row": 37,
+        "cells": {
+          "A": 33,
+          "B": "Backpacks",
+          "D": 8,
+          "F": 8,
+          "G": "41002",
+          "H": "HandBag_1"
+        }
+      },
+      {
+        "row": 38,
+        "cells": {
+          "A": 34,
+          "B": "Bluetooth speakers",
+          "D": 8,
+          "F": 8,
+          "G": "41003",
+          "H": "Speaker_1"
+        }
+      },
+      {
+        "row": 39,
+        "cells": {
+          "A": 35,
+          "B": "Books",
+          "D": 13,
+          "F": 13,
+          "G": "41004",
+          "H": "Notebook_1"
+        }
+      },
+      {
+        "row": 40,
+        "cells": {
+          "A": 36,
+          "B": "Bowls",
+          "D": 6,
+          "F": 6,
+          "G": "41005",
+          "H": "Bowl_1"
+        }
+      },
+      {
+        "row": 41,
+        "cells": {
+          "A": 37,
+          "B": "Box of Tissues",
+          "D": 10,
+          "F": 10,
+          "G": "41006",
+          "H": "Paper_Napkin_2"
+        }
+      },
+      {
+        "row": 42,
+        "cells": {
+          "A": 38,
+          "B": "Broom",
+          "D": 4,
+          "F": 4,
+          "G": "41007",
+          "H": "Broom_1"
+        }
+      },
+      {
+        "row": 43,
+        "cells": {
+          "A": 39,
+          "B": "Cameras",
+          "D": 8,
+          "F": 8,
+          "G": "41008",
+          "H": "Camera_1"
+        }
+      },
+      {
+        "row": 44,
+        "cells": {
+          "A": 40,
+          "B": "Candles",
+          "D": 4,
+          "F": 4,
+          "G": "41009",
+          "H": "Candle_1"
+        }
+      },
+      {
+        "row": 45,
+        "cells": {
+          "A": 41,
+          "B": "Canned goods",
+          "D": 9,
+          "F": 9,
+          "G": "41010",
+          "H": "Canned_1"
+        }
+      },
+      {
+        "row": 46,
+        "cells": {
+          "A": 42,
+          "B": "Carton Box",
+          "C": "Đồ dùng chung",
+          "D": 9,
+          "F": 9,
+          "G": "41011",
+          "H": "Carton_1"
+        }
+      },
+      {
+        "row": 47,
+        "cells": {
+          "A": 43,
+          "B": "Cleaning products",
+          "D": 6,
+          "F": 6,
+          "G": "41012",
+          "H": "Cleanser_2"
+        }
+      },
+      {
+        "row": 48,
+        "cells": {
+          "A": 44,
+          "B": "Cloths",
+          "D": 15,
+          "F": 15,
+          "G": "41013",
+          "H": "Kitchen_Towel_1"
+        }
+      },
+      {
+        "row": 49,
+        "cells": {
+          "A": 45,
+          "B": "Controllers",
+          "D": 6,
+          "F": 6,
+          "G": "41014",
+          "H": "Gamepad_1"
+        }
+      },
+      {
+        "row": 50,
+        "cells": {
+          "A": 46,
+          "B": "Cosmetics",
+          "D": 7,
+          "F": 7,
+          "G": "41015",
+          "H": "Cosmetics_1"
+        }
+      },
+      {
+        "row": 51,
+        "cells": {
+          "A": 47,
+          "B": "Cups",
+          "D": 6,
+          "F": 6,
+          "G": "41016",
+          "H": "Cup_1"
+        }
+      },
+      {
+        "row": 52,
+        "cells": {
+          "A": 48,
+          "B": "Doctor Outfits",
+          "D": 17,
+          "F": 7,
+          "G": "41017",
+          "H": "DoctorAttire_2"
+        }
+      },
+      {
+        "row": 53,
+        "cells": {
+          "A": 49,
+          "B": "Dustpan",
+          "D": 7,
+          "F": 7,
+          "G": "41018",
+          "H": "Dustpan_1"
+        }
+      },
+      {
+        "row": 54,
+        "cells": {
+          "A": 50,
+          "B": "Earphones",
+          "D": 4,
+          "F": 4,
+          "G": "41019",
+          "H": "Headphones_6"
+        }
+      },
+      {
+        "row": 55,
+        "cells": {
+          "A": 51,
+          "B": "Electric Kettles",
+          "D": 4,
+          "F": 4,
+          "G": "41020",
+          "H": "Electric_Kettle_2"
+        }
+      },
+      {
+        "row": 56,
+        "cells": {
+          "A": 52,
+          "B": "Flashlights",
+          "C": "Đồ dùng chung",
+          "D": 6,
+          "F": 0,
+          "G": "41021",
+          "H": "Flashlight_1"
+        }
+      },
+      {
+        "row": 57,
+        "cells": {
+          "A": 53,
+          "B": "Fruit scraps",
+          "D": 16,
+          "F": 16,
+          "G": "41022",
+          "H": "Paring_1"
+        }
+      },
+      {
+        "row": 58,
+        "cells": {
+          "A": 54,
+          "B": "Game consoles",
+          "D": 4,
+          "F": 4,
+          "G": "41023",
+          "H": "Game_Console_1"
+        }
+      },
+      {
+        "row": 59,
+        "cells": {
+          "A": 55,
+          "B": "Gloves",
+          "D": 10,
+          "F": 10,
+          "G": "41024",
+          "H": "Gardening_Gloves_1"
+        }
+      },
+      {
+        "row": 60,
+        "cells": {
+          "A": 56,
+          "B": "Handbags",
+          "D": 9,
+          "F": 9,
+          "G": "41025",
+          "H": "HandBag_6"
+        }
+      },
+      {
+        "row": 61,
+        "cells": {
+          "A": 57,
+          "B": "Hanger",
+          "D": 5,
+          "F": 5,
+          "G": "41026",
+          "H": "Hanger_1"
+        }
+      },
+      {
+        "row": 62,
+        "cells": {
+          "A": 58,
+          "B": "Hats",
+          "D": 10,
+          "F": 10,
+          "G": "41027",
+          "H": "Hat_1"
+        }
+      },
+      {
+        "row": 63,
+        "cells": {
+          "A": 59,
+          "B": "Headphones",
+          "D": 5,
+          "F": 5,
+          "G": "41028",
+          "H": "Headphones_1"
+        }
+      },
+      {
+        "row": 64,
+        "cells": {
+          "A": 60,
+          "B": "Helmet",
+          "D": 8,
+          "F": 7,
+          "G": "41029",
+          "H": "Helmet_1"
+        }
+      },
+      {
+        "row": 65,
+        "cells": {
+          "A": 61,
+          "B": "Hospital Gowns",
+          "D": 17,
+          "F": 6,
+          "G": "41030",
+          "H": "PatientAttire_1"
+        }
+      },
+      {
+        "row": 66,
+        "cells": {
+          "A": 62,
+          "B": "Iron",
+          "C": "Đồ dùng chung",
+          "D": 6,
+          "F": 6,
+          "G": "41031",
+          "H": "Iron_1"
+        }
+      },
+      {
+        "row": 67,
+        "cells": {
+          "A": 63,
+          "B": "Keyboards",
+          "D": 6,
+          "F": 6,
+          "G": "41032",
+          "H": "Keyboard_1"
+        }
+      },
+      {
+        "row": 68,
+        "cells": {
+          "A": 64,
+          "B": "Long skirts",
+          "D": 11,
+          "F": 11,
+          "G": "41033",
+          "H": "LongDress_1"
+        }
+      },
+      {
+        "row": 69,
+        "cells": {
+          "A": 65,
+          "B": "Long-sleeve wear",
+          "D": 25,
+          "F": 23,
+          "G": "41034",
+          "H": "Long_sleeve_shirt_9"
+        }
+      },
+      {
+        "row": 70,
+        "cells": {
+          "A": 66,
+          "B": "Milk",
+          "D": 17,
+          "F": 17,
+          "G": "41035",
+          "H": "Milk_1"
+        }
+      },
+      {
+        "row": 71,
+        "cells": {
+          "A": 67,
+          "B": "Miniskirts",
+          "D": 17,
+          "F": 15,
+          "G": "41036",
+          "H": "ShortSkirt_1"
+        }
+      },
+      {
+        "row": 72,
+        "cells": {
+          "A": 68,
+          "B": "Mirrors",
+          "D": 4,
+          "F": 4,
+          "G": "41037",
+          "H": "Mirror_1"
+        }
+      },
+      {
+        "row": 73,
+        "cells": {
+          "A": 69,
+          "B": "Monitors",
+          "D": 6,
+          "F": 6,
+          "G": "41038",
+          "H": "Computer_Screen_1"
+        }
+      },
+      {
+        "row": 74,
+        "cells": {
+          "A": 70,
+          "B": "Mop",
+          "D": 6,
+          "F": 6,
+          "G": "41039",
+          "H": "Mop_1"
+        }
+      },
+      {
+        "row": 75,
+        "cells": {
+          "A": 71,
+          "B": "Newspaper",
+          "D": 6,
+          "F": 6,
+          "G": "41040",
+          "H": "NewsPaper_9"
+        }
+      },
+      {
+        "row": 76,
+        "cells": {
+          "A": 72,
+          "B": "Pants",
+          "C": "Đồ dùng chung",
+          "D": 30,
+          "F": 22,
+          "G": "41041",
+          "H": "Trouser_1"
+        }
+      },
+      {
+        "row": 77,
+        "cells": {
+          "A": 73,
+          "B": "Paper bags",
+          "D": 8,
+          "F": 8,
+          "G": "41043",
+          "H": "Paper_Bag_1"
+        }
+      },
+      {
+        "row": 78,
+        "cells": {
+          "A": 74,
+          "B": "Paper Waste",
+          "D": 5,
+          "F": 5,
+          "G": "41042",
+          "H": "Scrap_Paper_1"
+        }
+      },
+      {
+        "row": 79,
+        "cells": {
+          "A": 75,
+          "B": "Phones",
+          "D": 6,
+          "F": 6,
+          "G": "41044",
+          "H": "Phone_1"
+        }
+      },
+      {
+        "row": 80,
+        "cells": {
+          "A": 76,
+          "B": "Pictures",
+          "D": 16,
+          "F": 14,
+          "G": "41045",
+          "H": "Frame_2"
+        }
+      },
+      {
+        "row": 81,
+        "cells": {
+          "A": 77,
+          "B": "Pillows",
+          "D": 9,
+          "F": 9,
+          "G": "41046",
+          "H": "Pillow_1"
+        }
+      },
+      {
+        "row": 82,
+        "cells": {
+          "A": 78,
+          "B": "Plastic bags",
+          "D": 6,
+          "F": 6,
+          "G": "41047",
+          "H": "Nylon_1"
+        }
+      },
+      {
+        "row": 83,
+        "cells": {
+          "A": 79,
+          "B": "Plates",
+          "D": 5,
+          "F": 5,
+          "G": "41048",
+          "H": "Plate_1"
+        }
+      },
+      {
+        "row": 84,
+        "cells": {
+          "A": 80,
+          "B": "Popcorn",
+          "D": 7,
+          "F": 7,
+          "G": "41049",
+          "H": "Popcorn_2"
+        }
+      },
+      {
+        "row": 85,
+        "cells": {
+          "A": 81,
+          "B": "Poster",
+          "D": 8,
+          "F": 5,
+          "G": "41050",
+          "H": "Poster_2"
+        }
+      },
+      {
+        "row": 86,
+        "cells": {
+          "A": 82,
+          "B": "Projectors",
+          "C": "Đồ dùng chung",
+          "D": 6,
+          "F": 6,
+          "G": "41051",
+          "H": "Projector_1"
+        }
+      },
+      {
+        "row": 87,
+        "cells": {
+          "A": 83,
+          "B": "Reed Diffuser",
+          "D": 2,
+          "F": 2,
+          "G": "41052",
+          "H": "Decor_1"
+        }
+      },
+      {
+        "row": 88,
+        "cells": {
+          "A": 84,
+          "B": "Remotes",
+          "D": 5,
+          "F": 5,
+          "G": "41053",
+          "H": "Remote_1"
+        }
+      },
+      {
+        "row": 89,
+        "cells": {
+          "A": 85,
+          "B": "Sandals",
+          "D": 10,
+          "F": 10,
+          "G": "41054",
+          "H": "Sandal_1"
+        }
+      },
+      {
+        "row": 90,
+        "cells": {
+          "A": 86,
+          "B": "Scarfs",
+          "D": 13,
+          "F": 13,
+          "G": "41055",
+          "H": "Scarf_1"
+        }
+      },
+      {
+        "row": 91,
+        "cells": {
+          "A": 87,
+          "B": "Scissors",
+          "D": 8,
+          "F": 8,
+          "G": "41056",
+          "H": "Fabric_Scissors_1"
+        }
+      },
+      {
+        "row": 92,
+        "cells": {
+          "A": 88,
+          "B": "Shampoo",
+          "D": 10,
+          "F": 10,
+          "G": "41057",
+          "H": "Shampoo_1"
+        }
+      },
+      {
+        "row": 93,
+        "cells": {
+          "A": 89,
+          "B": "Shoes",
+          "D": 12,
+          "F": 12,
+          "G": "41058",
+          "H": "Shoes_1"
+        }
+      },
+      {
+        "row": 94,
+        "cells": {
+          "A": 90,
+          "B": "Shorts",
+          "D": 17,
+          "F": 15,
+          "G": "41059",
+          "H": "Shorts_1"
+        }
+      },
+      {
+        "row": 95,
+        "cells": {
+          "A": 91,
+          "B": "Snacks",
+          "D": 15,
+          "F": 15,
+          "G": "41060",
+          "H": "Cereal_1"
+        }
+      },
+      {
+        "row": 96,
+        "cells": {
+          "A": 92,
+          "B": "Socks",
+          "C": "Đồ dùng chung",
+          "D": 7,
+          "F": 7,
+          "G": "41061",
+          "H": "Socks_1"
+        }
+      },
+      {
+        "row": 97,
+        "cells": {
+          "A": 93,
+          "B": "Squeegees",
+          "D": 6,
+          "F": 6,
+          "G": "41062",
+          "H": "Squeegee_1"
+        }
+      },
+      {
+        "row": 98,
+        "cells": {
+          "A": 94,
+          "B": "Suitcases",
+          "D": 14,
+          "F": 14,
+          "G": "41063",
+          "H": "Suitcase_2"
+        }
+      },
+      {
+        "row": 99,
+        "cells": {
+          "A": 95,
+          "B": "Swimwear",
+          "D": 10,
+          "F": 10,
+          "G": "41064",
+          "H": "Swimwear_1"
+        }
+      },
+      {
+        "row": 100,
+        "cells": {
+          "A": 96,
+          "B": "T-shirts",
+          "D": 11,
+          "F": 10,
+          "G": "41065",
+          "H": "Short_sleevShirt_14"
+        }
+      },
+      {
+        "row": 101,
+        "cells": {
+          "A": 97,
+          "B": "Tablets",
+          "D": 5,
+          "F": 5,
+          "G": "41066",
+          "H": "Ipad_1"
+        }
+      },
+      {
+        "row": 102,
+        "cells": {
+          "A": 98,
+          "B": "Tank tops",
+          "D": 20,
+          "F": 19,
+          "G": "41067",
+          "H": "Tank_top_1"
+        }
+      },
+      {
+        "row": 103,
+        "cells": {
+          "A": 99,
+          "B": "Teapots",
+          "D": 11,
+          "F": 11,
+          "G": "41068",
+          "H": "Teapot_1"
+        }
+      },
+      {
+        "row": 104,
+        "cells": {
+          "A": 100,
+          "B": "Tie",
+          "D": 9,
+          "F": 8,
+          "G": "41069",
+          "H": "Tie_2"
+        }
+      },
+      {
+        "row": 105,
+        "cells": {
+          "A": 101,
+          "B": "Tote Bags",
+          "D": 12,
+          "F": 12,
+          "G": "41070",
+          "H": "HandBag_3"
+        }
+      },
+      {
+        "row": 106,
+        "cells": {
+          "A": 102,
+          "B": "Tumblers",
+          "C": "Đồ dùng chung",
+          "D": 8,
+          "F": 8,
+          "G": "41071",
+          "H": "Tumbler_1"
+        }
+      },
+      {
+        "row": 107,
+        "cells": {
+          "A": 103,
+          "B": "Umbrellas",
+          "D": 12,
+          "F": 12,
+          "G": "41072",
+          "H": "Umbrella_1"
+        }
+      },
+      {
+        "row": 108,
+        "cells": {
+          "A": 104,
+          "B": "Wallets",
+          "D": 6,
+          "F": 6,
+          "G": "41073",
+          "H": "Wallet_1"
+        }
+      },
+      {
+        "row": 109,
+        "cells": {
+          "A": 105,
+          "B": "Water bottles",
+          "D": 7,
+          "F": 7,
+          "G": "41074",
+          "H": "Water_1"
+        }
+      },
+      {
+        "row": 110,
+        "cells": {
+          "A": 106,
+          "B": "Car hood",
+          "C": "Gara",
+          "D": 6,
+          "F": 0,
+          "G": "45001",
+          "H": "Bonnet_1"
+        }
+      },
+      {
+        "row": 111,
+        "cells": {
+          "A": 107,
+          "B": "Engine",
+          "D": 7,
+          "F": 5,
+          "G": "45002",
+          "H": "Engine_1"
+        }
+      },
+      {
+        "row": 112,
+        "cells": {
+          "A": 108,
+          "B": "Pliers",
+          "D": 9,
+          "F": 6,
+          "G": "45003",
+          "H": "Pliers_3"
+        }
+      },
+      {
+        "row": 113,
+        "cells": {
+          "A": 109,
+          "B": "Power Drill",
+          "D": 8,
+          "F": 8,
+          "G": "45004",
+          "H": "Power_Drill_1"
+        }
+      },
+      {
+        "row": 114,
+        "cells": {
+          "A": 110,
+          "B": "Screwdriver",
+          "D": 6,
+          "F": 6,
+          "G": "45005",
+          "H": "Screwdriver_1"
+        }
+      },
+      {
+        "row": 115,
+        "cells": {
+          "A": 111,
+          "B": "Tires",
+          "D": 9,
+          "F": 5,
+          "G": "45006",
+          "H": "Fire_5"
+        }
+      },
+      {
+        "row": 116,
+        "cells": {
+          "A": 112,
+          "B": "Toolbox",
+          "D": 5,
+          "F": 3,
+          "G": "45007",
+          "H": "Tool_Box_1"
+        }
+      },
+      {
+        "row": 117,
+        "cells": {
+          "A": 113,
+          "B": "Wheel rim",
+          "D": 10,
+          "F": 3,
+          "G": "45008",
+          "H": "Wheel_Rim_3"
+        }
+      },
+      {
+        "row": 118,
+        "cells": {
+          "A": 114,
+          "B": "Windshield",
+          "D": 3,
+          "F": 3,
+          "G": "45009",
+          "H": "Windshield_1"
+        }
+      },
+      {
+        "row": 119,
+        "cells": {
+          "A": 115,
+          "B": "Windshield Wipers",
+          "D": 6,
+          "F": 0,
+          "G": "45010",
+          "H": "Wipers_1"
+        }
+      },
+      {
+        "row": 120,
+        "cells": {
+          "A": 116,
+          "B": "Wrench",
+          "C": "Gara",
+          "D": 13,
+          "F": 9,
+          "G": "45011",
+          "H": "Hand_Brush_1"
+        }
+      },
+      {
+        "row": 121,
+        "cells": {
+          "A": 117,
+          "B": "Chrismas Hat",
+          "C": "Giáng sinh",
+          "D": 7,
+          "F": 6,
+          "G": "58001",
+          "H": "Hat_11"
+        }
+      },
+      {
+        "row": 122,
+        "cells": {
+          "A": 118,
+          "B": "Christmas Socks",
+          "D": 8,
+          "F": 8,
+          "G": "58002",
+          "H": "Socks_11"
+        }
+      },
+      {
+        "row": 123,
+        "cells": {
+          "A": 119,
+          "B": "Music box",
+          "D": 4,
+          "F": 4,
+          "G": "58003",
+          "H": "Music_Box_1"
+        }
+      },
+      {
+        "row": 124,
+        "cells": {
+          "A": 120,
+          "B": "Snow globe",
+          "D": 5,
+          "F": 5,
+          "G": "58004",
+          "H": "Snow_Globe_1"
+        }
+      },
+      {
+        "row": 125,
+        "cells": {
+          "A": 121,
+          "B": "Xmas cake",
+          "D": 12,
+          "F": 12,
+          "G": "58006",
+          "H": "Xmas_Cake_1"
+        }
+      },
+      {
+        "row": 126,
+        "cells": {
+          "A": 122,
+          "B": "Xmas decor",
+          "D": 11,
+          "F": 11,
+          "G": "58007",
+          "H": "Xmas_Decor_1"
+        }
+      },
+      {
+        "row": 127,
+        "cells": {
+          "A": 123,
+          "B": "Xmas drink",
+          "D": 7,
+          "F": 7,
+          "G": "58008",
+          "H": "Xmas_Drink_2"
+        }
+      },
+      {
+        "row": 128,
+        "cells": {
+          "A": 124,
+          "B": "Xmas food",
+          "D": 10,
+          "F": 10,
+          "G": "58009",
+          "H": "Xmas_Food_1"
+        }
+      },
+      {
+        "row": 129,
+        "cells": {
+          "A": 125,
+          "B": "Xmas ice cream",
+          "D": 6,
+          "F": 6,
+          "G": "58010",
+          "H": "Xmas_Ice_Cream_1"
+        }
+      },
+      {
+        "row": 130,
+        "cells": {
+          "A": 126,
+          "B": "Xmas Toy",
+          "D": 6,
+          "F": 6,
+          "G": "58005",
+          "H": "Xmas_Toy_2"
+        }
+      },
+      {
+        "row": 131,
+        "cells": {
+          "A": 127,
+          "B": "Pool Floats",
+          "C": "Hồ bơi",
+          "D": 9,
+          "F": 9,
+          "G": "53002",
+          "H": "SwimmingFloat_1"
+        }
+      },
+      {
+        "row": 132,
+        "cells": {
+          "A": 128,
+          "B": "Swimming Goggles",
+          "D": 6,
+          "F": 6,
+          "G": "53001",
+          "H": "SwimmingGoggles_1"
+        }
+      },
+      {
+        "row": 133,
+        "cells": {
+          "A": 129,
+          "B": "Airline trolley",
+          "C": "Khoang máy bay",
+          "D": 5,
+          "F": 3,
+          "G": "74001",
+          "H": "AirlineTrolley_1"
+        }
+      },
+      {
+        "row": 134,
+        "cells": {
+          "A": 130,
+          "B": "Life jacket",
+          "D": 6,
+          "F": 3,
+          "G": "74002",
+          "H": "LifeJacket_3"
+        }
+      },
+      {
+        "row": 135,
+        "cells": {
+          "A": 131,
+          "B": "Meal tray",
+          "D": 9,
+          "F": 9,
+          "G": "74003",
+          "H": "MealTray_1"
+        }
+      },
+      {
+        "row": 136,
+        "cells": {
+          "A": 132,
+          "B": "Oxygen mask",
+          "D": 9,
+          "F": 8,
+          "G": "74004",
+          "H": "OxygenMask_2"
+        }
+      },
+      {
+        "row": 137,
+        "cells": {
+          "A": 133,
+          "B": "Sleep mask",
+          "D": 9,
+          "F": 9,
+          "G": "74005",
+          "H": "SleepMask_1"
+        }
+      },
+      {
+        "row": 138,
+        "cells": {
+          "A": 134,
+          "B": "Travel neck pillow",
+          "D": 10,
+          "F": 9,
+          "G": "74006",
+          "H": "TravelNeckPillow_1"
+        }
+      },
+      {
+        "row": 139,
+        "cells": {
+          "A": 135,
+          "B": "Gacha ball",
+          "C": "Khu trò chơi",
+          "D": 10,
+          "F": 10,
+          "G": "57001",
+          "H": "Gacha_Ball_1"
+        }
+      },
+      {
+        "row": 140,
+        "cells": {
+          "A": 136,
+          "B": "Hammer",
+          "D": 6,
+          "F": 6,
+          "G": "57002",
+          "H": "Hammer_1"
+        }
+      },
+      {
+        "row": 141,
+        "cells": {
+          "A": 137,
+          "B": "Scoreboard",
+          "D": 5,
+          "F": 5,
+          "G": "57003",
+          "H": "Scoreboard_1"
+        }
+      },
+      {
+        "row": 142,
+        "cells": {
+          "A": 138,
+          "B": "Ticket eater",
+          "D": 3,
+          "F": 0,
+          "G": "57004",
+          "H": "Ticket_Eater_1"
+        }
+      },
+      {
+        "row": 143,
+        "cells": {
+          "A": 139,
+          "B": "Ticket roll",
+          "D": 10,
+          "F": 10,
+          "G": "57005",
+          "H": "Ticket_Roll_1"
+        }
+      },
+      {
+        "row": 144,
+        "cells": {
+          "A": 140,
+          "B": "Token tray",
+          "D": 6,
+          "F": 6,
+          "G": "57006",
+          "H": "Token_Tray_1"
+        }
+      },
+      {
+        "row": 145,
+        "cells": {
+          "A": 141,
+          "B": "Toss ring",
+          "D": 5,
+          "F": 5,
+          "G": "57007",
+          "H": "Toss_Ring_1"
+        }
+      },
+      {
+        "row": 146,
+        "cells": {
+          "A": 142,
+          "B": "VR headset",
+          "D": 4,
+          "F": 4,
+          "G": "57008",
+          "H": "VR_Headset_1"
+        }
+      },
+      {
+        "row": 147,
+        "cells": {
+          "A": 143,
+          "B": "Water gun",
+          "D": 9,
+          "F": 9,
+          "G": "57009",
+          "H": "Water_Gun_1"
+        }
+      },
+      {
+        "row": 148,
+        "cells": {
+          "A": 144,
+          "B": "Erasers",
+          "C": "Lớp học",
+          "D": 2,
+          "F": 2,
+          "G": "40001",
+          "H": "Eraser_2"
+        }
+      },
+      {
+        "row": 149,
+        "cells": {
+          "A": 145,
+          "B": "Pencil",
+          "D": 3,
+          "F": 3,
+          "G": "40002",
+          "H": "pen_5"
+        }
+      },
+      {
+        "row": 150,
+        "cells": {
+          "A": 146,
+          "B": "School Supplies",
+          "D": 9,
+          "F": 9,
+          "G": "40003",
+          "H": "Geometry set_1"
+        }
+      },
+      {
+        "row": 151,
+        "cells": {
+          "A": 147,
+          "B": "Art tools",
+          "C": "Lớp mỹ thuật",
+          "D": 19,
+          "F": 17,
+          "G": "34001",
+          "H": "Art supplie_1"
+        }
+      },
+      {
+        "row": 152,
+        "cells": {
+          "A": 148,
+          "B": "Brushes",
+          "D": 13,
+          "F": 13,
+          "G": "34002",
+          "H": "Brushes_1"
+        }
+      },
+      {
+        "row": 153,
+        "cells": {
+          "A": 149,
+          "B": "Color",
+          "D": 18,
+          "F": 18,
+          "G": "34003",
+          "H": "paint_1"
+        }
+      },
+      {
+        "row": 154,
+        "cells": {
+          "A": 150,
+          "B": "Color Pallete",
+          "D": 5,
+          "F": 5,
+          "G": "34004",
+          "H": "Palette_3"
+        }
+      },
+      {
+        "row": 155,
+        "cells": {
+          "A": 151,
+          "B": "Paintings",
+          "D": 6,
+          "F": 6,
+          "G": "34005",
+          "H": "Painting_1"
+        }
+      },
+      {
+        "row": 156,
+        "cells": {
+          "A": 152,
+          "B": "Sculptures",
+          "D": 9,
+          "F": 9,
+          "G": "34006",
+          "H": "Plaster_1"
+        }
+      },
+      {
+        "row": 157,
+        "cells": {
+          "A": 153,
+          "B": "Water bucket",
+          "D": 3,
+          "F": 3,
+          "G": "34007",
+          "H": "Water_cup_2"
+        }
+      },
+      {
+        "row": 158,
+        "cells": {
+          "A": 154,
+          "B": "Cheese",
+          "C": "Nhà bếp",
+          "D": 4,
+          "F": 4,
+          "G": "47001",
+          "H": "Cheese_1"
+        }
+      },
+      {
+        "row": 159,
+        "cells": {
+          "A": 155,
+          "B": "Cooking oil",
+          "D": 4,
+          "F": 4,
+          "G": "47002",
+          "H": "Cooking oil_2"
+        }
+      },
+      {
+        "row": 160,
+        "cells": {
+          "A": 156,
+          "B": "Cookware",
+          "D": 21,
+          "F": 17,
+          "G": "47003",
+          "H": "Pan_1"
+        }
+      },
+      {
+        "row": 161,
+        "cells": {
+          "A": 157,
+          "B": "Deli meat",
+          "D": 8,
+          "F": 0,
+          "G": "47004",
+          "H": "Bacon_1"
+        }
+      },
+      {
+        "row": 162,
+        "cells": {
+          "A": 158,
+          "B": "Eggs",
+          "D": 8,
+          "F": 8,
+          "G": "47005",
+          "H": "Egg_1"
+        }
+      },
+      {
+        "row": 163,
+        "cells": {
+          "A": 159,
+          "B": "Food trays",
+          "D": 12,
+          "F": 0,
+          "G": "47006",
+          "H": "Food_Tray_1"
+        }
+      },
+      {
+        "row": 164,
+        "cells": {
+          "A": 160,
+          "B": "Fruits",
+          "D": 13,
+          "F": 13,
+          "G": "47007",
+          "H": "Fruit_1"
+        }
+      },
+      {
+        "row": 165,
+        "cells": {
+          "A": 161,
+          "B": "Kitchen Tools",
+          "D": 16,
+          "F": 15,
+          "G": "47008",
+          "H": "Kitchen_Shears_2"
+        }
+      },
+      {
+        "row": 166,
+        "cells": {
+          "A": 162,
+          "B": "Noodles",
+          "D": 8,
+          "F": 8,
+          "G": "47009",
+          "H": "Noodles_1"
+        }
+      },
+      {
+        "row": 167,
+        "cells": {
+          "A": 163,
+          "B": "Oven mitts",
+          "D": 4,
+          "F": 4,
+          "G": "47010",
+          "H": "Oven_mitts_1"
+        }
+      },
+      {
+        "row": 168,
+        "cells": {
+          "A": 164,
+          "B": "Raw meat",
+          "C": "Nhà bếp",
+          "D": 6,
+          "F": 6,
+          "G": "47011",
+          "H": "Bacon_10"
+        }
+      },
+      {
+        "row": 169,
+        "cells": {
+          "A": 165,
+          "B": "Spices",
+          "D": 19,
+          "F": 19,
+          "G": "47012",
+          "H": "Spices_01"
+        }
+      },
+      {
+        "row": 170,
+        "cells": {
+          "A": 166,
+          "B": "Vegetables",
+          "D": 12,
+          "F": 12,
+          "G": "47013",
+          "H": "Vegetable_1"
+        }
+      },
+      {
+        "row": 171,
+        "cells": {
+          "A": 167,
+          "B": "Mexican Food",
+          "C": "Nhà hàng",
+          "D": 7,
+          "F": 7,
+          "G": "29003",
+          "H": "Nachos_1"
+        }
+      },
+      {
+        "row": 172,
+        "cells": {
+          "A": 168,
+          "B": "Magic mushrooms",
+          "C": "Phép thuật",
+          "D": 7,
+          "F": 7,
+          "G": "72001",
+          "H": "Magic_Mushrooms_1"
+        }
+      },
+      {
+        "row": 173,
+        "cells": {
+          "A": 169,
+          "B": "Magic orb",
+          "D": 10,
+          "F": 10,
+          "G": "72002",
+          "H": "Magic_Orb_1"
+        }
+      },
+      {
+        "row": 174,
+        "cells": {
+          "A": 170,
+          "B": "Magic scroll",
+          "D": 7,
+          "F": 7,
+          "G": "72003",
+          "H": "Magic_Scroll_1"
+        }
+      },
+      {
+        "row": 175,
+        "cells": {
+          "A": 171,
+          "B": "Magic stone",
+          "D": 7,
+          "F": 7,
+          "G": "72004",
+          "H": "Magic_Stone_1"
+        }
+      },
+      {
+        "row": 176,
+        "cells": {
+          "A": 172,
+          "B": "Magic wand",
+          "D": 5,
+          "F": 5,
+          "G": "72005",
+          "H": "Magic_Wand_1"
+        }
+      },
+      {
+        "row": 177,
+        "cells": {
+          "A": 173,
+          "B": "Poison",
+          "D": 10,
+          "F": 10,
+          "G": "72006",
+          "H": "Poison_1"
+        }
+      },
+      {
+        "row": 178,
+        "cells": {
+          "A": 174,
+          "B": "Witchs hat",
+          "D": 9,
+          "F": 9,
+          "G": "72007",
+          "H": "Witchs_Hat_1"
+        }
+      },
+      {
+        "row": 179,
+        "cells": {
+          "A": 175,
+          "B": "Alcohol",
+          "C": "Phòng ăn",
+          "D": 5,
+          "F": 5,
+          "G": "43001",
+          "H": "Alcohol_6"
+        }
+      },
+      {
+        "row": 180,
+        "cells": {
+          "A": 176,
+          "B": "Call Bell",
+          "D": 2,
+          "F": 2,
+          "G": "43008",
+          "H": "Cloche_1"
+        }
+      },
+      {
+        "row": 181,
+        "cells": {
+          "A": 177,
+          "B": "Cocktail",
+          "D": 6,
+          "F": 6,
+          "G": "43002",
+          "H": "Cocktail_1"
+        }
+      },
+      {
+        "row": 182,
+        "cells": {
+          "A": 178,
+          "B": "Desserts",
+          "D": 4,
+          "F": 4,
+          "G": "43003",
+          "H": "MainCourse_6"
+        }
+      },
+      {
+        "row": 183,
+        "cells": {
+          "A": 179,
+          "B": "Dining Plates",
+          "D": 4,
+          "F": 4,
+          "G": "43004",
+          "H": "MainCoursePlate_1"
+        }
+      },
+      {
+        "row": 184,
+        "cells": {
+          "A": 180,
+          "B": "Fast food",
+          "D": 12,
+          "F": 12,
+          "G": "43005",
+          "H": "Bacon_5"
+        }
+      },
+      {
+        "row": 185,
+        "cells": {
+          "A": 181,
+          "B": "Fine Dining",
+          "D": 7,
+          "F": 7,
+          "G": "43006",
+          "H": "MainCourse_1"
+        }
+      },
+      {
+        "row": 186,
+        "cells": {
+          "A": 182,
+          "B": "Glass bottles",
+          "D": 8,
+          "F": 8,
+          "G": "43007",
+          "H": "Glass_Bottle_1"
+        }
+      },
+      {
+        "row": 187,
+        "cells": {
+          "A": 183,
+          "B": "Soda",
+          "D": 21,
+          "F": 21,
+          "G": "43009",
+          "H": "Pop_Can_1"
+        }
+      },
+      {
+        "row": 188,
+        "cells": {
+          "A": 184,
+          "B": "Wine",
+          "D": 2,
+          "F": 2,
+          "G": "43010",
+          "H": "Wine_1"
+        }
+      },
+      {
+        "row": 189,
+        "cells": {
+          "A": 185,
+          "B": "Wine glasses",
+          "C": "Phòng ăn",
+          "D": 7,
+          "F": 7,
+          "G": "43011",
+          "H": "WineGlass_1"
+        }
+      },
+      {
+        "row": 190,
+        "cells": {
+          "A": 186,
+          "B": "Clothing Bag",
+          "C": "Phòng giặt",
+          "D": 7,
+          "F": 3,
+          "G": "48001",
+          "H": "Garment bag_2"
+        }
+      },
+      {
+        "row": 191,
+        "cells": {
+          "A": 187,
+          "B": "Laundry Basket",
+          "D": 7,
+          "F": 6,
+          "G": "48002",
+          "H": "Laundry_Basket_1"
+        }
+      },
+      {
+        "row": 192,
+        "cells": {
+          "A": 188,
+          "B": "Cotton Swab",
+          "C": "Phòng khám nha khoa",
+          "D": 4,
+          "F": 4,
+          "G": "42001",
+          "H": "CottonSwab_1"
+        }
+      },
+      {
+        "row": 193,
+        "cells": {
+          "A": 189,
+          "B": "Dental Instruments",
+          "D": 7,
+          "F": 7,
+          "G": "42002",
+          "H": "DentalInstruments_1"
+        }
+      },
+      {
+        "row": 194,
+        "cells": {
+          "A": 190,
+          "B": "Documents",
+          "D": 5,
+          "F": 5,
+          "G": "42003",
+          "H": "MedicalDocuments_1"
+        }
+      },
+      {
+        "row": 195,
+        "cells": {
+          "A": 191,
+          "B": "Masks",
+          "D": 5,
+          "F": 5,
+          "G": "42004",
+          "H": "Facemask_2"
+        }
+      },
+      {
+        "row": 196,
+        "cells": {
+          "A": 192,
+          "B": "Medical bags",
+          "D": 10,
+          "F": 6,
+          "G": "42006",
+          "H": "MedicalBag_2"
+        }
+      },
+      {
+        "row": 197,
+        "cells": {
+          "A": 193,
+          "B": "Medical Tray",
+          "D": 4,
+          "F": 4,
+          "G": "42005",
+          "H": "MedicalTray_1"
+        }
+      },
+      {
+        "row": 198,
+        "cells": {
+          "A": 194,
+          "B": "Pill bottles",
+          "D": 6,
+          "F": 6,
+          "G": "42007",
+          "H": "MedicineBottle_1"
+        }
+      },
+      {
+        "row": 199,
+        "cells": {
+          "A": 195,
+          "B": "Pill packs",
+          "D": 7,
+          "F": 7,
+          "G": "42008",
+          "H": "BlisterPack_1"
+        }
+      },
+      {
+        "row": 200,
+        "cells": {
+          "A": 196,
+          "B": "Pillbox",
+          "D": 7,
+          "F": 7,
+          "G": "42009",
+          "H": "PillBox_1"
+        }
+      },
+      {
+        "row": 201,
+        "cells": {
+          "A": 197,
+          "B": "Sanitizer",
+          "D": 6,
+          "F": 6,
+          "G": "42010",
+          "H": "MedicalAlcohol_1"
+        }
+      },
+      {
+        "row": 202,
+        "cells": {
+          "A": 198,
+          "B": "Stethoscope",
+          "C": "Phòng khám nha khoa",
+          "D": 6,
+          "F": 6,
+          "G": "42011",
+          "H": "Stethoscope_1"
+        }
+      },
+      {
+        "row": 203,
+        "cells": {
+          "A": 199,
+          "B": "Syringe",
+          "D": 6,
+          "F": 6,
+          "G": "42012",
+          "H": "Syringe_1"
+        }
+      },
+      {
+        "row": 204,
+        "cells": {
+          "A": 200,
+          "B": "Calculators",
+          "C": "Phòng làm việc / học tập",
+          "D": 7,
+          "F": 7,
+          "G": "51001",
+          "H": "Calculator_1"
+        }
+      },
+      {
+        "row": 205,
+        "cells": {
+          "A": 201,
+          "B": "Folders",
+          "D": 6,
+          "F": 6,
+          "G": "51002",
+          "H": "Folder_2"
+        }
+      },
+      {
+        "row": 206,
+        "cells": {
+          "A": 202,
+          "B": "Markers",
+          "D": 3,
+          "F": 3,
+          "G": "51003",
+          "H": "pen_2"
+        }
+      },
+      {
+        "row": 207,
+        "cells": {
+          "A": 203,
+          "B": "Paper",
+          "D": 6,
+          "F": 6,
+          "G": "51004",
+          "H": "A4 paper_1"
+        }
+      },
+      {
+        "row": 208,
+        "cells": {
+          "A": 204,
+          "B": "Pens",
+          "D": 4,
+          "F": 4,
+          "G": "51005",
+          "H": "pen_1"
+        }
+      },
+      {
+        "row": 209,
+        "cells": {
+          "A": 205,
+          "B": "Printers",
+          "D": 7,
+          "F": 7,
+          "G": "51006",
+          "H": "Printer_1"
+        }
+      },
+      {
+        "row": 210,
+        "cells": {
+          "A": 206,
+          "B": "Stamps",
+          "D": 6,
+          "F": 0,
+          "G": "51007",
+          "H": "Stamp_1"
+        }
+      },
+      {
+        "row": 211,
+        "cells": {
+          "A": 207,
+          "B": "Staplers",
+          "D": 6,
+          "F": 6,
+          "G": "51008",
+          "H": "Staple_1"
+        }
+      },
+      {
+        "row": 212,
+        "cells": {
+          "A": 208,
+          "B": "Sticky notes",
+          "D": 6,
+          "F": 6,
+          "G": "51009",
+          "H": "Sticky_note_1"
+        }
+      },
+      {
+        "row": 213,
+        "cells": {
+          "A": 209,
+          "B": "Micro",
+          "C": "Phòng nhạc",
+          "D": 7,
+          "F": 7,
+          "G": "65001",
+          "H": "Micro_1"
+        }
+      },
+      {
+        "row": 214,
+        "cells": {
+          "A": 210,
+          "B": "Music book",
+          "D": 9,
+          "F": 9,
+          "G": "65002",
+          "H": "Music_Book_1"
+        }
+      },
+      {
+        "row": 215,
+        "cells": {
+          "A": 211,
+          "B": "Music record",
+          "D": 10,
+          "F": 10,
+          "G": "65003",
+          "H": "Music_Record_1"
+        }
+      },
+      {
+        "row": 216,
+        "cells": {
+          "A": 212,
+          "B": "Music trophy",
+          "D": 9,
+          "F": 9,
+          "G": "65004",
+          "H": "Music_Trophy_1"
+        }
+      },
+      {
+        "row": 217,
+        "cells": {
+          "A": 213,
+          "B": "Musical instruments",
+          "D": 17,
+          "F": 13,
+          "G": "49001",
+          "H": "MusicalInstrument_1"
+        }
+      },
+      {
+        "row": 218,
+        "cells": {
+          "A": 214,
+          "B": "Recording equipment",
+          "D": 8,
+          "F": 3,
+          "G": "65006",
+          "H": "Recording_Equipment_6"
+        }
+      },
+      {
+        "row": 219,
+        "cells": {
+          "A": 215,
+          "B": "Scrub Brush",
+          "C": "Phòng tắm",
+          "D": 6,
+          "F": 6,
+          "G": "37001",
+          "H": "Scrub_Brush_1"
+        }
+      },
+      {
+        "row": 220,
+        "cells": {
+          "A": 216,
+          "B": "Toilet paper",
+          "D": 3,
+          "F": 3,
+          "G": "37002",
+          "H": "Tissue_1"
+        }
+      },
+      {
+        "row": 221,
+        "cells": {
+          "A": 217,
+          "B": "Towels",
+          "D": 26,
+          "F": 23,
+          "G": "37003",
+          "H": "Bath_towel_1"
+        }
+      },
+      {
+        "row": 222,
+        "cells": {
+          "A": 218,
+          "B": "Chemical",
+          "C": "Phòng thí nghiệm",
+          "D": 7,
+          "F": 7,
+          "G": "63001",
+          "H": "Chemical_1"
+        }
+      },
+      {
+        "row": 223,
+        "cells": {
+          "A": 219,
+          "B": "Glassware",
+          "D": 11,
+          "F": 11,
+          "G": "63002",
+          "H": "Lab_Glassware_1"
+        }
+      },
+      {
+        "row": 224,
+        "cells": {
+          "A": 220,
+          "B": "Magnifying glass",
+          "D": 4,
+          "F": 4,
+          "G": "63003",
+          "H": "MagnifyingGlass_1"
+        }
+      },
+      {
+        "row": 225,
+        "cells": {
+          "A": 221,
+          "B": "Microscope",
+          "D": 4,
+          "F": 4,
+          "G": "63004",
+          "H": "Microscope_1"
+        }
+      },
+      {
+        "row": 226,
+        "cells": {
+          "A": 222,
+          "B": "Protective mask",
+          "D": 4,
+          "F": 4,
+          "G": "63005",
+          "H": "ProtectiveMask_1"
+        }
+      },
+      {
+        "row": 227,
+        "cells": {
+          "A": 223,
+          "B": "Safety goggles",
+          "D": 6,
+          "F": 6,
+          "G": "63006",
+          "H": "SafetyGoggles_1"
+        }
+      },
+      {
+        "row": 228,
+        "cells": {
+          "A": 224,
+          "B": "Specimen",
+          "D": 7,
+          "F": 7,
+          "G": "63007",
+          "H": "Specimen_1"
+        }
+      },
+      {
+        "row": 229,
+        "cells": {
+          "A": 225,
+          "B": "Cat litters",
+          "C": "Phòng thú cưng",
+          "D": 3,
+          "F": 3,
+          "G": "52002",
+          "H": "Litter_Tray_1"
+        }
+      },
+      {
+        "row": 230,
+        "cells": {
+          "A": 226,
+          "B": "Cat wands",
+          "D": 8,
+          "F": 6,
+          "G": "52003",
+          "H": "Cat_Wand_1"
+        }
+      },
+      {
+        "row": 231,
+        "cells": {
+          "A": 227,
+          "B": "Pet bowl",
+          "D": 9,
+          "F": 8,
+          "G": "52005",
+          "H": "Pet_Bowl_1"
+        }
+      },
+      {
+        "row": 232,
+        "cells": {
+          "A": 228,
+          "B": "Pet carriers",
+          "D": 5,
+          "F": 3,
+          "G": "52006",
+          "H": "Pet_Cage_1"
+        }
+      },
+      {
+        "row": 233,
+        "cells": {
+          "A": 229,
+          "B": "Pet clothes",
+          "D": 8,
+          "F": 6,
+          "G": "52007",
+          "H": "Pet_Clothes_1"
+        }
+      },
+      {
+        "row": 234,
+        "cells": {
+          "A": 230,
+          "B": "Pet Collars",
+          "D": 8,
+          "F": 7,
+          "G": "52004",
+          "H": "Pet_Collar_2"
+        }
+      },
+      {
+        "row": 235,
+        "cells": {
+          "A": 231,
+          "B": "Pet food",
+          "D": 16,
+          "F": 6,
+          "G": "52008",
+          "H": "Pet _Food_Bag_2"
+        }
+      },
+      {
+        "row": 236,
+        "cells": {
+          "A": 232,
+          "B": "Pet Toy Balls",
+          "D": 10,
+          "F": 9,
+          "G": "52001",
+          "H": "Pet_Toy_Ball_1"
+        }
+      },
+      {
+        "row": 237,
+        "cells": {
+          "A": 233,
+          "B": "Bath brush",
+          "C": "Phòng xông hơi",
+          "D": 10,
+          "F": 10,
+          "G": "75001",
+          "H": "Bath_Brush_1"
+        }
+      },
+      {
+        "row": 238,
+        "cells": {
+          "A": 234,
+          "B": "Bathrobe",
+          "D": 8,
+          "F": 8,
+          "G": "75002",
+          "H": "Bathrobe_1"
+        }
+      },
+      {
+        "row": 239,
+        "cells": {
+          "A": 235,
+          "B": "Hair dryer",
+          "D": 12,
+          "F": 12,
+          "G": "75003",
+          "H": "Hair_Dryer_1"
+        }
+      },
+      {
+        "row": 240,
+        "cells": {
+          "A": 236,
+          "B": "Scented candle",
+          "D": 8,
+          "F": 8,
+          "G": "75004",
+          "H": "Scented_Candle_1"
+        }
+      },
+      {
+        "row": 241,
+        "cells": {
+          "A": 237,
+          "B": "Coffee",
+          "C": "Quán cà phê",
+          "D": 10,
+          "F": 10,
+          "G": "39001",
+          "H": "Coffee_1"
+        }
+      },
+      {
+        "row": 242,
+        "cells": {
+          "A": 238,
+          "B": "Chopstick",
+          "C": "Quán sushi",
+          "D": 11,
+          "F": 11,
+          "G": "67007",
+          "H": "Chopstick_8"
+        }
+      },
+      {
+        "row": 243,
+        "cells": {
+          "A": 239,
+          "B": "Food tray",
+          "D": 10,
+          "F": 10,
+          "G": "67001",
+          "H": "Food_Tray_14"
+        }
+      },
+      {
+        "row": 244,
+        "cells": {
+          "A": 240,
+          "B": "Japanese dishes",
+          "D": 11,
+          "F": 11,
+          "G": "67002",
+          "H": "Japanes_Dishes_1"
+        }
+      },
+      {
+        "row": 245,
+        "cells": {
+          "A": 241,
+          "B": "Knife",
+          "D": 9,
+          "F": 9,
+          "G": "67003",
+          "H": "Knife_9"
+        }
+      },
+      {
+        "row": 246,
+        "cells": {
+          "A": 242,
+          "B": "Sake",
+          "D": 8,
+          "F": 8,
+          "G": "67004",
+          "H": "Alcohol_13"
+        }
+      },
+      {
+        "row": 247,
+        "cells": {
+          "A": 243,
+          "B": "Side dishes",
+          "D": 7,
+          "F": 7,
+          "G": "67005",
+          "H": "Side_Dishes_1"
+        }
+      },
+      {
+        "row": 248,
+        "cells": {
+          "A": 244,
+          "B": "Sushi",
+          "D": 19,
+          "F": 14,
+          "G": "67006",
+          "H": "Individual_Sushi_1"
+        }
+      },
+      {
+        "row": 249,
+        "cells": {
+          "A": 245,
+          "B": "BBQ grilled",
+          "C": "Quầy đồ ăn đường phố",
+          "D": 6,
+          "F": 6,
+          "G": "76001",
+          "H": "BBQ_Grilled_1"
+        }
+      },
+      {
+        "row": 250,
+        "cells": {
+          "A": 246,
+          "B": "BBQ tool",
+          "D": 5,
+          "F": 5,
+          "G": "76002",
+          "H": "BBQ_Tool_1"
+        }
+      },
+      {
+        "row": 251,
+        "cells": {
+          "A": 247,
+          "B": "Grilled vegetables",
+          "D": 6,
+          "F": 6,
+          "G": "76003",
+          "H": "Grilled_Vegetables_1"
+        }
+      },
+      {
+        "row": 252,
+        "cells": {
+          "A": 248,
+          "B": "Paper cup",
+          "D": 9,
+          "F": 9,
+          "G": "76004",
+          "H": "Paper_Cup_1"
+        }
+      },
+      {
+        "row": 253,
+        "cells": {
+          "A": 249,
+          "B": "Skewers",
+          "D": 10,
+          "F": 10,
+          "G": "76005",
+          "H": "Skewers_1"
+        }
+      },
+      {
+        "row": 254,
+        "cells": {
+          "A": 250,
+          "B": "3D glasses",
+          "C": "Rạp phim",
+          "D": 8,
+          "F": 8,
+          "G": "59001",
+          "H": "3D_Glasses_1"
+        }
+      },
+      {
+        "row": 255,
+        "cells": {
+          "A": 251,
+          "B": "Cinema ticket",
+          "D": 7,
+          "F": 7,
+          "G": "59002",
+          "H": "Cinema_Ticket_1"
+        }
+      },
+      {
+        "row": 256,
+        "cells": {
+          "A": 252,
+          "B": "Drink cup",
+          "D": 7,
+          "F": 7,
+          "G": "59003",
+          "H": "Drink_Cup_1"
+        }
+      },
+      {
+        "row": 257,
+        "cells": {
+          "A": 253,
+          "B": "Film poster",
+          "D": 8,
+          "F": 7,
+          "G": "59004",
+          "H": "Poster_9"
+        }
+      },
+      {
+        "row": 258,
+        "cells": {
+          "A": 254,
+          "B": "Circus Costume",
+          "C": "Rạp xiếc",
+          "D": 9,
+          "F": 7,
+          "G": "60001",
+          "H": "Circus_Costume_1"
+        }
+      },
+      {
+        "row": 259,
+        "cells": {
+          "A": 255,
+          "B": "Clown costume",
+          "D": 8,
+          "F": 5,
+          "G": "60002",
+          "H": "Clown_Costume_1"
+        }
+      },
+      {
+        "row": 260,
+        "cells": {
+          "A": 256,
+          "B": "Clown hat",
+          "D": 8,
+          "F": 8,
+          "G": "60003",
+          "H": "Clown_Hat_1"
+        }
+      },
+      {
+        "row": 261,
+        "cells": {
+          "A": 257,
+          "B": "Juggling clubs",
+          "D": 8,
+          "F": 8,
+          "G": "60004",
+          "H": "Juggling_Clubs_1"
+        }
+      },
+      {
+        "row": 262,
+        "cells": {
+          "A": 258,
+          "B": "Magic box",
+          "D": 9,
+          "F": 8,
+          "G": "60005",
+          "H": "Magic_Box_1"
+        }
+      },
+      {
+        "row": 263,
+        "cells": {
+          "A": 259,
+          "B": "Bellboy hat",
+          "C": "Sảnh khách sạn",
+          "D": 4,
+          "F": 4,
+          "G": "61001",
+          "H": "Bellboy_Hat_1"
+        }
+      },
+      {
+        "row": 264,
+        "cells": {
+          "A": 260,
+          "B": "Desk calendar",
+          "D": 8,
+          "F": 8,
+          "G": "61002",
+          "H": "Desk_Calendar_1"
+        }
+      },
+      {
+        "row": 265,
+        "cells": {
+          "A": 261,
+          "B": "Desk clock",
+          "D": 9,
+          "F": 9,
+          "G": "61003",
+          "H": "Desk_Clock_1"
+        }
+      },
+      {
+        "row": 266,
+        "cells": {
+          "A": 262,
+          "B": "Door hanger",
+          "D": 6,
+          "F": 6,
+          "G": "61004",
+          "H": "Door_Hanger_1"
+        }
+      },
+      {
+        "row": 267,
+        "cells": {
+          "A": 263,
+          "B": "Key",
+          "D": 8,
+          "F": 8,
+          "G": "61005",
+          "H": "Key_1"
+        }
+      },
+      {
+        "row": 268,
+        "cells": {
+          "A": 264,
+          "B": "Landline",
+          "D": 7,
+          "F": 7,
+          "G": "61006",
+          "H": "Landline_1"
+        }
+      },
+      {
+        "row": 269,
+        "cells": {
+          "A": 265,
+          "B": "Magazine",
+          "D": 7,
+          "F": 7,
+          "G": "61007",
+          "H": "Magazine_1"
+        }
+      },
+      {
+        "row": 270,
+        "cells": {
+          "A": 266,
+          "B": "Balloon",
+          "C": "Sảnh tiệc cưới",
+          "D": 7,
+          "F": 7,
+          "G": "68001",
+          "H": "Balloon_1"
+        }
+      },
+      {
+        "row": 271,
+        "cells": {
+          "A": 267,
+          "B": "Bridecake",
+          "D": 8,
+          "F": 8,
+          "G": "68002",
+          "H": "Bridecake_1"
+        }
+      },
+      {
+        "row": 272,
+        "cells": {
+          "A": 268,
+          "B": "Flower pot",
+          "D": 13,
+          "F": 12,
+          "G": "68003",
+          "H": "Flower_Pot_1"
+        }
+      },
+      {
+        "row": 273,
+        "cells": {
+          "A": 269,
+          "B": "Wedding invitation",
+          "D": 4,
+          "F": 4,
+          "G": "68004",
+          "H": "Wedding_Invitation_3"
+        }
+      },
+      {
+        "row": 274,
+        "cells": {
+          "A": 270,
+          "B": "Airport luggage cart",
+          "C": "Sân bay",
+          "D": 5,
+          "F": 4,
+          "G": "69001",
+          "H": "Airport_Luggage_Cart_2"
+        }
+      },
+      {
+        "row": 275,
+        "cells": {
+          "A": 271,
+          "B": "Captain hat",
+          "D": 3,
+          "F": 3,
+          "G": "69002",
+          "H": "Captain_Hat_1"
+        }
+      },
+      {
+        "row": 276,
+        "cells": {
+          "A": 272,
+          "B": "Flight attendant costume",
+          "D": 7,
+          "F": 7,
+          "G": "69003",
+          "H": "Flight_Attendant_Costume_1"
+        }
+      },
+      {
+        "row": 277,
+        "cells": {
+          "A": 273,
+          "B": "Flight attendant hat",
+          "D": 6,
+          "F": 6,
+          "G": "69004",
+          "H": "Flight_Attendant_Hat_1"
+        }
+      },
+      {
+        "row": 278,
+        "cells": {
+          "A": 274,
+          "B": "Flight ticket",
+          "D": 7,
+          "F": 7,
+          "G": "69005",
+          "H": "Flight_Ticket_1"
+        }
+      },
+      {
+        "row": 279,
+        "cells": {
+          "A": 275,
+          "B": "Passport",
+          "D": 7,
+          "F": 7,
+          "G": "69006",
+          "H": "Passport_1"
+        }
+      },
+      {
+        "row": 280,
+        "cells": {
+          "A": 276,
+          "B": "Security camera",
+          "D": 5,
+          "F": 5,
+          "G": "69007",
+          "H": "Security_Camera_1"
+        }
+      },
+      {
+        "row": 281,
+        "cells": {
+          "A": 277,
+          "B": "Warning sign",
+          "D": 4,
+          "F": 4,
+          "G": "69008",
+          "H": "Warning_Sign_1"
+        }
+      },
+      {
+        "row": 282,
+        "cells": {
+          "A": 278,
+          "B": "Banging sticks",
+          "C": "Sân bóng rổ",
+          "D": 7,
+          "F": 7,
+          "G": "36001",
+          "H": "BangingStick_1"
+        }
+      },
+      {
+        "row": 283,
+        "cells": {
+          "A": 279,
+          "B": "Basketball",
+          "D": 10,
+          "F": 7,
+          "G": "36002",
+          "H": "Basketball_1"
+        }
+      },
+      {
+        "row": 284,
+        "cells": {
+          "A": 280,
+          "B": "Basketball shoes",
+          "D": 7,
+          "F": 6,
+          "G": "36004",
+          "H": "Basketball_Shoes_1"
+        }
+      },
+      {
+        "row": 285,
+        "cells": {
+          "A": 281,
+          "B": "Basketball Shorts",
+          "D": 5,
+          "F": 5,
+          "G": "36003",
+          "H": "Basketball_Shorts_2"
+        }
+      },
+      {
+        "row": 286,
+        "cells": {
+          "A": 282,
+          "B": "Bottles",
+          "D": 10,
+          "F": 10,
+          "G": "36005",
+          "H": "Sports_Bottle_1"
+        }
+      },
+      {
+        "row": 287,
+        "cells": {
+          "A": 283,
+          "B": "Cooler",
+          "D": 6,
+          "F": 4,
+          "G": "36006",
+          "H": "Ice_Cooler_1"
+        }
+      },
+      {
+        "row": 288,
+        "cells": {
+          "A": 284,
+          "B": "Hat",
+          "D": 6,
+          "F": 6,
+          "G": "36007",
+          "H": "Basketball_Cap_2"
+        }
+      },
+      {
+        "row": 289,
+        "cells": {
+          "A": 285,
+          "B": "Head Band",
+          "D": 7,
+          "F": 7,
+          "G": "36008",
+          "H": "HeadBand_1"
+        }
+      },
+      {
+        "row": 290,
+        "cells": {
+          "A": 286,
+          "B": "Jersey",
+          "D": 6,
+          "F": 6,
+          "G": "36009",
+          "H": "Basketball_Jersey_1"
+        }
+      },
+      {
+        "row": 291,
+        "cells": {
+          "A": 287,
+          "B": "Jumping rope",
+          "D": 11,
+          "F": 9,
+          "G": "36010",
+          "H": "Jump_Rope_2"
+        }
+      },
+      {
+        "row": 292,
+        "cells": {
+          "A": 288,
+          "B": "Knee protection",
+          "C": "Sân bóng rổ",
+          "D": 6,
+          "F": 6,
+          "G": "36011",
+          "H": "Knee_Sleeve_1"
+        }
+      },
+      {
+        "row": 293,
+        "cells": {
+          "A": 289,
+          "B": "Pom pom",
+          "D": 7,
+          "F": 7,
+          "G": "36012",
+          "H": "PomPom_1"
+        }
+      },
+      {
+        "row": 294,
+        "cells": {
+          "A": 290,
+          "B": "Skates",
+          "D": 7,
+          "F": 7,
+          "G": "36013",
+          "H": "Skateboard_1"
+        }
+      },
+      {
+        "row": 295,
+        "cells": {
+          "A": 291,
+          "B": "Sports bag",
+          "D": 10,
+          "F": 10,
+          "G": "36014",
+          "H": "Dufel_bag_6"
+        }
+      },
+      {
+        "row": 296,
+        "cells": {
+          "A": 292,
+          "B": "Garden hose",
+          "C": "Sân vườn",
+          "D": 8,
+          "F": 8,
+          "G": "71001",
+          "H": "Garden_Hose_1"
+        }
+      },
+      {
+        "row": 297,
+        "cells": {
+          "A": 293,
+          "B": "Grow light",
+          "D": 7,
+          "F": 7,
+          "G": "71002",
+          "H": "Grow_Light_1"
+        }
+      },
+      {
+        "row": 298,
+        "cells": {
+          "A": 294,
+          "B": "Plant labels",
+          "D": 6,
+          "F": 6,
+          "G": "71003",
+          "H": "Plant_Labels_1"
+        }
+      },
+      {
+        "row": 299,
+        "cells": {
+          "A": 295,
+          "B": "Thermometers",
+          "D": 7,
+          "F": 7,
+          "G": "71004",
+          "H": "Thermometers_1"
+        }
+      },
+      {
+        "row": 300,
+        "cells": {
+          "A": 296,
+          "B": "Vegetable plants",
+          "D": 15,
+          "F": 7,
+          "G": "71005",
+          "H": "Vegetable_Plants_2"
+        }
+      },
+      {
+        "row": 301,
+        "cells": {
+          "A": 297,
+          "B": "Waterer",
+          "D": 11,
+          "F": 11,
+          "G": "71006",
+          "H": "WateringCan_4"
+        }
+      },
+      {
+        "row": 302,
+        "cells": {
+          "A": 298,
+          "B": "Wheelbarrow",
+          "D": 7,
+          "F": 7,
+          "G": "71007",
+          "H": "Wheelbarrow_1"
+        }
+      },
+      {
+        "row": 303,
+        "cells": {
+          "A": 299,
+          "B": "Birthday banner",
+          "C": "Sinh nhật",
+          "D": 9,
+          "F": 9,
+          "G": "70001",
+          "H": "Birthday_Banner_1"
+        }
+      },
+      {
+        "row": 304,
+        "cells": {
+          "A": 300,
+          "B": "Birthday cake",
+          "D": 7,
+          "F": 7,
+          "G": "70002",
+          "H": "Birthday_Cake_1"
+        }
+      },
+      {
+        "row": 305,
+        "cells": {
+          "A": 301,
+          "B": "Birthday glasses",
+          "D": 8,
+          "F": 8,
+          "G": "70003",
+          "H": "Birthday_Glasses_1"
+        }
+      },
+      {
+        "row": 306,
+        "cells": {
+          "A": 302,
+          "B": "Birthday hat",
+          "D": 8,
+          "F": 8,
+          "G": "70004",
+          "H": "Birthday_Hat_1"
+        }
+      },
+      {
+        "row": 307,
+        "cells": {
+          "A": 303,
+          "B": "Party blower",
+          "D": 7,
+          "F": 7,
+          "G": "70006",
+          "H": "Party_Blower_1"
+        }
+      },
+      {
+        "row": 308,
+        "cells": {
+          "A": 304,
+          "B": "Party popper",
+          "D": 6,
+          "F": 6,
+          "G": "70007",
+          "H": "Party_Popper_1"
+        }
+      },
+      {
+        "row": 309,
+        "cells": {
+          "A": 305,
+          "B": "Pinata",
+          "D": 6,
+          "F": 4,
+          "G": "70008",
+          "H": "Pinata_1"
+        }
+      },
+      {
+        "row": 310,
+        "cells": {
+          "A": 306,
+          "B": "Backdrop",
+          "C": "Studio ảnh",
+          "D": 4,
+          "F": 3,
+          "G": "73001",
+          "H": "Backdrop_1"
+        }
+      },
+      {
+        "row": 311,
+        "cells": {
+          "A": 307,
+          "B": "Camera",
+          "D": 12,
+          "F": 12,
+          "G": "73002",
+          "H": "Camera_8"
+        }
+      },
+      {
+        "row": 312,
+        "cells": {
+          "A": 308,
+          "B": "Clapper board",
+          "D": 10,
+          "F": 10,
+          "G": "73003",
+          "H": "Clapper_Board_1"
+        }
+      },
+      {
+        "row": 313,
+        "cells": {
+          "A": 309,
+          "B": "Film",
+          "D": 9,
+          "F": 9,
+          "G": "73004",
+          "H": "Film_1"
+        }
+      },
+      {
+        "row": 314,
+        "cells": {
+          "A": 310,
+          "B": "Lens",
+          "D": 7,
+          "F": 7,
+          "G": "73005",
+          "H": "Lens_1"
+        }
+      },
+      {
+        "row": 315,
+        "cells": {
+          "A": 311,
+          "B": "Light stand",
+          "D": 6,
+          "F": 3,
+          "G": "73006",
+          "H": "Light_Stand_2"
+        }
+      },
+      {
+        "row": 316,
+        "cells": {
+          "A": 312,
+          "B": "Photography light",
+          "D": 13,
+          "F": 11,
+          "G": "73007",
+          "H": "Photography_Light_1"
+        }
+      },
+      {
+        "row": 317,
+        "cells": {
+          "A": 313,
+          "B": "Reflector",
+          "D": 9,
+          "F": 9,
+          "G": "73008",
+          "H": "Reflector_1"
+        }
+      },
+      {
+        "row": 318,
+        "cells": {
+          "A": 314,
+          "B": "Slider",
+          "D": 4,
+          "F": 3,
+          "G": "73009",
+          "H": "Slider_1"
+        }
+      },
+      {
+        "row": 319,
+        "cells": {
+          "A": 315,
+          "B": "Tripod",
+          "D": 8,
+          "F": 7,
+          "G": "73010",
+          "H": "Tripod_1"
+        }
+      },
+      {
+        "row": 320,
+        "cells": {
+          "A": 316,
+          "B": "Champion cups",
+          "C": "Thể thao",
+          "D": 2,
+          "F": 2,
+          "G": "54001",
+          "H": "Cup_bowling_1"
+        }
+      },
+      {
+        "row": 321,
+        "cells": {
+          "A": 317,
+          "B": "Dumbbell",
+          "D": 8,
+          "F": 8,
+          "G": "54003",
+          "H": "Dumbbell_1"
+        }
+      },
+      {
+        "row": 322,
+        "cells": {
+          "A": 318,
+          "B": "Handgrip",
+          "D": 9,
+          "F": 8,
+          "G": "54004",
+          "H": "Handgrip_1"
+        }
+      },
+      {
+        "row": 323,
+        "cells": {
+          "A": 319,
+          "B": "Kettlebell",
+          "D": 6,
+          "F": 6,
+          "G": "54005",
+          "H": "Kettlebell_1"
+        }
+      },
+      {
+        "row": 324,
+        "cells": {
+          "A": 320,
+          "B": "Medals",
+          "D": 5,
+          "F": 5,
+          "G": "54002",
+          "H": "Medal_bowling_1"
+        }
+      },
+      {
+        "row": 325,
+        "cells": {
+          "A": 321,
+          "B": "Scale",
+          "D": 5,
+          "F": 5,
+          "G": "54006",
+          "H": "Scale_1"
+        }
+      },
+      {
+        "row": 326,
+        "cells": {
+          "A": 322,
+          "B": "Yoga mat",
+          "D": 8,
+          "F": 7,
+          "G": "54007",
+          "H": "Yoga_Mat_1"
+        }
+      },
+      {
+        "row": 327,
+        "cells": {
+          "A": 323,
+          "B": "Bakery",
+          "C": "Tiệm bánh",
+          "D": 6,
+          "F": 6,
+          "G": "35001",
+          "H": "Bread_1"
+        }
+      },
+      {
+        "row": 328,
+        "cells": {
+          "A": 324,
+          "B": "Candy",
+          "D": 6,
+          "F": 6,
+          "G": "35002",
+          "H": "Candy_1"
+        }
+      },
+      {
+        "row": 329,
+        "cells": {
+          "A": 325,
+          "B": "Chocolate",
+          "D": 9,
+          "F": 9,
+          "G": "35003",
+          "H": "Chocolate_1"
+        }
+      },
+      {
+        "row": 330,
+        "cells": {
+          "A": 326,
+          "B": "Bingxu",
+          "C": "Tiệm kem",
+          "D": 10,
+          "F": 10,
+          "G": "62001",
+          "H": "Bingxu_1"
+        }
+      },
+      {
+        "row": 331,
+        "cells": {
+          "A": 327,
+          "B": "Cone holder",
+          "D": 7,
+          "F": 7,
+          "G": "62002",
+          "H": "Cone_Holde_1"
+        }
+      },
+      {
+        "row": 332,
+        "cells": {
+          "A": 328,
+          "B": "Ice chest",
+          "D": 8,
+          "F": 7,
+          "G": "62003",
+          "H": "Ice_Chest_1"
+        }
+      },
+      {
+        "row": 333,
+        "cells": {
+          "A": 329,
+          "B": "Ice cream cone",
+          "D": 5,
+          "F": 5,
+          "G": "62004",
+          "H": "Ice_Cream_Cone_1"
+        }
+      },
+      {
+        "row": 334,
+        "cells": {
+          "A": 330,
+          "B": "Ice cream cup",
+          "D": 10,
+          "F": 10,
+          "G": "62005",
+          "H": "Ice_Cream_Cup_1"
+        }
+      },
+      {
+        "row": 335,
+        "cells": {
+          "A": 331,
+          "B": "Ice cream mold",
+          "D": 7,
+          "F": 7,
+          "G": "62006",
+          "H": "Ice_Cream_Mold_1"
+        }
+      },
+      {
+        "row": 336,
+        "cells": {
+          "A": 332,
+          "B": "Ice cream tub",
+          "D": 12,
+          "F": 12,
+          "G": "62007",
+          "H": "Ice_Cream_Tub_1"
+        }
+      },
+      {
+        "row": 337,
+        "cells": {
+          "A": 333,
+          "B": "Popsicle",
+          "D": 7,
+          "F": 7,
+          "G": "62008",
+          "H": "Popsicle_1"
+        }
+      },
+      {
+        "row": 338,
+        "cells": {
+          "A": 334,
+          "B": "Scoop",
+          "D": 6,
+          "F": 6,
+          "G": "62009",
+          "H": "Scoop_1"
+        }
+      },
+      {
+        "row": 339,
+        "cells": {
+          "A": 335,
+          "B": "Fabric rolls",
+          "C": "Tiệm may",
+          "D": 11,
+          "F": 9,
+          "G": "55001",
+          "H": "Roll_Of_Fabric_2"
+        }
+      },
+      {
+        "row": 340,
+        "cells": {
+          "A": 336,
+          "B": "Fabric scissors",
+          "D": 4,
+          "F": 4,
+          "G": "55002",
+          "H": "Fabric_Scissors_4"
+        }
+      },
+      {
+        "row": 341,
+        "cells": {
+          "A": 337,
+          "B": "Measuring tape",
+          "D": 5,
+          "F": 5,
+          "G": "55003",
+          "H": "Measuring_Tape_1"
+        }
+      },
+      {
+        "row": 342,
+        "cells": {
+          "A": 338,
+          "B": "Pin cushion",
+          "D": 5,
+          "F": 5,
+          "G": "55004",
+          "H": "Pincushion_1"
+        }
+      },
+      {
+        "row": 343,
+        "cells": {
+          "A": 339,
+          "B": "Ribbon",
+          "D": 8,
+          "F": 8,
+          "G": "55005",
+          "H": "Ribbon_1"
+        }
+      },
+      {
+        "row": 344,
+        "cells": {
+          "A": 340,
+          "B": "Ruler",
+          "D": 4,
+          "F": 4,
+          "G": "55006",
+          "H": "Ruler_1"
+        }
+      },
+      {
+        "row": 345,
+        "cells": {
+          "A": 341,
+          "B": "Sewing box",
+          "D": 5,
+          "F": 5,
+          "G": "55007",
+          "H": "Sewing_Box_1"
+        }
+      },
+      {
+        "row": 346,
+        "cells": {
+          "A": 342,
+          "B": "Sewing machine",
+          "D": 5,
+          "F": 5,
+          "G": "55008",
+          "H": "Sewing_Machine_1"
+        }
+      },
+      {
+        "row": 347,
+        "cells": {
+          "A": 343,
+          "B": "Swatchbook",
+          "D": 8,
+          "F": 8,
+          "G": "55009",
+          "H": "Swatchbook_1"
+        }
+      },
+      {
+        "row": 348,
+        "cells": {
+          "A": 344,
+          "B": "Thread Spool",
+          "D": 9,
+          "F": 9,
+          "G": "55010",
+          "H": "Clew_1"
+        }
+      },
+      {
+        "row": 349,
+        "cells": {
+          "A": 345,
+          "B": "Zipper",
+          "C": "Tiệm may",
+          "D": 6,
+          "F": 6,
+          "G": "55011",
+          "H": "Zipper_1"
+        }
+      },
+      {
+        "row": 350,
+        "cells": {
+          "A": 346,
+          "B": "Nail Polish",
+          "C": "Tiệm nail",
+          "D": 6,
+          "F": 6,
+          "G": "50001",
+          "H": "Nail_Polish_1"
+        }
+      },
+      {
+        "row": 351,
+        "cells": {
+          "A": 347,
+          "B": "Nail tools",
+          "D": 6,
+          "F": 6,
+          "G": "50002",
+          "H": "Nail_Tools_1"
+        }
+      },
+      {
+        "row": 352,
+        "cells": {
+          "A": 348,
+          "B": "Comb",
+          "C": "Tiệm tóc",
+          "D": 6,
+          "F": 6,
+          "G": "46001",
+          "H": "Comb_1"
+        }
+      },
+      {
+        "row": 353,
+        "cells": {
+          "A": 349,
+          "B": "Hair Clippers",
+          "D": 6,
+          "F": 6,
+          "G": "46002",
+          "H": "Hair_Clippers_1"
+        }
+      },
+      {
+        "row": 354,
+        "cells": {
+          "A": 350,
+          "B": "Hair Wax",
+          "D": 6,
+          "F": 6,
+          "G": "46003",
+          "H": "Hair_Wax_1"
+        }
+      },
+      {
+        "row": 355,
+        "cells": {
+          "A": 351,
+          "B": "Wigs",
+          "D": 6,
+          "F": 6,
+          "G": "46004",
+          "H": "Wig_1"
+        }
+      },
+      {
+        "row": 356,
+        "cells": {
+          "A": 352,
+          "B": "Folding fan",
+          "C": "Ven sông",
+          "D": 8,
+          "F": 8,
+          "G": "66001",
+          "H": "Riverside_Folding_Fan_1"
+        }
+      },
+      {
+        "row": 357,
+        "cells": {
+          "A": 353,
+          "B": "Oar",
+          "D": 7,
+          "F": 7,
+          "G": "66002",
+          "H": "Riverside_Oar_1"
+        }
+      },
+      {
+        "row": 358,
+        "cells": {
+          "A": 354,
+          "B": "Riverside costume",
+          "D": 10,
+          "F": 3,
+          "G": "66004",
+          "H": "Riverside_Costume_1"
+        }
+      },
+      {
+        "row": 359,
+        "cells": {
+          "A": 355,
+          "B": "Riverside Mask",
+          "D": 14,
+          "F": 14,
+          "G": "66003",
+          "H": "Riverside_Mask_1"
+        }
+      },
+      {
+        "row": 360,
+        "cells": {
+          "B": "TỔNG",
+          "D": "=SUM(D5:D359)",
+          "F": "=SUM(F5:F359)"
+        }
+      }
+    ],
+    "images": [
+      {
+        "row": 5,
+        "col": 5
+      },
+      {
+        "row": 6,
+        "col": 5
+      },
+      {
+        "row": 7,
+        "col": 5
+      },
+      {
+        "row": 8,
+        "col": 5
+      },
+      {
+        "row": 9,
+        "col": 5
+      },
+      {
+        "row": 10,
+        "col": 5
+      },
+      {
+        "row": 11,
+        "col": 5
+      },
+      {
+        "row": 12,
+        "col": 5
+      },
+      {
+        "row": 13,
+        "col": 5
+      },
+      {
+        "row": 14,
+        "col": 5
+      },
+      {
+        "row": 15,
+        "col": 5
+      },
+      {
+        "row": 16,
+        "col": 5
+      },
+      {
+        "row": 17,
+        "col": 5
+      },
+      {
+        "row": 18,
+        "col": 5
+      },
+      {
+        "row": 19,
+        "col": 5
+      },
+      {
+        "row": 20,
+        "col": 5
+      },
+      {
+        "row": 21,
+        "col": 5
+      },
+      {
+        "row": 22,
+        "col": 5
+      },
+      {
+        "row": 23,
+        "col": 5
+      },
+      {
+        "row": 24,
+        "col": 5
+      },
+      {
+        "row": 25,
+        "col": 5
+      },
+      {
+        "row": 26,
+        "col": 5
+      },
+      {
+        "row": 27,
+        "col": 5
+      },
+      {
+        "row": 28,
+        "col": 5
+      },
+      {
+        "row": 29,
+        "col": 5
+      },
+      {
+        "row": 30,
+        "col": 5
+      },
+      {
+        "row": 31,
+        "col": 5
+      },
+      {
+        "row": 32,
+        "col": 5
+      },
+      {
+        "row": 33,
+        "col": 5
+      },
+      {
+        "row": 34,
+        "col": 5
+      },
+      {
+        "row": 35,
+        "col": 5
+      },
+      {
+        "row": 36,
+        "col": 5
+      },
+      {
+        "row": 37,
+        "col": 5
+      },
+      {
+        "row": 38,
+        "col": 5
+      },
+      {
+        "row": 39,
+        "col": 5
+      },
+      {
+        "row": 40,
+        "col": 5
+      },
+      {
+        "row": 41,
+        "col": 5
+      },
+      {
+        "row": 42,
+        "col": 5
+      },
+      {
+        "row": 43,
+        "col": 5
+      },
+      {
+        "row": 44,
+        "col": 5
+      },
+      {
+        "row": 45,
+        "col": 5
+      },
+      {
+        "row": 46,
+        "col": 5
+      },
+      {
+        "row": 47,
+        "col": 5
+      },
+      {
+        "row": 48,
+        "col": 5
+      },
+      {
+        "row": 49,
+        "col": 5
+      },
+      {
+        "row": 50,
+        "col": 5
+      },
+      {
+        "row": 51,
+        "col": 5
+      },
+      {
+        "row": 52,
+        "col": 5
+      },
+      {
+        "row": 53,
+        "col": 5
+      },
+      {
+        "row": 54,
+        "col": 5
+      },
+      {
+        "row": 55,
+        "col": 5
+      },
+      {
+        "row": 56,
+        "col": 5
+      },
+      {
+        "row": 57,
+        "col": 5
+      },
+      {
+        "row": 58,
+        "col": 5
+      },
+      {
+        "row": 59,
+        "col": 5
+      },
+      {
+        "row": 60,
+        "col": 5
+      },
+      {
+        "row": 61,
+        "col": 5
+      },
+      {
+        "row": 62,
+        "col": 5
+      },
+      {
+        "row": 63,
+        "col": 5
+      },
+      {
+        "row": 64,
+        "col": 5
+      },
+      {
+        "row": 65,
+        "col": 5
+      },
+      {
+        "row": 66,
+        "col": 5
+      },
+      {
+        "row": 67,
+        "col": 5
+      },
+      {
+        "row": 68,
+        "col": 5
+      },
+      {
+        "row": 69,
+        "col": 5
+      },
+      {
+        "row": 70,
+        "col": 5
+      },
+      {
+        "row": 71,
+        "col": 5
+      },
+      {
+        "row": 72,
+        "col": 5
+      },
+      {
+        "row": 73,
+        "col": 5
+      },
+      {
+        "row": 74,
+        "col": 5
+      },
+      {
+        "row": 75,
+        "col": 5
+      },
+      {
+        "row": 76,
+        "col": 5
+      },
+      {
+        "row": 77,
+        "col": 5
+      },
+      {
+        "row": 78,
+        "col": 5
+      },
+      {
+        "row": 79,
+        "col": 5
+      },
+      {
+        "row": 80,
+        "col": 5
+      },
+      {
+        "row": 81,
+        "col": 5
+      },
+      {
+        "row": 82,
+        "col": 5
+      },
+      {
+        "row": 83,
+        "col": 5
+      },
+      {
+        "row": 84,
+        "col": 5
+      },
+      {
+        "row": 85,
+        "col": 5
+      },
+      {
+        "row": 86,
+        "col": 5
+      },
+      {
+        "row": 87,
+        "col": 5
+      },
+      {
+        "row": 88,
+        "col": 5
+      },
+      {
+        "row": 89,
+        "col": 5
+      },
+      {
+        "row": 90,
+        "col": 5
+      },
+      {
+        "row": 91,
+        "col": 5
+      },
+      {
+        "row": 92,
+        "col": 5
+      },
+      {
+        "row": 93,
+        "col": 5
+      },
+      {
+        "row": 94,
+        "col": 5
+      },
+      {
+        "row": 95,
+        "col": 5
+      },
+      {
+        "row": 96,
+        "col": 5
+      },
+      {
+        "row": 97,
+        "col": 5
+      },
+      {
+        "row": 98,
+        "col": 5
+      },
+      {
+        "row": 99,
+        "col": 5
+      },
+      {
+        "row": 100,
+        "col": 5
+      },
+      {
+        "row": 101,
+        "col": 5
+      },
+      {
+        "row": 102,
+        "col": 5
+      },
+      {
+        "row": 103,
+        "col": 5
+      },
+      {
+        "row": 104,
+        "col": 5
+      },
+      {
+        "row": 105,
+        "col": 5
+      },
+      {
+        "row": 106,
+        "col": 5
+      },
+      {
+        "row": 107,
+        "col": 5
+      },
+      {
+        "row": 108,
+        "col": 5
+      },
+      {
+        "row": 109,
+        "col": 5
+      },
+      {
+        "row": 110,
+        "col": 5
+      },
+      {
+        "row": 111,
+        "col": 5
+      },
+      {
+        "row": 112,
+        "col": 5
+      },
+      {
+        "row": 113,
+        "col": 5
+      },
+      {
+        "row": 114,
+        "col": 5
+      },
+      {
+        "row": 115,
+        "col": 5
+      },
+      {
+        "row": 116,
+        "col": 5
+      },
+      {
+        "row": 117,
+        "col": 5
+      },
+      {
+        "row": 118,
+        "col": 5
+      },
+      {
+        "row": 119,
+        "col": 5
+      },
+      {
+        "row": 120,
+        "col": 5
+      },
+      {
+        "row": 121,
+        "col": 5
+      },
+      {
+        "row": 122,
+        "col": 5
+      },
+      {
+        "row": 123,
+        "col": 5
+      },
+      {
+        "row": 124,
+        "col": 5
+      },
+      {
+        "row": 125,
+        "col": 5
+      },
+      {
+        "row": 126,
+        "col": 5
+      },
+      {
+        "row": 127,
+        "col": 5
+      },
+      {
+        "row": 128,
+        "col": 5
+      },
+      {
+        "row": 129,
+        "col": 5
+      },
+      {
+        "row": 130,
+        "col": 5
+      },
+      {
+        "row": 131,
+        "col": 5
+      },
+      {
+        "row": 132,
+        "col": 5
+      },
+      {
+        "row": 133,
+        "col": 5
+      },
+      {
+        "row": 134,
+        "col": 5
+      },
+      {
+        "row": 135,
+        "col": 5
+      },
+      {
+        "row": 136,
+        "col": 5
+      },
+      {
+        "row": 137,
+        "col": 5
+      },
+      {
+        "row": 138,
+        "col": 5
+      },
+      {
+        "row": 139,
+        "col": 5
+      },
+      {
+        "row": 140,
+        "col": 5
+      },
+      {
+        "row": 141,
+        "col": 5
+      },
+      {
+        "row": 142,
+        "col": 5
+      },
+      {
+        "row": 143,
+        "col": 5
+      },
+      {
+        "row": 144,
+        "col": 5
+      },
+      {
+        "row": 145,
+        "col": 5
+      },
+      {
+        "row": 146,
+        "col": 5
+      },
+      {
+        "row": 147,
+        "col": 5
+      },
+      {
+        "row": 148,
+        "col": 5
+      },
+      {
+        "row": 149,
+        "col": 5
+      },
+      {
+        "row": 150,
+        "col": 5
+      },
+      {
+        "row": 151,
+        "col": 5
+      },
+      {
+        "row": 152,
+        "col": 5
+      },
+      {
+        "row": 153,
+        "col": 5
+      },
+      {
+        "row": 154,
+        "col": 5
+      },
+      {
+        "row": 155,
+        "col": 5
+      },
+      {
+        "row": 156,
+        "col": 5
+      },
+      {
+        "row": 157,
+        "col": 5
+      },
+      {
+        "row": 158,
+        "col": 5
+      },
+      {
+        "row": 159,
+        "col": 5
+      },
+      {
+        "row": 160,
+        "col": 5
+      },
+      {
+        "row": 161,
+        "col": 5
+      },
+      {
+        "row": 162,
+        "col": 5
+      },
+      {
+        "row": 163,
+        "col": 5
+      },
+      {
+        "row": 164,
+        "col": 5
+      },
+      {
+        "row": 165,
+        "col": 5
+      },
+      {
+        "row": 166,
+        "col": 5
+      },
+      {
+        "row": 167,
+        "col": 5
+      },
+      {
+        "row": 168,
+        "col": 5
+      },
+      {
+        "row": 169,
+        "col": 5
+      },
+      {
+        "row": 170,
+        "col": 5
+      },
+      {
+        "row": 171,
+        "col": 5
+      },
+      {
+        "row": 172,
+        "col": 5
+      },
+      {
+        "row": 173,
+        "col": 5
+      },
+      {
+        "row": 174,
+        "col": 5
+      },
+      {
+        "row": 175,
+        "col": 5
+      },
+      {
+        "row": 176,
+        "col": 5
+      },
+      {
+        "row": 177,
+        "col": 5
+      },
+      {
+        "row": 178,
+        "col": 5
+      },
+      {
+        "row": 179,
+        "col": 5
+      },
+      {
+        "row": 180,
+        "col": 5
+      },
+      {
+        "row": 181,
+        "col": 5
+      },
+      {
+        "row": 182,
+        "col": 5
+      },
+      {
+        "row": 183,
+        "col": 5
+      },
+      {
+        "row": 184,
+        "col": 5
+      },
+      {
+        "row": 185,
+        "col": 5
+      },
+      {
+        "row": 186,
+        "col": 5
+      },
+      {
+        "row": 187,
+        "col": 5
+      },
+      {
+        "row": 188,
+        "col": 5
+      },
+      {
+        "row": 189,
+        "col": 5
+      },
+      {
+        "row": 190,
+        "col": 5
+      },
+      {
+        "row": 191,
+        "col": 5
+      },
+      {
+        "row": 192,
+        "col": 5
+      },
+      {
+        "row": 193,
+        "col": 5
+      },
+      {
+        "row": 194,
+        "col": 5
+      },
+      {
+        "row": 195,
+        "col": 5
+      },
+      {
+        "row": 196,
+        "col": 5
+      },
+      {
+        "row": 197,
+        "col": 5
+      },
+      {
+        "row": 198,
+        "col": 5
+      },
+      {
+        "row": 199,
+        "col": 5
+      },
+      {
+        "row": 200,
+        "col": 5
+      },
+      {
+        "row": 201,
+        "col": 5
+      },
+      {
+        "row": 202,
+        "col": 5
+      },
+      {
+        "row": 203,
+        "col": 5
+      },
+      {
+        "row": 204,
+        "col": 5
+      },
+      {
+        "row": 205,
+        "col": 5
+      },
+      {
+        "row": 206,
+        "col": 5
+      },
+      {
+        "row": 207,
+        "col": 5
+      },
+      {
+        "row": 208,
+        "col": 5
+      },
+      {
+        "row": 209,
+        "col": 5
+      },
+      {
+        "row": 210,
+        "col": 5
+      },
+      {
+        "row": 211,
+        "col": 5
+      },
+      {
+        "row": 212,
+        "col": 5
+      },
+      {
+        "row": 213,
+        "col": 5
+      },
+      {
+        "row": 214,
+        "col": 5
+      },
+      {
+        "row": 215,
+        "col": 5
+      },
+      {
+        "row": 216,
+        "col": 5
+      },
+      {
+        "row": 217,
+        "col": 5
+      },
+      {
+        "row": 218,
+        "col": 5
+      },
+      {
+        "row": 219,
+        "col": 5
+      },
+      {
+        "row": 220,
+        "col": 5
+      },
+      {
+        "row": 221,
+        "col": 5
+      },
+      {
+        "row": 222,
+        "col": 5
+      },
+      {
+        "row": 223,
+        "col": 5
+      },
+      {
+        "row": 224,
+        "col": 5
+      },
+      {
+        "row": 225,
+        "col": 5
+      },
+      {
+        "row": 226,
+        "col": 5
+      },
+      {
+        "row": 227,
+        "col": 5
+      },
+      {
+        "row": 228,
+        "col": 5
+      },
+      {
+        "row": 229,
+        "col": 5
+      },
+      {
+        "row": 230,
+        "col": 5
+      },
+      {
+        "row": 231,
+        "col": 5
+      },
+      {
+        "row": 232,
+        "col": 5
+      },
+      {
+        "row": 233,
+        "col": 5
+      },
+      {
+        "row": 234,
+        "col": 5
+      },
+      {
+        "row": 235,
+        "col": 5
+      },
+      {
+        "row": 236,
+        "col": 5
+      },
+      {
+        "row": 237,
+        "col": 5
+      },
+      {
+        "row": 238,
+        "col": 5
+      },
+      {
+        "row": 239,
+        "col": 5
+      },
+      {
+        "row": 240,
+        "col": 5
+      },
+      {
+        "row": 241,
+        "col": 5
+      },
+      {
+        "row": 242,
+        "col": 5
+      },
+      {
+        "row": 243,
+        "col": 5
+      },
+      {
+        "row": 244,
+        "col": 5
+      },
+      {
+        "row": 245,
+        "col": 5
+      },
+      {
+        "row": 246,
+        "col": 5
+      },
+      {
+        "row": 247,
+        "col": 5
+      },
+      {
+        "row": 248,
+        "col": 5
+      },
+      {
+        "row": 249,
+        "col": 5
+      },
+      {
+        "row": 250,
+        "col": 5
+      },
+      {
+        "row": 251,
+        "col": 5
+      },
+      {
+        "row": 252,
+        "col": 5
+      },
+      {
+        "row": 253,
+        "col": 5
+      },
+      {
+        "row": 254,
+        "col": 5
+      },
+      {
+        "row": 255,
+        "col": 5
+      },
+      {
+        "row": 256,
+        "col": 5
+      },
+      {
+        "row": 257,
+        "col": 5
+      },
+      {
+        "row": 258,
+        "col": 5
+      },
+      {
+        "row": 259,
+        "col": 5
+      },
+      {
+        "row": 260,
+        "col": 5
+      },
+      {
+        "row": 261,
+        "col": 5
+      },
+      {
+        "row": 262,
+        "col": 5
+      },
+      {
+        "row": 263,
+        "col": 5
+      },
+      {
+        "row": 264,
+        "col": 5
+      },
+      {
+        "row": 265,
+        "col": 5
+      },
+      {
+        "row": 266,
+        "col": 5
+      },
+      {
+        "row": 267,
+        "col": 5
+      },
+      {
+        "row": 268,
+        "col": 5
+      },
+      {
+        "row": 269,
+        "col": 5
+      },
+      {
+        "row": 270,
+        "col": 5
+      },
+      {
+        "row": 271,
+        "col": 5
+      },
+      {
+        "row": 272,
+        "col": 5
+      },
+      {
+        "row": 273,
+        "col": 5
+      },
+      {
+        "row": 274,
+        "col": 5
+      },
+      {
+        "row": 275,
+        "col": 5
+      },
+      {
+        "row": 276,
+        "col": 5
+      },
+      {
+        "row": 277,
+        "col": 5
+      },
+      {
+        "row": 278,
+        "col": 5
+      },
+      {
+        "row": 279,
+        "col": 5
+      },
+      {
+        "row": 280,
+        "col": 5
+      },
+      {
+        "row": 281,
+        "col": 5
+      },
+      {
+        "row": 282,
+        "col": 5
+      },
+      {
+        "row": 283,
+        "col": 5
+      },
+      {
+        "row": 284,
+        "col": 5
+      },
+      {
+        "row": 285,
+        "col": 5
+      },
+      {
+        "row": 286,
+        "col": 5
+      },
+      {
+        "row": 287,
+        "col": 5
+      },
+      {
+        "row": 288,
+        "col": 5
+      },
+      {
+        "row": 289,
+        "col": 5
+      },
+      {
+        "row": 290,
+        "col": 5
+      },
+      {
+        "row": 291,
+        "col": 5
+      },
+      {
+        "row": 292,
+        "col": 5
+      },
+      {
+        "row": 293,
+        "col": 5
+      },
+      {
+        "row": 294,
+        "col": 5
+      },
+      {
+        "row": 295,
+        "col": 5
+      },
+      {
+        "row": 296,
+        "col": 5
+      },
+      {
+        "row": 297,
+        "col": 5
+      },
+      {
+        "row": 298,
+        "col": 5
+      },
+      {
+        "row": 299,
+        "col": 5
+      },
+      {
+        "row": 300,
+        "col": 5
+      },
+      {
+        "row": 301,
+        "col": 5
+      },
+      {
+        "row": 302,
+        "col": 5
+      },
+      {
+        "row": 303,
+        "col": 5
+      },
+      {
+        "row": 304,
+        "col": 5
+      },
+      {
+        "row": 305,
+        "col": 5
+      },
+      {
+        "row": 306,
+        "col": 5
+      },
+      {
+        "row": 307,
+        "col": 5
+      },
+      {
+        "row": 308,
+        "col": 5
+      },
+      {
+        "row": 309,
+        "col": 5
+      },
+      {
+        "row": 310,
+        "col": 5
+      },
+      {
+        "row": 311,
+        "col": 5
+      },
+      {
+        "row": 312,
+        "col": 5
+      },
+      {
+        "row": 313,
+        "col": 5
+      },
+      {
+        "row": 314,
+        "col": 5
+      },
+      {
+        "row": 315,
+        "col": 5
+      },
+      {
+        "row": 316,
+        "col": 5
+      },
+      {
+        "row": 317,
+        "col": 5
+      },
+      {
+        "row": 318,
+        "col": 5
+      },
+      {
+        "row": 319,
+        "col": 5
+      },
+      {
+        "row": 320,
+        "col": 5
+      },
+      {
+        "row": 321,
+        "col": 5
+      },
+      {
+        "row": 322,
+        "col": 5
+      },
+      {
+        "row": 323,
+        "col": 5
+      },
+      {
+        "row": 324,
+        "col": 5
+      },
+      {
+        "row": 325,
+        "col": 5
+      },
+      {
+        "row": 326,
+        "col": 5
+      },
+      {
+        "row": 327,
+        "col": 5
+      },
+      {
+        "row": 328,
+        "col": 5
+      },
+      {
+        "row": 329,
+        "col": 5
+      },
+      {
+        "row": 330,
+        "col": 5
+      },
+      {
+        "row": 331,
+        "col": 5
+      },
+      {
+        "row": 332,
+        "col": 5
+      },
+      {
+        "row": 333,
+        "col": 5
+      },
+      {
+        "row": 334,
+        "col": 5
+      },
+      {
+        "row": 335,
+        "col": 5
+      },
+      {
+        "row": 336,
+        "col": 5
+      },
+      {
+        "row": 337,
+        "col": 5
+      },
+      {
+        "row": 338,
+        "col": 5
+      },
+      {
+        "row": 339,
+        "col": 5
+      },
+      {
+        "row": 340,
+        "col": 5
+      },
+      {
+        "row": 341,
+        "col": 5
+      },
+      {
+        "row": 342,
+        "col": 5
+      },
+      {
+        "row": 343,
+        "col": 5
+      },
+      {
+        "row": 344,
+        "col": 5
+      },
+      {
+        "row": 345,
+        "col": 5
+      },
+      {
+        "row": 346,
+        "col": 5
+      },
+      {
+        "row": 347,
+        "col": 5
+      },
+      {
+        "row": 348,
+        "col": 5
+      },
+      {
+        "row": 349,
+        "col": 5
+      },
+      {
+        "row": 350,
+        "col": 5
+      },
+      {
+        "row": 351,
+        "col": 5
+      },
+      {
+        "row": 352,
+        "col": 5
+      },
+      {
+        "row": 353,
+        "col": 5
+      },
+      {
+        "row": 354,
+        "col": 5
+      },
+      {
+        "row": 355,
+        "col": 5
+      },
+      {
+        "row": 356,
+        "col": 5
+      },
+      {
+        "row": 357,
+        "col": 5
+      },
+      {
+        "row": 358,
+        "col": 5
+      },
+      {
+        "row": 359,
+        "col": 5
+      }
+    ],
+    "comments": []
+  },
+  {
+    "name": "VFXanim",
+    "state": "visible",
+    "rows": [
+      {
+        "row": 1,
+        "cells": {
+          "A": "ID",
+          "B": "Type",
+          "C": "VFX Name",
+          "D": "Trigger",
+          "E": "Visual Description",
+          "F": "Note",
+          "G": "REF"
+        }
+      },
+      {
+        "row": 2,
+        "cells": {
+          "A": "V_01",
+          "B": "Đồ vật",
+          "C": "Click / Select / Collect",
+          "D": "Khi chọn và thu gom món đồ",
+          "E": "Có hiệu ứng click, select và collect riêng. Chúng giúp xác nhận món vừa được chọn và theo dõi món rời khỏi đống đồ; hình thức cuối cùng cần đối chiếu khi chạy game.",
+          "F": "Có tham chiếu hiệu ứng; cần xem runtime.",
+          "G": "S02"
+        }
+      },
+      {
+        "row": 3,
+        "cells": {
+          "A": "V_02",
+          "B": "Đồ vật",
+          "C": "Fly / Hop",
+          "D": "Khi món được gửi đến đích",
+          "E": "Cấu hình lưu thời gian bay 0,5 giây. Trước khi bay, đồ có nhịp nảy lên 0,12 giây và hạ 0,10 giây, scale nảy 1,3 lần. Các giá trị này mô tả preset chuyển động, không phải số đo video.",
+          "F": "Thông số preset đóng gói.",
+          "G": "S02"
+        }
+      },
+      {
+        "row": 4,
+        "cells": {
+          "A": "V_03",
+          "B": "Hộp",
+          "C": "Box_start / Box_idle / Box_action",
+          "D": "Hộp vào màn, chờ hoặc nhận đồ",
+          "E": "Hộp có animation vào màn, chờ, nhận đồ và trạng thái khóa. Ba vị trí hộp được đưa vào theo nhịp lệch 0,12 giây, tạo cảm giác lần lượt mở ra.",
+          "G": "S07, S10"
+        }
+      },
+      {
+        "row": 5,
+        "cells": {
+          "A": "V_04",
+          "B": "Hộp",
+          "C": "Box_Com / Box_com_idle",
+          "D": "Hộp nhận đủ đồ",
+          "E": "Có animation Box_Com, Box_com_idle và âm đóng hộp. Cấu hình chờ hộp tiếp theo 0,8 giây; luồng bay về hộp lưu thời gian 0,7 giây. Cần xem runtime để chốt tổng thời gian một chuỗi hoàn thành.",
+          "F": "Chưa đo tổng thời gian chuỗi hoàn tất.",
+          "G": "S02, S10"
+        }
+      },
+      {
+        "row": 6,
+        "cells": {
+          "A": "V_05",
+          "B": "Kho",
+          "C": "Storage_start / idle / Action / end",
+          "D": "Kho xuất hiện, nhận hoặc trả đồ",
+          "E": "Kho có chuỗi xuất hiện, chờ, hoạt động và kết thúc. Scene lưu thời gian xuất hiện 0,3 giây. Các món bay từ kho có nhịp lệch cấu hình 0,12 giây để người chơi dễ theo dõi.",
+          "G": "S02, S07, S10"
+        }
+      },
+      {
+        "row": 7,
+        "cells": {
+          "A": "V_06",
+          "B": "Booster",
+          "C": "Broom / vacuum",
+          "D": "Sử dụng trợ giúp",
+          "E": "Broom có hiệu ứng quét dọn; Vacuum dùng animation máy hút bụi và luồng hút về đích. Tài liệu mô tả theo tên tài nguyên và hệ thống trợ giúp, chưa khẳng định từng khung hình chuyển động.",
+          "G": "S02, S07, S10"
+        }
+      },
+      {
+        "row": 8,
+        "cells": {
+          "A": "V_07",
+          "B": "Hint",
+          "C": "Outline / Scale",
+          "D": "Không thao tác 7 giây",
+          "E": "Viền gợi ý màu vàng, độ tăng scale 0,1. Nhịp cấu hình gồm hiện 0,4 giây, giữ 0,5 giây, ẩn 0,4 giây và nghỉ 0,2 giây. Hint được gọi sau 7 giây đứng yên.",
+          "G": "S02"
+        }
+      },
+      {
+        "row": 9,
+        "cells": {
+          "A": "V_08",
+          "B": "Khay",
+          "C": "LastSlotWarning",
+          "D": "Khay còn 1 ô trống",
+          "E": "Ô cuối có nhịp nhấp nháy cấu hình 0,45 giây. Cảnh báo màn có chu kỳ 1 giây và thời gian hiển thị cấu hình 2 giây. Trigger dựa trên ngưỡng còn 1 ô chờ.",
+          "G": "S02"
+        }
+      },
+      {
+        "row": 10,
+        "cells": {
+          "A": "V_09",
+          "B": "Kết quả",
+          "C": "Win / Lose",
+          "D": "Kết màn",
+          "E": "Có bộ animation riêng cho Win, Lose và chữ kết quả. WinPopup lưu hiệu ứng ở các mốc 0,20 và 0,25 giây; config lưu thời gian chờ popup thắng 2 giây. Các mốc này không được cộng thành một tổng thời lượng chưa kiểm chứng.",
+          "G": "S02, S07, S10"
+        }
+      },
+      {
+        "row": 11,
+        "cells": {
+          "A": "V_10",
+          "B": "Trợ giúp",
+          "C": "Box_AddSlot / AnimAddSlots / Revive",
+          "D": "Mở hộp, thêm ô hoặc hồi sinh",
+          "E": "Có các clip Box_AddSlot, AnimAddSlots và Revive. Chúng phản hồi việc người chơi vừa tăng khả năng chứa hoặc tiếp tục màn sau thất bại.",
+          "G": "S10"
+        }
+      }
+    ],
+    "images": [],
+    "comments": []
+  },
+  {
+    "name": "SFX",
+    "state": "visible",
+    "rows": [
+      {
+        "row": 1,
+        "cells": {
+          "A": "STT",
+          "B": "Page",
+          "C": "Mô tả",
+          "D": "Tên File",
+          "E": "Done"
+        }
+      },
+      {
+        "row": 2,
+        "cells": {
+          "A": 1,
+          "B": "UI",
+          "C": "Bấm nút",
+          "D": "Button click"
+        }
+      },
+      {
+        "row": 3,
+        "cells": {
+          "A": 2,
+          "B": "Ingame",
+          "C": "Chọn đồ đúng",
+          "D": "Bubble tap 2 (1)"
+        }
+      },
+      {
+        "row": 4,
+        "cells": {
+          "A": 3,
+          "B": "Ingame",
+          "C": "Tap bổ sung; trigger cần xác minh",
+          "D": "Bubble tap 1"
+        }
+      },
+      {
+        "row": 5,
+        "cells": {
+          "A": 4,
+          "B": "Ingame",
+          "C": "Chạm không hợp lệ",
+          "D": "tap_wrong"
+        }
+      },
+      {
+        "row": 6,
+        "cells": {
+          "A": 5,
+          "B": "Ingame",
+          "C": "Đồ rơi vào hộp",
+          "D": "Item Drop Into Box"
+        }
+      },
+      {
+        "row": 7,
+        "cells": {
+          "A": 6,
+          "B": "Ingame",
+          "C": "Hộp xuất hiện",
+          "D": "sfx_box_in"
+        }
+      },
+      {
+        "row": 8,
+        "cells": {
+          "A": 7,
+          "B": "Ingame",
+          "C": "Hộp đóng",
+          "D": "box_close"
+        }
+      },
+      {
+        "row": 9,
+        "cells": {
+          "A": 8,
+          "B": "Ingame",
+          "C": "Hộp rời đi",
+          "D": "Box Disappears"
+        }
+      },
+      {
+        "row": 10,
+        "cells": {
+          "A": 9,
+          "B": "Ingame",
+          "C": "Bắt đầu màn",
+          "D": "Start level"
+        }
+      },
+      {
+        "row": 11,
+        "cells": {
+          "A": 10,
+          "B": "Ingame",
+          "C": "Kết màn",
+          "D": "sfx_level_end"
+        }
+      },
+      {
+        "row": 12,
+        "cells": {
+          "A": 11,
+          "B": "Ingame",
+          "C": "Thắng",
+          "D": "win_sfx"
+        }
+      },
+      {
+        "row": 13,
+        "cells": {
+          "A": 12,
+          "B": "Ingame",
+          "C": "Thua",
+          "D": "lose_sfx"
+        }
+      },
+      {
+        "row": 14,
+        "cells": {
+          "A": 13,
+          "B": "Booster",
+          "C": "Dùng Broom",
+          "D": "Broom booster"
+        }
+      },
+      {
+        "row": 15,
+        "cells": {
+          "A": 14,
+          "B": "Booster",
+          "C": "Dùng Vacuum",
+          "D": "Vaccum booster"
+        }
+      },
+      {
+        "row": 16,
+        "cells": {
+          "A": 15,
+          "B": "Hint",
+          "C": "Gợi ý",
+          "D": "sfx_hint"
+        }
+      },
+      {
+        "row": 17,
+        "cells": {
+          "A": 16,
+          "B": "Economy",
+          "C": "Nhận coin",
+          "D": "coin_sfx"
+        }
+      },
+      {
+        "row": 18,
+        "cells": {
+          "A": 17,
+          "B": "Shop",
+          "C": "Mua hàng",
+          "D": "purchase_sfx"
+        }
+      },
+      {
+        "row": 21,
+        "cells": {
+          "A": "Lưu ý",
+          "B": "Trong 17 AudioClip đã liệt kê chưa xác định được file nhạc nền Home hoặc Gameplay. Hai mapping revive và claim_reward có tham chiếu clip rỗng. Không tự thêm nhạc hoặc tiếng hồi sinh từ mẫu."
+        }
+      }
+    ],
+    "images": [],
+    "comments": []
+  },
+  {
+    "name": "Economy",
+    "state": "visible",
+    "rows": [
+      {
+        "row": 3,
+        "cells": {
+          "B": "No Ads",
+          "D": "Mặc định giới thiệu từ level 6; lịch còn phụ thuộc điều kiện.",
+          "G": "Booster",
+          "H": "Value (Coin)",
+          "I": "Ads for x1",
+          "J": "Win level",
+          "K": "Value (Coin)",
+          "L": "Reward Ads"
+        }
+      },
+      {
+        "row": 4,
+        "cells": {
+          "B": "Tên gói",
+          "C": "No Ads",
+          "G": "Vacuum",
+          "H": "Chưa chốt",
+          "I": 1,
+          "J": "Easy",
+          "K": 20,
+          "L": "Chưa chốt"
+        }
+      },
+      {
+        "row": 5,
+        "cells": {
+          "B": "Số lần mua",
+          "C": 1,
+          "G": "Broom",
+          "H": "Chưa chốt",
+          "I": 1,
+          "J": "Hard",
+          "K": 40,
+          "L": "Chưa chốt"
+        }
+      },
+      {
+        "row": 6,
+        "cells": {
+          "B": "Giá tiền",
+          "C": 7.99,
+          "G": "Extra Box",
+          "H": "Chưa chốt",
+          "I": "Chưa chốt",
+          "J": "Super Hard",
+          "K": 60,
+          "L": "Chưa chốt"
+        }
+      },
+      {
+        "row": 7,
+        "cells": {
+          "G": "Extra Slot",
+          "H": "Chưa chốt",
+          "I": "Chưa chốt"
+        }
+      },
+      {
+        "row": 9,
+        "cells": {
+          "B": "IAP Coin",
+          "C": "Số coin",
+          "D": "Giá mặc định (USD)",
+          "G": "Thưởng cần xác nhận",
+          "H": "Các số 20/40/60 là hằng số theo độ khó. WinPopup còn lưu 30/60. Chưa chốt giá trị thực nhận / hệ số quảng cáo."
+        }
+      },
+      {
+        "row": 10,
+        "cells": {
+          "B": "coin1",
+          "C": 500,
+          "D": 1.99
+        }
+      },
+      {
+        "row": 11,
+        "cells": {
+          "B": "coin2",
+          "C": 5000,
+          "D": 7.99
+        }
+      },
+      {
+        "row": 12,
+        "cells": {
+          "B": "coin3",
+          "C": 10000,
+          "D": 14.99,
+          "G": "Tài nguyên",
+          "H": "Giá trị",
+          "I": "Đơn vị / ghi chú"
+        }
+      },
+      {
+        "row": 13,
+        "cells": {
+          "B": "coin4",
+          "C": 25000,
+          "D": 29.99,
+          "G": "Coin ban đầu",
+          "H": 600,
+          "I": "Preset code"
+        }
+      },
+      {
+        "row": 14,
+        "cells": {
+          "B": "coin5",
+          "C": 50000,
+          "D": 49.99,
+          "G": "Coin shop miễn phí",
+          "H": 50,
+          "I": "Điều kiện / cooldown chưa chốt"
+        }
+      },
+      {
+        "row": 15,
+        "cells": {
+          "B": "coin6",
+          "C": 100000,
+          "D": 99.99,
+          "G": "Hồi sinh",
+          "H": 800,
+          "I": "Coin, có nút Ads"
+        }
+      },
+      {
+        "row": 16,
+        "cells": {
+          "G": "Nạp tim",
+          "H": 700,
+          "I": "Coin; lượng tim nhận chưa chốt"
+        }
+      },
+      {
+        "row": 17,
+        "cells": {
+          "G": "Hồi 1 tim",
+          "H": 30,
+          "I": "Phút; số tim tối đa chưa chốt"
+        }
+      },
+      {
+        "row": 19,
+        "cells": {
+          "B": "Ghi chú",
+          "C": "Popup hỗ trợ mua bằng coin hoặc quảng cáo. Database ghi coinCost = 0 cho Vacuum và Broom, nhưng có hàm tính giá riêng nên giá thực tế còn mở. Không sử dụng giá Airplane / Magic Wand của Rotate Rings.",
+          "G": "Quảng cáo",
+          "H": "Có các điểm nhận lợi ích cho booster, revive, tim và cuối màn. Remote Config mặc định đặt mốc khả dụng của các luồng này ở level 1. Đây là cấu hình dự phòng, không phải bằng chứng quảng cáo sẽ luôn tải thành công."
+        }
+      },
+      {
+        "row": 20,
+        "cells": {
+          "B": "Giá cửa hàng",
+          "C": "Giá IAP trên là giá catalog đóng gói, có thể khác giá theo vùng / thời điểm. Phạm vi No Ads cần chơi xác nhận.",
+          "G": "Interstitial / Banner",
+          "H": "Remote Config mặc định bật quảng cáo, interval 120 giây và cờ banner gameplay bật. Có khoảng cách cấu hình 15 giây sau rewarded trước interstitial. Chưa xác minh vị trí chèn quảng cáo và cách bộ đếm được áp dụng trong một phiên."
+        }
+      }
+    ],
+    "images": [],
+    "comments": []
+  },
+  {
+    "name": "Tutorial",
+    "state": "visible",
+    "rows": [
+      {
+        "row": 1,
+        "cells": {
+          "A": "Level 1"
+        }
+      },
+      {
+        "row": 2,
+        "cells": {
+          "A": "Step",
+          "B": "Trigger",
+          "C": "Mô tả"
+        }
+      },
+      {
+        "row": 3,
+        "cells": {
+          "A": 1,
+          "B": "Vừa vào Level 1",
+          "C": "Hiển thị “Tap items that MATCH a box to tidy up!” và bàn tay chỉ item cần chọn."
+        }
+      },
+      {
+        "row": 4,
+        "cells": {
+          "A": 2,
+          "B": "Giới thiệu hộp",
+          "C": "Hiển thị “Check the category label!” và làm nổi bật nhãn nhóm trên hộp."
+        }
+      },
+      {
+        "row": 5,
+        "cells": {
+          "A": 3,
+          "B": "Hướng dẫn kéo màn hình",
+          "C": "Hiển thị “Swipe left to find the last one!” và bàn tay chỉ hướng kéo."
+        }
+      },
+      {
+        "row": 8,
+        "cells": {
+          "A": "Level 3: Booster Vacuum tutorial"
+        }
+      },
+      {
+        "row": 9,
+        "cells": {
+          "A": "Step",
+          "B": "Trigger",
+          "C": "Mô tả"
+        }
+      },
+      {
+        "row": 10,
+        "cells": {
+          "A": 1,
+          "B": "Mở khóa Vacuum tại Level 3",
+          "C": "Hiển thị “Fill a box instantly!” và bàn tay chỉ nút Vacuum."
+        }
+      },
+      {
+        "row": 13,
+        "cells": {
+          "A": "Level 6: Booster Broom tutorial"
+        }
+      },
+      {
+        "row": 14,
+        "cells": {
+          "A": "Step",
+          "B": "Trigger",
+          "C": "Mô tả"
+        }
+      },
+      {
+        "row": 15,
+        "cells": {
+          "A": 1,
+          "B": "Mở khóa Broom tại Level 6",
+          "C": "Đặt 3 item vào slot chờ. Hiển thị “Clear all waiting items!” và bàn tay chỉ nút Broom."
+        }
+      },
+      {
+        "row": 18,
+        "cells": {
+          "A": "Extra Box: chưa xác nhận level"
+        }
+      },
+      {
+        "row": 19,
+        "cells": {
+          "A": "Step",
+          "B": "Trigger",
+          "C": "Mô tả"
+        }
+      },
+      {
+        "row": 20,
+        "cells": {
+          "A": 1,
+          "B": "Giới thiệu Extra Box",
+          "C": "Hiển thị “Tap a locked box to add one more!” và bàn tay chỉ hộp khóa."
+        }
+      }
+    ],
+    "images": [
+      {
+        "row": 6,
+        "col": 2
+      },
+      {
+        "row": 11,
+        "col": 2
+      },
+      {
+        "row": 16,
+        "col": 2
+      },
+      {
+        "row": 21,
+        "col": 2
+      }
+    ],
+    "comments": []
+  },
+  {
+    "name": "Haptic",
+    "state": "visible",
+    "rows": [
+      {
+        "row": 1,
+        "cells": {
+          "A": "STT",
+          "B": "Trigger",
+          "C": "Mô tả",
+          "D": "Thông số",
+          "E": "Lưu ý"
+        }
+      },
+      {
+        "row": 2,
+        "cells": {
+          "A": 1,
+          "B": "Cài đặt Haptic",
+          "C": "Settings có công tắc Haptic. Đây là lựa chọn của người chơi để bật hoặc tắt phản hồi rung.",
+          "D": "Bật / tắt"
+        }
+      },
+      {
+        "row": 3,
+        "cells": {
+          "A": 2,
+          "B": "Cảnh báo độ khó",
+          "C": "Hai mốc rung cấu hình: 0,2 giây và 1,3 giây.",
+          "D": "Hard: 150; Very Hard: 190; duration 300 ms",
+          "E": "Preset scene, chưa đo trên thiết bị."
+        }
+      },
+      {
+        "row": 4,
+        "cells": {
+          "A": 3,
+          "B": "Các thao tác gameplay",
+          "C": "Metadata có hàm GameSfx.Haptic và hệ thống AudioAndVibrationManager. Chưa xác định đầy đủ rung gắn với chọn đúng, chọn sai, hoàn thành hộp hay booster, vì chưa theo vết thân hàm lúc chạy.",
+          "D": "Chưa xác minh",
+          "E": "Chưa chốt độ dài, số nhịp hoặc cường độ rung cho những hành động khác. Các giá trị này để trạng thái cần chơi xác nhận, tránh biến một phản hồi mong muốn thành tính năng đã có."
+        }
+      }
+    ],
+    "images": [],
+    "comments": []
+  },
+  {
+    "name": "UIUX",
+    "state": "visible",
+    "rows": [
+      {
+        "row": 1,
+        "cells": {
+          "A": "MOCKUP UI"
+        }
+      },
+      {
+        "row": 2,
+        "cells": {
+          "B": "Mô tả màn hình và luồng tương tác. Ảnh tài nguyên gốc ở cuối sheet, không phải ảnh gameplay chạy trực tiếp."
+        }
+      },
+      {
+        "row": 3,
+        "cells": {
+          "A": "STT",
+          "B": "Màn hình / Luồng",
+          "C": "Mô tả",
+          "D": "Lưu ý"
+        }
+      },
+      {
+        "row": 4,
+        "cells": {
+          "A": 1,
+          "B": "Luồng tổng thể",
+          "C": "Loading → gameplay → kết quả thắng hoặc khay đầy → nhận thưởng / hồi sinh / chơi lại → tiếp tục. Có các popup Settings, Shop, mở khóa booster, No Ads, thiếu tim và đánh giá game. Chưa đủ bằng chứng để thêm một trang Home độc lập vào luồng."
+        }
+      },
+      {
+        "row": 5,
+        "cells": {
+          "A": 2,
+          "B": "Loading",
+          "C": "Có logo, nền, biểu tượng và thanh tải cùng transition giữa scene. Vai trò là đưa người chơi vào bàn chơi và báo trạng thái chuẩn bị nội dung."
+        }
+      },
+      {
+        "row": 6,
+        "cells": {
+          "A": 3,
+          "B": "HUD gameplay",
+          "C": "HUD có level, nhãn độ khó, Settings, thanh tim/coin và hai nút booster thường trực. Bàn chơi có hàng hộp, vùng căn phòng, khay chờ và kho khi được dùng. Vị trí pixel và safe area cuối cùng cần đối chiếu trên thiết bị."
+        }
+      },
+      {
+        "row": 7,
+        "cells": {
+          "A": 4,
+          "B": "Quan sát và chọn đồ",
+          "C": "Nhìn nhãn hộp để biết cần lấy gì, chạm đồ trên bàn để thu gom. Kéo và pinch phục vụ tìm đồ. Tài nguyên có kiểm tra tap/drag riêng để phân biệt chạm chọn với dịch chuyển camera."
+        }
+      },
+      {
+        "row": 8,
+        "cells": {
+          "A": 5,
+          "B": "Hộp / khay",
+          "C": "Hộp truyền đạt mục tiêu bằng icon, tên nhóm và bộ đếm. Khay truyền đạt rủi ro bằng số ô trống cùng cảnh báo sắp đầy. Nhịp đồ bay cho thấy món đang đến đâu, giảm phụ thuộc vào việc đọc text."
+        }
+      },
+      {
+        "row": 9,
+        "cells": {
+          "A": 6,
+          "B": "Popup mua trợ giúp",
+          "C": "Hiển thị tên, mô tả, icon và hai lựa chọn quảng cáo/coin, kèm nút đóng. Cấu hình useImmediately bật, vì vậy luồng mua được thiết kế để dùng ngay. Giá cụ thể còn cần xác nhận."
+        }
+      },
+      {
+        "row": 10,
+        "cells": {
+          "A": 7,
+          "B": "Popup thắng",
+          "C": "Hiển thị level, animation thắng và lựa chọn nhận thưởng thường hoặc qua quảng cáo. Sau khi nhận, người chơi chuyển tới màn tiếp. Hai số thưởng preset của prefab là 30/60 coin, cần đối chiếu cơ chế gán thưởng."
+        }
+      },
+      {
+        "row": 11,
+        "cells": {
+          "A": 8,
+          "B": "Popup khay đầy / hồi sinh",
+          "C": "Giải thích thiếu chỗ và đề nghị hồi sinh để dọn khay. Có quảng cáo, coin hoặc bỏ cuộc. Popup thua có Replay; một số nội dung UI hỗ trợ giữ để xem bản đồ trước khi quyết định."
+        }
+      },
+      {
+        "row": 12,
+        "cells": {
+          "A": 9,
+          "B": "Popup tim",
+          "C": "Có hai trạng thái “Refill your heart!” và “Out of lives!”, bộ đếm “Next life in:”, trạng thái Full và nút coin/quảng cáo. Nó giúp người chơi biết khi nào có thể tiếp tục và cách nhận thêm tim."
+        }
+      },
+      {
+        "row": 13,
+        "cells": {
+          "A": 10,
+          "B": "Settings",
+          "C": "Có Sound, Haptic, Retry và Quit. Rời hoặc chơi lại có hộp xác nhận mất tim. Cần kiểm tra trò chơi có tạm dừng hoàn toàn khi mở Settings hay không."
+        }
+      },
+      {
+        "row": 14,
+        "cells": {
+          "A": 11,
+          "B": "Shop / No Ads",
+          "C": "Shop có sáu gói coin và nhóm No Ads. Có popup báo mua thành công, mua thất bại và tải giao dịch. Giá hiển thị hiệu lực phụ thuộc cửa hàng, không dùng giá catalog để giả lập kết quả mua."
+        }
+      },
+      {
+        "row": 15,
+        "cells": {
+          "A": 12,
+          "B": "Ngôn ngữ",
+          "C": "Bảng IngameUI có English, Japanese, Korean, French, German, Spanish, Hindi và Portuguese. Chưa thấy cột tiếng Việt trong bảng này. GDD viết tiếng Việt để phân tích, không ngụ ý game đã hỗ trợ tiếng Việt."
+        }
+      },
+      {
+        "row": 16,
+        "cells": {
+          "A": 13,
+          "B": "Lưu tiến độ màn",
+          "C": "Có cấu trúc lưu trạng thái board, hộp, khay, kho và hồi sinh. Hệ thống có xử lý pause và mở lại. Cần kiểm tra trực tiếp các trường hợp tắt ứng dụng giữa animation hoặc ngay sau thua trước khi kết luận mọi trạng thái đều được khôi phục.",
+          "D": "Cần chơi xác nhận"
+        }
+      },
+      {
+        "row": 17,
+        "cells": {
+          "A": 14,
+          "B": "Điểm cần kiểm chứng tiếp",
+          "C": "Ưu tiên chơi xác nhận: giá và lượng nhận khi mua trợ giúp; số tim tối đa và thời điểm mất tim; số lần hồi sinh; thưởng thắng thực nhận; phạm vi No Ads; thứ tự chuyển đồ từ khay/kho; khả năng lưu màn. Các điểm này chưa ngăn việc mô tả vòng lặp chính nhưng ảnh hưởng tới việc tái tạo chính xác game."
+        }
+      }
+    ],
+    "images": [
+      {
+        "row": 20,
+        "col": 2
+      }
+    ],
+    "comments": []
+  },
+  {
+    "name": "Nguồn & Xác minh",
+    "state": "visible",
+    "rows": [
+      {
+        "row": 1,
+        "cells": {
+          "A": "ID",
+          "B": "Nguồn và ghi chú"
+        }
+      },
+      {
+        "row": 2,
+        "cells": {
+          "A": "Phạm vi xác minh",
+          "B": "Phân tích tĩnh APK 0.9, versionCode 9. Chưa chạy game. Các thông số chưa chốt được ghi trong nội dung. Không dùng cơ chế / giá Rotate Rings làm dữ liệu Happy Tidy Room."
+        }
+      },
+      {
+        "row": 3,
+        "cells": {
+          "A": "S00",
+          "B": "Mẫu GDD — D:\\[Rotate Rings] GDD.xlsx\nĐọc cấu trúc 13 sheet và các trường. Chỉ dùng làm mẫu bố cục, không dùng luật hoặc giá của Rotate Rings làm dữ liệu Happy Tidy Room."
+        }
+      },
+      {
+        "row": 4,
+        "cells": {
+          "A": "S01",
+          "B": "Nhận diện bản APK — AndroidManifest.xml; manifest-attrs\nPackage puzzle.happy.tidy.room, versionName 0.9, versionCode 9, minSdkVersion 24, targetSdkVersion 36, activity chính portrait. Unity 6000.0.66f2."
+        }
+      },
+      {
+        "row": 5,
+        "cells": {
+          "A": "S02",
+          "B": "Cấu hình gameplay — analysis/mono/resources.assets_10789.json\nGameplayConfig: 5 ô, 2 hộp mở, tối đa 3 hộp; hint, cảnh báo, hoạt ảnh, cờ tim/hồi sinh. Đây là giá trị đóng gói."
+        }
+      },
+      {
+        "row": 6,
+        "cells": {
+          "A": "S03",
+          "B": "Hình ảnh gốc — analysis/visuals/asset-contact-sheet.png; analysis/unity-index.json\nẢnh minh họa được trích trực tiếp từ sprite của APK. Không phải ảnh chụp game đang chạy."
+        }
+      },
+      {
+        "row": 7,
+        "cells": {
+          "A": "S04",
+          "B": "Lời hướng dẫn / UI — analysis/unity/3175_IngameUI.txt\nBảng CSV ngôn ngữ: mô tả booster, mục tiêu, cảnh báo khay, hồi sinh, tim, hướng dẫn và tên cài đặt."
+        }
+      },
+      {
+        "row": 8,
+        "cells": {
+          "A": "S05",
+          "B": "Đồ vật và hộp — analysis/mono/resources.assets_7861.json; analysis/unity/3208_level_1.txt\nItemCatalog và ví dụ JSON màn. Catalog có bản ghi removed; số lượng catalog không bằng số nội dung đang được dùng."
+        }
+      },
+      {
+        "row": 9,
+        "cells": {
+          "A": "S06",
+          "B": "IAP / thưởng — analysis/unity/3186_IAPProductCatalog.txt; analysis/mono/sharedassets0.assets_104.json; analysis/mono/resources.assets_10888.json\nCatalog giá mặc định, reward mapping từng SKU và preset thưởng của WinPopup. Chưa kiểm tra giá live hoặc giao dịch."
+        }
+      },
+      {
+        "row": 10,
+        "cells": {
+          "A": "S07",
+          "B": "Scene / prefab / hệ thống — analysis/mono-index.json; analysis/game-object-index.json; analysis/mono/\nĐã đọc 3.990 MonoBehaviour; 5 đối tượng không đọc được đầy đủ. Bản ghi chính: level1_531 Queue, 566 BoxController, 568 Tutorial, 575 Storage, 580 Camera; resources.assets_10788 BoosterDatabase, 10791 MechanicDatabase; các popup riêng."
+        }
+      },
+      {
+        "row": 11,
+        "cells": {
+          "A": "S08",
+          "B": "Metadata và hằng số — analysis/metadata-game-classes.txt; analysis/constants.py; analysis/global-metadata.dat\nTên lớp/hàm/trạng thái và giá trị field mặc định của IL2CPP metadata v31, giải mã số nguyên nén. Chưa decompile thân hàm native, chưa gọi thực tế các hàm lấy giá/thưởng."
+        }
+      },
+      {
+        "row": 12,
+        "cells": {
+          "A": "S09",
+          "B": "Remote Config mặc định — analysis/mono/resources.assets_7836.json\nChỉ là default trong APK. Không truy vấn backend và chưa xác nhận cấu hình người chơi nhận khi online."
+        }
+      },
+      {
+        "row": 13,
+        "cells": {
+          "A": "S10",
+          "B": "Âm thanh / hoạt ảnh — analysis/mono/resources.assets_7829.json; analysis/unity-index.json\nAudioDefaultSO, 17 AudioClip và 23 AnimationClip đã liệt kê. Sự tồn tại/mapping không chứng minh mọi clip đều phát trong phiên chơi."
+        }
+      },
+      {
+        "row": 14,
+        "cells": {
+          "A": "S11",
+          "B": "Thống kê Category Object — analysis/category-object.json. Đối chiếu 2.863 ID catalog với Sprite trong APK: 356 category thuộc 44 nhóm bối cảnh. 2.638 ID được sử dụng trong 65 file dữ liệu màn. Đếm theo ID asset, không đếm bản sao xuất hiện."
+        }
+      }
+    ],
+    "images": [],
+    "comments": []
+  }
+]

@@ -1,0 +1,168 @@
+{
+  "utc": "2026-11-20T08:56:09.0869283Z",
+  "boards": 204,
+  "artMissing": 0,
+  "failures": [],
+  "results": [
+    {
+      "key": "ladder_b_v1_2",
+      "state": "Win",
+      "rejected": 0,
+      "total": 80,
+      "delivered": 80,
+      "peakTray": 2
+    },
+    {
+      "key": "ladder_b_v1_2 / item image collision",
+      "state": "Playing",
+      "firstReject": 10,
+      "delivered": 10,
+      "total": 80
+    },
+    {
+      "key": "ladder_b_v1_3",
+      "state": "Win",
+      "rejected": 0,
+      "total": 209,
+      "delivered": 209,
+      "peakTray": 5
+    },
+    {
+      "key": "ladder_b_v1_3 / item image collision",
+      "state": "Playing",
+      "firstReject": 69,
+      "delivered": 69,
+      "total": 209
+    },
+    {
+      "key": "ladder_c_v1_2",
+      "state": "Win",
+      "rejected": 0,
+      "total": 80,
+      "delivered": 80,
+      "peakTray": 2
+    },
+    {
+      "key": "ladder_c_v1_2 / item image collision",
+      "state": "Playing",
+      "firstReject": 10,
+      "delivered": 10,
+      "total": 80
+    },
+    {
+      "key": "ladder_c_v1_3",
+      "state": "Win",
+      "rejected": 0,
+      "total": 147,
+      "delivered": 147,
+      "peakTray": 3
+    },
+    {
+      "key": "ladder_c_v1_3 / item image collision",
+      "state": "Playing",
+      "firstReject": 57,
+      "delivered": 57,
+      "total": 147
+    },
+    {
+      "key": "ladder_b_v2_2",
+      "state": "Win",
+      "rejected": 0,
+      "total": 80,
+      "delivered": 80,
+      "peakTray": 1
+    },
+    {
+      "key": "ladder_b_v2_2 / item image collision",
+      "state": "Playing",
+      "firstReject": 10,
+      "delivered": 10,
+      "total": 80
+    },
+    {
+      "key": "ladder_b_v2_3",
+      "state": "Win",
+      "rejected": 0,
+      "total": 209,
+      "delivered": 209,
+      "peakTray": 2
+    },
+    {
+      "key": "ladder_b_v2_3 / item image collision",
+      "state": "Playing",
+      "firstReject": 52,
+      "delivered": 52,
+      "total": 209
+    },
+    {
+      "key": "ladder_c_v2_2",
+      "state": "Win",
+      "rejected": 0,
+      "total": 80,
+      "delivered": 80,
+      "peakTray": 1
+    },
+    {
+      "key": "ladder_c_v2_2 / item image collision",
+      "state": "Playing",
+      "firstReject": 10,
+      "delivered": 10,
+      "total": 80
+    },
+    {
+      "key": "ladder_c_v2_3",
+      "state": "Win",
+      "rejected": 0,
+      "total": 147,
+      "delivered": 147,
+      "peakTray": 3
+    },
+    {
+      "key": "ladder_c_v2_3 / item image collision",
+      "state": "Playing",
+      "firstReject": 11,
+      "delivered": 11,
+      "total": 147
+    },
+    {
+      "test": "Layer blocks lower item until upper removed",
+      "pass": true
+    },
+    {
+      "test": "Full tray allows available direct-to-box move in source rule",
+      "pass": true
+    },
+    {
+      "test": "New box pulls matching waiting items and completes",
+      "pass": true
+    },
+    {
+      "test": "Win after all items delivered",
+      "pass": true
+    },
+    {
+      "test": "Strict full-tray fail",
+      "pass": true
+    },
+    {
+      "test": "Broom stores waiting items and revives",
+      "pass": true
+    },
+    {
+      "test": "Temporary storage feeds new matching box",
+      "pass": true
+    },
+    {
+      "test": "Vacuum fills one open box",
+      "pass": true
+    },
+    {
+      "test": "Waiting slots capped at seven",
+      "pass": true
+    },
+    {
+      "test": "Boxes capped at three",
+      "pass": true
+    }
+  ]
+}

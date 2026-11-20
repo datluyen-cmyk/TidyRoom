@@ -1,0 +1,4 @@
+<linker>
+  <!-- Level JSON is deserialized through reflection in Android IL2CPP builds. -->
+  <assembly fullname="Assembly-CSharp" preserve="all" />
+</linker>

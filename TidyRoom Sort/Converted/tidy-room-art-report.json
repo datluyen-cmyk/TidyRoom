@@ -1,0 +1,959 @@
+{
+  "package": "D:\\APK Works\\Tidy Room\\Tidy-Room_57_apkcube.apks",
+  "roomSortLevels": 139,
+  "happyReferenceLevels": 65,
+  "tidyRoomItems": 2145,
+  "originalRoomSortItems": [
+    "16000-201",
+    "16000-202",
+    "16000-203",
+    "16000-204",
+    "16001-301",
+    "16001-302",
+    "16001-303",
+    "16001-304",
+    "16001-305",
+    "16002-220",
+    "16002-221",
+    "16002-222",
+    "16002-223",
+    "16002-224",
+    "16002-225",
+    "16003-210",
+    "16003-211",
+    "16003-212",
+    "16003-213",
+    "16004-214",
+    "16004-215",
+    "16004-216",
+    "16004-217",
+    "16004-218",
+    "16004-219",
+    "212-1",
+    "212-2",
+    "212-4",
+    "212-5",
+    "212-6",
+    "213-1",
+    "213-2",
+    "213-3",
+    "213-4",
+    "213-5",
+    "213-6",
+    "214-1",
+    "214-2",
+    "214-3",
+    "214-4",
+    "214-5",
+    "214-6",
+    "500-2"
+  ],
+  "tidyRoomBackgrounds": 107,
+  "originalRoomSortBackgrounds": [
+    "Art/RoomBG/101.jpg",
+    "Art/RoomBG/103.jpg",
+    "Art/RoomBG/104.jpg",
+    "Art/RoomBG/107.jpg",
+    "Art/RoomBG/108.jpg",
+    "Art/RoomBG/109.jpg",
+    "Art/RoomBG/113.jpg",
+    "Art/RoomBG/114.jpg",
+    "Art/RoomBG/115.jpg",
+    "Art/RoomBG/116.jpg",
+    "Art/RoomBG/117.jpg",
+    "Art/RoomBG/118.jpg",
+    "Art/RoomBG/120.jpg",
+    "Art/RoomBG/121.jpg",
+    "Art/RoomBG/122.jpg",
+    "Art/RoomBG/124.jpg",
+    "Art/RoomBG/125.jpg",
+    "Art/RoomBG/126.jpg",
+    "Art/RoomBG/128.jpg",
+    "Art/RoomBG/129.jpg",
+    "Art/RoomBG/130.jpg",
+    "Art/RoomBG/131.jpg",
+    "Art/RoomBG/135.jpg",
+    "Art/RoomBG/my-room-tissue-001.jpg"
+  ],
+  "ui": {
+    "GP_Box0": "Basket",
+    "GP_Box_Unlock": "BasketLid",
+    "GP_Slot": "TraySlot",
+    "NewBooster_Icon_Vaccum": "BoosterWand256",
+    "NewBooster_Icon_Clear": "BoosterBrush256",
+    "Hint": "HintsIcon"
+  },
+  "levels": {
+    "room_001": {
+      "items": 26,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_002": {
+      "items": 80,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_003": {
+      "items": 209,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_004": {
+      "items": 203,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_005": {
+      "items": 200,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_006": {
+      "items": 201,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_007": {
+      "items": 201,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_008": {
+      "items": 202,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_009": {
+      "items": 193,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_010": {
+      "items": 192,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_011": {
+      "items": 200,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_012": {
+      "items": 202,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_013": {
+      "items": 200,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_014": {
+      "items": 200,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_015": {
+      "items": 204,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_016": {
+      "items": 199,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_017": {
+      "items": 198,
+      "sourceBackground": true,
+      "fallbackItems": [
+        "212-1",
+        "212-2",
+        "212-5",
+        "212-6",
+        "213-1",
+        "213-2",
+        "213-3",
+        "213-4",
+        "213-5",
+        "213-6"
+      ]
+    },
+    "room_018": {
+      "items": 188,
+      "sourceBackground": true,
+      "fallbackItems": [
+        "213-1",
+        "213-2",
+        "213-3",
+        "213-4",
+        "213-6"
+      ]
+    },
+    "room_019": {
+      "items": 188,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_020": {
+      "items": 181,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_021": {
+      "items": 197,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_022": {
+      "items": 170,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_023": {
+      "items": 195,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_024": {
+      "items": 186,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_025": {
+      "items": 192,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_026": {
+      "items": 188,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_027": {
+      "items": 181,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_028": {
+      "items": 200,
+      "sourceBackground": true,
+      "fallbackItems": [
+        "212-1",
+        "212-2"
+      ]
+    },
+    "room_029": {
+      "items": 200,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_030": {
+      "items": 190,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_031": {
+      "items": 205,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_032": {
+      "items": 187,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_033": {
+      "items": 196,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_034": {
+      "items": 195,
+      "sourceBackground": true,
+      "fallbackItems": [
+        "213-3",
+        "213-4",
+        "213-5",
+        "213-6",
+        "214-1",
+        "214-2",
+        "214-3",
+        "214-4",
+        "214-5",
+        "214-6"
+      ]
+    },
+    "room_035": {
+      "items": 208,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_036": {
+      "items": 198,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_037": {
+      "items": 172,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_038": {
+      "items": 188,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_039": {
+      "items": 191,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_040": {
+      "items": 196,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_041": {
+      "items": 200,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_042": {
+      "items": 207,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_043": {
+      "items": 200,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_044": {
+      "items": 202,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_045": {
+      "items": 194,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_046": {
+      "items": 183,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_047": {
+      "items": 207,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_048": {
+      "items": 191,
+      "sourceBackground": true,
+      "fallbackItems": [
+        "212-1",
+        "212-2"
+      ]
+    },
+    "room_049": {
+      "items": 188,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_050": {
+      "items": 195,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_051": {
+      "items": 193,
+      "sourceBackground": true,
+      "fallbackItems": [
+        "212-1",
+        "212-2",
+        "212-4",
+        "212-5",
+        "212-6",
+        "213-1",
+        "213-2",
+        "213-3",
+        "213-4",
+        "213-5",
+        "213-6"
+      ]
+    },
+    "room_052": {
+      "items": 199,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_053": {
+      "items": 201,
+      "sourceBackground": true,
+      "fallbackItems": [
+        "500-2"
+      ]
+    },
+    "room_054": {
+      "items": 198,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_055": {
+      "items": 200,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_056": {
+      "items": 186,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_057": {
+      "items": 187,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_058": {
+      "items": 195,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_059": {
+      "items": 206,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_060": {
+      "items": 196,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_061": {
+      "items": 198,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_062": {
+      "items": 190,
+      "sourceBackground": true,
+      "fallbackItems": [
+        "212-1",
+        "212-2",
+        "212-4",
+        "212-5",
+        "212-6",
+        "213-1",
+        "213-2",
+        "213-3",
+        "213-4"
+      ]
+    },
+    "room_063": {
+      "items": 199,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_064": {
+      "items": 207,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_065": {
+      "items": 197,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_066": {
+      "items": 186,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_067": {
+      "items": 207,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_068": {
+      "items": 199,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_069": {
+      "items": 209,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_070": {
+      "items": 200,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_071": {
+      "items": 190,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_072": {
+      "items": 193,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_073": {
+      "items": 204,
+      "sourceBackground": true,
+      "fallbackItems": [
+        "212-1",
+        "212-2",
+        "212-4",
+        "212-5",
+        "212-6"
+      ]
+    },
+    "room_074": {
+      "items": 209,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_075": {
+      "items": 204,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_076": {
+      "items": 200,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_077": {
+      "items": 187,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_078": {
+      "items": 191,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_079": {
+      "items": 204,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_080": {
+      "items": 192,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_081": {
+      "items": 200,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_082": {
+      "items": 200,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_083": {
+      "items": 197,
+      "sourceBackground": true,
+      "fallbackItems": [
+        "212-1",
+        "212-2",
+        "212-4",
+        "212-5",
+        "212-6"
+      ]
+    },
+    "room_084": {
+      "items": 199,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_085": {
+      "items": 205,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_086": {
+      "items": 207,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_087": {
+      "items": 202,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_088": {
+      "items": 208,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_089": {
+      "items": 205,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_090": {
+      "items": 191,
+      "sourceBackground": true,
+      "fallbackItems": [
+        "212-1",
+        "212-2",
+        "212-5",
+        "212-6",
+        "213-3",
+        "213-4",
+        "213-5",
+        "213-6"
+      ]
+    },
+    "room_091": {
+      "items": 200,
+      "sourceBackground": true,
+      "fallbackItems": [
+        "212-1",
+        "212-5",
+        "212-6"
+      ]
+    },
+    "room_092": {
+      "items": 181,
+      "sourceBackground": true,
+      "fallbackItems": [
+        "212-1",
+        "212-2",
+        "212-4",
+        "212-5",
+        "212-6",
+        "213-1",
+        "213-2",
+        "213-3",
+        "213-4",
+        "213-5",
+        "213-6"
+      ]
+    },
+    "room_093": {
+      "items": 202,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_094": {
+      "items": 200,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_095": {
+      "items": 190,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_096": {
+      "items": 185,
+      "sourceBackground": true,
+      "fallbackItems": [
+        "212-1",
+        "212-2",
+        "212-4",
+        "212-5",
+        "212-6"
+      ]
+    },
+    "room_097": {
+      "items": 210,
+      "sourceBackground": false,
+      "fallbackItems": [
+        "212-1",
+        "212-2",
+        "212-4",
+        "212-5",
+        "212-6",
+        "213-2",
+        "213-3",
+        "213-4",
+        "213-5",
+        "213-6",
+        "214-1",
+        "214-2",
+        "214-3",
+        "214-4",
+        "214-5",
+        "214-6"
+      ]
+    },
+    "room_098": {
+      "items": 209,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_099": {
+      "items": 208,
+      "sourceBackground": false,
+      "fallbackItems": []
+    },
+    "room_100": {
+      "items": 202,
+      "sourceBackground": false,
+      "fallbackItems": []
+    },
+    "room_101": {
+      "items": 207,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_102": {
+      "items": 205,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_103": {
+      "items": 207,
+      "sourceBackground": false,
+      "fallbackItems": []
+    },
+    "room_104": {
+      "items": 202,
+      "sourceBackground": false,
+      "fallbackItems": []
+    },
+    "room_105": {
+      "items": 206,
+      "sourceBackground": false,
+      "fallbackItems": []
+    },
+    "room_106": {
+      "items": 201,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_107": {
+      "items": 202,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_108": {
+      "items": 205,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_109": {
+      "items": 198,
+      "sourceBackground": false,
+      "fallbackItems": []
+    },
+    "room_110": {
+      "items": 202,
+      "sourceBackground": false,
+      "fallbackItems": []
+    },
+    "room_111": {
+      "items": 204,
+      "sourceBackground": false,
+      "fallbackItems": []
+    },
+    "room_112": {
+      "items": 203,
+      "sourceBackground": false,
+      "fallbackItems": []
+    },
+    "room_113": {
+      "items": 198,
+      "sourceBackground": false,
+      "fallbackItems": []
+    },
+    "room_114": {
+      "items": 201,
+      "sourceBackground": false,
+      "fallbackItems": []
+    },
+    "room_115": {
+      "items": 203,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_116": {
+      "items": 196,
+      "sourceBackground": false,
+      "fallbackItems": []
+    },
+    "room_117": {
+      "items": 198,
+      "sourceBackground": false,
+      "fallbackItems": []
+    },
+    "room_118": {
+      "items": 196,
+      "sourceBackground": false,
+      "fallbackItems": []
+    },
+    "room_119": {
+      "items": 195,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_120": {
+      "items": 197,
+      "sourceBackground": false,
+      "fallbackItems": []
+    },
+    "room_121": {
+      "items": 203,
+      "sourceBackground": false,
+      "fallbackItems": []
+    },
+    "room_122": {
+      "items": 197,
+      "sourceBackground": false,
+      "fallbackItems": [
+        "214-1",
+        "214-2",
+        "214-3",
+        "214-4",
+        "214-5",
+        "214-6"
+      ]
+    },
+    "room_123": {
+      "items": 201,
+      "sourceBackground": true,
+      "fallbackItems": [
+        "213-1",
+        "213-2",
+        "213-3",
+        "213-4",
+        "213-5",
+        "213-6",
+        "214-1",
+        "214-2",
+        "214-3",
+        "214-4",
+        "214-5",
+        "214-6"
+      ]
+    },
+    "room_124": {
+      "items": 192,
+      "sourceBackground": false,
+      "fallbackItems": []
+    },
+    "room_125": {
+      "items": 153,
+      "sourceBackground": false,
+      "fallbackItems": []
+    },
+    "room_126": {
+      "items": 200,
+      "sourceBackground": false,
+      "fallbackItems": []
+    },
+    "room_127": {
+      "items": 200,
+      "sourceBackground": false,
+      "fallbackItems": []
+    },
+    "room_128": {
+      "items": 193,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_129": {
+      "items": 180,
+      "sourceBackground": true,
+      "fallbackItems": [
+        "213-2",
+        "213-3",
+        "213-4",
+        "213-5",
+        "213-6"
+      ]
+    },
+    "room_130": {
+      "items": 200,
+      "sourceBackground": false,
+      "fallbackItems": [
+        "213-2",
+        "213-3",
+        "213-4",
+        "213-5",
+        "213-6"
+      ]
+    },
+    "ladder_b_v1_2": {
+      "items": 80,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "ladder_b_v1_3": {
+      "items": 209,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "ladder_c_v1_2": {
+      "items": 80,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "ladder_c_v1_3": {
+      "items": 147,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "ladder_b_v2_2": {
+      "items": 80,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "ladder_b_v2_3": {
+      "items": 209,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "ladder_c_v2_2": {
+      "items": 80,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "ladder_c_v2_3": {
+      "items": 147,
+      "sourceBackground": true,
+      "fallbackItems": []
+    },
+    "room_tissue_001": {
+      "items": 26,
+      "sourceBackground": false,
+      "fallbackItems": [
+        "16000-201",
+        "16000-202",
+        "16000-203",
+        "16000-204",
+        "16001-301",
+        "16001-302",
+        "16001-303",
+        "16001-304",
+        "16001-305",
+        "16002-220",
+        "16002-221",
+        "16002-222",
+        "16002-223",
+        "16002-224",
+        "16002-225",
+        "16003-210",
+        "16003-211",
+        "16003-212",
+        "16003-213",
+        "16004-214",
+        "16004-215",
+        "16004-216",
+        "16004-217",
+        "16004-218",
+        "16004-219"
+      ]
+    }
+  }
+}

@@ -1,0 +1,375 @@
+{
+  "schema": "tidy-room-level-studio/v1",
+  "status": "complete",
+  "seed": 92731,
+  "start": 1,
+  "count": 1,
+  "strict": true,
+  "inputs": {
+    "source": "6c782eb0220d03b5197035f44d49e98568c41ad4156d3565ba16ce94c17ff050",
+    "models": "1eef9d6e4f52b9fbd95306a89197ecdf33f841a7467925301a43bbfd98a802e4",
+    "art": "2b11f7462e04e16a0c1910e734fa7be9b86c4b1dcc06c37f6bcf8dac911dc55f",
+    "sourceProfiles": "27817fd7dc7c94013d3bd65330d8cbd318c5f9a738ada7f9ab0b05b73a874f40",
+    "adapter": "01056479a22aa189d9b5e6cc9258cba48731aab24757cf49595a98fd6815a621",
+    "core": "9be5fe03d603591942dc89b425743cafc5368033f590eb4a2a02c966d5f105cd",
+    "geometry": "634cfecd6330f7e6580432eddfd35e706778022cd8b453de86b097386832cda0",
+    "rules": "d5644fb4d2833093d5da4737868e9acf2a6cd49ae77ed91af6479a0002e39eb4"
+  },
+  "records": [
+    {
+      "level": {
+        "level": 1,
+        "name": "Phòng ngủ 1",
+        "bg": "bedroom",
+        "bgFile": "art/bedroom.webp",
+        "bgPosX": 0,
+        "width": 1220,
+        "height": 1560,
+        "order": [
+          {
+            "type": 47,
+            "count": 5
+          },
+          {
+            "type": 23,
+            "count": 4
+          },
+          {
+            "type": 106,
+            "count": 5
+          },
+          {
+            "type": 24,
+            "count": 6
+          },
+          {
+            "type": 104,
+            "count": 6
+          }
+        ],
+        "content": [
+          {
+            "id": "104-6",
+            "x": -50.439,
+            "y": -434.164,
+            "scaleX": 0.547,
+            "scaleY": 0.547,
+            "angle": 11.75,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "104-3",
+            "x": 420.398,
+            "y": -167.954,
+            "scaleX": 0.553,
+            "scaleY": 0.553,
+            "angle": -2.766,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "104-1",
+            "x": 358.6,
+            "y": -186.821,
+            "scaleX": 0.503,
+            "scaleY": 0.503,
+            "angle": -21.767,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "104-1",
+            "x": -398.146,
+            "y": -406.273,
+            "scaleX": 0.559,
+            "scaleY": 0.559,
+            "angle": -13.269,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "104-2",
+            "x": 220.7,
+            "y": -321.913,
+            "scaleX": 0.543,
+            "scaleY": 0.543,
+            "angle": -14.502,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "24-6",
+            "x": -94.606,
+            "y": -404.685,
+            "scaleX": 0.545,
+            "scaleY": 0.545,
+            "angle": 18.647,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "104-1",
+            "x": 385.978,
+            "y": -188.94,
+            "scaleX": 0.509,
+            "scaleY": 0.509,
+            "angle": -14.795,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "24-6",
+            "x": 54.701,
+            "y": -301.214,
+            "scaleX": 0.481,
+            "scaleY": 0.481,
+            "angle": -15.979,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "24-3",
+            "x": 246.766,
+            "y": -554.305,
+            "scaleX": 0.565,
+            "scaleY": 0.565,
+            "angle": -6.666,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "24-18",
+            "x": 275.161,
+            "y": -555.528,
+            "scaleX": 0.574,
+            "scaleY": 0.574,
+            "angle": -26.598,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "106-1",
+            "x": -18.016,
+            "y": -406.785,
+            "scaleX": 0.556,
+            "scaleY": 0.556,
+            "angle": -7.326,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "24-5",
+            "x": -31.846,
+            "y": -382.757,
+            "scaleX": 0.522,
+            "scaleY": 0.522,
+            "angle": 2.044,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "106-7",
+            "x": 122.151,
+            "y": 16.525,
+            "scaleX": 0.45,
+            "scaleY": 0.45,
+            "angle": 10.828,
+            "surface": "Mặt giường"
+          },
+          {
+            "id": "106-7",
+            "x": 360.032,
+            "y": -190.161,
+            "scaleX": 0.48,
+            "scaleY": 0.48,
+            "angle": -18.532,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "106-4",
+            "x": 226.695,
+            "y": -412.327,
+            "scaleX": 0.514,
+            "scaleY": 0.514,
+            "angle": 21.804,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "24-10",
+            "x": 136.64,
+            "y": -171.6,
+            "scaleX": 0.72,
+            "scaleY": 0.72,
+            "angle": -8,
+            "surface": "Mép trước giường"
+          },
+          {
+            "id": "47-11",
+            "x": -89.53,
+            "y": -337.616,
+            "scaleX": 0.563,
+            "scaleY": 0.563,
+            "angle": 22.316,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "47-10",
+            "x": -190.983,
+            "y": -256.702,
+            "scaleX": 0.52,
+            "scaleY": 0.52,
+            "angle": -0.47,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "47-8",
+            "x": -84.48,
+            "y": -321.203,
+            "scaleX": 0.512,
+            "scaleY": 0.512,
+            "angle": -29.027,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "106-3",
+            "x": -230.548,
+            "y": -235.539,
+            "scaleX": 0.552,
+            "scaleY": 0.552,
+            "angle": -26.057,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "47-7",
+            "x": -83.859,
+            "y": -476.512,
+            "scaleX": 0.513,
+            "scaleY": 0.513,
+            "angle": -30.138,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "47-6",
+            "x": -27.004,
+            "y": -436.921,
+            "scaleX": 0.48,
+            "scaleY": 0.48,
+            "angle": -8.868,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "23-3",
+            "x": 139.077,
+            "y": 32.508,
+            "scaleX": 0.487,
+            "scaleY": 0.487,
+            "angle": -1.965,
+            "surface": "Mặt giường"
+          },
+          {
+            "id": "23-2",
+            "x": 140.265,
+            "y": 41.847,
+            "scaleX": 0.442,
+            "scaleY": 0.442,
+            "angle": -4.052,
+            "surface": "Mặt giường"
+          },
+          {
+            "id": "23-1",
+            "x": -49.247,
+            "y": -421.548,
+            "scaleX": 0.539,
+            "scaleY": 0.539,
+            "angle": 17.454,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "23-4",
+            "x": 119.313,
+            "y": -37.707,
+            "scaleX": 0.423,
+            "scaleY": 0.423,
+            "angle": -3.479,
+            "surface": "Mặt giường"
+          }
+        ]
+      },
+      "path": [
+        25,
+        24,
+        23,
+        22,
+        21,
+        20,
+        19,
+        18,
+        17,
+        16,
+        15,
+        14,
+        13,
+        12,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "proof": {
+        "ok": true,
+        "peak": 0,
+        "waits": 0,
+        "early": 0,
+        "overThree": 0,
+        "forcedAtFull": 0,
+        "windows": [
+          {
+            "tap": 10,
+            "waiting": 0
+          },
+          {
+            "tap": 20,
+            "waiting": 0
+          },
+          {
+            "tap": 26,
+            "waiting": 0
+          }
+        ]
+      },
+      "features": {
+        "items": 26,
+        "boxes": 5,
+        "groups": 5,
+        "meanBox": 5.2,
+        "repeatGap": 5,
+        "adjacent": 0,
+        "free": 0.5,
+        "direct": 5,
+        "contacts": 1.038
+      },
+      "fingerprint": "cd6ce7c6e6a0a96fa7e83a140b7bdc5d402a5dd52e3e2d0d1be3f3dde9775f78",
+      "distance": 0.1,
+      "attempt": 26,
+      "seed": 2654344074,
+      "profileOdds": 84,
+      "estimateOdds": 60.167,
+      "target": {
+        "level": 1,
+        "sourceLevel": 1,
+        "family": "1.jpg",
+        "items": 26,
+        "boxes": 5,
+        "groups": 5,
+        "meanBox": 5.2,
+        "repeatGap": 5,
+        "adjacent": 0,
+        "free": 0.5,
+        "direct": 6,
+        "contacts": 1.308,
+        "odds": 84
+      }
+    }
+  ],
+  "blocked": [],
+  "rejections": {
+    "reference geometry band": 4
+  }
+}

@@ -1,0 +1,1 @@
+function beginStartupManifestPreload(request,{now=()=>globalThis.performance?.now?.()??Date.now()}={}){const startedAt=now();let response;try{response=Promise.resolve(request())}catch(error){response=Promise.reject(error)}response.catch(()=>{});let pending={startedAt,response};return{take(){const selected=pending;return pending=null,selected}}}export{beginStartupManifestPreload};

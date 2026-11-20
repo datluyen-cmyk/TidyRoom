@@ -1,0 +1,2958 @@
+{
+  "title": "Happy Tidy Room — GDD",
+  "date": "20/11/2026",
+  "sheets": [
+    {
+      "name": "Overview",
+      "title": "Happy Tidy Room — Tổng quan",
+      "rows": [
+        [
+          "Overview",
+          "Happy Tidy Room là game giải đố dọn phòng. Người chơi tìm đồ trong căn phòng bừa bộn và thu gom vào các hộp theo đúng nhóm để hoàn thành màn chơi.",
+          "Đối chiếu dữ liệu",
+          "S02, S04, S05"
+        ],
+        [
+          "Core mechanic",
+          "Chạm item để dọn vào hộp chứa đúng nhóm; item chưa có hộp nhận sẽ vào slot chờ. Đồ vật xếp theo layer; đồ bị đè chưa lấy được, cần dọn đồ phía trên trước.",
+          "Tổng hợp cơ chế",
+          "S02, S04, S05, S07"
+        ],
+        [
+          "Ending Rewards",
+          "Hoàn thành màn để nhận coin, kèm lựa chọn xem quảng cáo để nhận thêm thưởng.",
+          "Có dữ liệu mâu thuẫn",
+          "S06, S08"
+        ],
+        [
+          "Màn hình",
+          "Màn hình dọc, chơi trên điện thoại.",
+          "Manifest APK",
+          "S01"
+        ],
+        [
+          "Camera",
+          "Góc nhìn isometric giả lập bằng đồ họa 2D, nhìn chéo từ trên xuống để bao quát căn phòng. Có thể kéo và thu phóng để tìm đồ.",
+          "Asset và hệ thống camera",
+          "S03, S07"
+        ],
+        [
+          "Genre / Sub-genre",
+          "Casual puzzle, kết hợp tìm đồ, phân loại và quản lý chỗ trống trong khay chờ.",
+          "Phân tích thiết kế",
+          "S02, S04, S05"
+        ],
+        [
+          "Target Audience",
+          "Người chơi yêu thích tìm đồ, sắp xếp và giải đố nhẹ nhàng với thao tác đơn giản.",
+          "Nhận định thiết kế",
+          "S03, S04"
+        ],
+        [
+          "Art style",
+          "Đồ họa 2D phong cách hoạt hình, màu sắc dịu mắt. Căn phòng có chiều sâu giả lập; đồ vật có hình dáng và đường viền rõ để dễ nhận diện.",
+          "Quan sát asset",
+          "S03, S05"
+        ],
+        [
+          "Control",
+          "Chạm để chọn đồ, kéo để di chuyển góc nhìn và dùng hai ngón tay để thu phóng.",
+          "Camera và nội dung UI",
+          "S04, S07"
+        ],
+        [
+          "Monetize",
+          "Quảng cáo nhận thưởng, quảng cáo xen kẽ và banner. Mua trong ứng dụng gồm gói bỏ quảng cáo và các gói coin.",
+          "Cấu hình APK",
+          "S06, S09"
+        ],
+        [
+          "IGC",
+          "Coin dùng cho các tính năng hỗ trợ. Tim giới hạn lượt chơi sau thất bại; booster giúp xử lý các tình huống khó.",
+          "Dữ liệu và UI",
+          "S02, S04, S06, S08"
+        ],
+        [
+          "USP",
+          "Kết hợp cảm giác dọn gọn căn phòng với bài toán chọn thứ tự thu gom: tìm đúng đồ, đưa vào đúng hộp và tránh làm đầy khay chờ.",
+          "Nhận định thiết kế",
+          "S02, S05, S07"
+        ]
+      ]
+    },
+    {
+      "name": "Gameplay",
+      "title": "Gameplay — Luật chơi và vòng lặp",
+      "rows": [
+        [
+          "Mục tiêu",
+          "Thu gom đủ đồ cho tất cả các hộp để hoàn thành màn. Mỗi hộp ghi nhóm đồ cần nhận và số lượng yêu cầu.",
+          "UI và dữ liệu màn",
+          "S04, S05"
+        ],
+        [
+          "Vòng lặp chính",
+          "Quan sát hộp đang mở → tìm và chọn đồ phù hợp → thu gom đủ số lượng → hoàn thành hộp → đón hộp mới. Tiếp tục cho đến khi hoàn tất tất cả các hộp.",
+          "Tổng hợp cơ chế",
+          "S04, S05, S07"
+        ],
+        [
+          "Đồ phù hợp với hộp",
+          "Đồ đúng nhóm được đưa vào hộp tương ứng nếu hộp còn chỗ. Các món có thể khác màu hoặc kiểu dáng nhưng vẫn được nhận nếu thuộc cùng nhóm. Bộ đếm trên hộp cho biết số đồ còn cần thu gom.",
+          "Dữ liệu và hệ thống nhận đồ",
+          "S05, S07"
+        ],
+        [
+          "Đồ chưa có hộp nhận",
+          "Đồ chưa có hộp phù hợp sẽ chiếm một ô khay chờ. Lấy đồ trước giúp mở đường tới những món bị che, nhưng làm giảm chỗ trống cho các lượt sau.",
+          "Tổng hợp cơ chế",
+          "S04, S07"
+        ],
+        [
+          "Giải phóng khay",
+          "Khi có hộp nhận nhóm đồ đang nằm trong khay chờ, các món phù hợp được chuyển vào hộp để giải phóng chỗ trống.",
+          "Có hàm xử lý, chưa chạy",
+          "S07"
+        ],
+        [
+          "Đồ bị che",
+          "Các món đồ xếp chồng và che khuất nhau. Người chơi cần lấy những món phía trên để tiếp cận đồ nằm bên dưới, đồng thời cân nhắc chỗ trống trong khay.",
+          "Cấu trúc bàn chơi",
+          "S02, S07"
+        ],
+        [
+          "Win",
+          "Nhận đủ đồ cho tất cả các hộp để chiến thắng. Game hiển thị hiệu ứng hoàn thành, phần thưởng và lựa chọn sang màn tiếp theo.",
+          "UI và hệ thống thắng",
+          "S04, S07, S08"
+        ],
+        [
+          "Lose",
+          "Người chơi thất bại khi khay chờ đầy và không còn chỗ nhận thêm đồ. Màn hình thất bại cho phép chọn hồi sinh, chơi lại hoặc thoát.",
+          "UI; thời điểm chưa xác nhận",
+          "S04, S07"
+        ],
+        [
+          "Revive",
+          "Sau khi thất bại, người chơi có thể dùng coin hoặc xem quảng cáo để dọn khay chờ và tiếp tục màn đang chơi.",
+          "UI, cấu hình và hằng số",
+          "S02, S04, S08"
+        ],
+        [
+          "Replay / Quit",
+          "Người chơi có thể chơi lại từ đầu hoặc thoát màn. Khi bỏ lượt, game hiển thị xác nhận và nhắc về việc mất tim.",
+          "UI và trạng thái tim",
+          "S04, S07"
+        ],
+        [
+          "Giới hạn thời gian / lượt",
+          "Áp lực chính đến từ số ô khay chờ và thứ tự thu gom. Người chơi cần quan sát các hộp đang mở để chọn món phù hợp trước khi hết chỗ.",
+          "Chưa thấy trong phần đã đọc",
+          "S02, S04"
+        ],
+        [
+          "Nhịp quyết định",
+          "Ưu tiên hoàn thành hộp để mở yêu cầu mới và giải phóng khay. Mỗi lần lấy món chưa có hộp nhận là một lựa chọn giữa mở đường tìm đồ và nguy cơ làm đầy khay.",
+          "Phân tích thiết kế",
+          "S02, S07"
+        ]
+      ]
+    },
+    {
+      "name": "Đồ vật & Hộp",
+      "title": "Đồ vật & Hộp — Đối tượng chính",
+      "rows": [
+        [
+          "Đồ vật thu gom",
+          "Đồ vật là các sprite riêng đặt rải và chồng lên nhau trong căn phòng. Mỗi món có nhóm phân loại, vị trí, góc xoay và biến thể hình ảnh. Các trạng thái được khai báo gồm trên bàn, đang bay, trong hộp, trong khay và trong kho.",
+          "Dữ liệu và metadata",
+          "S05, S07"
+        ],
+        [
+          "Nhóm và biến thể",
+          "Một nhóm có thể chứa nhiều hình khác nhau, chẳng hạn giày, tất, quần, áo, mũ hoặc móc áo. Nhãn hộp là căn cứ chọn món. Cùng màu không đồng nghĩa cùng nhóm; cùng nhóm cũng không cần giống hệt nhau.",
+          "Catalog và màn mẫu",
+          "S05"
+        ],
+        [
+          "Ví dụ yêu cầu hộp",
+          "Một dữ liệu màn có hộp nhận 3 túi xách, 3 mũ, 4 móc áo và 4 quần. Các số này minh họa rằng sức chứa thay đổi theo từng yêu cầu; không có cơ sở dùng một quy tắc cố định 3 món cho mọi hộp.",
+          "Ví dụ dữ liệu, không phải level progress",
+          "S05"
+        ],
+        [
+          "Hộp đang mở",
+          "Mỗi hộp hiển thị loại đồ cần thu và bộ đếm. Cấu hình khởi đầu có 2 hộp mở cùng lúc. Hộp hoàn thành sẽ đóng, rời vị trí và nhường chỗ cho yêu cầu tiếp theo.",
+          "Cấu hình và animation",
+          "S02, S07, S10"
+        ],
+        [
+          "Hộp khóa",
+          "Bàn có tối đa 3 vị trí hộp, trong đó một vị trí có thể ở trạng thái khóa. Extra Box mở thêm hộp, giúp người chơi xử lý nhiều nhóm đồ hơn cùng lúc. Chưa xác minh mở hộp có kéo dài sang màn sau hay không.",
+          "Scene và UI",
+          "S02, S04, S07"
+        ],
+        [
+          "Khay chờ",
+          "Khay mặc định có 5 ô. Mỗi món chưa được nhận chiếm một ô, tạo ra giới hạn dễ đọc cho người chơi. Scene còn có 2 ô bổ sung và hệ thống mở ô; đây là phần mở rộng, không tính vào sức chứa mặc định.",
+          "Cấu hình và scene",
+          "S02, S07"
+        ],
+        [
+          "Kho tạm",
+          "Kho là nơi nhận đồ được Broom chuyển ra khỏi khay. Mục đích của thao tác này là lấy lại chỗ trống mà vẫn giữ đồ trong luồng thu gom. Chưa xác minh giới hạn kho và thứ tự trả đồ khi nhiều hộp có thể nhận.",
+          "UI và hệ thống storage",
+          "S04, S07"
+        ],
+        [
+          "Phông phòng",
+          "Phòng là nền bối cảnh cho đồ vật, có nội thất minh họa sẵn. Catalog chứa 60 mục nền. Không có bằng chứng trong phần đã đọc cho một hệ thống tự mua và đặt nội thất để trang trí phòng.",
+          "Catalog và asset",
+          "S03, S05"
+        ],
+        [
+          "Quy mô thư viện",
+          "Catalog chứa 2.863 mục đồ vật, 76 mục nhóm và 607 mục nhóm con; một số nhóm mang cờ removed. Đây là quy mô dữ liệu đóng gói, không phải cam kết tất cả đều xuất hiện trong bản chơi hoặc đều đang được sử dụng.",
+          "Đếm trực tiếp catalog",
+          "S05"
+        ]
+      ]
+    },
+    {
+      "name": "Element",
+      "title": "Element — Các yếu tố tạo câu đố",
+      "rows": [
+        [
+          "Cơ chế đặc biệt",
+          "Chưa xác nhận cơ chế đặc biệt đang hoạt động. Danh sách MechanicDatabase trong APK hiện rỗng. Không liệt kê các thành phần cơ bản hoặc trợ giúp trong mục này.",
+          "Chưa ghi nhận",
+          "S07"
+        ],
+        [
+          "Tài nguyên còn sót",
+          "Có icon HiddenPassenger và tiêu đề tương ứng, nhưng không đủ bằng chứng xác nhận được dùng trong Happy Tidy Room.",
+          "Tài nguyên chưa xác nhận sử dụng",
+          "S07"
+        ]
+      ]
+    },
+    {
+      "name": "Booster",
+      "title": "Booster — Trợ giúp và điều kiện sử dụng",
+      "rows": [
+        [
+          "Vacuum — Công dụng",
+          "Hoàn tất ngay 1 hộp, được mô tả bằng “Instantly complete 1 box!”. Hiệu ứng máy hút bụi thu gom đồ phục vụ hộp mục tiêu. Chưa xác nhận người chơi tự chọn hộp hay hệ thống tự ưu tiên hộp nào.",
+          "Mô tả xác nhận; chọn đích chưa rõ",
+          "S02, S04, S07"
+        ],
+        [
+          "Vacuum — Mở khóa",
+          "Mở ở level 3. Tutorial lưu phần cấp 2 lượt dùng và lời nhắc “Fill a box instantly!”. Nếu không có hộp phù hợp, UI có thông báo “No box can be filled”.",
+          "Cấu hình APK",
+          "S04, S07"
+        ],
+        [
+          "Broom — Công dụng",
+          "Chuyển toàn bộ đồ trong khay chờ sang kho tạm để lấy lại chỗ trống. Đây là thao tác dọn khay, không phải xáo trộn bố cục hoặc xóa đồ khỏi mục tiêu màn.",
+          "Mô tả UI",
+          "S04"
+        ],
+        [
+          "Broom — Mở khóa",
+          "Mở ở level 6. Tutorial lưu phần cấp 2 lượt dùng, đặt sẵn 3 món trong khay và hướng dẫn “Clear all waiting items!”. Nếu khay trống, UI báo “No items in the waiting slots”.",
+          "Cấu hình APK",
+          "S04, S07"
+        ],
+        [
+          "Extra Box",
+          "Chạm hộp khóa để mở thêm một hộp, tối đa 3 hộp cùng lúc theo cấu hình. Tutorial có lời nhắc “Tap a locked box to add one more!” và giá trị cấp 1 lượt. BoosterDatabase chỉ có Vacuum và Broom nên chưa xác định mốc mở Extra Box.",
+          "Scene, tutorial và UI",
+          "S02, S04, S07"
+        ],
+        [
+          "Extra Slot",
+          "Mở thêm chỗ chứa trong khay để giảm áp lực sắp đầy. Scene có các ô bổ sung và popup có icon riêng, nhưng không có cấu hình mở khóa/giá đầy đủ trong BoosterDatabase đã đọc.",
+          "Có hệ thống; cần xác nhận chi tiết",
+          "S04, S07"
+        ],
+        [
+          "Luồng dùng / mua",
+          "Bấm trợ giúp đã mở khóa để kích hoạt khi có lượt dùng. Popup mua có lựa chọn quảng cáo hoặc coin và được cấu hình dùng ngay sau khi mua. Metadata có kiểm tra mở khóa, số lượng, tính khả dụng và trạng thái đang thi triển.",
+          "Cấu hình và metadata",
+          "S07"
+        ],
+        [
+          "Giá và quảng cáo",
+          "Cả Vacuum và Broom lưu coinCost = 0 trong database, đồng thời có hàm lấy giá riêng. Vì chưa đọc thân hàm và chưa mở popup trực tiếp, không kết luận giá bằng 0. Hằng số AdAmount lưu 1, là lượng cấp cấu hình cho luồng quảng cáo booster.",
+          "Giá thực tế chưa xác minh",
+          "S07, S08"
+        ],
+        [
+          "Gợi ý tự động",
+          "Hint được bật và có delay 7 giây không thao tác. Gợi ý dùng viền vàng cùng nhịp phóng nhẹ để thu hút chú ý. Không có cơ sở tính hint là một booster phải mua trong bản này.",
+          "Cấu hình APK",
+          "S02"
+        ]
+      ]
+    },
+    {
+      "name": "Level Progress",
+      "title": "Level Progress",
+      "rows": [
+        [
+          "Chưa biên soạn",
+          "Tạm thời không viết bảng tiến trình, thứ tự màn hay đường cong độ khó theo yêu cầu. Các mốc mở booster vẫn nằm trong Booster và Tutorial để các mục đó có đủ thông tin.",
+          "Ngoài phạm vi lần này",
+          "S00"
+        ]
+      ]
+    },
+    {
+      "name": "Category Object",
+      "title": "Category Object — Các loại đồ vật và số asset",
+      "rows": [
+        [
+          "Bowling / Bowling ball",
+          "7 asset; 7 asset xuất hiện trong dữ liệu màn. Mã category: 15001.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Bowling / Bowling pins",
+          "6 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 15002.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Bowling / Bowling shoes",
+          "6 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 15003.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Bowling / Tickets",
+          "4 asset; 4 asset xuất hiện trong dữ liệu màn. Mã category: 15007.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Bowling / Shoe cover",
+          "5 asset; 5 asset xuất hiện trong dữ liệu màn. Mã category: 15008.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Restaurant / Mexican Food",
+          "7 asset; 7 asset xuất hiện trong dữ liệu màn. Mã category: 29003.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Art class / Art tools",
+          "19 asset; 17 asset xuất hiện trong dữ liệu màn. Mã category: 34001.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Art class / Brushes",
+          "13 asset; 13 asset xuất hiện trong dữ liệu màn. Mã category: 34002.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Art class / Color",
+          "18 asset; 18 asset xuất hiện trong dữ liệu màn. Mã category: 34003.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Art class / Color Pallete",
+          "5 asset; 5 asset xuất hiện trong dữ liệu màn. Mã category: 34004.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Art class / Paintings",
+          "6 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 34005.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Art class / Sculptures",
+          "9 asset; 9 asset xuất hiện trong dữ liệu màn. Mã category: 34006.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Art class / Water bucket",
+          "3 asset; 3 asset xuất hiện trong dữ liệu màn. Mã category: 34007.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Bakery / Bakery",
+          "6 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 35001.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Bakery / Candy",
+          "6 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 35002.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Bakery / Chocolate",
+          "9 asset; 9 asset xuất hiện trong dữ liệu màn. Mã category: 35003.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Basketball court / Banging sticks",
+          "7 asset; 7 asset xuất hiện trong dữ liệu màn. Mã category: 36001.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Basketball court / Basketball",
+          "10 asset; 7 asset xuất hiện trong dữ liệu màn. Mã category: 36002.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Basketball court / Basketball Shorts",
+          "5 asset; 5 asset xuất hiện trong dữ liệu màn. Mã category: 36003.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Basketball court / Basketball shoes",
+          "7 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 36004.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Basketball court / Bottles",
+          "10 asset; 10 asset xuất hiện trong dữ liệu màn. Mã category: 36005.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Basketball court / Cooler",
+          "6 asset; 4 asset xuất hiện trong dữ liệu màn. Mã category: 36006.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Basketball court / Hat",
+          "6 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 36007.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Basketball court / Head Band",
+          "7 asset; 7 asset xuất hiện trong dữ liệu màn. Mã category: 36008.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Basketball court / Jersey",
+          "6 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 36009.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Basketball court / Jumping rope",
+          "11 asset; 9 asset xuất hiện trong dữ liệu màn. Mã category: 36010.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Basketball court / Knee protection",
+          "6 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 36011.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Basketball court / Pom pom",
+          "7 asset; 7 asset xuất hiện trong dữ liệu màn. Mã category: 36012.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Basketball court / Skates",
+          "7 asset; 7 asset xuất hiện trong dữ liệu màn. Mã category: 36013.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Basketball court / Sports bag",
+          "10 asset; 10 asset xuất hiện trong dữ liệu màn. Mã category: 36014.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Bathroom / Scrub Brush",
+          "6 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 37001.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Bathroom / Toilet paper",
+          "3 asset; 3 asset xuất hiện trong dữ liệu màn. Mã category: 37002.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Bathroom / Towels",
+          "26 asset; 23 asset xuất hiện trong dữ liệu màn. Mã category: 37003.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Boutique / Gift bags",
+          "5 asset; 5 asset xuất hiện trong dữ liệu màn. Mã category: 38001.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Boutique / Gift box",
+          "5 asset; 5 asset xuất hiện trong dữ liệu màn. Mã category: 38002.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Boutique / Jewelry",
+          "17 asset; 17 asset xuất hiện trong dữ liệu màn. Mã category: 38003.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Boutique / Sunglasses",
+          "6 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 38004.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Boutique / Watches",
+          "7 asset; 7 asset xuất hiện trong dữ liệu màn. Mã category: 38005.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Cafe / Coffee",
+          "10 asset; 10 asset xuất hiện trong dữ liệu màn. Mã category: 39001.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Classroom / Erasers",
+          "2 asset; 2 asset xuất hiện trong dữ liệu màn. Mã category: 40001.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Classroom / Pencil",
+          "3 asset; 3 asset xuất hiện trong dữ liệu màn. Mã category: 40002.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Classroom / School Supplies",
+          "9 asset; 9 asset xuất hiện trong dữ liệu màn. Mã category: 40003.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Apron",
+          "19 asset; 19 asset xuất hiện trong dữ liệu màn. Mã category: 41001.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Backpacks",
+          "8 asset; 8 asset xuất hiện trong dữ liệu màn. Mã category: 41002.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Bluetooth speakers",
+          "8 asset; 8 asset xuất hiện trong dữ liệu màn. Mã category: 41003.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Books",
+          "13 asset; 13 asset xuất hiện trong dữ liệu màn. Mã category: 41004.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Bowls",
+          "6 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 41005.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Box of Tissues",
+          "10 asset; 10 asset xuất hiện trong dữ liệu màn. Mã category: 41006.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Broom",
+          "4 asset; 4 asset xuất hiện trong dữ liệu màn. Mã category: 41007.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Cameras",
+          "8 asset; 8 asset xuất hiện trong dữ liệu màn. Mã category: 41008.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Candles",
+          "4 asset; 4 asset xuất hiện trong dữ liệu màn. Mã category: 41009.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Canned goods",
+          "9 asset; 9 asset xuất hiện trong dữ liệu màn. Mã category: 41010.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Carton Box",
+          "9 asset; 9 asset xuất hiện trong dữ liệu màn. Mã category: 41011.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Cleaning products",
+          "6 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 41012.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Cloths",
+          "15 asset; 15 asset xuất hiện trong dữ liệu màn. Mã category: 41013.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Controllers",
+          "6 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 41014.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Cosmetics",
+          "7 asset; 7 asset xuất hiện trong dữ liệu màn. Mã category: 41015.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Cups",
+          "6 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 41016.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Doctor Outfits",
+          "17 asset; 7 asset xuất hiện trong dữ liệu màn. Mã category: 41017.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Dustpan",
+          "7 asset; 7 asset xuất hiện trong dữ liệu màn. Mã category: 41018.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Earphones",
+          "4 asset; 4 asset xuất hiện trong dữ liệu màn. Mã category: 41019.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Electric Kettles",
+          "4 asset; 4 asset xuất hiện trong dữ liệu màn. Mã category: 41020.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Flashlights",
+          "6 asset; 0 asset xuất hiện trong dữ liệu màn. Mã category: 41021.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Fruit scraps",
+          "16 asset; 16 asset xuất hiện trong dữ liệu màn. Mã category: 41022.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Game consoles",
+          "4 asset; 4 asset xuất hiện trong dữ liệu màn. Mã category: 41023.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Gloves",
+          "10 asset; 10 asset xuất hiện trong dữ liệu màn. Mã category: 41024.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Handbags",
+          "9 asset; 9 asset xuất hiện trong dữ liệu màn. Mã category: 41025.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Hanger",
+          "5 asset; 5 asset xuất hiện trong dữ liệu màn. Mã category: 41026.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Hats",
+          "10 asset; 10 asset xuất hiện trong dữ liệu màn. Mã category: 41027.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Headphones",
+          "5 asset; 5 asset xuất hiện trong dữ liệu màn. Mã category: 41028.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Helmet",
+          "8 asset; 7 asset xuất hiện trong dữ liệu màn. Mã category: 41029.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Hospital Gowns",
+          "17 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 41030.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Iron",
+          "6 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 41031.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Keyboards",
+          "6 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 41032.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Long skirts",
+          "11 asset; 11 asset xuất hiện trong dữ liệu màn. Mã category: 41033.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Long-sleeve wear",
+          "25 asset; 23 asset xuất hiện trong dữ liệu màn. Mã category: 41034.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Milk",
+          "17 asset; 17 asset xuất hiện trong dữ liệu màn. Mã category: 41035.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Miniskirts",
+          "17 asset; 15 asset xuất hiện trong dữ liệu màn. Mã category: 41036.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Mirrors",
+          "4 asset; 4 asset xuất hiện trong dữ liệu màn. Mã category: 41037.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Monitors",
+          "6 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 41038.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Mop",
+          "6 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 41039.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Newspaper",
+          "6 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 41040.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Pants",
+          "30 asset; 22 asset xuất hiện trong dữ liệu màn. Mã category: 41041.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Paper Waste",
+          "5 asset; 5 asset xuất hiện trong dữ liệu màn. Mã category: 41042.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Paper bags",
+          "8 asset; 8 asset xuất hiện trong dữ liệu màn. Mã category: 41043.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Phones",
+          "6 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 41044.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Pictures",
+          "16 asset; 14 asset xuất hiện trong dữ liệu màn. Mã category: 41045.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Pillows",
+          "9 asset; 9 asset xuất hiện trong dữ liệu màn. Mã category: 41046.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Plastic bags",
+          "6 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 41047.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Plates",
+          "5 asset; 5 asset xuất hiện trong dữ liệu màn. Mã category: 41048.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Popcorn",
+          "7 asset; 7 asset xuất hiện trong dữ liệu màn. Mã category: 41049.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Poster",
+          "8 asset; 5 asset xuất hiện trong dữ liệu màn. Mã category: 41050.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Projectors",
+          "6 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 41051.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Reed Diffuser",
+          "2 asset; 2 asset xuất hiện trong dữ liệu màn. Mã category: 41052.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Remotes",
+          "5 asset; 5 asset xuất hiện trong dữ liệu màn. Mã category: 41053.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Sandals",
+          "10 asset; 10 asset xuất hiện trong dữ liệu màn. Mã category: 41054.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Scarfs",
+          "13 asset; 13 asset xuất hiện trong dữ liệu màn. Mã category: 41055.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Scissors",
+          "8 asset; 8 asset xuất hiện trong dữ liệu màn. Mã category: 41056.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Shampoo",
+          "10 asset; 10 asset xuất hiện trong dữ liệu màn. Mã category: 41057.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Shoes",
+          "12 asset; 12 asset xuất hiện trong dữ liệu màn. Mã category: 41058.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Shorts",
+          "17 asset; 15 asset xuất hiện trong dữ liệu màn. Mã category: 41059.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Snacks",
+          "15 asset; 15 asset xuất hiện trong dữ liệu màn. Mã category: 41060.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Socks",
+          "7 asset; 7 asset xuất hiện trong dữ liệu màn. Mã category: 41061.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Squeegees",
+          "6 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 41062.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Suitcases",
+          "14 asset; 14 asset xuất hiện trong dữ liệu màn. Mã category: 41063.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Swimwear",
+          "10 asset; 10 asset xuất hiện trong dữ liệu màn. Mã category: 41064.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / T-shirts",
+          "11 asset; 10 asset xuất hiện trong dữ liệu màn. Mã category: 41065.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Tablets",
+          "5 asset; 5 asset xuất hiện trong dữ liệu màn. Mã category: 41066.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Tank tops",
+          "20 asset; 19 asset xuất hiện trong dữ liệu màn. Mã category: 41067.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Teapots",
+          "11 asset; 11 asset xuất hiện trong dữ liệu màn. Mã category: 41068.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Tie",
+          "9 asset; 8 asset xuất hiện trong dữ liệu màn. Mã category: 41069.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Tote Bags",
+          "12 asset; 12 asset xuất hiện trong dữ liệu màn. Mã category: 41070.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Tumblers",
+          "8 asset; 8 asset xuất hiện trong dữ liệu màn. Mã category: 41071.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Umbrellas",
+          "12 asset; 12 asset xuất hiện trong dữ liệu màn. Mã category: 41072.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Wallets",
+          "6 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 41073.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Common assets / Water bottles",
+          "7 asset; 7 asset xuất hiện trong dữ liệu màn. Mã category: 41074.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Dentist / Cotton Swab",
+          "4 asset; 4 asset xuất hiện trong dữ liệu màn. Mã category: 42001.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Dentist / Dental Instruments",
+          "7 asset; 7 asset xuất hiện trong dữ liệu màn. Mã category: 42002.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Dentist / Documents",
+          "5 asset; 5 asset xuất hiện trong dữ liệu màn. Mã category: 42003.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Dentist / Masks",
+          "5 asset; 5 asset xuất hiện trong dữ liệu màn. Mã category: 42004.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Dentist / Medical Tray",
+          "4 asset; 4 asset xuất hiện trong dữ liệu màn. Mã category: 42005.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Dentist / Medical bags",
+          "10 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 42006.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Dentist / Pill bottles",
+          "6 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 42007.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Dentist / Pill packs",
+          "7 asset; 7 asset xuất hiện trong dữ liệu màn. Mã category: 42008.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Dentist / Pillbox",
+          "7 asset; 7 asset xuất hiện trong dữ liệu màn. Mã category: 42009.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Dentist / Sanitizer",
+          "6 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 42010.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Dentist / Stethoscope",
+          "6 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 42011.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Dentist / Syringe",
+          "6 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 42012.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Dining / Alcohol",
+          "5 asset; 5 asset xuất hiện trong dữ liệu màn. Mã category: 43001.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Dining / Cocktail",
+          "6 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 43002.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Dining / Desserts",
+          "4 asset; 4 asset xuất hiện trong dữ liệu màn. Mã category: 43003.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Dining / Dining Plates",
+          "4 asset; 4 asset xuất hiện trong dữ liệu màn. Mã category: 43004.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Dining / Fast food",
+          "12 asset; 12 asset xuất hiện trong dữ liệu màn. Mã category: 43005.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Dining / Fine Dining",
+          "7 asset; 7 asset xuất hiện trong dữ liệu màn. Mã category: 43006.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Dining / Glass bottles",
+          "8 asset; 8 asset xuất hiện trong dữ liệu màn. Mã category: 43007.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Dining / Call Bell",
+          "2 asset; 2 asset xuất hiện trong dữ liệu màn. Mã category: 43008.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Dining / Soda",
+          "21 asset; 21 asset xuất hiện trong dữ liệu màn. Mã category: 43009.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Dining / Wine",
+          "2 asset; 2 asset xuất hiện trong dữ liệu màn. Mã category: 43010.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Dining / Wine glasses",
+          "7 asset; 7 asset xuất hiện trong dữ liệu màn. Mã category: 43011.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Flower shop / Bouquet",
+          "8 asset; 8 asset xuất hiện trong dữ liệu màn. Mã category: 44001.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Flower shop / Empty Pots",
+          "10 asset; 10 asset xuất hiện trong dữ liệu màn. Mã category: 44002.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Flower shop / Flower pots",
+          "17 asset; 17 asset xuất hiện trong dữ liệu màn. Mã category: 44003.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Flower shop / Gardening tools",
+          "6 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 44004.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Flower shop / Seed bag",
+          "9 asset; 9 asset xuất hiện trong dữ liệu màn. Mã category: 44005.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Garage / Car hood",
+          "6 asset; 0 asset xuất hiện trong dữ liệu màn. Mã category: 45001.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Garage / Engine",
+          "7 asset; 5 asset xuất hiện trong dữ liệu màn. Mã category: 45002.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Garage / Pliers",
+          "9 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 45003.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Garage / Power Drill",
+          "8 asset; 8 asset xuất hiện trong dữ liệu màn. Mã category: 45004.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Garage / Screwdriver",
+          "6 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 45005.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Garage / Tires",
+          "9 asset; 5 asset xuất hiện trong dữ liệu màn. Mã category: 45006.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Garage / Toolbox",
+          "5 asset; 3 asset xuất hiện trong dữ liệu màn. Mã category: 45007.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Garage / Wheel rim",
+          "10 asset; 3 asset xuất hiện trong dữ liệu màn. Mã category: 45008.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Garage / Windshield",
+          "3 asset; 3 asset xuất hiện trong dữ liệu màn. Mã category: 45009.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Garage / Windshield Wipers",
+          "6 asset; 0 asset xuất hiện trong dữ liệu màn. Mã category: 45010.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Garage / Wrench",
+          "13 asset; 9 asset xuất hiện trong dữ liệu màn. Mã category: 45011.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Hair salon / Comb",
+          "6 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 46001.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Hair salon / Hair Clippers",
+          "6 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 46002.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Hair salon / Hair Wax",
+          "6 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 46003.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Hair salon / Wigs",
+          "6 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 46004.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Kitchen / Cheese",
+          "4 asset; 4 asset xuất hiện trong dữ liệu màn. Mã category: 47001.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Kitchen / Cooking oil",
+          "4 asset; 4 asset xuất hiện trong dữ liệu màn. Mã category: 47002.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Kitchen / Cookware",
+          "21 asset; 17 asset xuất hiện trong dữ liệu màn. Mã category: 47003.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Kitchen / Deli meat",
+          "8 asset; 0 asset xuất hiện trong dữ liệu màn. Mã category: 47004.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Kitchen / Eggs",
+          "8 asset; 8 asset xuất hiện trong dữ liệu màn. Mã category: 47005.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Kitchen / Food trays",
+          "12 asset; 0 asset xuất hiện trong dữ liệu màn. Mã category: 47006.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Kitchen / Fruits",
+          "13 asset; 13 asset xuất hiện trong dữ liệu màn. Mã category: 47007.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Kitchen / Kitchen Tools",
+          "16 asset; 15 asset xuất hiện trong dữ liệu màn. Mã category: 47008.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Kitchen / Noodles",
+          "8 asset; 8 asset xuất hiện trong dữ liệu màn. Mã category: 47009.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Kitchen / Oven mitts",
+          "4 asset; 4 asset xuất hiện trong dữ liệu màn. Mã category: 47010.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Kitchen / Raw meat",
+          "6 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 47011.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Kitchen / Spices",
+          "19 asset; 19 asset xuất hiện trong dữ liệu màn. Mã category: 47012.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Kitchen / Vegetables",
+          "12 asset; 12 asset xuất hiện trong dữ liệu màn. Mã category: 47013.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Laundry / Clothing Bag",
+          "7 asset; 3 asset xuất hiện trong dữ liệu màn. Mã category: 48001.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Laundry / Laundry Basket",
+          "7 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 48002.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Music studio / Musical instruments",
+          "17 asset; 13 asset xuất hiện trong dữ liệu màn. Mã category: 49001.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Music studio / Micro",
+          "7 asset; 7 asset xuất hiện trong dữ liệu màn. Mã category: 65001.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Music studio / Music book",
+          "9 asset; 9 asset xuất hiện trong dữ liệu màn. Mã category: 65002.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Music studio / Music record",
+          "10 asset; 10 asset xuất hiện trong dữ liệu màn. Mã category: 65003.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Music studio / Music trophy",
+          "9 asset; 9 asset xuất hiện trong dữ liệu màn. Mã category: 65004.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Music studio / Recording equipment",
+          "8 asset; 3 asset xuất hiện trong dữ liệu màn. Mã category: 65006.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Nail salon / Nail Polish",
+          "6 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 50001.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Nail salon / Nail tools",
+          "6 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 50002.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Office & Study room / Calculators",
+          "7 asset; 7 asset xuất hiện trong dữ liệu màn. Mã category: 51001.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Office & Study room / Folders",
+          "6 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 51002.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Office & Study room / Markers",
+          "3 asset; 3 asset xuất hiện trong dữ liệu màn. Mã category: 51003.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Office & Study room / Paper",
+          "6 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 51004.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Office & Study room / Pens",
+          "4 asset; 4 asset xuất hiện trong dữ liệu màn. Mã category: 51005.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Office & Study room / Printers",
+          "7 asset; 7 asset xuất hiện trong dữ liệu màn. Mã category: 51006.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Office & Study room / Stamps",
+          "6 asset; 0 asset xuất hiện trong dữ liệu màn. Mã category: 51007.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Office & Study room / Staplers",
+          "6 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 51008.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Office & Study room / Sticky notes",
+          "6 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 51009.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Pet room / Pet Toy Balls",
+          "10 asset; 9 asset xuất hiện trong dữ liệu màn. Mã category: 52001.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Pet room / Cat litters",
+          "3 asset; 3 asset xuất hiện trong dữ liệu màn. Mã category: 52002.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Pet room / Cat wands",
+          "8 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 52003.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Pet room / Pet Collars",
+          "8 asset; 7 asset xuất hiện trong dữ liệu màn. Mã category: 52004.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Pet room / Pet bowl",
+          "9 asset; 8 asset xuất hiện trong dữ liệu màn. Mã category: 52005.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Pet room / Pet carriers",
+          "5 asset; 3 asset xuất hiện trong dữ liệu màn. Mã category: 52006.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Pet room / Pet clothes",
+          "8 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 52007.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Pet room / Pet food",
+          "16 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 52008.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Pool / Swimming Goggles",
+          "6 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 53001.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Pool / Pool Floats",
+          "9 asset; 9 asset xuất hiện trong dữ liệu màn. Mã category: 53002.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Sport / Champion cups",
+          "2 asset; 2 asset xuất hiện trong dữ liệu màn. Mã category: 54001.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Sport / Medals",
+          "5 asset; 5 asset xuất hiện trong dữ liệu màn. Mã category: 54002.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Sport / Dumbbell",
+          "8 asset; 8 asset xuất hiện trong dữ liệu màn. Mã category: 54003.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Sport / Handgrip",
+          "9 asset; 8 asset xuất hiện trong dữ liệu màn. Mã category: 54004.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Sport / Kettlebell",
+          "6 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 54005.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Sport / Scale",
+          "5 asset; 5 asset xuất hiện trong dữ liệu màn. Mã category: 54006.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Sport / Yoga mat",
+          "8 asset; 7 asset xuất hiện trong dữ liệu màn. Mã category: 54007.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Tailor shop / Fabric rolls",
+          "11 asset; 9 asset xuất hiện trong dữ liệu màn. Mã category: 55001.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Tailor shop / Fabric scissors",
+          "4 asset; 4 asset xuất hiện trong dữ liệu màn. Mã category: 55002.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Tailor shop / Measuring tape",
+          "5 asset; 5 asset xuất hiện trong dữ liệu màn. Mã category: 55003.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Tailor shop / Pin cushion",
+          "5 asset; 5 asset xuất hiện trong dữ liệu màn. Mã category: 55004.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Tailor shop / Ribbon",
+          "8 asset; 8 asset xuất hiện trong dữ liệu màn. Mã category: 55005.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Tailor shop / Ruler",
+          "4 asset; 4 asset xuất hiện trong dữ liệu màn. Mã category: 55006.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Tailor shop / Sewing box",
+          "5 asset; 5 asset xuất hiện trong dữ liệu màn. Mã category: 55007.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Tailor shop / Sewing machine",
+          "5 asset; 5 asset xuất hiện trong dữ liệu màn. Mã category: 55008.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Tailor shop / Swatchbook",
+          "8 asset; 8 asset xuất hiện trong dữ liệu màn. Mã category: 55009.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Tailor shop / Thread Spool",
+          "9 asset; 9 asset xuất hiện trong dữ liệu màn. Mã category: 55010.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Tailor shop / Zipper",
+          "6 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 55011.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Toy shop & Playroom / Animal Toys",
+          "10 asset; 10 asset xuất hiện trong dữ liệu màn. Mã category: 56001.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Toy shop & Playroom / Balls",
+          "7 asset; 7 asset xuất hiện trong dữ liệu màn. Mã category: 56002.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Toy shop & Playroom / Board game",
+          "5 asset; 5 asset xuất hiện trong dữ liệu màn. Mã category: 56003.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Toy shop & Playroom / Dolls",
+          "5 asset; 5 asset xuất hiện trong dữ liệu màn. Mã category: 56004.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Toy shop & Playroom / Kitchen toys",
+          "9 asset; 9 asset xuất hiện trong dữ liệu màn. Mã category: 56005.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Toy shop & Playroom / Building Blocks",
+          "4 asset; 4 asset xuất hiện trong dữ liệu màn. Mã category: 56006.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Toy shop & Playroom / Plushies",
+          "7 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 56007.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Toy shop & Playroom / Puzzle Cube",
+          "5 asset; 5 asset xuất hiện trong dữ liệu màn. Mã category: 56008.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Toy shop & Playroom / Toy Box",
+          "4 asset; 4 asset xuất hiện trong dữ liệu màn. Mã category: 56009.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Toy shop & Playroom / Vehicle Toys",
+          "12 asset; 12 asset xuất hiện trong dữ liệu màn. Mã category: 56010.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Arcade / Gacha ball",
+          "10 asset; 10 asset xuất hiện trong dữ liệu màn. Mã category: 57001.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Arcade / Hammer",
+          "6 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 57002.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Arcade / Scoreboard",
+          "5 asset; 5 asset xuất hiện trong dữ liệu màn. Mã category: 57003.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Arcade / Ticket eater",
+          "3 asset; 0 asset xuất hiện trong dữ liệu màn. Mã category: 57004.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Arcade / Ticket roll",
+          "10 asset; 10 asset xuất hiện trong dữ liệu màn. Mã category: 57005.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Arcade / Token tray",
+          "6 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 57006.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Arcade / Toss ring",
+          "5 asset; 5 asset xuất hiện trong dữ liệu màn. Mã category: 57007.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Arcade / VR headset",
+          "4 asset; 4 asset xuất hiện trong dữ liệu màn. Mã category: 57008.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Arcade / Water gun",
+          "9 asset; 9 asset xuất hiện trong dữ liệu màn. Mã category: 57009.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Christmas / Chrismas Hat",
+          "7 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 58001.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Christmas / Christmas Socks",
+          "8 asset; 8 asset xuất hiện trong dữ liệu màn. Mã category: 58002.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Christmas / Music box",
+          "4 asset; 4 asset xuất hiện trong dữ liệu màn. Mã category: 58003.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Christmas / Snow globe",
+          "5 asset; 5 asset xuất hiện trong dữ liệu màn. Mã category: 58004.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Christmas / Xmas Toy",
+          "6 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 58005.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Christmas / Xmas cake",
+          "12 asset; 12 asset xuất hiện trong dữ liệu màn. Mã category: 58006.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Christmas / Xmas decor",
+          "11 asset; 11 asset xuất hiện trong dữ liệu màn. Mã category: 58007.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Christmas / Xmas drink",
+          "7 asset; 7 asset xuất hiện trong dữ liệu màn. Mã category: 58008.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Christmas / Xmas food",
+          "10 asset; 10 asset xuất hiện trong dữ liệu màn. Mã category: 58009.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Christmas / Xmas ice cream",
+          "6 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 58010.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Cinema / 3D glasses",
+          "8 asset; 8 asset xuất hiện trong dữ liệu màn. Mã category: 59001.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Cinema / Cinema ticket",
+          "7 asset; 7 asset xuất hiện trong dữ liệu màn. Mã category: 59002.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Cinema / Drink cup",
+          "7 asset; 7 asset xuất hiện trong dữ liệu màn. Mã category: 59003.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Cinema / Film poster",
+          "8 asset; 7 asset xuất hiện trong dữ liệu màn. Mã category: 59004.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Circus / Circus Costume",
+          "9 asset; 7 asset xuất hiện trong dữ liệu màn. Mã category: 60001.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Circus / Clown costume",
+          "8 asset; 5 asset xuất hiện trong dữ liệu màn. Mã category: 60002.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Circus / Clown hat",
+          "8 asset; 8 asset xuất hiện trong dữ liệu màn. Mã category: 60003.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Circus / Juggling clubs",
+          "8 asset; 8 asset xuất hiện trong dữ liệu màn. Mã category: 60004.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Circus / Magic box",
+          "9 asset; 8 asset xuất hiện trong dữ liệu màn. Mã category: 60005.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Hotel Lobby / Bellboy hat",
+          "4 asset; 4 asset xuất hiện trong dữ liệu màn. Mã category: 61001.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Hotel Lobby / Desk calendar",
+          "8 asset; 8 asset xuất hiện trong dữ liệu màn. Mã category: 61002.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Hotel Lobby / Desk clock",
+          "9 asset; 9 asset xuất hiện trong dữ liệu màn. Mã category: 61003.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Hotel Lobby / Door hanger",
+          "6 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 61004.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Hotel Lobby / Key",
+          "8 asset; 8 asset xuất hiện trong dữ liệu màn. Mã category: 61005.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Hotel Lobby / Landline",
+          "7 asset; 7 asset xuất hiện trong dữ liệu màn. Mã category: 61006.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Hotel Lobby / Magazine",
+          "7 asset; 7 asset xuất hiện trong dữ liệu màn. Mã category: 61007.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Ice Cream Shop / Bingxu",
+          "10 asset; 10 asset xuất hiện trong dữ liệu màn. Mã category: 62001.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Ice Cream Shop / Cone holder",
+          "7 asset; 7 asset xuất hiện trong dữ liệu màn. Mã category: 62002.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Ice Cream Shop / Ice chest",
+          "8 asset; 7 asset xuất hiện trong dữ liệu màn. Mã category: 62003.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Ice Cream Shop / Ice cream cone",
+          "5 asset; 5 asset xuất hiện trong dữ liệu màn. Mã category: 62004.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Ice Cream Shop / Ice cream cup",
+          "10 asset; 10 asset xuất hiện trong dữ liệu màn. Mã category: 62005.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Ice Cream Shop / Ice cream mold",
+          "7 asset; 7 asset xuất hiện trong dữ liệu màn. Mã category: 62006.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Ice Cream Shop / Ice cream tub",
+          "12 asset; 12 asset xuất hiện trong dữ liệu màn. Mã category: 62007.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Ice Cream Shop / Popsicle",
+          "7 asset; 7 asset xuất hiện trong dữ liệu màn. Mã category: 62008.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Ice Cream Shop / Scoop",
+          "6 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 62009.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Lab / Chemical",
+          "7 asset; 7 asset xuất hiện trong dữ liệu màn. Mã category: 63001.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Lab / Glassware",
+          "11 asset; 11 asset xuất hiện trong dữ liệu màn. Mã category: 63002.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Lab / Magnifying glass",
+          "4 asset; 4 asset xuất hiện trong dữ liệu màn. Mã category: 63003.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Lab / Microscope",
+          "4 asset; 4 asset xuất hiện trong dữ liệu màn. Mã category: 63004.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Lab / Protective mask",
+          "4 asset; 4 asset xuất hiện trong dữ liệu màn. Mã category: 63005.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Lab / Safety goggles",
+          "6 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 63006.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Lab / Specimen",
+          "7 asset; 7 asset xuất hiện trong dữ liệu màn. Mã category: 63007.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Museum / Ancient Painting",
+          "4 asset; 0 asset xuất hiện trong dữ liệu màn. Mã category: 64001.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Museum / Ancient Books",
+          "10 asset; 10 asset xuất hiện trong dữ liệu màn. Mã category: 64002.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Museum / Ancient Weapons",
+          "5 asset; 5 asset xuất hiện trong dữ liệu màn. Mã category: 64003.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Museum / Antique Vase",
+          "8 asset; 8 asset xuất hiện trong dữ liệu màn. Mã category: 64004.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Museum / Display Figurine",
+          "10 asset; 10 asset xuất hiện trong dữ liệu màn. Mã category: 64005.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Museum / Fossil",
+          "12 asset; 12 asset xuất hiện trong dữ liệu màn. Mã category: 64006.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Riverside / Folding fan",
+          "8 asset; 8 asset xuất hiện trong dữ liệu màn. Mã category: 66001.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Riverside / Oar",
+          "7 asset; 7 asset xuất hiện trong dữ liệu màn. Mã category: 66002.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Riverside / Riverside Mask",
+          "14 asset; 14 asset xuất hiện trong dữ liệu màn. Mã category: 66003.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Riverside / Riverside costume",
+          "10 asset; 3 asset xuất hiện trong dữ liệu màn. Mã category: 66004.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Sushi Bar / Food tray",
+          "10 asset; 10 asset xuất hiện trong dữ liệu màn. Mã category: 67001.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Sushi Bar / Japanese dishes",
+          "11 asset; 11 asset xuất hiện trong dữ liệu màn. Mã category: 67002.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Sushi Bar / Knife",
+          "9 asset; 9 asset xuất hiện trong dữ liệu màn. Mã category: 67003.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Sushi Bar / Sake",
+          "8 asset; 8 asset xuất hiện trong dữ liệu màn. Mã category: 67004.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Sushi Bar / Side dishes",
+          "7 asset; 7 asset xuất hiện trong dữ liệu màn. Mã category: 67005.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Sushi Bar / Sushi",
+          "19 asset; 14 asset xuất hiện trong dữ liệu màn. Mã category: 67006.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Sushi Bar / Chopstick",
+          "11 asset; 11 asset xuất hiện trong dữ liệu màn. Mã category: 67007.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Wedding Hall / Balloon",
+          "7 asset; 7 asset xuất hiện trong dữ liệu màn. Mã category: 68001.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Wedding Hall / Bridecake",
+          "8 asset; 8 asset xuất hiện trong dữ liệu màn. Mã category: 68002.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Wedding Hall / Flower pot",
+          "13 asset; 12 asset xuất hiện trong dữ liệu màn. Mã category: 68003.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Wedding Hall / Wedding invitation",
+          "4 asset; 4 asset xuất hiện trong dữ liệu màn. Mã category: 68004.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Airport / Airport luggage cart",
+          "5 asset; 4 asset xuất hiện trong dữ liệu màn. Mã category: 69001.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Airport / Captain hat",
+          "3 asset; 3 asset xuất hiện trong dữ liệu màn. Mã category: 69002.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Airport / Flight attendant costume",
+          "7 asset; 7 asset xuất hiện trong dữ liệu màn. Mã category: 69003.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Airport / Flight attendant hat",
+          "6 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 69004.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Airport / Flight ticket",
+          "7 asset; 7 asset xuất hiện trong dữ liệu màn. Mã category: 69005.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Airport / Passport",
+          "7 asset; 7 asset xuất hiện trong dữ liệu màn. Mã category: 69006.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Airport / Security camera",
+          "5 asset; 5 asset xuất hiện trong dữ liệu màn. Mã category: 69007.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Airport / Warning sign",
+          "4 asset; 4 asset xuất hiện trong dữ liệu màn. Mã category: 69008.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Birthday / Birthday banner",
+          "9 asset; 9 asset xuất hiện trong dữ liệu màn. Mã category: 70001.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Birthday / Birthday cake",
+          "7 asset; 7 asset xuất hiện trong dữ liệu màn. Mã category: 70002.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Birthday / Birthday glasses",
+          "8 asset; 8 asset xuất hiện trong dữ liệu màn. Mã category: 70003.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Birthday / Birthday hat",
+          "8 asset; 8 asset xuất hiện trong dữ liệu màn. Mã category: 70004.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Birthday / Gift box",
+          "8 asset; 8 asset xuất hiện trong dữ liệu màn. Mã category: 70005.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Birthday / Party blower",
+          "7 asset; 7 asset xuất hiện trong dữ liệu màn. Mã category: 70006.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Birthday / Party popper",
+          "6 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 70007.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Birthday / Pinata",
+          "6 asset; 4 asset xuất hiện trong dữ liệu màn. Mã category: 70008.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Garden / Garden hose",
+          "8 asset; 8 asset xuất hiện trong dữ liệu màn. Mã category: 71001.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Garden / Grow light",
+          "7 asset; 7 asset xuất hiện trong dữ liệu màn. Mã category: 71002.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Garden / Plant labels",
+          "6 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 71003.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Garden / Thermometers",
+          "7 asset; 7 asset xuất hiện trong dữ liệu màn. Mã category: 71004.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Garden / Vegetable plants",
+          "15 asset; 7 asset xuất hiện trong dữ liệu màn. Mã category: 71005.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Garden / Waterer",
+          "11 asset; 11 asset xuất hiện trong dữ liệu màn. Mã category: 71006.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Garden / Wheelbarrow",
+          "7 asset; 7 asset xuất hiện trong dữ liệu màn. Mã category: 71007.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Magic / Magic mushrooms",
+          "7 asset; 7 asset xuất hiện trong dữ liệu màn. Mã category: 72001.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Magic / Magic orb",
+          "10 asset; 10 asset xuất hiện trong dữ liệu màn. Mã category: 72002.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Magic / Magic scroll",
+          "7 asset; 7 asset xuất hiện trong dữ liệu màn. Mã category: 72003.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Magic / Magic stone",
+          "7 asset; 7 asset xuất hiện trong dữ liệu màn. Mã category: 72004.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Magic / Magic wand",
+          "5 asset; 5 asset xuất hiện trong dữ liệu màn. Mã category: 72005.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Magic / Poison",
+          "10 asset; 10 asset xuất hiện trong dữ liệu màn. Mã category: 72006.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Magic / Witchs hat",
+          "9 asset; 9 asset xuất hiện trong dữ liệu màn. Mã category: 72007.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Photo Studio / Backdrop",
+          "4 asset; 3 asset xuất hiện trong dữ liệu màn. Mã category: 73001.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Photo Studio / Camera",
+          "12 asset; 12 asset xuất hiện trong dữ liệu màn. Mã category: 73002.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Photo Studio / Clapper board",
+          "10 asset; 10 asset xuất hiện trong dữ liệu màn. Mã category: 73003.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Photo Studio / Film",
+          "9 asset; 9 asset xuất hiện trong dữ liệu màn. Mã category: 73004.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Photo Studio / Lens",
+          "7 asset; 7 asset xuất hiện trong dữ liệu màn. Mã category: 73005.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Photo Studio / Light stand",
+          "6 asset; 3 asset xuất hiện trong dữ liệu màn. Mã category: 73006.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Photo Studio / Photography light",
+          "13 asset; 11 asset xuất hiện trong dữ liệu màn. Mã category: 73007.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Photo Studio / Reflector",
+          "9 asset; 9 asset xuất hiện trong dữ liệu màn. Mã category: 73008.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Photo Studio / Slider",
+          "4 asset; 3 asset xuất hiện trong dữ liệu màn. Mã category: 73009.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Photo Studio / Tripod",
+          "8 asset; 7 asset xuất hiện trong dữ liệu màn. Mã category: 73010.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Plane Cabin / Airline trolley",
+          "5 asset; 3 asset xuất hiện trong dữ liệu màn. Mã category: 74001.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Plane Cabin / Life jacket",
+          "6 asset; 3 asset xuất hiện trong dữ liệu màn. Mã category: 74002.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Plane Cabin / Meal tray",
+          "9 asset; 9 asset xuất hiện trong dữ liệu màn. Mã category: 74003.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Plane Cabin / Oxygen mask",
+          "9 asset; 8 asset xuất hiện trong dữ liệu màn. Mã category: 74004.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Plane Cabin / Sleep mask",
+          "9 asset; 9 asset xuất hiện trong dữ liệu màn. Mã category: 74005.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Plane Cabin / Travel neck pillow",
+          "10 asset; 9 asset xuất hiện trong dữ liệu màn. Mã category: 74006.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Sauna / Bath brush",
+          "10 asset; 10 asset xuất hiện trong dữ liệu màn. Mã category: 75001.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Sauna / Bathrobe",
+          "8 asset; 8 asset xuất hiện trong dữ liệu màn. Mã category: 75002.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Sauna / Hair dryer",
+          "12 asset; 12 asset xuất hiện trong dữ liệu màn. Mã category: 75003.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Sauna / Scented candle",
+          "8 asset; 8 asset xuất hiện trong dữ liệu màn. Mã category: 75004.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Street Food Stall / BBQ grilled",
+          "6 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 76001.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Street Food Stall / BBQ tool",
+          "5 asset; 5 asset xuất hiện trong dữ liệu màn. Mã category: 76002.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Street Food Stall / Grilled vegetables",
+          "6 asset; 6 asset xuất hiện trong dữ liệu màn. Mã category: 76003.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Street Food Stall / Paper cup",
+          "9 asset; 9 asset xuất hiện trong dữ liệu màn. Mã category: 76004.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ],
+        [
+          "Street Food Stall / Skewers",
+          "10 asset; 10 asset xuất hiện trong dữ liệu màn. Mã category: 76005.",
+          "Đếm ID sprite riêng biệt",
+          "S05, S11"
+        ]
+      ]
+    },
+    {
+      "name": "VFXanim",
+      "title": "VFX / Animation — Phản hồi hình ảnh",
+      "rows": [
+        [
+          "Chạm chọn đồ",
+          "Có hiệu ứng click, select và collect riêng. Chúng giúp xác nhận món vừa được chọn và theo dõi món rời khỏi đống đồ; hình thức cuối cùng cần đối chiếu khi chạy game.",
+          "Tham chiếu hiệu ứng trong config",
+          "S02"
+        ],
+        [
+          "Đồ bay vào đích",
+          "Cấu hình lưu thời gian bay 0,5 giây. Trước khi bay, đồ có nhịp nảy lên 0,12 giây và hạ 0,10 giây, scale nảy 1,3 lần. Các giá trị này mô tả preset chuyển động, không phải số đo video.",
+          "Cấu hình APK",
+          "S02"
+        ],
+        [
+          "Hộp bắt đầu / chờ",
+          "Hộp có animation vào màn, chờ, nhận đồ và trạng thái khóa. Ba vị trí hộp được đưa vào theo nhịp lệch 0,12 giây, tạo cảm giác lần lượt mở ra.",
+          "Animation và scene",
+          "S07, S10"
+        ],
+        [
+          "Hoàn thành hộp",
+          "Có animation Box_Com, Box_com_idle và âm đóng hộp. Cấu hình chờ hộp tiếp theo 0,8 giây; luồng bay về hộp lưu thời gian 0,7 giây. Cần xem runtime để chốt tổng thời gian một chuỗi hoàn thành.",
+          "Cấu hình và animation",
+          "S02, S10"
+        ],
+        [
+          "Kho tạm",
+          "Kho có chuỗi xuất hiện, chờ, hoạt động và kết thúc. Scene lưu thời gian xuất hiện 0,3 giây. Các món bay từ kho có nhịp lệch cấu hình 0,12 giây để người chơi dễ theo dõi.",
+          "Cấu hình APK",
+          "S02, S07, S10"
+        ],
+        [
+          "Broom / Vacuum",
+          "Broom có hiệu ứng quét dọn; Vacuum dùng animation máy hút bụi và luồng hút về đích. Tài liệu mô tả theo tên tài nguyên và hệ thống trợ giúp, chưa khẳng định từng khung hình chuyển động.",
+          "Asset và metadata",
+          "S02, S07, S10"
+        ],
+        [
+          "Gợi ý",
+          "Viền gợi ý màu vàng, độ tăng scale 0,1. Nhịp cấu hình gồm hiện 0,4 giây, giữ 0,5 giây, ẩn 0,4 giây và nghỉ 0,2 giây. Hint được gọi sau 7 giây đứng yên.",
+          "Cấu hình APK",
+          "S02"
+        ],
+        [
+          "Cảnh báo khay",
+          "Ô cuối có nhịp nhấp nháy cấu hình 0,45 giây. Cảnh báo màn có chu kỳ 1 giây và thời gian hiển thị cấu hình 2 giây. Trigger dựa trên ngưỡng còn 1 ô chờ.",
+          "Cấu hình APK",
+          "S02"
+        ],
+        [
+          "Thắng / thua",
+          "Có bộ animation riêng cho Win, Lose và chữ kết quả. WinPopup lưu hiệu ứng ở các mốc 0,20 và 0,25 giây; config lưu thời gian chờ popup thắng 2 giây. Các mốc này không được cộng thành một tổng thời lượng chưa kiểm chứng.",
+          "Prefab và animation",
+          "S02, S07, S10"
+        ],
+        [
+          "Mở hộp / thêm ô / hồi sinh",
+          "Có các clip Box_AddSlot, AnimAddSlots và Revive. Chúng phản hồi việc người chơi vừa tăng khả năng chứa hoặc tiếp tục màn sau thất bại.",
+          "Danh sách animation",
+          "S10"
+        ]
+      ]
+    },
+    {
+      "name": "SFX",
+      "title": "SFX — Âm thanh theo hành động",
+      "rows": [
+        [
+          "Nút UI",
+          "File “Button click” được gắn cho hành động button, âm lượng cấu hình 1,0. Dùng để phản hồi thao tác lên nút.",
+          "Audio mapping",
+          "S10"
+        ],
+        [
+          "Chọn đúng đồ",
+          "“Bubble tap 2 (1)” gắn cho Correct_Item_Pick, âm lượng 1,0. “Bubble tap 1” cũng có mapping riêng. Chưa xác minh trường hợp lựa chọn giữa hai tiếng tap.",
+          "Audio mapping",
+          "S10"
+        ],
+        [
+          "Chạm không hợp lệ",
+          "“tap_wrong” được gắn cho Tap_wrong, âm lượng 0,2. Là phản hồi âm thanh cho thao tác không được chấp nhận; không đồng nghĩa mọi món chưa có hộp nhận đều là thao tác sai.",
+          "Audio mapping; trigger cần đối chiếu",
+          "S07, S10"
+        ],
+        [
+          "Đồ vào hộp",
+          "“Item Drop Into Box” gắn cho Item_Drop_Into_Box, âm lượng 1,0. Đây là âm xác nhận đồ đã đến hộp.",
+          "Audio mapping",
+          "S10"
+        ],
+        [
+          "Hộp vào / đóng / rời đi",
+          "“sfx_box_in” có âm lượng 0,3; “box_close” và “Box Disappears” có âm lượng 1,0. Ba tiếng tách phản hồi cho từng giai đoạn của hộp.",
+          "Audio mapping",
+          "S10"
+        ],
+        [
+          "Booster",
+          "Có hai file “Broom booster” và “Vaccum booster”, đều được gắn trong bảng âm thanh với âm lượng 1,0.",
+          "Audio mapping",
+          "S10"
+        ],
+        [
+          "Gợi ý",
+          "“sfx_hint” gắn cho Hint, âm lượng 0,5. Chưa xác nhận âm phát ở mọi nhịp gợi ý hay chỉ lúc bắt đầu.",
+          "Audio mapping",
+          "S10"
+        ],
+        [
+          "Bắt đầu / kết màn",
+          "Có “Start level”, “sfx_level_end”, “win_sfx” và “lose_sfx”. Âm lượng mapping đều là 1,0.",
+          "Audio mapping",
+          "S10"
+        ],
+        [
+          "Coin / mua hàng",
+          "“coin_sfx” được dùng cho coin và get_coin. “purchase_sfx” dùng cho purchase. Âm lượng mapping là 1,0.",
+          "Audio mapping",
+          "S10"
+        ],
+        [
+          "Nhạc nền / âm còn thiếu",
+          "Trong 17 AudioClip đã liệt kê chưa xác định được file nhạc nền Home hoặc Gameplay. Hai mapping revive và claim_reward có tham chiếu clip rỗng. Không tự thêm nhạc hoặc tiếng hồi sinh từ mẫu.",
+          "Giới hạn dữ liệu",
+          "S10"
+        ]
+      ]
+    },
+    {
+      "name": "Economy",
+      "title": "Economy — Coin, tim và thương mại",
+      "rows": [
+        [
+          "Coin ban đầu",
+          "Hằng số NEW_USER_START_COIN lưu 600 coin. Đây là preset trong code, chưa xác nhận số dư tài khoản mới sau các lần cấp thưởng hoặc cấu hình từ xa.",
+          "Hằng số APK",
+          "S08"
+        ],
+        [
+          "Coin miễn phí",
+          "SHOP_FREE_COIN_AMOUNT lưu 50 coin. Có luồng quảng cáo và shop trong game, nhưng điều kiện nhận, cooldown và số lượt nhận khoản 50 coin chưa được xác minh.",
+          "Có giá trị; chưa rõ điều kiện",
+          "S08, S09"
+        ],
+        [
+          "Thưởng thắng theo độ khó",
+          "LEVEL_WIN_REWARD_EASY / HARD / SUPER_HARD lần lượt lưu 20 / 40 / 60 coin. Có hàm GetLevelWinReward. Chưa đọc thân hàm để khẳng định màn thắng thực tế luôn nhận đúng các số này.",
+          "Hằng số; cần xác nhận sử dụng",
+          "S08"
+        ],
+        [
+          "Thưởng trong WinPopup",
+          "Prefab lưu coinClaim = 30 và coinClaimAd = 60, đồng thời có nút nhận thường và nhận qua quảng cáo. Giá trị này khác bộ hằng số phía trên. Không chốt hệ số x2 cho mọi độ khó trước khi kiểm tra giá trị được gán khi mở popup.",
+          "Mâu thuẫn giữa hai nguồn",
+          "S06, S08"
+        ],
+        [
+          "Chi phí hồi sinh",
+          "REVIVE_COIN_COST lưu 800 coin. Popup có nút quảng cáo, nút coin và bỏ cuộc. Phần thưởng được mô tả là hồi sinh và làm trống khay để chơi tiếp.",
+          "Hằng số và UI",
+          "S04, S08"
+        ],
+        [
+          "Chi phí nạp tim",
+          "REFILL_HEART_COST lưu 700 coin. Popup có lựa chọn coin hoặc quảng cáo và bộ đếm hồi tim. Chưa xác nhận 700 coin nạp đầy toàn bộ hay cấp số tim cụ thể.",
+          "Hằng số và UI; thiếu lượng nhận",
+          "S04, S08"
+        ],
+        [
+          "Hồi tim theo thời gian",
+          "TIME_HEART_COUNTDOWN lưu 1.800 giây, tương đương 30 phút. Có hệ thống đồng bộ tim và thời gian. Số tim tối đa được lấy qua hàm GetMaxHeart, chưa xác định từ cấu hình đã đọc.",
+          "Hằng số và metadata",
+          "S08"
+        ],
+        [
+          "Giá booster",
+          "Popup hỗ trợ mua bằng coin hoặc quảng cáo. Database ghi coinCost = 0 cho Vacuum và Broom, nhưng có hàm tính giá riêng nên giá thực tế còn mở. Không sử dụng giá Airplane / Magic Wand của Rotate Rings.",
+          "Chưa xác minh giá hiệu lực",
+          "S07, S08"
+        ],
+        [
+          "IAP — No Ads",
+          "SKU puzzle.happy.tidy.room.noads, loại mua một lần, giá mặc định catalog 7,99 USD. Reward catalog bật removeAds. Phạm vi loại quảng cáo được loại bỏ và việc còn cho dùng quảng cáo tự nguyện cần xác nhận trực tiếp.",
+          "Catalog IAP; chưa giao dịch",
+          "S06"
+        ],
+        [
+          "IAP — 500 coin",
+          "SKU coin1 cấp 500 coin, giá mặc định catalog 1,99 USD.",
+          "Catalog và reward mapping",
+          "S06"
+        ],
+        [
+          "IAP — 5.000 coin",
+          "SKU coin2 cấp 5.000 coin, giá mặc định catalog 7,99 USD.",
+          "Catalog và reward mapping",
+          "S06"
+        ],
+        [
+          "IAP — 10.000 coin",
+          "SKU coin3 cấp 10.000 coin, giá mặc định catalog 14,99 USD.",
+          "Catalog và reward mapping",
+          "S06"
+        ],
+        [
+          "IAP — 25.000 coin",
+          "SKU coin4 cấp 25.000 coin, giá mặc định catalog 29,99 USD.",
+          "Catalog và reward mapping",
+          "S06"
+        ],
+        [
+          "IAP — 50.000 coin",
+          "SKU coin5 cấp 50.000 coin, giá mặc định catalog 49,99 USD.",
+          "Catalog và reward mapping",
+          "S06"
+        ],
+        [
+          "IAP — 100.000 coin",
+          "SKU coin6 cấp 100.000 coin, giá mặc định catalog 99,99 USD. Tất cả giá IAP ở đây là giá mặc định đóng gói, có thể khác giá theo vùng và giá cửa hàng tại thời điểm chơi.",
+          "Catalog và reward mapping",
+          "S06"
+        ],
+        [
+          "Rewarded Ads",
+          "Có các điểm nhận lợi ích cho booster, revive, tim và cuối màn. Remote Config mặc định đặt mốc khả dụng của các luồng này ở level 1. Đây là cấu hình dự phòng, không phải bằng chứng quảng cáo sẽ luôn tải thành công.",
+          "Remote Config mặc định",
+          "S09"
+        ],
+        [
+          "Interstitial / Banner",
+          "Remote Config mặc định bật quảng cáo, interval 120 giây và cờ banner gameplay bật. Có khoảng cách cấu hình 15 giây sau rewarded trước interstitial. Chưa xác minh vị trí chèn quảng cáo và cách bộ đếm được áp dụng trong một phiên.",
+          "Remote Config mặc định",
+          "S09"
+        ],
+        [
+          "Giới thiệu No Ads",
+          "Giá trị lịch mặc định bắt đầu ở level 6 và lặp theo khoảng 10 level. Đây là tham số của lời mời mua, không khẳng định popup chắc chắn hiện đúng các mốc này vì còn điều kiện lịch và trạng thái quảng cáo.",
+          "Remote Config và bộ lập lịch",
+          "S09"
+        ]
+      ]
+    },
+    {
+      "name": "Tutorial",
+      "title": "Tutorial — Hướng dẫn người chơi",
+      "rows": [
+        [
+          "Mục tiêu hướng dẫn",
+          "Dạy người chơi đọc nhóm trên hộp trước, sau đó tìm và chạm đồ phù hợp. Mỗi bước giải thích gắn với thao tác ngay trong căn phòng, dùng lời nhắc, bàn tay và vùng làm nổi bật.",
+          "Cấu hình tutorial",
+          "S07"
+        ],
+        [
+          "Level 1 — Mở đầu",
+          "Có hai câu giới thiệu: “Uh-oh, look at this mess...” và “Let’s tidy up together!”. Lời nhắc chính là “Tap items that MATCH a box to tidy up!”. Cấu hình đặt tutorial lõi ở level 1.",
+          "Cấu hình APK",
+          "S04, S07"
+        ],
+        [
+          "Level 1 — Đọc hộp",
+          "Tooltip “Check the category label!” hướng sự chú ý vào nhãn hộp. Sau đó “Tap to collect matching items” hướng dẫn chọn món cùng nhóm. Người chơi được dạy mối quan hệ giữa hộp và đồ thay vì chỉ chạm theo màu.",
+          "Cấu hình APK",
+          "S04, S07"
+        ],
+        [
+          "Level 1 — Quan sát phòng",
+          "Bước kéo có câu “Swipe left to find the last one!”, bật bàn tay chỉ dẫn và thời gian pan cấu hình 1,2 giây. Hướng dẫn cho thấy một phần đồ nằm ngoài khung nhìn ban đầu.",
+          "Cấu hình APK",
+          "S07"
+        ],
+        [
+          "Level 3 — Vacuum",
+          "Database mở Vacuum ở level 3. Tutorial có lời nhắc “Fill a box instantly!”, phần cấp 2 lượt và cờ hiển thị một lần. Cần chơi xác nhận thời điểm cấp/tiêu lượt khi hoàn tất bài hướng dẫn.",
+          "Database và tutorial",
+          "S07"
+        ],
+        [
+          "Level 6 — Broom",
+          "Database mở Broom ở level 6. Tutorial chuẩn bị 3 món trong khay, cấp cấu hình 2 lượt và yêu cầu “Clear all waiting items!”. Tình huống này làm rõ lợi ích giải phóng khay bằng một ví dụ cụ thể.",
+          "Database và tutorial",
+          "S07"
+        ],
+        [
+          "Extra Box",
+          "Tutorial có câu “Tap a locked box to add one more!” và lượng cấp 1. Mốc xuất hiện chưa chốt do BoosterDatabase đóng gói không có bản ghi Extra Box.",
+          "Có bước; thiếu mốc mở",
+          "S07"
+        ],
+        [
+          "Cách trình bày",
+          "Overlay làm nổi bật mục tiêu, bàn tay minh họa thao tác và tooltip giải thích ngắn. Cấu hình booster tutorial có showOnce = 1; cách lưu hoàn thành qua cài lại game chưa được kiểm tra.",
+          "Scene và cấu hình",
+          "S07"
+        ],
+        [
+          "Gợi ý sau tutorial",
+          "Khi không thao tác 7 giây, hệ thống hint có thể hướng chú ý vào đồ phù hợp bằng viền vàng và nhịp scale. Remote Config còn có khóa điều khiển mốc đóng hint, nên cần kiểm tra trạng thái hiệu lực trong bản chạy.",
+          "Cấu hình và metadata",
+          "S02, S09"
+        ]
+      ]
+    },
+    {
+      "name": "Haptic",
+      "title": "Haptic — Phản hồi rung",
+      "rows": [
+        [
+          "Cài đặt",
+          "Settings có công tắc Haptic. Đây là lựa chọn của người chơi để bật hoặc tắt phản hồi rung.",
+          "UI và prefab",
+          "S04, S07"
+        ],
+        [
+          "Điểm gọi rung",
+          "Metadata có hàm GameSfx.Haptic và hệ thống AudioAndVibrationManager. Chưa xác định đầy đủ rung gắn với chọn đúng, chọn sai, hoàn thành hộp hay booster, vì chưa theo vết thân hàm lúc chạy.",
+          "Có hệ thống; thiếu trigger",
+          "S07, S08"
+        ],
+        [
+          "Cảnh báo độ khó",
+          "GameplayWarningUI lưu hai mốc rung 0,2 giây và 1,3 giây. Amplitude cho Hard là 150, Very Hard là 190; duration cấu hình 300 ms. Đây là preset của cảnh báo mở màn, chưa đo trên thiết bị.",
+          "Cấu hình scene",
+          "S07"
+        ],
+        [
+          "Các tình huống khác",
+          "Chưa chốt độ dài, số nhịp hoặc cường độ rung cho những hành động khác. Các giá trị này để trạng thái cần chơi xác nhận, tránh biến một phản hồi mong muốn thành tính năng đã có.",
+          "Cần chơi xác nhận",
+          "S07, S08"
+        ]
+      ]
+    },
+    {
+      "name": "UIUX",
+      "title": "UI / UX — Màn hình và luồng tương tác",
+      "rows": [
+        [
+          "Luồng tổng thể",
+          "Loading → gameplay → kết quả thắng hoặc khay đầy → nhận thưởng / hồi sinh / chơi lại → tiếp tục. Có các popup Settings, Shop, mở khóa booster, No Ads, thiếu tim và đánh giá game. Chưa đủ bằng chứng để thêm một trang Home độc lập vào luồng.",
+          "Scene và danh sách popup",
+          "S07"
+        ],
+        [
+          "Loading",
+          "Có logo, nền, biểu tượng và thanh tải cùng transition giữa scene. Vai trò là đưa người chơi vào bàn chơi và báo trạng thái chuẩn bị nội dung.",
+          "Asset và scene",
+          "S03, S07"
+        ],
+        [
+          "HUD gameplay",
+          "HUD có level, nhãn độ khó, Settings, thanh tim/coin và hai nút booster thường trực. Bàn chơi có hàng hộp, vùng căn phòng, khay chờ và kho khi được dùng. Vị trí pixel và safe area cuối cùng cần đối chiếu trên thiết bị.",
+          "Scene và prefab",
+          "S07"
+        ],
+        [
+          "Quan sát và chọn đồ",
+          "Nhìn nhãn hộp để biết cần lấy gì, chạm đồ trên bàn để thu gom. Kéo và pinch phục vụ tìm đồ. Tài nguyên có kiểm tra tap/drag riêng để phân biệt chạm chọn với dịch chuyển camera.",
+          "Camera và tutorial",
+          "S07"
+        ],
+        [
+          "Hộp / khay",
+          "Hộp truyền đạt mục tiêu bằng icon, tên nhóm và bộ đếm. Khay truyền đạt rủi ro bằng số ô trống cùng cảnh báo sắp đầy. Nhịp đồ bay cho thấy món đang đến đâu, giảm phụ thuộc vào việc đọc text.",
+          "Cấu trúc UI và config",
+          "S02, S07"
+        ],
+        [
+          "Popup mua trợ giúp",
+          "Hiển thị tên, mô tả, icon và hai lựa chọn quảng cáo/coin, kèm nút đóng. Cấu hình useImmediately bật, vì vậy luồng mua được thiết kế để dùng ngay. Giá cụ thể còn cần xác nhận.",
+          "Prefab PopupBuyBooster",
+          "S07"
+        ],
+        [
+          "Popup thắng",
+          "Hiển thị level, animation thắng và lựa chọn nhận thưởng thường hoặc qua quảng cáo. Sau khi nhận, người chơi chuyển tới màn tiếp. Hai số thưởng preset của prefab là 30/60 coin, cần đối chiếu cơ chế gán thưởng.",
+          "Prefab WinPopup",
+          "S06, S07"
+        ],
+        [
+          "Popup khay đầy / hồi sinh",
+          "Giải thích thiếu chỗ và đề nghị hồi sinh để dọn khay. Có quảng cáo, coin hoặc bỏ cuộc. Popup thua có Replay; một số nội dung UI hỗ trợ giữ để xem bản đồ trước khi quyết định.",
+          "UI và prefab",
+          "S04, S07"
+        ],
+        [
+          "Popup tim",
+          "Có hai trạng thái “Refill your heart!” và “Out of lives!”, bộ đếm “Next life in:”, trạng thái Full và nút coin/quảng cáo. Nó giúp người chơi biết khi nào có thể tiếp tục và cách nhận thêm tim.",
+          "Prefab PopupOutOfLives",
+          "S07"
+        ],
+        [
+          "Settings",
+          "Có Sound, Haptic, Retry và Quit. Rời hoặc chơi lại có hộp xác nhận mất tim. Cần kiểm tra trò chơi có tạm dừng hoàn toàn khi mở Settings hay không.",
+          "UI, prefab và metadata pause",
+          "S04, S07"
+        ],
+        [
+          "Shop / No Ads",
+          "Shop có sáu gói coin và nhóm No Ads. Có popup báo mua thành công, mua thất bại và tải giao dịch. Giá hiển thị hiệu lực phụ thuộc cửa hàng, không dùng giá catalog để giả lập kết quả mua.",
+          "IAP và prefab",
+          "S06, S07"
+        ],
+        [
+          "Ngôn ngữ",
+          "Bảng IngameUI có English, Japanese, Korean, French, German, Spanish, Hindi và Portuguese. Chưa thấy cột tiếng Việt trong bảng này. GDD viết tiếng Việt để phân tích, không ngụ ý game đã hỗ trợ tiếng Việt.",
+          "Bảng ngôn ngữ",
+          "S04"
+        ],
+        [
+          "Lưu tiến độ màn",
+          "Có cấu trúc lưu trạng thái board, hộp, khay, kho và hồi sinh. Hệ thống có xử lý pause và mở lại. Cần kiểm tra trực tiếp các trường hợp tắt ứng dụng giữa animation hoặc ngay sau thua trước khi kết luận mọi trạng thái đều được khôi phục.",
+          "Metadata, chưa kiểm thử resume",
+          "S07, S08"
+        ],
+        [
+          "Điểm cần kiểm chứng tiếp",
+          "Ưu tiên chơi xác nhận: giá và lượng nhận khi mua trợ giúp; số tim tối đa và thời điểm mất tim; số lần hồi sinh; thưởng thắng thực nhận; phạm vi No Ads; thứ tự chuyển đồ từ khay/kho; khả năng lưu màn. Các điểm này chưa ngăn việc mô tả vòng lặp chính nhưng ảnh hưởng tới việc tái tạo chính xác game.",
+          "Các khoảng trống có ảnh hưởng",
+          "S02, S06–S09"
+        ]
+      ]
+    },
+    {
+      "name": "Nguồn & Xác minh",
+      "title": "Nguồn và giới hạn xác minh",
+      "rows": [
+        [
+          "S00",
+          "Mẫu GDD — D:\\[Rotate Rings] GDD.xlsx\nĐọc cấu trúc 13 sheet và các trường. Chỉ dùng làm mẫu bố cục, không dùng luật hoặc giá của Rotate Rings làm dữ liệu Happy Tidy Room.",
+          "Nguồn phân tích",
+          "S00"
+        ],
+        [
+          "S01",
+          "Nhận diện bản APK — AndroidManifest.xml; manifest-attrs\nPackage puzzle.happy.tidy.room, versionName 0.9, versionCode 9, minSdkVersion 24, targetSdkVersion 36, activity chính portrait. Unity 6000.0.66f2.",
+          "Nguồn phân tích",
+          "S01"
+        ],
+        [
+          "S02",
+          "Cấu hình gameplay — analysis/mono/resources.assets_10789.json\nGameplayConfig: 5 ô, 2 hộp mở, tối đa 3 hộp; hint, cảnh báo, hoạt ảnh, cờ tim/hồi sinh. Đây là giá trị đóng gói.",
+          "Nguồn phân tích",
+          "S02"
+        ],
+        [
+          "S03",
+          "Hình ảnh gốc — analysis/visuals/asset-contact-sheet.png; analysis/unity-index.json\nẢnh minh họa được trích trực tiếp từ sprite của APK. Không phải ảnh chụp game đang chạy.",
+          "Nguồn phân tích",
+          "S03"
+        ],
+        [
+          "S04",
+          "Lời hướng dẫn / UI — analysis/unity/3175_IngameUI.txt\nBảng CSV ngôn ngữ: mô tả booster, mục tiêu, cảnh báo khay, hồi sinh, tim, hướng dẫn và tên cài đặt.",
+          "Nguồn phân tích",
+          "S04"
+        ],
+        [
+          "S05",
+          "Đồ vật và hộp — analysis/mono/resources.assets_7861.json; analysis/unity/3208_level_1.txt\nItemCatalog và ví dụ JSON màn. Catalog có bản ghi removed; số lượng catalog không bằng số nội dung đang được dùng.",
+          "Nguồn phân tích",
+          "S05"
+        ],
+        [
+          "S06",
+          "IAP / thưởng — analysis/unity/3186_IAPProductCatalog.txt; analysis/mono/sharedassets0.assets_104.json; analysis/mono/resources.assets_10888.json\nCatalog giá mặc định, reward mapping từng SKU và preset thưởng của WinPopup. Chưa kiểm tra giá live hoặc giao dịch.",
+          "Nguồn phân tích",
+          "S06"
+        ],
+        [
+          "S07",
+          "Scene / prefab / hệ thống — analysis/mono-index.json; analysis/game-object-index.json; analysis/mono/\nĐã đọc 3.990 MonoBehaviour; 5 đối tượng không đọc được đầy đủ. Bản ghi chính: level1_531 Queue, 566 BoxController, 568 Tutorial, 575 Storage, 580 Camera; resources.assets_10788 BoosterDatabase, 10791 MechanicDatabase; các popup riêng.",
+          "Nguồn phân tích",
+          "S07"
+        ],
+        [
+          "S08",
+          "Metadata và hằng số — analysis/metadata-game-classes.txt; analysis/constants.py; analysis/global-metadata.dat\nTên lớp/hàm/trạng thái và giá trị field mặc định của IL2CPP metadata v31, giải mã số nguyên nén. Chưa decompile thân hàm native, chưa gọi thực tế các hàm lấy giá/thưởng.",
+          "Nguồn phân tích",
+          "S08"
+        ],
+        [
+          "S09",
+          "Remote Config mặc định — analysis/mono/resources.assets_7836.json\nChỉ là default trong APK. Không truy vấn backend và chưa xác nhận cấu hình người chơi nhận khi online.",
+          "Nguồn phân tích",
+          "S09"
+        ],
+        [
+          "S10",
+          "Âm thanh / hoạt ảnh — analysis/mono/resources.assets_7829.json; analysis/unity-index.json\nAudioDefaultSO, 17 AudioClip và 23 AnimationClip đã liệt kê. Sự tồn tại/mapping không chứng minh mọi clip đều phát trong phiên chơi.",
+          "Nguồn phân tích",
+          "S10"
+        ],
+        [
+          "S11",
+          "Thống kê Category Object — analysis/category-object.json. Đối chiếu 2.863 ID catalog với Sprite trong APK: 356 category thuộc 44 nhóm bối cảnh. 2.638 ID được sử dụng trong 65 file dữ liệu màn. Đếm theo ID asset, không đếm bản sao xuất hiện.",
+          "Đối chiếu catalog + Sprite + dữ liệu màn",
+          "S11"
+        ]
+      ]
+    }
+  ]
+}

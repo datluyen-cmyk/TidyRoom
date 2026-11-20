@@ -1,0 +1,1 @@
+function isDeepStrictEqual(a,b){if(a===b)return!0;if(typeof a!="object"||typeof b!="object"||a===null||b===null||Array.isArray(a)!==Array.isArray(b))return!1;const ka=Object.keys(a),kb=Object.keys(b);return ka.length!==kb.length?!1:ka.every(key=>Object.hasOwn(b,key)&&isDeepStrictEqual(a[key],b[key]))}export{isDeepStrictEqual};

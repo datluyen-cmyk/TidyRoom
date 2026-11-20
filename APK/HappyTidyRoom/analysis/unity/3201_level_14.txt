@@ -1,0 +1,2204 @@
+{
+    "bgPosX": 0.0,
+    "bg": "HT_BG_11",
+    "levelName": "13",
+    "order": [
+        {
+            "type": 36014,
+            "count": 3,
+            "box": 3809,
+            "diff": 0
+        },
+        {
+            "type": 36002,
+            "count": 3,
+            "box": 3810,
+            "diff": 0
+        },
+        {
+            "type": 36010,
+            "count": 3,
+            "box": 3811,
+            "diff": 0
+        },
+        {
+            "type": 36003,
+            "count": 5,
+            "box": 3812,
+            "diff": 0
+        },
+        {
+            "type": 36010,
+            "count": 3,
+            "box": 3813,
+            "diff": 0
+        },
+        {
+            "type": 41060,
+            "count": 3,
+            "box": 3814,
+            "diff": 0
+        },
+        {
+            "type": 36012,
+            "count": 3,
+            "box": 3815,
+            "diff": 0
+        },
+        {
+            "type": 36013,
+            "count": 3,
+            "box": 3816,
+            "diff": 0
+        },
+        {
+            "type": 36011,
+            "count": 4,
+            "box": 3817,
+            "diff": 0
+        },
+        {
+            "type": 36007,
+            "count": 3,
+            "box": 3818,
+            "diff": 0
+        },
+        {
+            "type": 36005,
+            "count": 3,
+            "box": 3819,
+            "diff": 0
+        },
+        {
+            "type": 54002,
+            "count": 4,
+            "box": 3820,
+            "diff": 0
+        },
+        {
+            "type": 36011,
+            "count": 4,
+            "box": 3821,
+            "diff": 0
+        },
+        {
+            "type": 36008,
+            "count": 5,
+            "box": 3822,
+            "diff": 0
+        },
+        {
+            "type": 36012,
+            "count": 3,
+            "box": 3823,
+            "diff": 0
+        },
+        {
+            "type": 36005,
+            "count": 3,
+            "box": 3824,
+            "diff": 0
+        },
+        {
+            "type": 36014,
+            "count": 3,
+            "box": 3825,
+            "diff": 0
+        },
+        {
+            "type": 54001,
+            "count": 6,
+            "box": 3826,
+            "diff": 2
+        },
+        {
+            "type": 36006,
+            "count": 4,
+            "box": 3827,
+            "diff": 0
+        },
+        {
+            "type": 43009,
+            "count": 3,
+            "box": 3828,
+            "diff": 0
+        },
+        {
+            "type": 41060,
+            "count": 5,
+            "box": 3829,
+            "diff": 1
+        },
+        {
+            "type": 36009,
+            "count": 6,
+            "box": 3830,
+            "diff": 2
+        },
+        {
+            "type": 36002,
+            "count": 3,
+            "box": 3831,
+            "diff": 3
+        },
+        {
+            "type": 36001,
+            "count": 5,
+            "box": 3832,
+            "diff": 2
+        },
+        {
+            "type": 36004,
+            "count": 3,
+            "box": 3833,
+            "diff": 1
+        },
+        {
+            "type": 36001,
+            "count": 4,
+            "box": 3834,
+            "diff": 0
+        },
+        {
+            "type": 43009,
+            "count": 3,
+            "box": 3835,
+            "diff": 2
+        },
+        {
+            "type": 36004,
+            "count": 3,
+            "box": 3836,
+            "diff": 0
+        },
+        {
+            "type": 36007,
+            "count": 3,
+            "box": 3837,
+            "diff": 0
+        },
+        {
+            "type": 36008,
+            "count": 4,
+            "box": 3838,
+            "diff": 0
+        },
+        {
+            "type": 36009,
+            "count": 3,
+            "box": 3839,
+            "diff": 0
+        },
+        {
+            "type": 54001,
+            "count": 5,
+            "box": 3840,
+            "diff": 0
+        },
+        {
+            "type": 36003,
+            "count": 5,
+            "box": 3841,
+            "diff": 0
+        }
+    ],
+    "content": [
+        {
+            "id": "Basketball_Shorts_4",
+            "x": -523.0,
+            "y": -802.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": -20.0,
+            "box": 3841
+        },
+        {
+            "id": "Basketball_Shorts_3",
+            "x": -355.10491943359377,
+            "y": -651.7181396484375,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": -6.0,
+            "box": 3841
+        },
+        {
+            "id": "Basketball_Shorts_6",
+            "x": 577.0,
+            "y": -803.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": 5.0,
+            "box": 3841
+        },
+        {
+            "id": "Basketball_Shorts_2",
+            "x": 164.0,
+            "y": -919.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": 1.0,
+            "box": 3841
+        },
+        {
+            "id": "Basketball_Shorts_5",
+            "x": -534.0,
+            "y": -382.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": 2.0,
+            "box": 3841
+        },
+        {
+            "id": "Basketball_Jersey_1",
+            "x": 127.0,
+            "y": -40.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": 3.799999952316284,
+            "box": 3830
+        },
+        {
+            "id": "BangingStick_4",
+            "x": -442.96783447265627,
+            "y": -874.318115234375,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": 25.0,
+            "box": 3832
+        },
+        {
+            "id": "Cup_bowling_2",
+            "x": -348.0,
+            "y": -882.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 10.0,
+            "box": 3840
+        },
+        {
+            "id": "Cup_bowling_1",
+            "x": -833.0,
+            "y": -428.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": -1.0,
+            "box": 3840
+        },
+        {
+            "id": "Basketball_Shoes_1",
+            "x": 822.0,
+            "y": -448.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 18.0,
+            "box": 3833
+        },
+        {
+            "id": "Cup_bowling_1",
+            "x": 880.0,
+            "y": -507.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 24.0,
+            "box": 3840
+        },
+        {
+            "id": "Cup_bowling_2",
+            "x": 617.0,
+            "y": 117.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": 92.80000305175781,
+            "box": 3840
+        },
+        {
+            "id": "Cup_bowling_1",
+            "x": 191.0,
+            "y": -528.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 3.0,
+            "box": 3840
+        },
+        {
+            "id": "Basketball_Jersey_6",
+            "x": 11.0,
+            "y": -927.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 28.0,
+            "box": 3839
+        },
+        {
+            "id": "Basketball_Jersey_5",
+            "x": 738.0,
+            "y": -532.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": 20.0,
+            "box": 3839
+        },
+        {
+            "id": "Basketball_Jersey_1",
+            "x": 444.8907470703125,
+            "y": 75.928466796875,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": -9.0,
+            "box": 3839
+        },
+        {
+            "id": "HeadBand_5",
+            "x": 689.0,
+            "y": -243.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": -17.0,
+            "box": 3838
+        },
+        {
+            "id": "HeadBand_4",
+            "x": 191.0,
+            "y": 397.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": -4.0,
+            "box": 3838
+        },
+        {
+            "id": "Soda_9",
+            "x": 363.0,
+            "y": -467.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": -20.0,
+            "box": 3835
+        },
+        {
+            "id": "HeadBand_1",
+            "x": 278.0,
+            "y": -484.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 25.0,
+            "box": 3838
+        },
+        {
+            "id": "HeadBand_6",
+            "x": 890.0,
+            "y": -648.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": -20.0,
+            "box": 3838
+        },
+        {
+            "id": "Basketball_Cap_6",
+            "x": -383.0,
+            "y": -754.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": -16.0,
+            "box": 3837
+        },
+        {
+            "id": "Basketball_Cap_5",
+            "x": 147.3548583984375,
+            "y": -649.2364501953125,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": 10.0,
+            "box": 3837
+        },
+        {
+            "id": "Pop_Can_14",
+            "x": -108.0,
+            "y": -877.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": -22.0,
+            "box": 3835
+        },
+        {
+            "id": "Basketball_Cap_7",
+            "x": -32.0,
+            "y": -934.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": -19.0,
+            "box": 3837
+        },
+        {
+            "id": "Basketball_Shoes_7",
+            "x": -32.0,
+            "y": -245.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 30.0,
+            "box": 3836
+        },
+        {
+            "id": "Basketball_Shoes_5",
+            "x": -924.0,
+            "y": -564.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": 22.0,
+            "box": 3836
+        },
+        {
+            "id": "Basketball_Shoes_3",
+            "x": 68.2918701171875,
+            "y": -962.959716796875,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 11.0,
+            "box": 3836
+        },
+        {
+            "id": "Pop_Can_2",
+            "x": 25.0,
+            "y": -438.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 101.80000305175781,
+            "box": 3835
+        },
+        {
+            "id": "BangingStick_3",
+            "x": 4.0,
+            "y": 372.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": 9.0,
+            "box": 3834
+        },
+        {
+            "id": "BangingStick_4",
+            "x": 348.5511474609375,
+            "y": -876.8935546875,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 3.0,
+            "box": 3834
+        },
+        {
+            "id": "BangingStick_5",
+            "x": 661.0,
+            "y": -672.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": 16.0,
+            "box": 3834
+        },
+        {
+            "id": "Cup_bowling_1",
+            "x": 541.40771484375,
+            "y": -53.1942138671875,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": 18.0,
+            "box": 3826
+        },
+        {
+            "id": "Snack_2",
+            "x": 598.0,
+            "y": -58.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": -13.0,
+            "box": 3829
+        },
+        {
+            "id": "BangingStick_1",
+            "x": 511.0,
+            "y": 14.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 15.0,
+            "box": 3834
+        },
+        {
+            "id": "Basketball_7",
+            "x": 863.0,
+            "y": -196.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 4.0,
+            "box": 3831
+        },
+        {
+            "id": "BangingStick_1",
+            "x": 859.3348388671875,
+            "y": -260.5465087890625,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 1.0,
+            "box": 3832
+        },
+        {
+            "id": "Basketball_Shoes_2",
+            "x": 87.0,
+            "y": 50.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 22.0,
+            "box": 3833
+        },
+        {
+            "id": "Basketball_Shoes_4",
+            "x": -585.7315673828125,
+            "y": -610.734130859375,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": -12.0,
+            "box": 3833
+        },
+        {
+            "id": "Basketball_1",
+            "x": -497.0,
+            "y": -78.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 25.0,
+            "box": 3831
+        },
+        {
+            "id": "Basketball_Jersey_6",
+            "x": -309.0,
+            "y": -21.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 8.0,
+            "box": 3830
+        },
+        {
+            "id": "Basketball_5",
+            "x": -277.0,
+            "y": -52.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": -0.4000000059604645,
+            "box": 3831
+        },
+        {
+            "id": "BangingStick_7",
+            "x": -377.0,
+            "y": -14.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 30.0,
+            "box": 3832
+        },
+        {
+            "id": "BangingStick_6",
+            "x": -209.4886474609375,
+            "y": -915.739990234375,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 6.0,
+            "box": 3832
+        },
+        {
+            "id": "BangingStick_2",
+            "x": -800.0,
+            "y": -295.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": -17.0,
+            "box": 3832
+        },
+        {
+            "id": "Basketball_Jersey_3",
+            "x": 298.5421142578125,
+            "y": -634.6885986328125,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": -20.0,
+            "box": 3830
+        },
+        {
+            "id": "Basketball_Jersey_2",
+            "x": -791.0,
+            "y": -653.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": 12.0,
+            "box": 3830
+        },
+        {
+            "id": "Basketball_Jersey_4",
+            "x": -529.4339599609375,
+            "y": -171.3795166015625,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": -18.0,
+            "box": 3830
+        },
+        {
+            "id": "Basketball_Jersey_5",
+            "x": 329.0,
+            "y": 160.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 7.0,
+            "box": 3830
+        },
+        {
+            "id": "Cereal_3",
+            "x": -369.073486328125,
+            "y": -98.4925537109375,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 29.0,
+            "box": 3829
+        },
+        {
+            "id": "Snack_8",
+            "x": -902.0,
+            "y": -219.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 23.0,
+            "box": 3829
+        },
+        {
+            "id": "Snack_6",
+            "x": -211.1513671875,
+            "y": -315.083740234375,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": -116.0999984741211,
+            "box": 3829
+        },
+        {
+            "id": "Cereal_9",
+            "x": -497.0,
+            "y": 141.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 10.5,
+            "box": 3829
+        },
+        {
+            "id": "Pop_Can_11",
+            "x": 285.0,
+            "y": -307.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": -85.19999694824219,
+            "box": 3828
+        },
+        {
+            "id": "Pop_Can_6",
+            "x": 489.0,
+            "y": 219.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": -95.30000305175781,
+            "box": 3828
+        },
+        {
+            "id": "Pop_Can_10",
+            "x": 33.618896484375,
+            "y": -601.91455078125,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": 7.0,
+            "box": 3828
+        },
+        {
+            "id": "Ice_Cooler_1",
+            "x": 229.597412109375,
+            "y": -721.2734375,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": -0.8999999761581421,
+            "box": 3827
+        },
+        {
+            "id": "Cup_bowling_2",
+            "x": 576.2769775390625,
+            "y": -354.259033203125,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 27.0,
+            "box": 3826
+        },
+        {
+            "id": "Ice_Cooler_6",
+            "x": 671.0,
+            "y": -329.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 13.0,
+            "box": 3827
+        },
+        {
+            "id": "Ice_Cooler_2",
+            "x": -787.0,
+            "y": -142.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": -5.0,
+            "box": 3827
+        },
+        {
+            "id": "Ice_Cooler_4",
+            "x": 148.0,
+            "y": 287.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": 4.5,
+            "box": 3827
+        },
+        {
+            "id": "Cup_bowling_2",
+            "x": -112.99603271484375,
+            "y": 335.54473876953127,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 6.400000095367432,
+            "box": 3826
+        },
+        {
+            "id": "Cup_bowling_1",
+            "x": -622.7931518554688,
+            "y": -223.1142578125,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": -8.0,
+            "box": 3826
+        },
+        {
+            "id": "Cup_bowling_2",
+            "x": 354.0,
+            "y": -588.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 125.5,
+            "box": 3826
+        },
+        {
+            "id": "Cup_bowling_1",
+            "x": -175.8184814453125,
+            "y": 48.5050048828125,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": -12.0,
+            "box": 3826
+        },
+        {
+            "id": "Dufel_bag_7",
+            "x": -458.0,
+            "y": -533.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 29.0,
+            "box": 3825
+        },
+        {
+            "id": "Dufel_bag_10",
+            "x": -277.0,
+            "y": -134.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 8.5,
+            "box": 3825
+        },
+        {
+            "id": "Dufel_bag_8",
+            "x": -655.0455322265625,
+            "y": -888.6513671875,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": 8.5,
+            "box": 3825
+        },
+        {
+            "id": "Sports_Bottle_10",
+            "x": -63.0,
+            "y": -883.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": 8.0,
+            "box": 3824
+        },
+        {
+            "id": "Sports_Bottle_5",
+            "x": 455.8814697265625,
+            "y": -614.0850830078125,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": 103.80000305175781,
+            "box": 3824
+        },
+        {
+            "id": "Sports_Bottle_3",
+            "x": 565.29638671875,
+            "y": -853.403076171875,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": -96.80000305175781,
+            "box": 3824
+        },
+        {
+            "id": "PomPom_2",
+            "x": -39.0,
+            "y": -659.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 6.0,
+            "box": 3823
+        },
+        {
+            "id": "PomPom_6",
+            "x": -65.0,
+            "y": 183.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": -9.0,
+            "box": 3823
+        },
+        {
+            "id": "PomPom_3",
+            "x": 261.1256103515625,
+            "y": -886.4609375,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 0.0,
+            "box": 3823
+        },
+        {
+            "id": "HeadBand_3",
+            "x": 402.0,
+            "y": 34.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": -3.0,
+            "box": 3822
+        },
+        {
+            "id": "HeadBand_2",
+            "x": 405.9981689453125,
+            "y": -842.755859375,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": -15.0,
+            "box": 3822
+        },
+        {
+            "id": "HeadBand_7",
+            "x": -537.0791015625,
+            "y": -291.98974609375,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 5.0,
+            "box": 3822
+        },
+        {
+            "id": "HeadBand_1",
+            "x": -706.0,
+            "y": 3.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": -21.399999618530275,
+            "box": 3822
+        },
+        {
+            "id": "HeadBand_6",
+            "x": -634.7232666015625,
+            "y": 44.9849853515625,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": -2.5,
+            "box": 3822
+        },
+        {
+            "id": "Knee_Sleeve_2",
+            "x": -877.6690063476563,
+            "y": -259.4996337890625,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 16.0,
+            "box": 3821
+        },
+        {
+            "id": "Knee_Sleeve_3",
+            "x": 377.6956787109375,
+            "y": 37.5242919921875,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": -8.0,
+            "box": 3821
+        },
+        {
+            "id": "Knee_Sleeve_4",
+            "x": 659.085693359375,
+            "y": -627.8245849609375,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 22.0,
+            "box": 3821
+        },
+        {
+            "id": "Knee_Sleeve_1",
+            "x": 558.7752685546875,
+            "y": -592.0943603515625,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": -8.0,
+            "box": 3821
+        },
+        {
+            "id": "Medal_bowling_4",
+            "x": 180.206787109375,
+            "y": -163.1639404296875,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 23.0,
+            "box": 3820
+        },
+        {
+            "id": "Medal_bowling_5",
+            "x": -319.0,
+            "y": -1010.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": -30.0,
+            "box": 3820
+        },
+        {
+            "id": "Medal_bowling_2",
+            "x": -52.782958984375,
+            "y": -490.66552734375,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": -32.599998474121097,
+            "box": 3820
+        },
+        {
+            "id": "Medal_bowling_1",
+            "x": 444.0,
+            "y": -761.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": -34.20000076293945,
+            "box": 3820
+        },
+        {
+            "id": "Sports_Bottle_7",
+            "x": 385.0,
+            "y": 151.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 75.0999984741211,
+            "box": 3819
+        },
+        {
+            "id": "Sports_Bottle_4",
+            "x": -162.0,
+            "y": -665.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": 2.0,
+            "box": 3819
+        },
+        {
+            "id": "Sports_Bottle_11",
+            "x": 40.735595703125,
+            "y": -781.9658203125,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 10.899999618530274,
+            "box": 3819
+        },
+        {
+            "id": "Basketball_Cap_4",
+            "x": -700.9735717773438,
+            "y": -406.323974609375,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 10.199999809265137,
+            "box": 3818
+        },
+        {
+            "id": "Basketball_Cap_3",
+            "x": 544.3375244140625,
+            "y": -462.8382568359375,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": -30.100000381469728,
+            "box": 3818
+        },
+        {
+            "id": "Basketball_Cap_2",
+            "x": 646.0,
+            "y": -876.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": -7.199999809265137,
+            "box": 3818
+        },
+        {
+            "id": "Knee_Sleeve_7",
+            "x": -574.0,
+            "y": 88.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": 1.399999976158142,
+            "box": 3817
+        },
+        {
+            "id": "Knee_Sleeve_6",
+            "x": 761.0,
+            "y": -389.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": -23.0,
+            "box": 3817
+        },
+        {
+            "id": "Knee_Sleeve_1",
+            "x": -675.1492309570313,
+            "y": -501.0386962890625,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": 11.0,
+            "box": 3817
+        },
+        {
+            "id": "Knee_Sleeve_4",
+            "x": 563.0,
+            "y": -733.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": -45.099998474121097,
+            "box": 3817
+        },
+        {
+            "id": "Skateboard_6",
+            "x": 107.0,
+            "y": -261.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 22.399999618530275,
+            "box": 3816
+        },
+        {
+            "id": "Skateboard_2",
+            "x": -724.0,
+            "y": -681.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": -11.0,
+            "box": 3816
+        },
+        {
+            "id": "Skateboard_1",
+            "x": 227.0,
+            "y": 321.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": 6.0,
+            "box": 3816
+        },
+        {
+            "id": "PomPom_1",
+            "x": -45.08197021484375,
+            "y": 314.85760498046877,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": 22.0,
+            "box": 3815
+        },
+        {
+            "id": "PomPom_4",
+            "x": -532.776611328125,
+            "y": -720.4271240234375,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 21.0,
+            "box": 3815
+        },
+        {
+            "id": "PomPom_5",
+            "x": -269.91961669921877,
+            "y": -597.192138671875,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": -5.0,
+            "box": 3815
+        },
+        {
+            "id": "Snack_10",
+            "x": -470.0,
+            "y": -959.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": 8.899999618530274,
+            "box": 3814
+        },
+        {
+            "id": "Snack_9",
+            "x": -244.3109130859375,
+            "y": -746.37548828125,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": -8.0,
+            "box": 3814
+        },
+        {
+            "id": "Cereal_2",
+            "x": 457.783203125,
+            "y": -612.1900634765625,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": -10.0,
+            "box": 3814
+        },
+        {
+            "id": "Jump_Rope_2",
+            "x": -827.3145751953125,
+            "y": -521.3245849609375,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 20.0,
+            "box": 3813
+        },
+        {
+            "id": "Jump_Rope_7",
+            "x": -620.0834350585938,
+            "y": -410.0966796875,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": -7.5,
+            "box": 3813
+        },
+        {
+            "id": "Jump_Rope_6",
+            "x": 598.070556640625,
+            "y": -14.7894287109375,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 14.0,
+            "box": 3813
+        },
+        {
+            "id": "Basketball_Shorts_4",
+            "x": 680.8475341796875,
+            "y": -500.933349609375,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": -22.0,
+            "box": 3812
+        },
+        {
+            "id": "Basketball_Shorts_3",
+            "x": -245.0,
+            "y": -1045.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 26.0,
+            "box": 3812
+        },
+        {
+            "id": "Basketball_Shorts_2",
+            "x": -119.00018310546875,
+            "y": -782.93896484375,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": -25.0,
+            "box": 3812
+        },
+        {
+            "id": "Basketball_Shorts_5",
+            "x": 558.0,
+            "y": -162.0,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": 22.0,
+            "box": 3812
+        },
+        {
+            "id": "Basketball_Shorts_6",
+            "x": 555.010009765625,
+            "y": -126.45751953125,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": -8.0,
+            "box": 3812
+        },
+        {
+            "id": "Jumping_rope_14",
+            "x": -900.0,
+            "y": -682.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 6.0,
+            "box": 3811
+        },
+        {
+            "id": "Jumping_rope_11",
+            "x": 682.0,
+            "y": -592.015380859375,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": -11.0,
+            "box": 3811
+        },
+        {
+            "id": "Jumping_rope_13",
+            "x": -141.92425537109376,
+            "y": -866.43212890625,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": -19.0,
+            "box": 3811
+        },
+        {
+            "id": "Basketball_3",
+            "x": -83.1541748046875,
+            "y": -44.3919677734375,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": 28.0,
+            "box": 3810
+        },
+        {
+            "id": "Basketball_4",
+            "x": -711.0,
+            "y": -590.0,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 20.0,
+            "box": 3810
+        },
+        {
+            "id": "Basketball_9",
+            "x": -701.850830078125,
+            "y": -323.9991455078125,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": -3.0,
+            "box": 3810
+        },
+        {
+            "id": "Duffel_Bag_1",
+            "x": 475.739501953125,
+            "y": -95.251220703125,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "angle": -19.0,
+            "box": 3809
+        },
+        {
+            "id": "Duffel_Bag_5",
+            "x": 775.923828125,
+            "y": -724.7637939453125,
+            "scaleX": -1.0,
+            "scaleY": 1.0,
+            "angle": 10.0,
+            "box": 3809
+        },
+        {
+            "id": "Dufel_bag_6",
+            "x": -362.083984375,
+            "y": 234.47119140625,
+            "scaleX": -0.7770000100135803,
+            "scaleY": 0.7770000100135803,
+            "angle": 6.900000095367432,
+            "box": 3809
+        }
+    ],
+    "plan": {
+        "tray": [],
+        "quick": [],
+        "regionPct": false,
+        "regionShares": [],
+        "stack": false,
+        "flip": true,
+        "onlyAnnot": true,
+        "rotMax": 30,
+        "tries": 300,
+        "retries": 3,
+        "minVisible": 15,
+        "arrangeLayers": 0,
+        "minOverlap": 2,
+        "seed": 220379,
+        "nextId": 3842,
+        "layers": [
+            {
+                "boxes": [
+                    {
+                        "id": 3809,
+                        "type": 36014,
+                        "count": 3,
+                        "diff": 0,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 3810,
+                        "type": 36002,
+                        "count": 3,
+                        "diff": 0,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 3811,
+                        "type": 36010,
+                        "count": 3,
+                        "diff": 0,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 3812,
+                        "type": 36003,
+                        "count": 5,
+                        "diff": 0,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 3813,
+                        "type": 36010,
+                        "count": 3,
+                        "diff": 0,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 3814,
+                        "type": 41060,
+                        "count": 3,
+                        "diff": 0,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 3815,
+                        "type": 36012,
+                        "count": 3,
+                        "diff": 0,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 3816,
+                        "type": 36013,
+                        "count": 3,
+                        "diff": 0,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 3817,
+                        "type": 36011,
+                        "count": 4,
+                        "diff": 0,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 3818,
+                        "type": 36007,
+                        "count": 3,
+                        "diff": 0,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 3819,
+                        "type": 36005,
+                        "count": 3,
+                        "diff": 0,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 3820,
+                        "type": 54002,
+                        "count": 4,
+                        "diff": 0,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 3821,
+                        "type": 36011,
+                        "count": 4,
+                        "diff": 0,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 3822,
+                        "type": 36008,
+                        "count": 5,
+                        "diff": 0,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 3823,
+                        "type": 36012,
+                        "count": 3,
+                        "diff": 0,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 3824,
+                        "type": 36005,
+                        "count": 3,
+                        "diff": 0,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 3825,
+                        "type": 36014,
+                        "count": 3,
+                        "diff": 0,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 3826,
+                        "type": 54001,
+                        "count": 6,
+                        "diff": 2,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 3827,
+                        "type": 36006,
+                        "count": 4,
+                        "diff": 0,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 3828,
+                        "type": 43009,
+                        "count": 3,
+                        "diff": 0,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 3829,
+                        "type": 41060,
+                        "count": 5,
+                        "diff": 1,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 3830,
+                        "type": 36009,
+                        "count": 6,
+                        "diff": 2,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 3831,
+                        "type": 36002,
+                        "count": 3,
+                        "diff": 3,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 3832,
+                        "type": 36001,
+                        "count": 5,
+                        "diff": 2,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 3833,
+                        "type": 36004,
+                        "count": 3,
+                        "diff": 1,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 3834,
+                        "type": 36001,
+                        "count": 4,
+                        "diff": 0,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 3835,
+                        "type": 43009,
+                        "count": 3,
+                        "diff": 2,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 3836,
+                        "type": 36004,
+                        "count": 3,
+                        "diff": 0,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 3837,
+                        "type": 36007,
+                        "count": 3,
+                        "diff": 0,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 3838,
+                        "type": 36008,
+                        "count": 4,
+                        "diff": 0,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 3839,
+                        "type": 36009,
+                        "count": 3,
+                        "diff": 0,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 3840,
+                        "type": 54001,
+                        "count": 5,
+                        "diff": 0,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    },
+                    {
+                        "id": 3841,
+                        "type": 36003,
+                        "count": 5,
+                        "diff": 0,
+                        "custom": false,
+                        "z": 0,
+                        "a": 0,
+                        "k": 0
+                    }
+                ],
+                "locked": false
+            }
+        ],
+        "filters": [
+            {
+                "type": 17001,
+                "off": [
+                    "Long-sleevedShirt_4",
+                    "Long-sleevedShirt_5"
+                ]
+            },
+            {
+                "type": 14001,
+                "off": [
+                    "Notebook_5"
+                ]
+            },
+            {
+                "type": 16002,
+                "off": [
+                    "Wiper_2",
+                    "Wiper_3",
+                    "Wiper_4",
+                    "Wiper_5"
+                ]
+            },
+            {
+                "type": 25002,
+                "off": [
+                    "HandBag_11",
+                    "HandBag_27",
+                    "HandBag_4",
+                    "HandBag_5",
+                    "HandBag_7",
+                    "HandBag_1",
+                    "HandBag_23",
+                    "HandBag_15",
+                    "HandBag_16",
+                    "HandBag_14",
+                    "HandBag_21",
+                    "HandBag_13",
+                    "HandBag_10",
+                    "HandBag_12",
+                    "HandBag_19"
+                ]
+            },
+            {
+                "type": 13001,
+                "off": []
+            },
+            {
+                "type": 25005,
+                "off": [
+                    "Socks_6"
+                ]
+            },
+            {
+                "type": 19001,
+                "off": [
+                    "Cereal_10",
+                    "Cereal_6",
+                    "Cereal_5",
+                    "Cereal_8",
+                    "Cereal_3"
+                ]
+            },
+            {
+                "type": 25004,
+                "off": []
+            },
+            {
+                "type": 16001,
+                "off": []
+            },
+            {
+                "type": 26002,
+                "off": [
+                    "Stuffies_3",
+                    "Stuffies_4",
+                    "Stuffies_5-1"
+                ]
+            },
+            {
+                "type": 28003,
+                "off": []
+            },
+            {
+                "type": 25015,
+                "off": []
+            },
+            {
+                "type": 14013,
+                "off": [
+                    "Geometry set_2",
+                    "Geometry set_8"
+                ]
+            },
+            {
+                "type": 16003,
+                "off": []
+            },
+            {
+                "type": 27003,
+                "off": [
+                    "Scrap_Paper_10",
+                    "Scrap_Paper_12",
+                    "Scrap_Paper_4",
+                    "Scrap_Paper_6",
+                    "Scrap_Paper_3",
+                    "Scrap_Paper_2",
+                    "Scrap_Paper_7",
+                    "Scrap_Paper_8"
+                ]
+            },
+            {
+                "type": 27001,
+                "off": []
+            },
+            {
+                "type": 1010,
+                "off": []
+            },
+            {
+                "type": 1012,
+                "off": []
+            },
+            {
+                "type": 1014,
+                "off": []
+            },
+            {
+                "type": 1011,
+                "off": []
+            },
+            {
+                "type": 14011,
+                "off": []
+            },
+            {
+                "type": 17003,
+                "off": []
+            },
+            {
+                "type": 17004,
+                "off": [
+                    "Short_sleevShirt_16",
+                    "Short-sleevedShirt_2",
+                    "Short-sleevedShirt_1",
+                    "Short-sleevedShirt_10",
+                    "Tank_top_4",
+                    "Tank_top_5",
+                    "Tank_top_6",
+                    "Tank_top_8",
+                    "Tank_top_7",
+                    "Tank_top_9"
+                ]
+            },
+            {
+                "type": 19023,
+                "off": []
+            },
+            {
+                "type": 14010,
+                "off": []
+            },
+            {
+                "type": 16014,
+                "off": []
+            },
+            {
+                "type": 14003,
+                "off": [
+                    "Schoolbag_4"
+                ]
+            },
+            {
+                "type": 14006,
+                "off": []
+            },
+            {
+                "type": 26003,
+                "off": []
+            },
+            {
+                "type": 26004,
+                "off": [
+                    "Board_Game_07",
+                    "Board_Game_01"
+                ]
+            },
+            {
+                "type": 19004,
+                "off": [
+                    "Candy_8",
+                    "Candy_7"
+                ]
+            },
+            {
+                "type": 16004,
+                "off": []
+            },
+            {
+                "type": 25006,
+                "off": []
+            },
+            {
+                "type": 19025,
+                "off": []
+            },
+            {
+                "type": 19026,
+                "off": []
+            },
+            {
+                "type": 19016,
+                "off": []
+            },
+            {
+                "type": 19020,
+                "off": []
+            },
+            {
+                "type": 21009,
+                "off": []
+            },
+            {
+                "type": 13008,
+                "off": []
+            },
+            {
+                "type": 27002,
+                "off": [
+                    "Nylon_2",
+                    "Nylon_3",
+                    "Nylon_6"
+                ]
+            },
+            {
+                "type": 16006,
+                "off": []
+            },
+            {
+                "type": 18006,
+                "off": []
+            },
+            {
+                "type": 18003,
+                "off": []
+            },
+            {
+                "type": 17010,
+                "off": []
+            },
+            {
+                "type": 17005,
+                "off": []
+            },
+            {
+                "type": 17002,
+                "off": []
+            },
+            {
+                "type": 25009,
+                "off": []
+            },
+            {
+                "type": 16005,
+                "off": []
+            },
+            {
+                "type": 16007,
+                "off": []
+            },
+            {
+                "type": 15006,
+                "off": []
+            },
+            {
+                "type": 28001,
+                "off": []
+            },
+            {
+                "type": 28007,
+                "off": []
+            },
+            {
+                "type": 28008,
+                "off": []
+            },
+            {
+                "type": 27005,
+                "off": []
+            },
+            {
+                "type": 16012,
+                "off": []
+            },
+            {
+                "type": 28009,
+                "off": []
+            },
+            {
+                "type": 28002,
+                "off": []
+            },
+            {
+                "type": 25003,
+                "off": []
+            },
+            {
+                "type": 9008,
+                "off": []
+            },
+            {
+                "type": 25010,
+                "off": []
+            },
+            {
+                "type": 14005,
+                "off": []
+            },
+            {
+                "type": 9006,
+                "off": []
+            },
+            {
+                "type": 14007,
+                "off": [
+                    "Calculator_4"
+                ]
+            },
+            {
+                "type": 14008,
+                "off": []
+            },
+            {
+                "type": 12005,
+                "off": []
+            },
+            {
+                "type": 12003,
+                "off": []
+            },
+            {
+                "type": 19027,
+                "off": []
+            },
+            {
+                "type": 1008,
+                "off": []
+            },
+            {
+                "type": 13004,
+                "off": []
+            },
+            {
+                "type": 17006,
+                "off": [
+                    "Trouser_13",
+                    "Trouser_16",
+                    "Trouser_15",
+                    "Trouser_14",
+                    "Trouser_5",
+                    "Trouser_4",
+                    "Trouser_30"
+                ]
+            },
+            {
+                "type": 14009,
+                "off": []
+            },
+            {
+                "type": 20003,
+                "off": []
+            },
+            {
+                "type": 36007,
+                "off": []
+            }
+        ],
+        "useCurve": false,
+        "slots": [],
+        "curve": {
+            "serializedVersion": "2",
+            "m_Curve": [],
+            "m_PreInfinity": 2,
+            "m_PostInfinity": 2,
+            "m_RotationOrder": 4
+        },
+        "autoLower": true,
+        "v2": true,
+        "v2Rows": [
+            {
+                "type": 36009,
+                "boxes": 2
+            },
+            {
+                "type": 36002,
+                "boxes": 2
+            },
+            {
+                "type": 36013,
+                "boxes": 1
+            },
+            {
+                "type": 36007,
+                "boxes": 2
+            },
+            {
+                "type": 36010,
+                "boxes": 2
+            },
+            {
+                "type": 36014,
+                "boxes": 2
+            },
+            {
+                "type": 36011,
+                "boxes": 2
+            },
+            {
+                "type": 36012,
+                "boxes": 2
+            },
+            {
+                "type": 36006,
+                "boxes": 1
+            },
+            {
+                "type": 36001,
+                "boxes": 2
+            },
+            {
+                "type": 36004,
+                "boxes": 2
+            },
+            {
+                "type": 36005,
+                "boxes": 2
+            },
+            {
+                "type": 36008,
+                "boxes": 2
+            },
+            {
+                "type": 36003,
+                "boxes": 2
+            },
+            {
+                "type": 43009,
+                "boxes": 2
+            },
+            {
+                "type": 54002,
+                "boxes": 1
+            },
+            {
+                "type": 54001,
+                "boxes": 2
+            },
+            {
+                "type": 41060,
+                "boxes": 2
+            }
+        ],
+        "v2Curve": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            1,
+            2,
+            3,
+            2,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "v2Order": [
+            36014,
+            36002,
+            36010,
+            36003,
+            36010,
+            41060,
+            36012,
+            36013,
+            36011,
+            36007,
+            36005,
+            54002,
+            36011,
+            36008,
+            36012,
+            36005,
+            36014,
+            54001,
+            36006,
+            43009,
+            41060,
+            36009,
+            36002,
+            36001,
+            36004,
+            36001,
+            43009,
+            36004,
+            36007,
+            36008,
+            36009,
+            54001,
+            36003
+        ],
+        "v2Dropped": [],
+        "maxCover": 57,
+        "v2Gen": [],
+        "v2Solve": []
+    }
+}

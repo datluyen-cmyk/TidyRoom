@@ -1,0 +1,241 @@
+{
+  "level": 1,
+  "name": "我的书房",
+  "bg": 1,
+  "bgFile": "1.jpg",
+  "bgPosX": 0,
+  "order": [
+    {
+      "type": 101,
+      "count": 5
+    },
+    {
+      "type": 104,
+      "count": 6
+    },
+    {
+      "type": 100,
+      "count": 5
+    },
+    {
+      "type": 102,
+      "count": 6
+    },
+    {
+      "type": 103,
+      "count": 4
+    }
+  ],
+  "content": [
+    {
+      "id": "103-2",
+      "x": -122,
+      "y": -498,
+      "scaleX": 1,
+      "scaleY": 1,
+      "angle": 0
+    },
+    {
+      "id": "103-1",
+      "x": -127,
+      "y": -478,
+      "scaleX": 1,
+      "scaleY": 1,
+      "angle": 0
+    },
+    {
+      "id": "103-3",
+      "x": -110,
+      "y": -606,
+      "scaleX": 1,
+      "scaleY": 1,
+      "angle": 0
+    },
+    {
+      "id": "103-6",
+      "x": 133,
+      "y": -322,
+      "scaleX": 1,
+      "scaleY": 1,
+      "angle": 0
+    },
+    {
+      "id": "102-3",
+      "x": -73,
+      "y": -284,
+      "scaleX": 1,
+      "scaleY": 1,
+      "angle": 0
+    },
+    {
+      "id": "100-5",
+      "x": 108,
+      "y": 186,
+      "scaleX": -1,
+      "scaleY": 1,
+      "angle": 0
+    },
+    {
+      "id": "100-6",
+      "x": -156,
+      "y": -218,
+      "scaleX": 1,
+      "scaleY": 1,
+      "angle": 0
+    },
+    {
+      "id": "100-5",
+      "x": 150,
+      "y": 172,
+      "scaleX": 1,
+      "scaleY": 1,
+      "angle": 0
+    },
+    {
+      "id": "102-1",
+      "x": -22,
+      "y": -79,
+      "scaleX": 1,
+      "scaleY": 1,
+      "angle": 0
+    },
+    {
+      "id": "102-5",
+      "x": 69,
+      "y": -173,
+      "scaleX": 1,
+      "scaleY": 1,
+      "angle": 0
+    },
+    {
+      "id": "102-6",
+      "x": -79,
+      "y": -600,
+      "scaleX": 1,
+      "scaleY": 1,
+      "angle": 0
+    },
+    {
+      "id": "100-1",
+      "x": -58,
+      "y": -613,
+      "scaleX": 1,
+      "scaleY": 1,
+      "angle": 0
+    },
+    {
+      "id": "102-4",
+      "x": -17,
+      "y": -123,
+      "scaleX": -1,
+      "scaleY": 1,
+      "angle": 0
+    },
+    {
+      "id": "104-1",
+      "x": 261,
+      "y": 161,
+      "scaleX": 1,
+      "scaleY": 1,
+      "angle": 0
+    },
+    {
+      "id": "104-2",
+      "x": -284,
+      "y": -109,
+      "scaleX": 1,
+      "scaleY": 1,
+      "angle": 0
+    },
+    {
+      "id": "104-4",
+      "x": -34,
+      "y": -195,
+      "scaleX": 1,
+      "scaleY": 1,
+      "angle": 0
+    },
+    {
+      "id": "104-3",
+      "x": 103,
+      "y": -281,
+      "scaleX": 1,
+      "scaleY": 1,
+      "angle": 4
+    },
+    {
+      "id": "104-5",
+      "x": 287,
+      "y": 54,
+      "scaleX": 1,
+      "scaleY": 1,
+      "angle": 0
+    },
+    {
+      "id": "104-6",
+      "x": -281,
+      "y": 105,
+      "scaleX": 1,
+      "scaleY": 1,
+      "angle": 0
+    },
+    {
+      "id": "102-2",
+      "x": -123,
+      "y": -59,
+      "scaleX": 1,
+      "scaleY": 1,
+      "angle": 0
+    },
+    {
+      "id": "100-2",
+      "x": 249,
+      "y": -172,
+      "scaleX": 1,
+      "scaleY": 1,
+      "angle": 0
+    },
+    {
+      "id": "101-2",
+      "x": 94,
+      "y": -325,
+      "scaleX": 1,
+      "scaleY": 1,
+      "angle": 0
+    },
+    {
+      "id": "101-1",
+      "x": 146,
+      "y": -407,
+      "scaleX": -1,
+      "scaleY": 1,
+      "angle": 0
+    },
+    {
+      "id": "101-4",
+      "x": 200,
+      "y": -347,
+      "scaleX": 1,
+      "scaleY": 1,
+      "angle": 0
+    },
+    {
+      "id": "101-5",
+      "x": 158,
+      "y": -391,
+      "scaleX": 1,
+      "scaleY": 1,
+      "angle": 0
+    },
+    {
+      "id": "101-3",
+      "x": 178,
+      "y": -373,
+      "scaleX": -1,
+      "scaleY": 1,
+      "angle": 0
+    }
+  ],
+  "sourceLevel": 1,
+  "nameKey": "level.1"
+}

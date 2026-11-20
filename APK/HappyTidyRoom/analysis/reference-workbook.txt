@@ -1,0 +1,556 @@
+xl/worksheets/sheet1.xml
+A2: Overview | B2: Trò chơi tháo các vòng bị đan vào nhau
+A3: Core mechanic | B3: Các vòng ring nối với nhau bởi các chốt và khóa
+User xoay ring để gỡ dần từng ring, sau khi gỡ hết toàn bộ ring thì thắng
+A4: Ending Rewards
+A5: Màn hình | B5: Dọc (Portrait)
+A6: Camera
+A7: Genre/Sub-genre
+A8: Target Audience
+A9: Art style | B9: 2D
+A10: Control | B10: Tap, Hold
+A11: Monetize | B11: Tập trung vào IAP và Reward Video
+A12: IGC
+A13: USP
+xl/worksheets/sheet2.xml
+A1: Core gameplay | B1: Các vòng ring nối với nhau bởi các chốt và khóa
+User xoay ring để gỡ dần từng ring, sau khi gỡ hết toàn bộ ring thì thắng
+A2: Win | B2: Gỡ hết toàn bộ ring thì thắng
+A3: Lose | B3: Không có điều kiện thua
+A4: Revive | B4: Không có
+xl/worksheets/sheet3.xml
+A1: STT | B1: Tên hình dạng | C1: Mô tả chi tiết | D1: Ảnh | F1: LƯU Ý
+A2: 1.0 | B2: Vòng xoay ring | C2: Xoay để tháo, có 2 trường hợp tròn kín và tròn hở, riêng tròn hở thì hở bao nhiêu cũng được
+A3: 2 | B3: Thanh trượt slider | C3: Trượt để tháo, có nhiều dạng như chữ I,L,U,Z..
+A4: 3 | B4: Chốt chữ T | C4: 1 chốt gắn vào tối đa 2 ring, chỉ ring gắn ở đầu T mới có thể xoay | F4: Chốt có thể gắn ở trong vòng hoặc ngoài vòng ring
+A5: 4 | B5: Chốt chữ I | C5: 1 chốt gắn vào ring, tạo thêm vật cản khi xoay ring đó | F5: Chốt có thể gắn ở trong vòng hoặc ngoài vòng ring
+xl/worksheets/sheet4.xml
+A1: STT | B1: Tên element | C1: Mô tả chi tiết | D1: Mô tả chức năng | E1: Hình ảnh tham khảo | G1: Unlock
+A2: 1.0 | B2: E_Lock | C2: Một ống trụ ngắn để những vòng tròn và những ống thẳng trong in game chạy qua, có chất liệu bằng vàng, ánh kim loại vàng. | D2: 1 chốt để gắn ring, ring chỉ có thể thao tác di chuyển theo chiều của chốt. Chốt sắt có thể gồm 2 cái dính với nhau | G2: Level 10
+A3: 2 | B3: E_Boom | C3: Một quả bom hình tròn, có một sợi dây dẫn lửa nối với quả boom. | D3: Boom đặt trên màn chơi (có thể đặt bất cứ đâu trong level như trên 1 ring hoặc trên 1 khoảng trống trên màn chơi), phát nổ mỗi khi chạm vào 1 vật cản nào đó, phá hủy cả ring chứa bom và ring chạm vào | F3: https://drive.google.com/file/d/1Dg8SEoLCj1qhxI60N3avzB0iYD5iM4Z6/view?usp=sharing | G3: level 20
+A4: 3 | B4: E_Chain | C4: Một đoạn dây xích gắn vào ring kèm bộ đếm ngược số | D4: Ring có xích sẽ không thể tương tác, khi giải được 1 ring/slider khác sẽ giảm bộ đếm trên xích đi 1, giảm về 0 xích sẽ biến mất, và ring này có thể tương tác được | G4: level 28
+A7: Tương lai
+A8: 4.0 | B8: Butterfly lock | D8: Tương tự như chốt sắt nhưng có 2 đầu, có thanh sắt nối ở giữa, phải tháo được ring/slider ở cả 2 đầu thì mới biến mất
+A9: 5.0 | B9: Khe khóa màu + Chìa khóa màu | D9: Khe hở của vòng bị một miếng lấp kín, có ổ khóa màu. Miếng này có va chạm thật, nên các mảnh đang mắc không thể thoát qua khe đó.
+Chìa khóa màu: gắn trên một vòng. Phải giải thoát vòng mang chìa khóa để kích hoạt mở khóa..
+xl/worksheets/sheet5.xml
+A1: STT | B1: Tên booster | C1: Des | D1: Flow | E1: Giá  | F1: Unlock | G1: Ảnh | H1: REF
+A2: 1.0 | B2: B_Airplane | C2: Xóa 1 ring ngẫu nhiên | D2: Bấm booster->Hiển thị màn hình xác nhận->Bấm "Use"->Phát anim booster và gỡ ngẫu nhiên 1 ring | E2: ads | F2: level 4 | H2: https://drive.google.com/file/d/1-C58IX3aUuifh54C40D56joHeUuOQPiD/view?usp=sharing
+A3: 2.0 | B3: B_MagicWand | C3: Xóa 1 ring tùy chọn | D3: Bấm booster->Hiển thị màn hình chọn ring muốn gỡ->Chọn ring muốn gỡ->Phát anim booster và gỡ ring được chọn | E3: ads | F3: level 8 | H3: https://drive.google.com/file/d/1RGg3Faizvaetvk1u6L6tzjbXRZgincZS/view?usp=sharing
+A6: Tương lai
+A7: 3.0 | B7: chưa biết tên | C7: Chọn 1 ring, sau đó xóa ring đó và toàn bộ ring cùng màu
+A8: 4.0 | B8: Hint | C8: Highlight 1 ring có thể giải
+xl/worksheets/sheet6.xml
+A1: Level | B1: Name File | C1: Độ khó
+A2: 1 | B2: Level_1 | C2: Tutorial
+A3: 2 | B3: Level_2 | C3: Easy
+A4: 3 | B4: Level_3 | C4: Easy
+A5: 4 | B5: Level_4 | C5: Easy
+A6: 5 | B6: Level_5 | C6: Easy
+A7: 6 | B7: Level_6 | C7: Medium
+A8: 7 | B8: Level_7 | C8: Medium
+A9: 8 | B9: Level_8 | C9: Medium
+A10: 9 | B10: Level_9 | C10: Medium
+A11: 10 | B11: Level_10 | C11: Medium
+A12: 11 | B12: Level_11 | C12: Medium
+A13: 12 | B13: Level_12 | C13: Medium
+A14: 13 | B14: Level_13 Hard | C14: Hard
+A15: 14 | B15: Level_14 | C15: Medium
+A16: 15 | B16: Level_15 | C16: Medium
+A17: 16 | B17: Level_16 | C17: Medium
+A18: 17 | B18: Level_17 | C18: Medium
+A19: 18 | B19: Level_18 | C19: Medium
+A20: 19 | B20: Level_19 SHard | C20: Super Hard
+A21: 20 | B21: Level_20 | C21: Medium
+A22: 21 | B22: Level_21 | C22: Medium
+A23: 22 | B23: Level_22 | C23: Medium
+A24: 23 | B24: Level_23 Hard | C24: Hard
+A25: 24 | B25: Level_24 | C25: Medium
+A26: 25 | B26: Level_25 | C26: Medium
+A27: 26 | B27: Level_26 | C27: Medium
+A28: 27 | B28: Level_27 Hard | C28: Hard
+A29: 28 | B29: Level_28 | C29: Medium
+A30: 29 | B30: Level_29 | C30: Medium
+A31: 30 | B31: Level_30 SHard | C31: Super Hard
+A32: 31 | B32: Level_31 | C32: Medium
+A33: 32 | B33: Level_32 | C33: Medium
+A34: 33 | B34: Level_33 | C34: Medium
+A35: 34 | B35: Level_34 Hard | C35: Hard
+A36: 35 | B36: Level_35 | C36: Medium
+A37: 36 | B37: Level_36 | C37: Medium
+A38: 37 | B38: Level_37 | C38: Medium
+A39: 38 | B39: Level_38 SHard | C39: Super Hard
+A40: 39 | B40: Level_39 | C40: Medium
+A41: 40 | B41: Level_40 | C41: Medium
+A42: 41 | B42: Level_41 | C42: Medium
+A43: 42 | B43: Level_42 Hard | C43: Hard
+A44: 43 | B44: Level_43 | C44: Medium
+A45: 44 | B45: Level_44 | C45: Medium
+A46: 45 | B46: Level_45 SHard | C46: Super Hard
+A47: 46 | B47: Level_46 | C47: Medium
+A48: 47 | B48: Level_47 | C48: Medium
+A49: 48 | B49: Level_48 | C49: Medium
+A50: 49 | B50: Level_49 | C50: Medium
+A51: 50 | B51: Level_50 Hard | C51: Hard
+A52: 51 | B52: Level_51 | C52: Medium
+A53: 52 | B53: Level_52 | C53: Medium
+A54: 53 | B54: Level_53 SHard | C54: Super Hard
+A55: 54 | B55: Level_54 | C55: Medium
+A56: 55 | B56: Level_55 | C56: Medium
+A57: 56 | B57: Level_56 Hard | C57: Hard
+A58: 57 | B58: Level_57 | C58: Medium
+A59: 58 | B59: Level_58 | C59: Medium
+A60: 59 | B60: Level_59 | C60: Medium
+A61: 60 | B61: Level_60 SHard | C61: Super Hard
+A62: 61 | B62: Level_61 | C62: Medium
+A63: 62 | B63: Level_62 | C63: Medium
+A64: 63 | B64: Level_63 | C64: Medium
+A65: 64 | B65: Level_64 | C65: Medium
+A66: 65 | B66: Level_65 Hard | C66: Hard
+A67: 66 | B67: Level_66 | C67: Medium
+A68: 67 | B68: Level_67 | C68: Medium
+A69: 68 | B69: Level_68 SHard | C69: Super Hard
+A70: 69 | B70: Level_69 | C70: Medium
+A71: 70 | B71: Level_70 | C71: Medium
+A72: 71 | B72: Level_71 | C72: Medium
+A73: 72 | B73: Level_72 | C73: Medium
+A74: 73 | B74: Level_73 Hard | C74: Hard
+A75: 74 | B75: Level_74 | C75: Medium
+A76: 75 | B76: Level_75 | C76: Medium
+A77: 76 | B77: Level_76 | C77: Medium
+A78: 77 | B78: Level_77 SHard | C78: Super Hard
+A79: 78 | B79: Level_78 | C79: Medium
+A80: 79 | B80: Level_79 | C80: Medium
+A81: 80 | B81: Level_80 | C81: Medium
+A82: 81 | B82: Level_81 | C82: Medium
+A83: 82 | B83: Level_82 Hard | C83: Hard
+A84: 83 | B84: Level_83 | C84: Medium
+A85: 84 | B85: Level_84 | C85: Medium
+A86: 85 | B86: Level_85 | C86: Medium
+A87: 86 | B87: Level_86 | C87: Medium
+A88: 87 | B88: Level_87 | C88: Medium
+A89: 88 | B89: Level_88 | C89: Medium
+A90: 89 | B90: Level_89 Hard | C90: Hard
+A91: 90 | B91: Level_90 | C91: Medium
+A92: 91 | B92: Level_91 | C92: Medium
+A93: 92 | B93: Level_92 SHard | C93: Super Hard
+A94: 93 | B94: Level_93 | C94: Medium
+A95: 94 | B95: Level_94 | C95: Medium
+A96: 95 | B96: Level_95 | C96: Medium
+A97: 96 | B97: Level_96 | C97: Medium
+A98: 97 | B98: Level_97 Hard | C98: Hard
+A99: 98 | B99: Level_98 | C99: Medium
+A100: 99 | B100: Level_99 | C100: Medium
+A101: 100 | B101: Level_100 | C101: Medium
+A102: 101 | B102: Level_101 SHard | C102: Super Hard
+A103: 102 | B103: Level_102 | C103: Medium
+A104: 103 | B104: Level_103 | C104: Medium
+A105: 104 | B105: Level_104 | C105: Medium
+A106: 105 | B106: Level_105 | C106: Medium
+A107: 106 | B107: Level_106 Hard | C107: Hard
+A108: 107 | B108: Level_107 | C108: Medium
+A109: 108 | B109: Level_108 | C109: Medium
+A110: 109 | B110: Level_109 SHard | C110: Super Hard
+A111: 110 | B111: Level_110 | C111: Medium
+A112: 111 | B112: Level_111 | C112: Medium
+A113: 112 | B113: Level_112 | C113: Medium
+A114: 113 | B114: Level_113 | C114: Medium
+A115: 114 | B115: Level_114 | C115: Medium
+A116: 115 | B116: Level_115 Hard | C116: Hard
+A117: 116 | B117: Level_116 | C117: Medium
+A118: 117 | B118: Level_117 | C118: Medium
+A119: 118 | B119: Level_118 | C119: Medium
+A120: 119 | B120: Level_119 SHard | C120: Super Hard
+A121: 120 | B121: Level_120 | C121: Medium
+A122: 121 | B122: Level_121 | C122: Medium
+A123: 122 | B123: Level_122 | C123: Medium
+A124: 123 | B124: Level_123 | C124: Medium
+A125: 124 | B125: Level_124 | C125: Medium
+A126: 125 | B126: Level_125 Hard | C126: Hard
+A127: 126 | B127: Level_126 | C127: Medium
+A128: 127 | B128: Level_127 | C128: Medium
+A129: 128 | B129: Level_128 | C129: Medium
+A130: 129 | B130: Level_129 SHard | C130: Super Hard
+A131: 130 | B131: Level_130 | C131: Medium
+A132: 131 | B132: Level_131 | C132: Medium
+A133: 132 | B133: Level_132 | C133: Medium
+A134: 133 | B134: Level_133 | C134: Medium
+A135: 134 | B135: Level_134 | C135: Medium
+A136: 135 | B136: Level_135 Hard | C136: Hard
+A137: 136 | B137: Level_136 | C137: Medium
+A138: 137 | B138: Level_137 | C138: Medium
+A139: 138 | B139: Level_138 | C139: Medium
+A140: 139 | B140: Level_139 SHard | C140: Super Hard
+A141: 140 | B141: Level_140 | C141: Medium
+A142: 141 | B142: Level_141 | C142: Medium
+A143: 142 | B143: Level_142 | C143: Medium
+A144: 143 | B144: Level_143 | C144: Medium
+A145: 144 | B145: Level_144 | C145: Medium
+A146: 145 | B146: Level_145 Hard | C146: Hard
+A147: 146 | B147: Level_146 | C147: Medium
+A148: 147 | B148: Level_147 | C148: Medium
+A149: 148 | B149: Level_148 | C149: Medium
+A150: 149 | B150: Level_149 SHard | C150: Super Hard
+A151: 150 | B151: Level_150 | C151: Medium
+A152: 151 | B152: Level_151 | C152: Medium
+A153: 152 | B153: Level_152 | C153: Medium
+A154: 153 | B154: Level_153 | C154: Medium
+A155: 154 | B155: Level_154 | C155: Medium
+A156: 155 | B156: Level_155 Hard | C156: Hard
+A157: 156 | B157: Level_156 | C157: Medium
+A158: 157 | B158: Level_157 | C158: Medium
+A159: 158 | B159: Level_158 | C159: Medium
+A160: 159 | B160: Level_159 | C160: Medium
+A161: 160 | B161: Level_160 | C161: Medium
+A162: 161 | B162: Level_161 | C162: Medium
+A163: 162 | B163: Level_162 | C163: Medium
+A164: 163 | B164: Level_163 | C164: Medium
+A165: 164 | B165: Level_164 Hard | C165: Hard
+A166: 165 | B166: Level_165 | C166: Medium
+A167: 166 | B167: Level_166 | C167: Medium
+A168: 167 | B168: Level_167 | C168: Medium
+A169: 168 | B169: Level_168 SHard | C169: Super Hard
+A170: 169 | B170: Level_169 | C170: Medium
+A171: 170 | B171: Level_170 | C171: Medium
+A172: 171 | B172: Level_171 | C172: Medium
+A173: 172 | B173: Level_172 | C173: Medium
+A174: 173 | B174: Level_173 | C174: Medium
+A175: 174 | B175: Level_174 Hard | C175: Hard
+A176: 175 | B176: Level_175 | C176: Medium
+A177: 176 | B177: Level_176 | C177: Medium
+A178: 177 | B178: Level_177 | C178: Medium
+A179: 178 | B179: Level_178 SHard | C179: Super Hard
+A180: 179 | B180: Level_179 | C180: Medium
+A181: 180 | B181: Level_180 | C181: Medium
+A182: 181 | B182: Level_181 | C182: Medium
+A183: 182 | B183: Level_182 | C183: Medium
+A184: 183 | B184: Level_183 | C184: Medium
+A185: 184 | B185: Level_184 Hard | C185: Hard
+A186: 185 | B186: Level_185 | C186: Medium
+A187: 186 | B187: Level_186 | C187: Medium
+A188: 187 | B188: Level_187 | C188: Medium
+A189: 188 | B189: Level_188 SHard | C189: Super Hard
+A190: 189 | B190: Level_189 | C190: Medium
+A191: 190 | B191: Level_190 | C191: Medium
+A192: 191 | B192: Level_191 | C192: Medium
+A193: 192 | B193: Level_192 | C193: Medium
+A194: 193 | B194: Level_193 | C194: Medium
+A195: 194 | B195: Level_194 Hard | C195: Hard
+A196: 195 | B196: Level_195 | C196: Medium
+A197: 196 | B197: Level_196 | C197: Medium
+A198: 197 | B198: Level_197 | C198: Medium
+A199: 198 | B199: Level_198 SHard | C199: Super Hard
+A200: 199 | B200: Level_199 | C200: Medium
+A201: 200 | B201: Level_200 | C201: Medium
+A202: 201 | B202: Level_201 | C202: Medium
+A203: 202 | B203: Level_202 | C203: Medium
+A204: 203 | B204: Level_203 | C204: Medium
+A205: 204 | B205: Level_204 Hard | C205: Hard
+A206: 205 | B206: Level_205 | C206: Medium
+A207: 206 | B207: Level_206 | C207: Medium
+A208: 207 | B208: Level_207 | C208: Medium
+A209: 208 | B209: Level_208 SHard | C209: Super Hard
+A210: 209 | B210: Level_209 | C210: Medium
+A211: 210 | B211: Level_210 | C211: Medium
+A212: 211 | B212: Level_211 | C212: Medium
+A213: 212 | B213: Level_212 | C213: Medium
+A214: 213 | B214: Level_213 | C214: Medium
+A215: 214 | B215: Level_214 Hard | C215: Hard
+A216: 215 | B216: Level_215 | C216: Medium
+A217: 216 | B217: Level_216 | C217: Medium
+A218: 217 | B218: Level_217 SHard | C218: Super Hard
+A219: 218 | B219: Level_218 | C219: Medium
+A220: 219 | B220: Level_219 | C220: Medium
+A221: 220 | B221: Level_220 | C221: Medium
+A222: 221 | B222: Level_221 | C222: Medium
+A223: 222 | B223: Level_222 | C223: Medium
+A224: 223 | B224: Level_223 Hard | C224: Hard
+A225: 224 | B225: Level_224 | C225: Medium
+A226: 225 | B226: Level_225 | C226: Medium
+A227: 226 | B227: Level_226 | C227: Medium
+A228: 227 | B228: Level_227 SHard | C228: Super Hard
+A229: 228 | B229: Level_228 | C229: Medium
+A230: 229 | B230: Level_229 | C230: Medium
+A231: 230 | B231: Level_230 | C231: Medium
+A232: 231 | B232: Level_231 | C232: Medium
+A233: 232 | B233: Level_232 | C233: Medium
+A234: 233 | B234: Level_233 Hard | C234: Hard
+A235: 234 | B235: Level_234 | C235: Medium
+A236: 235 | B236: Level_235 | C236: Medium
+A237: 236 | B237: Level_236 | C237: Medium
+A238: 237 | B238: Level_237 SHard | C238: Super Hard
+A239: 238 | B239: Level_238 | C239: Medium
+A240: 239 | B240: Level_239 | C240: Medium
+A241: 240 | B241: Level_240 | C241: Medium
+A242: 241 | B242: Level_241 | C242: Medium
+A243: 242 | B243: Level_242 | C243: Medium
+A244: 243 | B244: Level_243 | C244: Medium
+A245: 244 | B245: Level_244 | C245: Medium
+A246: 245 | B246: Level_245 | C246: Medium
+A247: 246 | B247: Level_246 | C247: Medium
+A248: 247 | B248: Level_247 | C248: Medium
+A249: 248 | B249: Level_248 | C249: Medium
+A250: 249 | B250: Level_249 | C250: Medium
+A251: 250 | B251: Level_250 | C251: Medium
+A252: 251 | B252: Level_251 | C252: Medium
+A253: 252 | B253: Level_252 | C253: Medium
+A254: 253 | B254: Level_253 | C254: Medium
+A255: 254 | B255: Level_254 | C255: Medium
+A256: 255 | B256: Level_255 SHard | C256: Super Hard
+A257: 256 | B257: Level_256 | C257: Medium
+A258: 257 | B258: Level_257 | C258: Medium
+A259: 258 | B259: Level_258 | C259: Medium
+A260: 259 | B260: Level_259 | C260: Medium
+A261: 260 | B261: Level_260 | C261: Medium
+A262: 261 | B262: Level_261 | C262: Medium
+A263: 262 | B263: Level_262 | C263: Medium
+A264: 263 | B264: Level_263 SHard | C264: Super Hard
+A265: 264 | B265: Level_264 | C265: Medium
+A266: 265 | B266: Level_265 | C266: Medium
+A267: 266 | B267: Level_266 | C267: Medium
+A268: 267 | B268: Level_267 | C268: Medium
+A269: 268 | B269: Level_268 Hard | C269: Hard
+A270: 269 | B270: Level_269 | C270: Medium
+A271: 270 | B271: Level_270 SHard | C271: Super Hard
+A272: 271 | B272: Level_271 | C272: Medium
+A273: 272 | B273: Level_272 | C273: Medium
+A274: 273 | B274: Level_273 | C274: Medium
+A275: 274 | B275: Level_274 | C275: Medium
+A276: 275 | B276: Level_275 | C276: Medium
+A277: 276 | B277: Level_276 Hard | C277: Hard
+A278: 277 | B278: Level_277 | C278: Medium
+A279: 278 | B279: Level_278 | C279: Medium
+A280: 279 | B280: Level_279 SHard | C280: Super Hard
+A281: 280 | B281: Level_280 | C281: Medium
+A282: 281 | B282: Level_281 | C282: Medium
+A283: 282 | B283: Level_282 | C283: Medium
+A284: 283 | B284: Level_283 | C284: Medium
+A285: 284 | B285: Level_284 Hard | C285: Hard
+A286: 285 | B286: Level_285 | C286: Medium
+A287: 286 | B287: Level_286 | C287: Medium
+A288: 287 | B288: Level_287 | C288: Medium
+A289: 288 | B289: Level_288 SHard | C289: Super Hard
+A290: 289 | B290: Level_289 | C290: Medium
+A291: 290 | B291: Level_290 | C291: Medium
+A292: 291 | B292: Level_291 | C292: Medium
+A293: 292 | B293: Level_292 | C293: Medium
+A294: 293 | B294: Level_293 | C294: Medium
+A295: 294 | B295: Level_294 Hard | C295: Hard
+A296: 295 | B296: Level_295 | C296: Medium
+A297: 296 | B297: Level_296 | C297: Medium
+A298: 297 | B298: Level_297 SHard | C298: Super Hard
+A299: 298 | B299: Level_298 | C299: Medium
+A300: 299 | B300: Level_299 | C300: Medium
+A301: 300 | B301: Level_300 | C301: Medium
+A302: 301 | B302: Level_301 Hard | C302: Hard
+A303: 302 | B303: Level_302 | C303: Medium
+A304: 303 | B304: Level_303 | C304: Medium
+A305: 304 | B305: Level_304 | C305: Medium
+A306: 305 | B306: Level_305 | C306: Medium
+A307: 306 | B307: Level_306 | C307: Medium
+A308: 307 | B308: Level_307 | C308: Medium
+A309: 308 | B309: Level_308 Hard | C309: Hard
+A310: 309 | B310: Level_309 | C310: Medium
+A311: 310 | B311: Level_310 | C311: Medium
+A312: 311 | B312: Level_311 | C312: Medium
+A313: 312 | B313: Level_312 | C313: Medium
+A314: 313 | B314: Level_313 | C314: Medium
+A315: 314 | B315: Level_314 | C315: Medium
+A316: 315 | B316: Level_315 | C316: Medium
+A317: 316 | B317: Level_316 | C317: Medium
+A318: 317 | B318: Level_317 | C318: Medium
+A319: 318 | B319: Level_318 SHard | C319: Super Hard
+A320: 319 | B320: Level_319 | C320: Medium
+A321: 320 | B321: Level_320 | C321: Medium
+A322: 321 | B322: Level_321 | C322: Medium
+A323: 322 | B323: Level_322 | C323: Medium
+A324: 323 | B324: Level_323 | C324: Medium
+A325: 324 | B325: Level_324 Hard | C325: Hard
+A326: 325 | B326: Level_325 | C326: Medium
+A327: 326 | B327: Level_326 | C327: Medium
+A328: 327 | B328: Level_327 SHard | C328: Super Hard
+A329: 328 | B329: Level_328 | C329: Medium
+A330: 329 | B330: Level_329 | C330: Medium
+A331: 330 | B331: Level_330 | C331: Medium
+A332: 331 | B332: Level_331 | C332: Medium
+A333: 332 | B333: Level_332 | C333: Medium
+A334: 333 | B334: Level_333 Hard | C334: Hard
+A335: 334 | B335: Level_334 | C335: Medium
+A336: 335 | B336: Level_335 | C336: Medium
+A337: 336 | B337: Level_336 | C337: Medium
+A338: 337 | B338: Level_337 | C338: Medium
+A339: 338 | B339: Level_338 | C339: Medium
+A340: 339 | B340: Level_339 | C340: Medium
+A341: 340 | B341: Level_340 Hard | C341: Hard
+A342: 341 | B342: Level_341 | C342: Medium
+A343: 342 | B343: Level_342 | C343: Medium
+A344: 343 | B344: Level_343 | C344: Medium
+A345: 344 | B345: Level_344 SHard | C345: Super Hard
+A346: 345 | B346: Level_345 | C346: Medium
+A347: 346 | B347: Level_346 | C347: Medium
+A348: 347 | B348: Level_347 | C348: Medium
+A349: 348 | B349: Level_348 | C349: Medium
+A350: 349 | B350: Level_349 | C350: Medium
+A351: 350 | B351: Level_350 | C351: Medium
+A352: 351 | B352: Level_351 | C352: Medium
+A353: 352 | B353: Level_352 | C353: Medium
+A354: 353 | B354: Level_353 | C354: Medium
+A355: 354 | B355: Level_354 | C355: Medium
+A356: 355 | B356: Level_355 | C356: Medium
+A357: 356 | B357: Level_356 | C357: Medium
+A358: 357 | B358: Level_357 | C358: Medium
+A359: 358 | B359: Level_358 Hard | C359: Hard
+A360: 359 | B360: Level_359 | C360: Medium
+A361: 360 | B361: Level_360 | C361: Medium
+A362: 361 | B362: Level_361 | C362: Medium
+A363: 362 | B363: Level_362 | C363: Medium
+A364: 363 | B364: Level_363 | C364: Medium
+A365: 364 | B365: Level_364 | C365: Medium
+A366: 365 | B366: Level_365 | C366: Medium
+A367: 366 | B367: Level_366 | C367: Medium
+A368: 367 | B368: Level_367 | C368: Medium
+A369: 368 | B369: Level_368 Hard | C369: Hard
+A370: 369 | B370: Level_369 | C370: Medium
+A371: 370 | B371: Level_370 | C371: Medium
+A372: 371 | B372: Level_371 | C372: Medium
+A373: 372 | B373: Level_372 SHard | C373: Super Hard
+A374: 373 | B374: Level_373 | C374: Medium
+A375: 374 | B375: Level_374 | C375: Medium
+A376: 375 | B376: Level_375 | C376: Medium
+A377: 376 | B377: Level_376 | C377: Medium
+A378: 377 | B378: Level_377 | C378: Medium
+A379: 378 | B379: Level_378 | C379: Medium
+A380: 379 | B380: Level_379 | C380: Medium
+A381: 380 | B381: Level_380 | C381: Medium
+A382: 381 | B382: Level_381 SHard | C382: Super Hard
+A383: 382 | B383: Level_382 | C383: Medium
+A384: 383 | B384: Level_383 | C384: Medium
+A385: 384 | B385: Level_384 | C385: Medium
+A386: 385 | B386: Level_385 | C386: Medium
+A387: 386 | B387: Level_386 | C387: Medium
+A388: 387 | B388: Level_387 Hard | C388: Hard
+A389: 388 | B389: Level_388 | C389: Medium
+A390: 389 | B390: Level_389 | C390: Medium
+A391: 390 | B391: Level_390 | C391: Medium
+A392: 391 | B392: Level_391 SHard | C392: Super Hard
+A393: 392 | B393: Level_392 | C393: Medium
+A394: 393 | B394: Level_393 | C394: Medium
+A395: 394 | B395: Level_394 | C395: Medium
+A396: 395 | B396: Level_395 | C396: Medium
+A397: 396 | B397: Level_396 | C397: Medium
+A398: 397 | B398: Level_397 | C398: Medium
+A399: 398 | B399: Level_398 | C399: Medium
+A400: 399 | B400: Level_399 | C400: Medium
+A401: 400 | B401: Level_400 SHard | C401: Super Hard
+A402: 401 | B402: Level_401 | C402: Medium
+A403: 402 | B403: Level_402 | C403: Medium
+A404: 403 | B404: Level_403 | C404: Medium
+A405: 404 | B405: Level_404 | C405: Medium
+A406: 405 | B406: Level_405 Hard | C406: Hard
+A407: 406 | B407: Level_406 | C407: Medium
+A408: 407 | B408: Level_407 | C408: Medium
+A409: 408 | B409: Level_408 | C409: Medium
+A410: 409 | B410: Level_409 SHard | C410: Super Hard
+A411: 410 | B411: Level_410 | C411: Medium
+A412: 411 | B412: Level_411 | C412: Medium
+A413: 412 | B413: Level_412 | C413: Medium
+A414: 413 | B414: Level_413 | C414: Medium
+A415: 414 | B415: Level_414 | C415: Medium
+A416: 415 | B416: Level_415 Hard | C416: Hard
+A417: 416 | B417: Level_416 | C417: Medium
+A418: 417 | B418: Level_417 | C418: Medium
+A419: 418 | B419: Level_418 | C419: Medium
+A420: 419 | B420: Level_419 SHard | C420: Super Hard
+A421: 420 | B421: Level_420 | C421: Medium
+A422: 421 | B422: Level_421 | C422: Medium
+A423: 422 | B423: Level_422 | C423: Medium
+A424: 423 | B424: Level_423 | C424: Medium
+A425: 424 | B425: Level_424 | C425: Medium
+A426: 425 | B426: Level_425 Hard | C426: Hard
+A427: 426 | B427: Level_426 | C427: Medium
+A428: 427 | B428: Level_427 | C428: Medium
+A429: 428 | B429: Level_428 | C429: Medium
+A430: 429 | B430: Level_429 SHard | C430: Super Hard
+A431: 430 | B431: Level_430 | C431: Medium
+xl/worksheets/sheet7.xml
+A1: SCORE — QUY TẮC CHUNG
+A2: Thành phần | B2: Quy tắc | C2: Ví dụ / lưu ý
+A3: Điểm gốc | B3: Khi tháo một vật thể, ring có điểm gốc 100; slider có điểm gốc 50. | C3: Tháo ring không có quan hệ khóa: 100 điểm.
+A4: Quan hệ khóa | B4: Mỗi quan hệ LockedBy (khóa bởi) hoặc Locks (khóa ring khác) cộng thêm một lần điểm gốc của vật thể được tháo. | C4: Ring có quan hệ liên kết với 2 ring khác: 100 × (1 + 2) = 300 điểm.
+A5: Xích (chain lock) | B5: Nếu vật thể có LockCount > 0, cộng thêm một lần điểm gốc. | C5: Ring có 2 quan hệ và xích: 300 + 100 = 400 điểm.
+A6: Tháo nhiều vật thể | B6: Nếu cùng một bước tháo nhiều vật thể, cộng tổng điểm của từng vật thể như bình thường | C6: Ring 100 điểm và slider 50 điểm cùng tháo trong 1 lượt: cộng tổng 150 điểm.
+A7: Bước lỗi | B7: Nếu có ít nhất 3 bước lỗi hoặc không giải được ring nào kể từ lần tháo gần nhất thì mỗi vật thể ở lần tháo tiếp theo bị trừ 50 điểm (không cộng dồn), riêng slider thì không bị trừ điểm xuống dưới 50 điểm
+--> Điểm tối thiểu của 1 vật thể luôn là 50, không bao giờ bị trừ xuống dưới 50 điểm. | C7: Điểm mỗi vật thể sau khi trừ tối đa là trừ 50 (ring còn 50 điểm, slider vẫn tối thiểu là 50 điểm)
+A8: Combo | B8: Mỗi tầng của combo được thêm 10 điểm khi giải | C8: Ví dụ ở tầng "Amazing" thì được cộng thêm 40 điểm (xem combo text phía dưới)
+A11: SCORE HIỂN THỊ — VÍ DỤ
+A12: Bước chơi | B12: Điểm nhận được | C12: Tổng điểm trên màn
+A13: Bắt đầu level | B13: Chưa tháo vật thể nào. | C13: 0 điểm
+A14: Tháo 1 ring có 2 quan hệ khóa | B14: Ring có điểm gốc 100; mỗi quan hệ khóa cộng thêm 100: 100 + 100 + 100 = 300. | C14: 0 + 300 = 300 điểm
+A15: Tháo 1 slider không có quan hệ khóa | B15: Slider có điểm gốc 50: nhận 50 điểm.
+Combo lên tầng "Sweet": nhận 10 điểm | C15: 300 + 50 + 10 = 360 điểm
+A16: Xoay lỗi hoặc không có tác dụng ít nhất 3 bước; sau đó tháo 1 ring không có quan hệ khóa | B16: Ring có điểm gốc 100; bị trừ 50 vì có ít nhất 3 bước lỗi: nhận 50 điểm.
+Mất chuỗi combo, không nhận thêm điểm combo. | C16: 350 + 50 = 400 điểm
+A17: Quy tắc bổ sung | B17: Nếu vật thể có xích (LockCount > 0), cộng thêm một lần điểm gốc. Nếu một bước tháo nhiều vật thể, cộng điểm của toàn bộ vật thể được giải. | C17: Điểm mỗi vật thể sau khi trừ không thấp hơn 50.
+A20: COMBO TEXT
+A21: Thành phần | B21: Quy tắc | C21: Lưu ý
+A22: Rule | B22: Phát khi giải liên tiếp từ 2 ring/slider trở lên nếu không có bước lỗi trong chuỗi đó | C22: Bước lỗi là bước thao tác xoay ring không giải được ring/slider nào
+A23: Text | B23: Sweet → Tasty → Delicious --> Amazing → Fantastic → Incredible.
+A24: Giữ chuỗi | B24: Tiếp tục giải khi ở tầng combo cao nhất mà không có bước lỗi sẽ luôn giữ combo ở tầng cao nhất đó
+A25: Tháo nhiều vật thể | B25: Nếu 1 bước giải được nhiều hơn 1 vật thể thì cộng số đó vào tầng combo | C25: Ví dụ giải được 3 ring trong 1 lượt thao tác thì nhảy lên 3 tầng combo
+xl/worksheets/sheet8.xml
+A1: ID | B1: Type | C1: VFX Name | D1: Trigger | E1: Visual Description | F1: Note | G1: REF
+A2: V_01 | B2: Ring | D2: Khi chạm vào ring không thể xoay hay di chuyển | E2: Ring rung lắc nhẹ xoay trái phải | G2: https://drive.google.com/file/d/1YVasPexHrL6ztKnrdqlDZMSyRxQBei8P/view?usp=sharing | H2: cái này bảo Dev làm
+A3: V_02 | B3: Ring | D3: Khi chạm hoặc đang xoay ring không bị khóa | E3: Highlight ring bằng viền màu | G3: https://drive.google.com/file/d/1ou-TX-sr5P9DNNYoLypMOMI6rVJPALs1/view?usp=sharing | H3: cái này bảo Dev làm
+A4: V_03 | B4: Ring | C4: StarImpact_Fx | D4: Khi ring xoay và bị chặn (va chạm vào 1 vật thể khác) | E4: VFX hạt vỡ ra tại điểm bị chặn | H4: Sẵn Vfx
+A5: V_04 | B5: Ring | C5: Ring_Complete_Fx | D5: Khi ring được tháo thành công (chỉ tính khi player thả tay ra khỏi ring) | E5: Ring vỡ thành các mảnh vụn rồi rơi xuống và biến mất.
+Các VFX vỡ có màu theo màu ring và hình dạng vỡ tương tự ring | G5: https://drive.google.com/file/d/168TSaSYN2kiEqOSbjrkKCEes6lZsU7zi/view?usp=sharing | H5: Không sẵn Vfx
+A6: V_05 | B6: Booster airplane | C6: Booster_Airplane_Fx | D6: Khi dùng booster airplane | E6: VFX máy bay lao vào 1 ring ngẫu nhiên rồi nổ | G6: https://drive.google.com/file/d/1-C58IX3aUuifh54C40D56joHeUuOQPiD/view?usp=sharing | H6: Sẵn Vfx
+A7: V_06 | B7: Booster magic wand | C7: Booster_Magic_Fx | D7: Khi dùng booster magic wand | E7: VFX magic wand phù phép vào 1 ring được chọn | G7: https://drive.google.com/file/d/1RGg3Faizvaetvk1u6L6tzjbXRZgincZS/view?usp=sharing | H7: Sẵn Vfx
+A8: V_07 | B8: Bomb | C8: Bomb_Fire_Fx | D8: Trạng thái idle của bomb | E8: VFX như ref | G8: https://drive.google.com/file/d/1Dg8SEoLCj1qhxI60N3avzB0iYD5iM4Z6/view?usp=drive_link | H8: Sẵn Vfx
+A9: V_08 | B9: Bomb | C9: Bomb_Fx | D9: Khi bomb bị chạm bởi 1 vật cản bất kì khi xoay | H9: Sẵn Vfx
+A10: V_09 | B10: Chốt | C10: BrokenLock_Fx | D10: Khi ring gắn vào chốt được giải | E10: Chốt vỡ thành các mảnh vụn rồi rơi xuống và biến mất (màu giống với màu của chốt) | G10: https://drive.google.com/file/d/1pBkZi9n9lW30vi1m1Q1qsTt1Ev-NFPJf/view?usp=sharing | H10: Không sẵn Vfx
+A11: V_10 | B11: Xích | C11: BrokenChain_Fx | D11: Khi bộ đếm về 0 và xích đứt | E11: VFX xích đứt rơi xuống.
+Lưu ý: khi bộ đếm nhỏ hơn 3 thì mỗi lần giảm đi 1 sẽ đứt 1 dây (ban đầu có 3 dây)  | G11: https://youtu.be/OL6dc_b3ALI?list=PLZlep1SS983k | H11: Sẵn Vfx
+B15: Sồi | D15: Khi ring bao quanh nó được giải | E15: Scale to và bay lên trên
+B17: Sồi | D17: Idle | E17: Rung lắc, scale to nhỏ mỗi một khoảng thời gian
+xl/worksheets/sheet9.xml
+A1: STT | B1: Page | C1: Mô tả | D1: Tên File | E1: Done
+A2: 1 | B2: Home | C2: Nhạc BackGround Home | D2: SFX_BG_Home | E2: x | G2: https://drive.google.com/drive/folders/1Pcj8f9fyDlU1Awnm4ZDpxVQbArj5Wwh7?usp=sharing
+A3: 2 | C3: Click Button Play ở trang Home | D3: SFX_Button_Click | E3: x
+A4: 3 | C4: Click Button Setting ở trang Home | D4: SFX_Button_Click | E4: x
+A5: 4 | B5: Setting | C5: Click các button ở trang setting | D5: SFX_Button_Click | E5: x
+A6: 5 | B6: Ingame | C6: Nhạc BackGround Gameplay | D6: SFX_BG_Gameplay | E6: x
+A7: 6 | C7: Tiếng click các button ở Ingame | D7: SFX_Button_Click | E7: x
+A8: 7 | C8: Tiếng spawn ring khi bắt đầu level | D8: SFX_Spawn_Rings | E8: x
+A9: 8 | C9: Tiếng khi chạm vào ring không xoay được | D9: SFX_Ring_Locked | E9: x
+A10: 9 | C10: Tiếng khi xoay ring (tiếng kêu liên tục trong quá trình xoay - mỗi khi xoay được 1 khoảng độ nhất định thì kêu 1 lần) | D10: SFX_Ring_Rotate | E10: x
+A11: 10 | C11: Tiếng khi ring xoay va chạm vào vật cản | D11: SFX_Ring_Collide | E11: x
+A12: 11 | C12: Tiếng vỡ của ring/slider sau khi clear | D12: SFX_Ring_Break | E12: x
+A13: 12 | C13: Tiếng chốt sắt vỡ khi clear ring gắn với chốt | D13: SFX_Catch | E13: x
+A14: 13 | C14: Tiếng combo text | D14: VO_Combo_...(Sweet -> Incredible) | E14: x
+A15: 14 | C15: Tiếng khi Win | D15: SFX_Win | E15: x
+A16: 15 | B16: Booster | C16: Tiếng khi bấm vào booster | D16: SFX_Button_Click | E16: x
+A17: 16 | C17: Tiếng khi đang Airplane đâm vào mục tiêu | D17: SFX_Booster_Airplane | E17: x
+A18: 17 | C18: Tiếng khi đang chạy anim Magic Wand | D18: SFX_Booster_MagicWand | E18: x
+A19: 18 | B19: Element | C19: Tiếng khi bomb nổ | D19: SFX_Bomb | E19: x
+A20: 19 | C20: Tiếng khi xích đứt ở 3 dây cuối | D20: SFX_Chain_Break | E20: x
+A21: 20.0 | C21: Tiếng khi xích được unlock hết | D21: SFX_Chain_Unlock | E21: x
+xl/worksheets/sheet10.xml
+B3:  No Ads | D3: Show sau level 13 | G3: Booster | H3: Value (Coin) x3 | I3: Ads for x1 | J3: Win level | K3: Value (Coin) | L3: Reward Ads
+B4: Tên gói | C4: No Ads | G4: Booster Airplane | H4: 1200.0 | I4: 1.0 | J4: Medium | K4: 10.0 | L4: 100.0
+B5: Số lần mua | C5: 1.0 | G5: Booster Magic Wand | H5: 1800.0 | I5: 1.0 | J5: Hard | K5: 20.0 | L5: 100.0
+B6: Giá tiền | C6: 9,99$ | J6: Super Hard | K6: 30.0 | L6: 100.0
+xl/worksheets/sheet11.xml
+A2: Level 1
+A3: Step | B3: Trigger | C3: Mô tả
+A4: 1.0 | B4: Vừa vào Level 1 | C4: Hiển thị text “Rotate the ring into correct position to unlock it” và Hand Tutorial chỉ hướng xoay vào ring chữ C
+A27: Level 4: Booster Airplane tutorial
+A28: Step | B28: Trigger | C28: Mô tả
+A29: 1.0 | B29: Vào Level 4, sau khi hiển thị xong màn hình unlock booster | C29: Hiển thị text “Fly a Airplane to clear a random Ring”
+A51: Level 8: Booster Magic Wand tutorial
+A52: Step | B52: Trigger | C52: Mô tả
+A53: 1.0 | B53: Vào Level 8, sau khi hiển thị xong màn hình unlock booster | C53: Hiển thị text “Want to see some magic”
+A54: 2.0 | B54: Sau khi bấm booster | C54: HIển thị text “Tap to remove ring!”
+xl/worksheets/sheet12.xml
+xl/worksheets/sheet13.xml
+A1: MOCKUP UI

@@ -1,0 +1,10 @@
+Icon_Booster.png
+size:404,288
+filter:Linear,Linear
+pma:true
+GP_Booster_Clear
+bounds:260,144,140,140
+GP_Booster_Vaccum
+bounds:260,2,140,140
+fx_ring
+bounds:2,28,256,256

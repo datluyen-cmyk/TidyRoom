@@ -1,0 +1,20 @@
+import fs from 'node:fs/promises';
+import {pathToFileURL} from 'node:url';
+const root='D:/APK Works/RoomSort/analysis/www';
+const mod=async p=>import(pathToFileURL(`${root}/game/src/${p}`).href);
+const catalog=JSON.parse(await fs.readFile(`${root}/assets/art/v3_review_20261104/catalog.json`,'utf8'));
+const manifest=JSON.parse(await fs.readFile(`${root}/assets/art/v3_review_20261104/manifest.json`,'utf8'));
+const colliders=JSON.parse(await fs.readFile(`${root}/assets/art/v3_review_20261104/colliders.json`,'utf8'));
+const {ROOM_CONTENT,addRoomContent}=await mod('services/room-content.js');
+const {DEAL_VARIANTS}=await mod('data/deal-variants.js');
+const {BUILTIN_MANIFEST}=await mod('services/experiment-manifest.js');
+const {LEVEL2_LAYOUTS}=await mod('services/level2-layout-pool.js');
+const {LEVEL3_LAYOUTS}=await mod('services/level3-layout-pool.js');
+const added=addRoomContent(catalog,manifest.items,manifest.backgrounds);
+for(const [id,poly]of Object.entries(colliders.polys)){if(added.catalog.items[id])Object.assign(added.catalog.items[id],colliders.sizes?.[id]??{},{poly});}
+await fs.writeFile('D:/APK Works/RoomSort/analysis/room-content-expanded.json',JSON.stringify({base:catalog,expanded:added,rooms:ROOM_CONTENT,variants:DEAL_VARIANTS,experiments:BUILTIN_MANIFEST,pool2:LEVEL2_LAYOUTS,pool3:LEVEL3_LAYOUTS}));
+console.log('base',catalog.levels.length,Object.keys(catalog.items).length,Object.keys(catalog.types).length);
+console.log('expanded',Object.keys(added.catalog.items).length,Object.keys(added.catalog.types).length,'pools',LEVEL2_LAYOUTS?.length,LEVEL3_LAYOUTS?.length);
+console.log('room content',Object.fromEntries(Object.entries(ROOM_CONTENT).map(([k,v])=>[k,{keys:Object.keys(v),items:Object.keys(v.items??{}).length,levels:Array.isArray(v.levels)?v.levels.length:Object.keys(v.levels??{}).length}])));
+console.log('deal variants',Object.fromEntries(Object.entries(DEAL_VARIANTS).map(([k,v])=>[k,{levels:Object.keys(v.levels??{}),proofs:Object.keys(v.proofs??{})}])));
+console.log('experiments',BUILTIN_MANIFEST.experiments.filter(e=>['deal','firstroom','rooms','roompack2','level2random','level2randomv2','level3random','retro3v2','study1','tatami2','livingroom3'].includes(e.layer)).map(e=>({id:e.id,layer:e.layer,status:e.status,variants:e.variants.map(v=>({name:v.name,preset:v.preset})),note:e.note})));

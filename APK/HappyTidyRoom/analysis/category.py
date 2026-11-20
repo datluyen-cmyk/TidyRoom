@@ -1,0 +1,2 @@
+import pathlib,json
+r=pathlib.Path('analysis');d=json.loads((r/'mono/resources.assets_7861.json').read_text(encoding='utf8'));print([(x['value'],x['name']) for x in d['subGroups'] if x['value'] in [41025,41027,41060,41042,41022,41058,41026,41061,41065,41041]]);print('active groups',len([x for x in d['groups'] if not x['removed']]));print('active subgroups',len([x for x in d['subGroups'] if not x['removed']]));print('plan', json.loads((r/'unity/3208_level_1.txt').read_text(encoding='utf8'))['plan'])

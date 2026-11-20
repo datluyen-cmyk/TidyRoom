@@ -1,0 +1,3567 @@
+{
+  "categories": [
+    {
+      "id": 15001,
+      "groupId": 15,
+      "group": "Bowling",
+      "category": "Bowling ball",
+      "name": "Bowling_BowlingBall",
+      "count": 7,
+      "used": 7,
+      "example": "BowlingBall_1"
+    },
+    {
+      "id": 15002,
+      "groupId": 15,
+      "group": "Bowling",
+      "category": "Bowling pins",
+      "name": "Bowling_BowlingPins",
+      "count": 6,
+      "used": 6,
+      "example": "BowllingPins_1"
+    },
+    {
+      "id": 15003,
+      "groupId": 15,
+      "group": "Bowling",
+      "category": "Bowling shoes",
+      "name": "Bowling_BowlingShoes",
+      "count": 6,
+      "used": 6,
+      "example": "bowling_shoes_1"
+    },
+    {
+      "id": 15007,
+      "groupId": 15,
+      "group": "Bowling",
+      "category": "Tickets",
+      "name": "Bowling_Tickets",
+      "count": 4,
+      "used": 4,
+      "example": "Ticker_bowling_1"
+    },
+    {
+      "id": 15008,
+      "groupId": 15,
+      "group": "Bowling",
+      "category": "Shoe cover",
+      "name": "Bowling_ShoeCover",
+      "count": 5,
+      "used": 5,
+      "example": "SlideSock_Bowling_1"
+    },
+    {
+      "id": 29003,
+      "groupId": 29,
+      "group": "Restaurant",
+      "category": "Mexican Food",
+      "name": "Restaurant_MexicanFood",
+      "count": 7,
+      "used": 7,
+      "example": "Nachos_1"
+    },
+    {
+      "id": 34001,
+      "groupId": 34,
+      "group": "Art class",
+      "category": "Art tools",
+      "name": "ArtClass_ArtTools",
+      "count": 19,
+      "used": 17,
+      "example": "Art supplie_1"
+    },
+    {
+      "id": 34002,
+      "groupId": 34,
+      "group": "Art class",
+      "category": "Brushes",
+      "name": "ArtClass_Brushes",
+      "count": 13,
+      "used": 13,
+      "example": "Brushes_1"
+    },
+    {
+      "id": 34003,
+      "groupId": 34,
+      "group": "Art class",
+      "category": "Color",
+      "name": "ArtClass_Color",
+      "count": 18,
+      "used": 18,
+      "example": "paint_1"
+    },
+    {
+      "id": 34004,
+      "groupId": 34,
+      "group": "Art class",
+      "category": "Color Pallete",
+      "name": "ArtClass_ColorPallete",
+      "count": 5,
+      "used": 5,
+      "example": "Palette_3"
+    },
+    {
+      "id": 34005,
+      "groupId": 34,
+      "group": "Art class",
+      "category": "Paintings",
+      "name": "ArtClass_Paintings",
+      "count": 6,
+      "used": 6,
+      "example": "Painting_1"
+    },
+    {
+      "id": 34006,
+      "groupId": 34,
+      "group": "Art class",
+      "category": "Sculptures",
+      "name": "ArtClass_Sculptures",
+      "count": 9,
+      "used": 9,
+      "example": "Plaster_1"
+    },
+    {
+      "id": 34007,
+      "groupId": 34,
+      "group": "Art class",
+      "category": "Water bucket",
+      "name": "ArtClass_WaterBucket",
+      "count": 3,
+      "used": 3,
+      "example": "Water_cup_2"
+    },
+    {
+      "id": 35001,
+      "groupId": 35,
+      "group": "Bakery",
+      "category": "Bakery",
+      "name": "Bakery_Bakery",
+      "count": 6,
+      "used": 6,
+      "example": "Bread_1"
+    },
+    {
+      "id": 35002,
+      "groupId": 35,
+      "group": "Bakery",
+      "category": "Candy",
+      "name": "Bakery_Candy",
+      "count": 6,
+      "used": 6,
+      "example": "Candy_1"
+    },
+    {
+      "id": 35003,
+      "groupId": 35,
+      "group": "Bakery",
+      "category": "Chocolate",
+      "name": "Bakery_Chocolate",
+      "count": 9,
+      "used": 9,
+      "example": "Chocolate_1"
+    },
+    {
+      "id": 36001,
+      "groupId": 36,
+      "group": "Basketball court",
+      "category": "Banging sticks",
+      "name": "BasketballCourt_BangingSticks",
+      "count": 7,
+      "used": 7,
+      "example": "BangingStick_1"
+    },
+    {
+      "id": 36002,
+      "groupId": 36,
+      "group": "Basketball court",
+      "category": "Basketball",
+      "name": "BasketballCourt_Basketball",
+      "count": 10,
+      "used": 7,
+      "example": "Basketball_1"
+    },
+    {
+      "id": 36003,
+      "groupId": 36,
+      "group": "Basketball court",
+      "category": "Basketball Shorts",
+      "name": "BasketballCourt_BasketballShorts",
+      "count": 5,
+      "used": 5,
+      "example": "Basketball_Shorts_2"
+    },
+    {
+      "id": 36004,
+      "groupId": 36,
+      "group": "Basketball court",
+      "category": "Basketball shoes",
+      "name": "BasketballCourt_BasketballShoes",
+      "count": 7,
+      "used": 6,
+      "example": "Basketball_Shoes_1"
+    },
+    {
+      "id": 36005,
+      "groupId": 36,
+      "group": "Basketball court",
+      "category": "Bottles",
+      "name": "BasketballCourt_Bottles",
+      "count": 10,
+      "used": 10,
+      "example": "Sports_Bottle_1"
+    },
+    {
+      "id": 36006,
+      "groupId": 36,
+      "group": "Basketball court",
+      "category": "Cooler",
+      "name": "BasketballCourt_Cooler",
+      "count": 6,
+      "used": 4,
+      "example": "Ice_Cooler_1"
+    },
+    {
+      "id": 36007,
+      "groupId": 36,
+      "group": "Basketball court",
+      "category": "Hat",
+      "name": "BasketballCourt_Hat",
+      "count": 6,
+      "used": 6,
+      "example": "Basketball_Cap_2"
+    },
+    {
+      "id": 36008,
+      "groupId": 36,
+      "group": "Basketball court",
+      "category": "Head Band",
+      "name": "BasketballCourt_HeadBand",
+      "count": 7,
+      "used": 7,
+      "example": "HeadBand_1"
+    },
+    {
+      "id": 36009,
+      "groupId": 36,
+      "group": "Basketball court",
+      "category": "Jersey",
+      "name": "BasketballCourt_Jersey",
+      "count": 6,
+      "used": 6,
+      "example": "Basketball_Jersey_1"
+    },
+    {
+      "id": 36010,
+      "groupId": 36,
+      "group": "Basketball court",
+      "category": "Jumping rope",
+      "name": "BasketballCourt_JumpingRope",
+      "count": 11,
+      "used": 9,
+      "example": "Jump_Rope_2"
+    },
+    {
+      "id": 36011,
+      "groupId": 36,
+      "group": "Basketball court",
+      "category": "Knee protection",
+      "name": "BasketballCourt_KneeProtection",
+      "count": 6,
+      "used": 6,
+      "example": "Knee_Sleeve_1"
+    },
+    {
+      "id": 36012,
+      "groupId": 36,
+      "group": "Basketball court",
+      "category": "Pom pom",
+      "name": "BasketballCourt_PomPom",
+      "count": 7,
+      "used": 7,
+      "example": "PomPom_1"
+    },
+    {
+      "id": 36013,
+      "groupId": 36,
+      "group": "Basketball court",
+      "category": "Skates",
+      "name": "BasketballCourt_Skates",
+      "count": 7,
+      "used": 7,
+      "example": "Skateboard_1"
+    },
+    {
+      "id": 36014,
+      "groupId": 36,
+      "group": "Basketball court",
+      "category": "Sports bag",
+      "name": "BasketballCourt_SportsBag",
+      "count": 10,
+      "used": 10,
+      "example": "Dufel_bag_6"
+    },
+    {
+      "id": 37001,
+      "groupId": 37,
+      "group": "Bathroom",
+      "category": "Scrub Brush",
+      "name": "Bathroom_ScrubBrush",
+      "count": 6,
+      "used": 6,
+      "example": "Scrub_Brush_1"
+    },
+    {
+      "id": 37002,
+      "groupId": 37,
+      "group": "Bathroom",
+      "category": "Toilet paper",
+      "name": "Bathroom_ToiletPaper",
+      "count": 3,
+      "used": 3,
+      "example": "Tissue_1"
+    },
+    {
+      "id": 37003,
+      "groupId": 37,
+      "group": "Bathroom",
+      "category": "Towels",
+      "name": "Bathroom_Towels",
+      "count": 26,
+      "used": 23,
+      "example": "Bath_towel_1"
+    },
+    {
+      "id": 38001,
+      "groupId": 38,
+      "group": "Boutique",
+      "category": "Gift bags",
+      "name": "Boutique_GiftBags",
+      "count": 5,
+      "used": 5,
+      "example": "PackagingMaterials_1"
+    },
+    {
+      "id": 38002,
+      "groupId": 38,
+      "group": "Boutique",
+      "category": "Gift box",
+      "name": "Boutique_GiftBox",
+      "count": 5,
+      "used": 5,
+      "example": "PackagingMaterials_6"
+    },
+    {
+      "id": 38003,
+      "groupId": 38,
+      "group": "Boutique",
+      "category": "Jewelry",
+      "name": "Boutique_Jewelry",
+      "count": 17,
+      "used": 17,
+      "example": "Jewelry_2"
+    },
+    {
+      "id": 38004,
+      "groupId": 38,
+      "group": "Boutique",
+      "category": "Sunglasses",
+      "name": "Boutique_Sunglasses",
+      "count": 6,
+      "used": 6,
+      "example": "Eyeglasses_1"
+    },
+    {
+      "id": 38005,
+      "groupId": 38,
+      "group": "Boutique",
+      "category": "Watches",
+      "name": "Boutique_Watches",
+      "count": 7,
+      "used": 7,
+      "example": "Watch_1"
+    },
+    {
+      "id": 39001,
+      "groupId": 39,
+      "group": "Cafe",
+      "category": "Coffee",
+      "name": "Cafe_Coffee",
+      "count": 10,
+      "used": 10,
+      "example": "Coffee_1"
+    },
+    {
+      "id": 40001,
+      "groupId": 40,
+      "group": "Classroom",
+      "category": "Erasers",
+      "name": "Classroom_Erasers",
+      "count": 2,
+      "used": 2,
+      "example": "Eraser_2"
+    },
+    {
+      "id": 40002,
+      "groupId": 40,
+      "group": "Classroom",
+      "category": "Pencil",
+      "name": "Classroom_Pencil",
+      "count": 3,
+      "used": 3,
+      "example": "pen_5"
+    },
+    {
+      "id": 40003,
+      "groupId": 40,
+      "group": "Classroom",
+      "category": "School Supplies",
+      "name": "Classroom_SchoolSupplies",
+      "count": 9,
+      "used": 9,
+      "example": "Geometry set_1"
+    },
+    {
+      "id": 41001,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Apron",
+      "name": "CommonAssets_Apron",
+      "count": 19,
+      "used": 19,
+      "example": "Apron_1"
+    },
+    {
+      "id": 41002,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Backpacks",
+      "name": "CommonAssets_Backpacks",
+      "count": 8,
+      "used": 8,
+      "example": "HandBag_1"
+    },
+    {
+      "id": 41003,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Bluetooth speakers",
+      "name": "CommonAssets_BluetoothSpeakers",
+      "count": 8,
+      "used": 8,
+      "example": "Speaker_1"
+    },
+    {
+      "id": 41004,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Books",
+      "name": "CommonAssets_Books",
+      "count": 13,
+      "used": 13,
+      "example": "Notebook_1"
+    },
+    {
+      "id": 41005,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Bowls",
+      "name": "CommonAssets_Bowls",
+      "count": 6,
+      "used": 6,
+      "example": "Bowl_1"
+    },
+    {
+      "id": 41006,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Box of Tissues",
+      "name": "CommonAssets_BoxOfTissues",
+      "count": 10,
+      "used": 10,
+      "example": "Paper_Napkin_2"
+    },
+    {
+      "id": 41007,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Broom",
+      "name": "CommonAssets_Broom",
+      "count": 4,
+      "used": 4,
+      "example": "Broom_1"
+    },
+    {
+      "id": 41008,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Cameras",
+      "name": "CommonAssets_Cameras",
+      "count": 8,
+      "used": 8,
+      "example": "Camera_1"
+    },
+    {
+      "id": 41009,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Candles",
+      "name": "CommonAssets_Candles",
+      "count": 4,
+      "used": 4,
+      "example": "Candle_1"
+    },
+    {
+      "id": 41010,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Canned goods",
+      "name": "CommonAssets_CannedGoods",
+      "count": 9,
+      "used": 9,
+      "example": "Canned_1"
+    },
+    {
+      "id": 41011,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Carton Box",
+      "name": "CommonAssets_CartonBox",
+      "count": 9,
+      "used": 9,
+      "example": "Carton_1"
+    },
+    {
+      "id": 41012,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Cleaning products",
+      "name": "CommonAssets_CleaningProducts",
+      "count": 6,
+      "used": 6,
+      "example": "Cleanser_2"
+    },
+    {
+      "id": 41013,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Cloths",
+      "name": "CommonAssets_Cloths",
+      "count": 15,
+      "used": 15,
+      "example": "Kitchen_Towel_1"
+    },
+    {
+      "id": 41014,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Controllers",
+      "name": "CommonAssets_Controllers",
+      "count": 6,
+      "used": 6,
+      "example": "Gamepad_1"
+    },
+    {
+      "id": 41015,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Cosmetics",
+      "name": "CommonAssets_Cosmetics",
+      "count": 7,
+      "used": 7,
+      "example": "Cosmetics_1"
+    },
+    {
+      "id": 41016,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Cups",
+      "name": "CommonAssets_Cups",
+      "count": 6,
+      "used": 6,
+      "example": "Cup_1"
+    },
+    {
+      "id": 41017,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Doctor Outfits",
+      "name": "CommonAssets_DoctorOutfits",
+      "count": 17,
+      "used": 7,
+      "example": "DoctorAttire_2"
+    },
+    {
+      "id": 41018,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Dustpan",
+      "name": "CommonAssets_Dustpan",
+      "count": 7,
+      "used": 7,
+      "example": "Dustpan_1"
+    },
+    {
+      "id": 41019,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Earphones",
+      "name": "CommonAssets_Earphones",
+      "count": 4,
+      "used": 4,
+      "example": "Headphones_6"
+    },
+    {
+      "id": 41020,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Electric Kettles",
+      "name": "CommonAssets_ElectricKettles",
+      "count": 4,
+      "used": 4,
+      "example": "Electric_Kettle_2"
+    },
+    {
+      "id": 41021,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Flashlights",
+      "name": "CommonAssets_Flashlights",
+      "count": 6,
+      "used": 0,
+      "example": "Flashlight_1"
+    },
+    {
+      "id": 41022,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Fruit scraps",
+      "name": "CommonAssets_FruitScraps",
+      "count": 16,
+      "used": 16,
+      "example": "Paring_1"
+    },
+    {
+      "id": 41023,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Game consoles",
+      "name": "CommonAssets_GameConsoles",
+      "count": 4,
+      "used": 4,
+      "example": "Game_Console_1"
+    },
+    {
+      "id": 41024,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Gloves",
+      "name": "CommonAssets_Gloves",
+      "count": 10,
+      "used": 10,
+      "example": "Gardening_Gloves_1"
+    },
+    {
+      "id": 41025,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Handbags",
+      "name": "CommonAssets_Handbags",
+      "count": 9,
+      "used": 9,
+      "example": "HandBag_6"
+    },
+    {
+      "id": 41026,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Hanger",
+      "name": "CommonAssets_Hanger",
+      "count": 5,
+      "used": 5,
+      "example": "Hanger_1"
+    },
+    {
+      "id": 41027,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Hats",
+      "name": "CommonAssets_Hats",
+      "count": 10,
+      "used": 10,
+      "example": "Hat_1"
+    },
+    {
+      "id": 41028,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Headphones",
+      "name": "CommonAssets_Headphones",
+      "count": 5,
+      "used": 5,
+      "example": "Headphones_1"
+    },
+    {
+      "id": 41029,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Helmet",
+      "name": "CommonAssets_Helmet",
+      "count": 8,
+      "used": 7,
+      "example": "Helmet_1"
+    },
+    {
+      "id": 41030,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Hospital Gowns",
+      "name": "CommonAssets_HospitalGowns",
+      "count": 17,
+      "used": 6,
+      "example": "PatientAttire_1"
+    },
+    {
+      "id": 41031,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Iron",
+      "name": "CommonAssets_Iron",
+      "count": 6,
+      "used": 6,
+      "example": "Iron_1"
+    },
+    {
+      "id": 41032,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Keyboards",
+      "name": "CommonAssets_Keyboards",
+      "count": 6,
+      "used": 6,
+      "example": "Keyboard_1"
+    },
+    {
+      "id": 41033,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Long skirts",
+      "name": "CommonAssets_LongSkirts",
+      "count": 11,
+      "used": 11,
+      "example": "LongDress_1"
+    },
+    {
+      "id": 41034,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Long-sleeve wear",
+      "name": "CommonAssets_LongSleeveWear",
+      "count": 25,
+      "used": 23,
+      "example": "Long_sleeve_shirt_9"
+    },
+    {
+      "id": 41035,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Milk",
+      "name": "CommonAssets_Milk",
+      "count": 17,
+      "used": 17,
+      "example": "Milk_1"
+    },
+    {
+      "id": 41036,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Miniskirts",
+      "name": "CommonAssets_Miniskirts",
+      "count": 17,
+      "used": 15,
+      "example": "ShortSkirt_1"
+    },
+    {
+      "id": 41037,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Mirrors",
+      "name": "CommonAssets_Mirrors",
+      "count": 4,
+      "used": 4,
+      "example": "Mirror_1"
+    },
+    {
+      "id": 41038,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Monitors",
+      "name": "CommonAssets_Monitors",
+      "count": 6,
+      "used": 6,
+      "example": "Computer_Screen_1"
+    },
+    {
+      "id": 41039,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Mop",
+      "name": "CommonAssets_Mop",
+      "count": 6,
+      "used": 6,
+      "example": "Mop_1"
+    },
+    {
+      "id": 41040,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Newspaper",
+      "name": "CommonAssets_Newspaper",
+      "count": 6,
+      "used": 6,
+      "example": "NewsPaper_9"
+    },
+    {
+      "id": 41041,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Pants",
+      "name": "CommonAssets_Pants",
+      "count": 30,
+      "used": 22,
+      "example": "Trouser_1"
+    },
+    {
+      "id": 41042,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Paper Waste",
+      "name": "CommonAssets_PaperWaste",
+      "count": 5,
+      "used": 5,
+      "example": "Scrap_Paper_1"
+    },
+    {
+      "id": 41043,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Paper bags",
+      "name": "CommonAssets_PaperBags",
+      "count": 8,
+      "used": 8,
+      "example": "Paper_Bag_1"
+    },
+    {
+      "id": 41044,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Phones",
+      "name": "CommonAssets_Phones",
+      "count": 6,
+      "used": 6,
+      "example": "Phone_1"
+    },
+    {
+      "id": 41045,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Pictures",
+      "name": "CommonAssets_Pictures",
+      "count": 16,
+      "used": 14,
+      "example": "Frame_2"
+    },
+    {
+      "id": 41046,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Pillows",
+      "name": "CommonAssets_Pillows",
+      "count": 9,
+      "used": 9,
+      "example": "Pillow_1"
+    },
+    {
+      "id": 41047,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Plastic bags",
+      "name": "CommonAssets_PlasticBags",
+      "count": 6,
+      "used": 6,
+      "example": "Nylon_1"
+    },
+    {
+      "id": 41048,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Plates",
+      "name": "CommonAssets_Plates",
+      "count": 5,
+      "used": 5,
+      "example": "Plate_1"
+    },
+    {
+      "id": 41049,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Popcorn",
+      "name": "CommonAssets_Popcorn",
+      "count": 7,
+      "used": 7,
+      "example": "Popcorn_2"
+    },
+    {
+      "id": 41050,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Poster",
+      "name": "CommonAssets_Poster",
+      "count": 8,
+      "used": 5,
+      "example": "Poster_2"
+    },
+    {
+      "id": 41051,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Projectors",
+      "name": "CommonAssets_Projectors",
+      "count": 6,
+      "used": 6,
+      "example": "Projector_1"
+    },
+    {
+      "id": 41052,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Reed Diffuser",
+      "name": "CommonAssets_ReedDiffuser",
+      "count": 2,
+      "used": 2,
+      "example": "Decor_1"
+    },
+    {
+      "id": 41053,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Remotes",
+      "name": "CommonAssets_Remotes",
+      "count": 5,
+      "used": 5,
+      "example": "Remote_1"
+    },
+    {
+      "id": 41054,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Sandals",
+      "name": "CommonAssets_Sandals",
+      "count": 10,
+      "used": 10,
+      "example": "Sandal_1"
+    },
+    {
+      "id": 41055,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Scarfs",
+      "name": "CommonAssets_Scarfs",
+      "count": 13,
+      "used": 13,
+      "example": "Scarf_1"
+    },
+    {
+      "id": 41056,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Scissors",
+      "name": "CommonAssets_Scissors",
+      "count": 8,
+      "used": 8,
+      "example": "Fabric_Scissors_1"
+    },
+    {
+      "id": 41057,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Shampoo",
+      "name": "CommonAssets_Shampoo",
+      "count": 10,
+      "used": 10,
+      "example": "Shampoo_1"
+    },
+    {
+      "id": 41058,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Shoes",
+      "name": "CommonAssets_Shoes",
+      "count": 12,
+      "used": 12,
+      "example": "Shoes_1"
+    },
+    {
+      "id": 41059,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Shorts",
+      "name": "CommonAssets_Shorts",
+      "count": 17,
+      "used": 15,
+      "example": "Shorts_1"
+    },
+    {
+      "id": 41060,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Snacks",
+      "name": "CommonAssets_Snacks",
+      "count": 15,
+      "used": 15,
+      "example": "Cereal_1"
+    },
+    {
+      "id": 41061,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Socks",
+      "name": "CommonAssets_Socks",
+      "count": 7,
+      "used": 7,
+      "example": "Socks_1"
+    },
+    {
+      "id": 41062,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Squeegees",
+      "name": "CommonAssets_Squeegees",
+      "count": 6,
+      "used": 6,
+      "example": "Squeegee_1"
+    },
+    {
+      "id": 41063,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Suitcases",
+      "name": "CommonAssets_Suitcases",
+      "count": 14,
+      "used": 14,
+      "example": "Suitcase_2"
+    },
+    {
+      "id": 41064,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Swimwear",
+      "name": "CommonAssets_Swimwear",
+      "count": 10,
+      "used": 10,
+      "example": "Swimwear_1"
+    },
+    {
+      "id": 41065,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "T-shirts",
+      "name": "CommonAssets_TShirts",
+      "count": 11,
+      "used": 10,
+      "example": "Short_sleevShirt_14"
+    },
+    {
+      "id": 41066,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Tablets",
+      "name": "CommonAssets_Tablets",
+      "count": 5,
+      "used": 5,
+      "example": "Ipad_1"
+    },
+    {
+      "id": 41067,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Tank tops",
+      "name": "CommonAssets_TankTops",
+      "count": 20,
+      "used": 19,
+      "example": "Tank_top_1"
+    },
+    {
+      "id": 41068,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Teapots",
+      "name": "CommonAssets_Teapots",
+      "count": 11,
+      "used": 11,
+      "example": "Teapot_1"
+    },
+    {
+      "id": 41069,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Tie",
+      "name": "CommonAssets_Tie",
+      "count": 9,
+      "used": 8,
+      "example": "Tie_2"
+    },
+    {
+      "id": 41070,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Tote Bags",
+      "name": "CommonAssets_ToteBags",
+      "count": 12,
+      "used": 12,
+      "example": "HandBag_3"
+    },
+    {
+      "id": 41071,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Tumblers",
+      "name": "CommonAssets_Tumblers",
+      "count": 8,
+      "used": 8,
+      "example": "Tumbler_1"
+    },
+    {
+      "id": 41072,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Umbrellas",
+      "name": "CommonAssets_Umbrellas",
+      "count": 12,
+      "used": 12,
+      "example": "Umbrella_1"
+    },
+    {
+      "id": 41073,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Wallets",
+      "name": "CommonAssets_Wallets",
+      "count": 6,
+      "used": 6,
+      "example": "Wallet_1"
+    },
+    {
+      "id": 41074,
+      "groupId": 41,
+      "group": "Common assets",
+      "category": "Water bottles",
+      "name": "CommonAssets_WaterBottles",
+      "count": 7,
+      "used": 7,
+      "example": "Water_1"
+    },
+    {
+      "id": 42001,
+      "groupId": 42,
+      "group": "Dentist",
+      "category": "Cotton Swab",
+      "name": "Dentist_CottonSwab",
+      "count": 4,
+      "used": 4,
+      "example": "CottonSwab_1"
+    },
+    {
+      "id": 42002,
+      "groupId": 42,
+      "group": "Dentist",
+      "category": "Dental Instruments",
+      "name": "Dentist_DentalInstruments",
+      "count": 7,
+      "used": 7,
+      "example": "DentalInstruments_1"
+    },
+    {
+      "id": 42003,
+      "groupId": 42,
+      "group": "Dentist",
+      "category": "Documents",
+      "name": "Dentist_Documents",
+      "count": 5,
+      "used": 5,
+      "example": "MedicalDocuments_1"
+    },
+    {
+      "id": 42004,
+      "groupId": 42,
+      "group": "Dentist",
+      "category": "Masks",
+      "name": "Dentist_Masks",
+      "count": 5,
+      "used": 5,
+      "example": "Facemask_2"
+    },
+    {
+      "id": 42005,
+      "groupId": 42,
+      "group": "Dentist",
+      "category": "Medical Tray",
+      "name": "Dentist_MedicalTray",
+      "count": 4,
+      "used": 4,
+      "example": "MedicalTray_1"
+    },
+    {
+      "id": 42006,
+      "groupId": 42,
+      "group": "Dentist",
+      "category": "Medical bags",
+      "name": "Dentist_MedicalBags",
+      "count": 10,
+      "used": 6,
+      "example": "MedicalBag_2"
+    },
+    {
+      "id": 42007,
+      "groupId": 42,
+      "group": "Dentist",
+      "category": "Pill bottles",
+      "name": "Dentist_PillBottles",
+      "count": 6,
+      "used": 6,
+      "example": "MedicineBottle_1"
+    },
+    {
+      "id": 42008,
+      "groupId": 42,
+      "group": "Dentist",
+      "category": "Pill packs",
+      "name": "Dentist_PillPacks",
+      "count": 7,
+      "used": 7,
+      "example": "BlisterPack_1"
+    },
+    {
+      "id": 42009,
+      "groupId": 42,
+      "group": "Dentist",
+      "category": "Pillbox",
+      "name": "Dentist_Pillbox",
+      "count": 7,
+      "used": 7,
+      "example": "PillBox_1"
+    },
+    {
+      "id": 42010,
+      "groupId": 42,
+      "group": "Dentist",
+      "category": "Sanitizer",
+      "name": "Dentist_Sanitizer",
+      "count": 6,
+      "used": 6,
+      "example": "MedicalAlcohol_1"
+    },
+    {
+      "id": 42011,
+      "groupId": 42,
+      "group": "Dentist",
+      "category": "Stethoscope",
+      "name": "Dentist_Stethoscope",
+      "count": 6,
+      "used": 6,
+      "example": "Stethoscope_1"
+    },
+    {
+      "id": 42012,
+      "groupId": 42,
+      "group": "Dentist",
+      "category": "Syringe",
+      "name": "Dentist_Syringe",
+      "count": 6,
+      "used": 6,
+      "example": "Syringe_1"
+    },
+    {
+      "id": 43001,
+      "groupId": 43,
+      "group": "Dining",
+      "category": "Alcohol",
+      "name": "Dining_Alcohol",
+      "count": 5,
+      "used": 5,
+      "example": "Alcohol_6"
+    },
+    {
+      "id": 43002,
+      "groupId": 43,
+      "group": "Dining",
+      "category": "Cocktail",
+      "name": "Dining_Cocktail",
+      "count": 6,
+      "used": 6,
+      "example": "Cocktail_1"
+    },
+    {
+      "id": 43003,
+      "groupId": 43,
+      "group": "Dining",
+      "category": "Desserts",
+      "name": "Dining_Desserts",
+      "count": 4,
+      "used": 4,
+      "example": "MainCourse_6"
+    },
+    {
+      "id": 43004,
+      "groupId": 43,
+      "group": "Dining",
+      "category": "Dining Plates",
+      "name": "Dining_DiningPlates",
+      "count": 4,
+      "used": 4,
+      "example": "MainCoursePlate_1"
+    },
+    {
+      "id": 43005,
+      "groupId": 43,
+      "group": "Dining",
+      "category": "Fast food",
+      "name": "Dining_FastFood",
+      "count": 12,
+      "used": 12,
+      "example": "Bacon_5"
+    },
+    {
+      "id": 43006,
+      "groupId": 43,
+      "group": "Dining",
+      "category": "Fine Dining",
+      "name": "Dining_FineDining",
+      "count": 7,
+      "used": 7,
+      "example": "MainCourse_1"
+    },
+    {
+      "id": 43007,
+      "groupId": 43,
+      "group": "Dining",
+      "category": "Glass bottles",
+      "name": "Dining_GlassBottles",
+      "count": 8,
+      "used": 8,
+      "example": "Glass_Bottle_1"
+    },
+    {
+      "id": 43008,
+      "groupId": 43,
+      "group": "Dining",
+      "category": "Call Bell",
+      "name": "Dining_CallBell",
+      "count": 2,
+      "used": 2,
+      "example": "Cloche_1"
+    },
+    {
+      "id": 43009,
+      "groupId": 43,
+      "group": "Dining",
+      "category": "Soda",
+      "name": "Dining_Soda",
+      "count": 21,
+      "used": 21,
+      "example": "Pop_Can_1"
+    },
+    {
+      "id": 43010,
+      "groupId": 43,
+      "group": "Dining",
+      "category": "Wine",
+      "name": "Dining_Wine",
+      "count": 2,
+      "used": 2,
+      "example": "Wine_1"
+    },
+    {
+      "id": 43011,
+      "groupId": 43,
+      "group": "Dining",
+      "category": "Wine glasses",
+      "name": "Dining_WineGlasses",
+      "count": 7,
+      "used": 7,
+      "example": "WineGlass_1"
+    },
+    {
+      "id": 44001,
+      "groupId": 44,
+      "group": "Flower shop",
+      "category": "Bouquet",
+      "name": "FlowerShop_Bouquet",
+      "count": 8,
+      "used": 8,
+      "example": "Bouquet_1"
+    },
+    {
+      "id": 44002,
+      "groupId": 44,
+      "group": "Flower shop",
+      "category": "Empty Pots",
+      "name": "FlowerShop_EmptyPots",
+      "count": 10,
+      "used": 10,
+      "example": "PlantPot_1"
+    },
+    {
+      "id": 44003,
+      "groupId": 44,
+      "group": "Flower shop",
+      "category": "Flower pots",
+      "name": "FlowerShop_FlowerPots",
+      "count": 17,
+      "used": 17,
+      "example": "Decor_13"
+    },
+    {
+      "id": 44004,
+      "groupId": 44,
+      "group": "Flower shop",
+      "category": "Gardening tools",
+      "name": "FlowerShop_GardeningTools",
+      "count": 6,
+      "used": 6,
+      "example": "GardenTrowel_1"
+    },
+    {
+      "id": 44005,
+      "groupId": 44,
+      "group": "Flower shop",
+      "category": "Seed bag",
+      "name": "FlowerShop_SeedBag",
+      "count": 9,
+      "used": 9,
+      "example": "Seed_1"
+    },
+    {
+      "id": 45001,
+      "groupId": 45,
+      "group": "Garage",
+      "category": "Car hood",
+      "name": "Garage_CarHood",
+      "count": 6,
+      "used": 0,
+      "example": "Bonnet_1"
+    },
+    {
+      "id": 45002,
+      "groupId": 45,
+      "group": "Garage",
+      "category": "Engine",
+      "name": "Garage_Engine",
+      "count": 7,
+      "used": 5,
+      "example": "Engine_1"
+    },
+    {
+      "id": 45003,
+      "groupId": 45,
+      "group": "Garage",
+      "category": "Pliers",
+      "name": "Garage_Pliers",
+      "count": 9,
+      "used": 6,
+      "example": "Pliers_3"
+    },
+    {
+      "id": 45004,
+      "groupId": 45,
+      "group": "Garage",
+      "category": "Power Drill",
+      "name": "Garage_PowerDrill",
+      "count": 8,
+      "used": 8,
+      "example": "Power_Drill_1"
+    },
+    {
+      "id": 45005,
+      "groupId": 45,
+      "group": "Garage",
+      "category": "Screwdriver",
+      "name": "Garage_Screwdriver",
+      "count": 6,
+      "used": 6,
+      "example": "Screwdriver_1"
+    },
+    {
+      "id": 45006,
+      "groupId": 45,
+      "group": "Garage",
+      "category": "Tires",
+      "name": "Garage_Tires",
+      "count": 9,
+      "used": 5,
+      "example": "Fire_5"
+    },
+    {
+      "id": 45007,
+      "groupId": 45,
+      "group": "Garage",
+      "category": "Toolbox",
+      "name": "Garage_Toolbox",
+      "count": 5,
+      "used": 3,
+      "example": "Tool_Box_1"
+    },
+    {
+      "id": 45008,
+      "groupId": 45,
+      "group": "Garage",
+      "category": "Wheel rim",
+      "name": "Garage_WheelRim",
+      "count": 10,
+      "used": 3,
+      "example": "Wheel_Rim_3"
+    },
+    {
+      "id": 45009,
+      "groupId": 45,
+      "group": "Garage",
+      "category": "Windshield",
+      "name": "Garage_Windshield",
+      "count": 3,
+      "used": 3,
+      "example": "Windshield_1"
+    },
+    {
+      "id": 45010,
+      "groupId": 45,
+      "group": "Garage",
+      "category": "Windshield Wipers",
+      "name": "Garage_WindshieldWipers",
+      "count": 6,
+      "used": 0,
+      "example": "Wipers_1"
+    },
+    {
+      "id": 45011,
+      "groupId": 45,
+      "group": "Garage",
+      "category": "Wrench",
+      "name": "Garage_Wrench",
+      "count": 13,
+      "used": 9,
+      "example": "Hand_Brush_1"
+    },
+    {
+      "id": 46001,
+      "groupId": 46,
+      "group": "Hair salon",
+      "category": "Comb",
+      "name": "HairSalon_Comb",
+      "count": 6,
+      "used": 6,
+      "example": "Comb_1"
+    },
+    {
+      "id": 46002,
+      "groupId": 46,
+      "group": "Hair salon",
+      "category": "Hair Clippers",
+      "name": "HairSalon_HairClippers",
+      "count": 6,
+      "used": 6,
+      "example": "Hair_Clippers_1"
+    },
+    {
+      "id": 46003,
+      "groupId": 46,
+      "group": "Hair salon",
+      "category": "Hair Wax",
+      "name": "HairSalon_HairWax",
+      "count": 6,
+      "used": 6,
+      "example": "Hair_Wax_1"
+    },
+    {
+      "id": 46004,
+      "groupId": 46,
+      "group": "Hair salon",
+      "category": "Wigs",
+      "name": "HairSalon_Wigs",
+      "count": 6,
+      "used": 6,
+      "example": "Wig_1"
+    },
+    {
+      "id": 47001,
+      "groupId": 47,
+      "group": "Kitchen",
+      "category": "Cheese",
+      "name": "Kitchen_Cheese",
+      "count": 4,
+      "used": 4,
+      "example": "Cheese_1"
+    },
+    {
+      "id": 47002,
+      "groupId": 47,
+      "group": "Kitchen",
+      "category": "Cooking oil",
+      "name": "Kitchen_CookingOil",
+      "count": 4,
+      "used": 4,
+      "example": "Cooking oil_2"
+    },
+    {
+      "id": 47003,
+      "groupId": 47,
+      "group": "Kitchen",
+      "category": "Cookware",
+      "name": "Kitchen_Cookware",
+      "count": 21,
+      "used": 17,
+      "example": "Pan_1"
+    },
+    {
+      "id": 47004,
+      "groupId": 47,
+      "group": "Kitchen",
+      "category": "Deli meat",
+      "name": "Kitchen_DeliMeat",
+      "count": 8,
+      "used": 0,
+      "example": "Bacon_1"
+    },
+    {
+      "id": 47005,
+      "groupId": 47,
+      "group": "Kitchen",
+      "category": "Eggs",
+      "name": "Kitchen_Eggs",
+      "count": 8,
+      "used": 8,
+      "example": "Egg_1"
+    },
+    {
+      "id": 47006,
+      "groupId": 47,
+      "group": "Kitchen",
+      "category": "Food trays",
+      "name": "Kitchen_FoodTrays",
+      "count": 12,
+      "used": 0,
+      "example": "Food_Tray_1"
+    },
+    {
+      "id": 47007,
+      "groupId": 47,
+      "group": "Kitchen",
+      "category": "Fruits",
+      "name": "Kitchen_Fruits",
+      "count": 13,
+      "used": 13,
+      "example": "Fruit_1"
+    },
+    {
+      "id": 47008,
+      "groupId": 47,
+      "group": "Kitchen",
+      "category": "Kitchen Tools",
+      "name": "Kitchen_KitchenTools",
+      "count": 16,
+      "used": 15,
+      "example": "Kitchen_Shears_2"
+    },
+    {
+      "id": 47009,
+      "groupId": 47,
+      "group": "Kitchen",
+      "category": "Noodles",
+      "name": "Kitchen_Noodles",
+      "count": 8,
+      "used": 8,
+      "example": "Noodles_1"
+    },
+    {
+      "id": 47010,
+      "groupId": 47,
+      "group": "Kitchen",
+      "category": "Oven mitts",
+      "name": "Kitchen_OvenMitts",
+      "count": 4,
+      "used": 4,
+      "example": "Oven_mitts_1"
+    },
+    {
+      "id": 47011,
+      "groupId": 47,
+      "group": "Kitchen",
+      "category": "Raw meat",
+      "name": "Kitchen_RawMeat",
+      "count": 6,
+      "used": 6,
+      "example": "Bacon_10"
+    },
+    {
+      "id": 47012,
+      "groupId": 47,
+      "group": "Kitchen",
+      "category": "Spices",
+      "name": "Kitchen_Spices",
+      "count": 19,
+      "used": 19,
+      "example": "Spices_01"
+    },
+    {
+      "id": 47013,
+      "groupId": 47,
+      "group": "Kitchen",
+      "category": "Vegetables",
+      "name": "Kitchen_Vegetables",
+      "count": 12,
+      "used": 12,
+      "example": "Vegetable_1"
+    },
+    {
+      "id": 48001,
+      "groupId": 48,
+      "group": "Laundry",
+      "category": "Clothing Bag",
+      "name": "Laundry_ClothingBag",
+      "count": 7,
+      "used": 3,
+      "example": "Garment bag_2"
+    },
+    {
+      "id": 48002,
+      "groupId": 48,
+      "group": "Laundry",
+      "category": "Laundry Basket",
+      "name": "Laundry_LaundryBasket",
+      "count": 7,
+      "used": 6,
+      "example": "Laundry_Basket_1"
+    },
+    {
+      "id": 49001,
+      "groupId": 49,
+      "group": "Music studio",
+      "category": "Musical instruments",
+      "name": "MusicStudio_MusicalInstruments",
+      "count": 17,
+      "used": 13,
+      "example": "MusicalInstrument_1"
+    },
+    {
+      "id": 65001,
+      "groupId": 49,
+      "group": "Music studio",
+      "category": "Micro",
+      "name": "MusicStudio_Micro",
+      "count": 7,
+      "used": 7,
+      "example": "Micro_1"
+    },
+    {
+      "id": 65002,
+      "groupId": 49,
+      "group": "Music studio",
+      "category": "Music book",
+      "name": "MusicStudio_MusicBook",
+      "count": 9,
+      "used": 9,
+      "example": "Music_Book_1"
+    },
+    {
+      "id": 65003,
+      "groupId": 49,
+      "group": "Music studio",
+      "category": "Music record",
+      "name": "MusicStudio_MusicRecord",
+      "count": 10,
+      "used": 10,
+      "example": "Music_Record_1"
+    },
+    {
+      "id": 65004,
+      "groupId": 49,
+      "group": "Music studio",
+      "category": "Music trophy",
+      "name": "MusicStudio_MusicTrophy",
+      "count": 9,
+      "used": 9,
+      "example": "Music_Trophy_1"
+    },
+    {
+      "id": 65006,
+      "groupId": 49,
+      "group": "Music studio",
+      "category": "Recording equipment",
+      "name": "MusicStudio_RecordingEquipment",
+      "count": 8,
+      "used": 3,
+      "example": "Recording_Equipment_6"
+    },
+    {
+      "id": 50001,
+      "groupId": 50,
+      "group": "Nail salon",
+      "category": "Nail Polish",
+      "name": "NailSalon_NailPolish",
+      "count": 6,
+      "used": 6,
+      "example": "Nail_Polish_1"
+    },
+    {
+      "id": 50002,
+      "groupId": 50,
+      "group": "Nail salon",
+      "category": "Nail tools",
+      "name": "NailSalon_NailTools",
+      "count": 6,
+      "used": 6,
+      "example": "Nail_Tools_1"
+    },
+    {
+      "id": 51001,
+      "groupId": 51,
+      "group": "Office & Study room",
+      "category": "Calculators",
+      "name": "OfficeStudyRoom_Calculators",
+      "count": 7,
+      "used": 7,
+      "example": "Calculator_1"
+    },
+    {
+      "id": 51002,
+      "groupId": 51,
+      "group": "Office & Study room",
+      "category": "Folders",
+      "name": "OfficeStudyRoom_Folders",
+      "count": 6,
+      "used": 6,
+      "example": "Folder_2"
+    },
+    {
+      "id": 51003,
+      "groupId": 51,
+      "group": "Office & Study room",
+      "category": "Markers",
+      "name": "OfficeStudyRoom_Markers",
+      "count": 3,
+      "used": 3,
+      "example": "pen_2"
+    },
+    {
+      "id": 51004,
+      "groupId": 51,
+      "group": "Office & Study room",
+      "category": "Paper",
+      "name": "OfficeStudyRoom_Paper",
+      "count": 6,
+      "used": 6,
+      "example": "A4 paper_1"
+    },
+    {
+      "id": 51005,
+      "groupId": 51,
+      "group": "Office & Study room",
+      "category": "Pens",
+      "name": "OfficeStudyRoom_Pens",
+      "count": 4,
+      "used": 4,
+      "example": "pen_1"
+    },
+    {
+      "id": 51006,
+      "groupId": 51,
+      "group": "Office & Study room",
+      "category": "Printers",
+      "name": "OfficeStudyRoom_Printers",
+      "count": 7,
+      "used": 7,
+      "example": "Printer_1"
+    },
+    {
+      "id": 51007,
+      "groupId": 51,
+      "group": "Office & Study room",
+      "category": "Stamps",
+      "name": "OfficeStudyRoom_Stamps",
+      "count": 6,
+      "used": 0,
+      "example": "Stamp_1"
+    },
+    {
+      "id": 51008,
+      "groupId": 51,
+      "group": "Office & Study room",
+      "category": "Staplers",
+      "name": "OfficeStudyRoom_Staplers",
+      "count": 6,
+      "used": 6,
+      "example": "Staple_1"
+    },
+    {
+      "id": 51009,
+      "groupId": 51,
+      "group": "Office & Study room",
+      "category": "Sticky notes",
+      "name": "OfficeStudyRoom_StickyNotes",
+      "count": 6,
+      "used": 6,
+      "example": "Sticky_note_1"
+    },
+    {
+      "id": 52001,
+      "groupId": 52,
+      "group": "Pet room",
+      "category": "Pet Toy Balls",
+      "name": "PetRoom_PetToyBalls",
+      "count": 10,
+      "used": 9,
+      "example": "Pet_Toy_Ball_1"
+    },
+    {
+      "id": 52002,
+      "groupId": 52,
+      "group": "Pet room",
+      "category": "Cat litters",
+      "name": "PetRoom_CatLitters",
+      "count": 3,
+      "used": 3,
+      "example": "Litter_Tray_1"
+    },
+    {
+      "id": 52003,
+      "groupId": 52,
+      "group": "Pet room",
+      "category": "Cat wands",
+      "name": "PetRoom_CatWands",
+      "count": 8,
+      "used": 6,
+      "example": "Cat_Wand_1"
+    },
+    {
+      "id": 52004,
+      "groupId": 52,
+      "group": "Pet room",
+      "category": "Pet Collars",
+      "name": "PetRoom_PetCollars",
+      "count": 8,
+      "used": 7,
+      "example": "Pet_Collar_2"
+    },
+    {
+      "id": 52005,
+      "groupId": 52,
+      "group": "Pet room",
+      "category": "Pet bowl",
+      "name": "PetRoom_PetBowl",
+      "count": 9,
+      "used": 8,
+      "example": "Pet_Bowl_1"
+    },
+    {
+      "id": 52006,
+      "groupId": 52,
+      "group": "Pet room",
+      "category": "Pet carriers",
+      "name": "PetRoom_PetCarriers",
+      "count": 5,
+      "used": 3,
+      "example": "Pet_Cage_1"
+    },
+    {
+      "id": 52007,
+      "groupId": 52,
+      "group": "Pet room",
+      "category": "Pet clothes",
+      "name": "PetRoom_PetClothes",
+      "count": 8,
+      "used": 6,
+      "example": "Pet_Clothes_1"
+    },
+    {
+      "id": 52008,
+      "groupId": 52,
+      "group": "Pet room",
+      "category": "Pet food",
+      "name": "PetRoom_PetFood",
+      "count": 16,
+      "used": 6,
+      "example": "Pet _Food_Bag_2"
+    },
+    {
+      "id": 53001,
+      "groupId": 53,
+      "group": "Pool",
+      "category": "Swimming Goggles",
+      "name": "Pool_SwimmingGoggles",
+      "count": 6,
+      "used": 6,
+      "example": "SwimmingGoggles_1"
+    },
+    {
+      "id": 53002,
+      "groupId": 53,
+      "group": "Pool",
+      "category": "Pool Floats",
+      "name": "Pool_PoolFloats",
+      "count": 9,
+      "used": 9,
+      "example": "SwimmingFloat_1"
+    },
+    {
+      "id": 54001,
+      "groupId": 54,
+      "group": "Sport",
+      "category": "Champion cups",
+      "name": "Sport_ChampionCups",
+      "count": 2,
+      "used": 2,
+      "example": "Cup_bowling_1"
+    },
+    {
+      "id": 54002,
+      "groupId": 54,
+      "group": "Sport",
+      "category": "Medals",
+      "name": "Sport_Medals",
+      "count": 5,
+      "used": 5,
+      "example": "Medal_bowling_1"
+    },
+    {
+      "id": 54003,
+      "groupId": 54,
+      "group": "Sport",
+      "category": "Dumbbell",
+      "name": "Sport_Dumbbell",
+      "count": 8,
+      "used": 8,
+      "example": "Dumbbell_1"
+    },
+    {
+      "id": 54004,
+      "groupId": 54,
+      "group": "Sport",
+      "category": "Handgrip",
+      "name": "Sport_Handgrip",
+      "count": 9,
+      "used": 8,
+      "example": "Handgrip_1"
+    },
+    {
+      "id": 54005,
+      "groupId": 54,
+      "group": "Sport",
+      "category": "Kettlebell",
+      "name": "Sport_Kettlebell",
+      "count": 6,
+      "used": 6,
+      "example": "Kettlebell_1"
+    },
+    {
+      "id": 54006,
+      "groupId": 54,
+      "group": "Sport",
+      "category": "Scale",
+      "name": "Sport_Scale",
+      "count": 5,
+      "used": 5,
+      "example": "Scale_1"
+    },
+    {
+      "id": 54007,
+      "groupId": 54,
+      "group": "Sport",
+      "category": "Yoga mat",
+      "name": "Sport_YogaMat",
+      "count": 8,
+      "used": 7,
+      "example": "Yoga_Mat_1"
+    },
+    {
+      "id": 55001,
+      "groupId": 55,
+      "group": "Tailor shop",
+      "category": "Fabric rolls",
+      "name": "TailorShop_FabricRolls",
+      "count": 11,
+      "used": 9,
+      "example": "Roll_Of_Fabric_2"
+    },
+    {
+      "id": 55002,
+      "groupId": 55,
+      "group": "Tailor shop",
+      "category": "Fabric scissors",
+      "name": "TailorShop_FabricScissors",
+      "count": 4,
+      "used": 4,
+      "example": "Fabric_Scissors_4"
+    },
+    {
+      "id": 55003,
+      "groupId": 55,
+      "group": "Tailor shop",
+      "category": "Measuring tape",
+      "name": "TailorShop_MeasuringTape",
+      "count": 5,
+      "used": 5,
+      "example": "Measuring_Tape_1"
+    },
+    {
+      "id": 55004,
+      "groupId": 55,
+      "group": "Tailor shop",
+      "category": "Pin cushion",
+      "name": "TailorShop_PinCushion",
+      "count": 5,
+      "used": 5,
+      "example": "Pincushion_1"
+    },
+    {
+      "id": 55005,
+      "groupId": 55,
+      "group": "Tailor shop",
+      "category": "Ribbon",
+      "name": "TailorShop_Ribbon",
+      "count": 8,
+      "used": 8,
+      "example": "Ribbon_1"
+    },
+    {
+      "id": 55006,
+      "groupId": 55,
+      "group": "Tailor shop",
+      "category": "Ruler",
+      "name": "TailorShop_Ruler",
+      "count": 4,
+      "used": 4,
+      "example": "Ruler_1"
+    },
+    {
+      "id": 55007,
+      "groupId": 55,
+      "group": "Tailor shop",
+      "category": "Sewing box",
+      "name": "TailorShop_SewingBox",
+      "count": 5,
+      "used": 5,
+      "example": "Sewing_Box_1"
+    },
+    {
+      "id": 55008,
+      "groupId": 55,
+      "group": "Tailor shop",
+      "category": "Sewing machine",
+      "name": "TailorShop_SewingMachine",
+      "count": 5,
+      "used": 5,
+      "example": "Sewing_Machine_1"
+    },
+    {
+      "id": 55009,
+      "groupId": 55,
+      "group": "Tailor shop",
+      "category": "Swatchbook",
+      "name": "TailorShop_Swatchbook",
+      "count": 8,
+      "used": 8,
+      "example": "Swatchbook_1"
+    },
+    {
+      "id": 55010,
+      "groupId": 55,
+      "group": "Tailor shop",
+      "category": "Thread Spool",
+      "name": "TailorShop_ThreadSpool",
+      "count": 9,
+      "used": 9,
+      "example": "Clew_1"
+    },
+    {
+      "id": 55011,
+      "groupId": 55,
+      "group": "Tailor shop",
+      "category": "Zipper",
+      "name": "TailorShop_Zipper",
+      "count": 6,
+      "used": 6,
+      "example": "Zipper_1"
+    },
+    {
+      "id": 56001,
+      "groupId": 56,
+      "group": "Toy shop & Playroom",
+      "category": "Animal Toys",
+      "name": "ToyShopPlayroom_AnimalToys",
+      "count": 10,
+      "used": 10,
+      "example": "Animal_Figures_1"
+    },
+    {
+      "id": 56002,
+      "groupId": 56,
+      "group": "Toy shop & Playroom",
+      "category": "Balls",
+      "name": "ToyShopPlayroom_Balls",
+      "count": 7,
+      "used": 7,
+      "example": "Ball_1"
+    },
+    {
+      "id": 56003,
+      "groupId": 56,
+      "group": "Toy shop & Playroom",
+      "category": "Board game",
+      "name": "ToyShopPlayroom_BoardGame",
+      "count": 5,
+      "used": 5,
+      "example": "Board_Game_01"
+    },
+    {
+      "id": 56004,
+      "groupId": 56,
+      "group": "Toy shop & Playroom",
+      "category": "Dolls",
+      "name": "ToyShopPlayroom_Dolls",
+      "count": 5,
+      "used": 5,
+      "example": "Doll_1"
+    },
+    {
+      "id": 56005,
+      "groupId": 56,
+      "group": "Toy shop & Playroom",
+      "category": "Kitchen toys",
+      "name": "ToyShopPlayroom_KitchenToys",
+      "count": 9,
+      "used": 9,
+      "example": "Cooking_Playset_1"
+    },
+    {
+      "id": 56006,
+      "groupId": 56,
+      "group": "Toy shop & Playroom",
+      "category": "Building Blocks",
+      "name": "ToyShopPlayroom_BuildingBlocks",
+      "count": 4,
+      "used": 4,
+      "example": "Lego_3"
+    },
+    {
+      "id": 56007,
+      "groupId": 56,
+      "group": "Toy shop & Playroom",
+      "category": "Plushies",
+      "name": "ToyShopPlayroom_Plushies",
+      "count": 7,
+      "used": 6,
+      "example": "Stuffies_1"
+    },
+    {
+      "id": 56008,
+      "groupId": 56,
+      "group": "Toy shop & Playroom",
+      "category": "Puzzle Cube",
+      "name": "ToyShopPlayroom_PuzzleCube",
+      "count": 5,
+      "used": 5,
+      "example": "Rubik_1"
+    },
+    {
+      "id": 56009,
+      "groupId": 56,
+      "group": "Toy shop & Playroom",
+      "category": "Toy Box",
+      "name": "ToyShopPlayroom_ToyBox",
+      "count": 4,
+      "used": 4,
+      "example": "Toy_Box_1"
+    },
+    {
+      "id": 56010,
+      "groupId": 56,
+      "group": "Toy shop & Playroom",
+      "category": "Vehicle Toys",
+      "name": "ToyShopPlayroom_VehicleToys",
+      "count": 12,
+      "used": 12,
+      "example": "Toy_Transport_1"
+    },
+    {
+      "id": 57001,
+      "groupId": 57,
+      "group": "Arcade",
+      "category": "Gacha ball",
+      "name": "Arcade_GachaBall",
+      "count": 10,
+      "used": 10,
+      "example": "Gacha_Ball_1"
+    },
+    {
+      "id": 57002,
+      "groupId": 57,
+      "group": "Arcade",
+      "category": "Hammer",
+      "name": "Arcade_Hammer",
+      "count": 6,
+      "used": 6,
+      "example": "Hammer_1"
+    },
+    {
+      "id": 57003,
+      "groupId": 57,
+      "group": "Arcade",
+      "category": "Scoreboard",
+      "name": "Arcade_Scoreboard",
+      "count": 5,
+      "used": 5,
+      "example": "Scoreboard_1"
+    },
+    {
+      "id": 57004,
+      "groupId": 57,
+      "group": "Arcade",
+      "category": "Ticket eater",
+      "name": "Arcade_TicketEater",
+      "count": 3,
+      "used": 0,
+      "example": "Ticket_Eater_1"
+    },
+    {
+      "id": 57005,
+      "groupId": 57,
+      "group": "Arcade",
+      "category": "Ticket roll",
+      "name": "Arcade_TicketRoll",
+      "count": 10,
+      "used": 10,
+      "example": "Ticket_Roll_1"
+    },
+    {
+      "id": 57006,
+      "groupId": 57,
+      "group": "Arcade",
+      "category": "Token tray",
+      "name": "Arcade_TokenTray",
+      "count": 6,
+      "used": 6,
+      "example": "Token_Tray_1"
+    },
+    {
+      "id": 57007,
+      "groupId": 57,
+      "group": "Arcade",
+      "category": "Toss ring",
+      "name": "Arcade_TossRing",
+      "count": 5,
+      "used": 5,
+      "example": "Toss_Ring_1"
+    },
+    {
+      "id": 57008,
+      "groupId": 57,
+      "group": "Arcade",
+      "category": "VR headset",
+      "name": "Arcade_VRHeadset",
+      "count": 4,
+      "used": 4,
+      "example": "VR_Headset_1"
+    },
+    {
+      "id": 57009,
+      "groupId": 57,
+      "group": "Arcade",
+      "category": "Water gun",
+      "name": "Arcade_WaterGun",
+      "count": 9,
+      "used": 9,
+      "example": "Water_Gun_1"
+    },
+    {
+      "id": 58001,
+      "groupId": 58,
+      "group": "Christmas",
+      "category": "Chrismas Hat",
+      "name": "Christmas_ChrismasHat",
+      "count": 7,
+      "used": 6,
+      "example": "Hat_11"
+    },
+    {
+      "id": 58002,
+      "groupId": 58,
+      "group": "Christmas",
+      "category": "Christmas Socks",
+      "name": "Christmas_ChristmasSocks",
+      "count": 8,
+      "used": 8,
+      "example": "Socks_11"
+    },
+    {
+      "id": 58003,
+      "groupId": 58,
+      "group": "Christmas",
+      "category": "Music box",
+      "name": "Christmas_MusicBox",
+      "count": 4,
+      "used": 4,
+      "example": "Music_Box_1"
+    },
+    {
+      "id": 58004,
+      "groupId": 58,
+      "group": "Christmas",
+      "category": "Snow globe",
+      "name": "Christmas_SnowGlobe",
+      "count": 5,
+      "used": 5,
+      "example": "Snow_Globe_1"
+    },
+    {
+      "id": 58005,
+      "groupId": 58,
+      "group": "Christmas",
+      "category": "Xmas Toy",
+      "name": "Christmas_XmasToy",
+      "count": 6,
+      "used": 6,
+      "example": "Xmas_Toy_2"
+    },
+    {
+      "id": 58006,
+      "groupId": 58,
+      "group": "Christmas",
+      "category": "Xmas cake",
+      "name": "Christmas_XmasCake",
+      "count": 12,
+      "used": 12,
+      "example": "Xmas_Cake_1"
+    },
+    {
+      "id": 58007,
+      "groupId": 58,
+      "group": "Christmas",
+      "category": "Xmas decor",
+      "name": "Christmas_XmasDecor",
+      "count": 11,
+      "used": 11,
+      "example": "Xmas_Decor_1"
+    },
+    {
+      "id": 58008,
+      "groupId": 58,
+      "group": "Christmas",
+      "category": "Xmas drink",
+      "name": "Christmas_XmasDrink",
+      "count": 7,
+      "used": 7,
+      "example": "Xmas_Drink_2"
+    },
+    {
+      "id": 58009,
+      "groupId": 58,
+      "group": "Christmas",
+      "category": "Xmas food",
+      "name": "Christmas_XmasFood",
+      "count": 10,
+      "used": 10,
+      "example": "Xmas_Food_1"
+    },
+    {
+      "id": 58010,
+      "groupId": 58,
+      "group": "Christmas",
+      "category": "Xmas ice cream",
+      "name": "Christmas_XmasIceCream",
+      "count": 6,
+      "used": 6,
+      "example": "Xmas_Ice_Cream_1"
+    },
+    {
+      "id": 59001,
+      "groupId": 59,
+      "group": "Cinema",
+      "category": "3D glasses",
+      "name": "Cinema__3DGlasses",
+      "count": 8,
+      "used": 8,
+      "example": "3D_Glasses_1"
+    },
+    {
+      "id": 59002,
+      "groupId": 59,
+      "group": "Cinema",
+      "category": "Cinema ticket",
+      "name": "Cinema_CinemaTicket",
+      "count": 7,
+      "used": 7,
+      "example": "Cinema_Ticket_1"
+    },
+    {
+      "id": 59003,
+      "groupId": 59,
+      "group": "Cinema",
+      "category": "Drink cup",
+      "name": "Cinema_DrinkCup",
+      "count": 7,
+      "used": 7,
+      "example": "Drink_Cup_1"
+    },
+    {
+      "id": 59004,
+      "groupId": 59,
+      "group": "Cinema",
+      "category": "Film poster",
+      "name": "Cinema_FilmPoster",
+      "count": 8,
+      "used": 7,
+      "example": "Poster_9"
+    },
+    {
+      "id": 60001,
+      "groupId": 60,
+      "group": "Circus",
+      "category": "Circus Costume",
+      "name": "Circus_CircusCostume",
+      "count": 9,
+      "used": 7,
+      "example": "Circus_Costume_1"
+    },
+    {
+      "id": 60002,
+      "groupId": 60,
+      "group": "Circus",
+      "category": "Clown costume",
+      "name": "Circus_ClownCostume",
+      "count": 8,
+      "used": 5,
+      "example": "Clown_Costume_1"
+    },
+    {
+      "id": 60003,
+      "groupId": 60,
+      "group": "Circus",
+      "category": "Clown hat",
+      "name": "Circus_ClownHat",
+      "count": 8,
+      "used": 8,
+      "example": "Clown_Hat_1"
+    },
+    {
+      "id": 60004,
+      "groupId": 60,
+      "group": "Circus",
+      "category": "Juggling clubs",
+      "name": "Circus_JugglingClubs",
+      "count": 8,
+      "used": 8,
+      "example": "Juggling_Clubs_1"
+    },
+    {
+      "id": 60005,
+      "groupId": 60,
+      "group": "Circus",
+      "category": "Magic box",
+      "name": "Circus_MagicBox",
+      "count": 9,
+      "used": 8,
+      "example": "Magic_Box_1"
+    },
+    {
+      "id": 61001,
+      "groupId": 61,
+      "group": "Hotel Lobby",
+      "category": "Bellboy hat",
+      "name": "HotelLobby_BellboyHat",
+      "count": 4,
+      "used": 4,
+      "example": "Bellboy_Hat_1"
+    },
+    {
+      "id": 61002,
+      "groupId": 61,
+      "group": "Hotel Lobby",
+      "category": "Desk calendar",
+      "name": "HotelLobby_DeskCalendar",
+      "count": 8,
+      "used": 8,
+      "example": "Desk_Calendar_1"
+    },
+    {
+      "id": 61003,
+      "groupId": 61,
+      "group": "Hotel Lobby",
+      "category": "Desk clock",
+      "name": "HotelLobby_DeskClock",
+      "count": 9,
+      "used": 9,
+      "example": "Desk_Clock_1"
+    },
+    {
+      "id": 61004,
+      "groupId": 61,
+      "group": "Hotel Lobby",
+      "category": "Door hanger",
+      "name": "HotelLobby_DoorHanger",
+      "count": 6,
+      "used": 6,
+      "example": "Door_Hanger_1"
+    },
+    {
+      "id": 61005,
+      "groupId": 61,
+      "group": "Hotel Lobby",
+      "category": "Key",
+      "name": "HotelLobby_Key",
+      "count": 8,
+      "used": 8,
+      "example": "Key_1"
+    },
+    {
+      "id": 61006,
+      "groupId": 61,
+      "group": "Hotel Lobby",
+      "category": "Landline",
+      "name": "HotelLobby_Landline",
+      "count": 7,
+      "used": 7,
+      "example": "Landline_1"
+    },
+    {
+      "id": 61007,
+      "groupId": 61,
+      "group": "Hotel Lobby",
+      "category": "Magazine",
+      "name": "HotelLobby_Magazine",
+      "count": 7,
+      "used": 7,
+      "example": "Magazine_1"
+    },
+    {
+      "id": 62001,
+      "groupId": 62,
+      "group": "Ice Cream Shop",
+      "category": "Bingxu",
+      "name": "IceCreamShop_Bingxu",
+      "count": 10,
+      "used": 10,
+      "example": "Bingxu_1"
+    },
+    {
+      "id": 62002,
+      "groupId": 62,
+      "group": "Ice Cream Shop",
+      "category": "Cone holder",
+      "name": "IceCreamShop_ConeHolder",
+      "count": 7,
+      "used": 7,
+      "example": "Cone_Holde_1"
+    },
+    {
+      "id": 62003,
+      "groupId": 62,
+      "group": "Ice Cream Shop",
+      "category": "Ice chest",
+      "name": "IceCreamShop_IceChest",
+      "count": 8,
+      "used": 7,
+      "example": "Ice_Chest_1"
+    },
+    {
+      "id": 62004,
+      "groupId": 62,
+      "group": "Ice Cream Shop",
+      "category": "Ice cream cone",
+      "name": "IceCreamShop_IceCreamCone",
+      "count": 5,
+      "used": 5,
+      "example": "Ice_Cream_Cone_1"
+    },
+    {
+      "id": 62005,
+      "groupId": 62,
+      "group": "Ice Cream Shop",
+      "category": "Ice cream cup",
+      "name": "IceCreamShop_IceCreamCup",
+      "count": 10,
+      "used": 10,
+      "example": "Ice_Cream_Cup_1"
+    },
+    {
+      "id": 62006,
+      "groupId": 62,
+      "group": "Ice Cream Shop",
+      "category": "Ice cream mold",
+      "name": "IceCreamShop_IceCreamMold",
+      "count": 7,
+      "used": 7,
+      "example": "Ice_Cream_Mold_1"
+    },
+    {
+      "id": 62007,
+      "groupId": 62,
+      "group": "Ice Cream Shop",
+      "category": "Ice cream tub",
+      "name": "IceCreamShop_IceCreamTub",
+      "count": 12,
+      "used": 12,
+      "example": "Ice_Cream_Tub_1"
+    },
+    {
+      "id": 62008,
+      "groupId": 62,
+      "group": "Ice Cream Shop",
+      "category": "Popsicle",
+      "name": "IceCreamShop_Popsicle",
+      "count": 7,
+      "used": 7,
+      "example": "Popsicle_1"
+    },
+    {
+      "id": 62009,
+      "groupId": 62,
+      "group": "Ice Cream Shop",
+      "category": "Scoop",
+      "name": "IceCreamShop_Scoop",
+      "count": 6,
+      "used": 6,
+      "example": "Scoop_1"
+    },
+    {
+      "id": 63001,
+      "groupId": 63,
+      "group": "Lab",
+      "category": "Chemical",
+      "name": "Lab_Chemical",
+      "count": 7,
+      "used": 7,
+      "example": "Chemical_1"
+    },
+    {
+      "id": 63002,
+      "groupId": 63,
+      "group": "Lab",
+      "category": "Glassware",
+      "name": "Lab_Glassware",
+      "count": 11,
+      "used": 11,
+      "example": "Lab_Glassware_1"
+    },
+    {
+      "id": 63003,
+      "groupId": 63,
+      "group": "Lab",
+      "category": "Magnifying glass",
+      "name": "Lab_MagnifyingGlass",
+      "count": 4,
+      "used": 4,
+      "example": "MagnifyingGlass_1"
+    },
+    {
+      "id": 63004,
+      "groupId": 63,
+      "group": "Lab",
+      "category": "Microscope",
+      "name": "Lab_Microscope",
+      "count": 4,
+      "used": 4,
+      "example": "Microscope_1"
+    },
+    {
+      "id": 63005,
+      "groupId": 63,
+      "group": "Lab",
+      "category": "Protective mask",
+      "name": "Lab_ProtectiveMask",
+      "count": 4,
+      "used": 4,
+      "example": "ProtectiveMask_1"
+    },
+    {
+      "id": 63006,
+      "groupId": 63,
+      "group": "Lab",
+      "category": "Safety goggles",
+      "name": "Lab_SafetyGoggles",
+      "count": 6,
+      "used": 6,
+      "example": "SafetyGoggles_1"
+    },
+    {
+      "id": 63007,
+      "groupId": 63,
+      "group": "Lab",
+      "category": "Specimen",
+      "name": "Lab_Specimen",
+      "count": 7,
+      "used": 7,
+      "example": "Specimen_1"
+    },
+    {
+      "id": 64001,
+      "groupId": 64,
+      "group": "Museum",
+      "category": "Ancient Painting",
+      "name": "Museum_AncientPainting",
+      "count": 4,
+      "used": 0,
+      "example": "Ancient_Painting_1"
+    },
+    {
+      "id": 64002,
+      "groupId": 64,
+      "group": "Museum",
+      "category": "Ancient Books",
+      "name": "Museum_AncientBooks",
+      "count": 10,
+      "used": 10,
+      "example": "Ancient_Books_1"
+    },
+    {
+      "id": 64003,
+      "groupId": 64,
+      "group": "Museum",
+      "category": "Ancient Weapons",
+      "name": "Museum_AncientWeapons",
+      "count": 5,
+      "used": 5,
+      "example": "Ancient_Weapons_1"
+    },
+    {
+      "id": 64004,
+      "groupId": 64,
+      "group": "Museum",
+      "category": "Antique Vase",
+      "name": "Museum_AntiqueVase",
+      "count": 8,
+      "used": 8,
+      "example": "Antique_Vase_1"
+    },
+    {
+      "id": 64005,
+      "groupId": 64,
+      "group": "Museum",
+      "category": "Display Figurine",
+      "name": "Museum_DisplayFigurine",
+      "count": 10,
+      "used": 10,
+      "example": "Display_Figurine_1"
+    },
+    {
+      "id": 64006,
+      "groupId": 64,
+      "group": "Museum",
+      "category": "Fossil",
+      "name": "Museum_Fossil",
+      "count": 12,
+      "used": 12,
+      "example": "Fossil_1"
+    },
+    {
+      "id": 66001,
+      "groupId": 66,
+      "group": "Riverside",
+      "category": "Folding fan",
+      "name": "Riverside_FoldingFan",
+      "count": 8,
+      "used": 8,
+      "example": "Riverside_Folding_Fan_1"
+    },
+    {
+      "id": 66002,
+      "groupId": 66,
+      "group": "Riverside",
+      "category": "Oar",
+      "name": "Riverside_Oar",
+      "count": 7,
+      "used": 7,
+      "example": "Riverside_Oar_1"
+    },
+    {
+      "id": 66003,
+      "groupId": 66,
+      "group": "Riverside",
+      "category": "Riverside Mask",
+      "name": "Riverside_RiversideMask",
+      "count": 14,
+      "used": 14,
+      "example": "Riverside_Mask_1"
+    },
+    {
+      "id": 66004,
+      "groupId": 66,
+      "group": "Riverside",
+      "category": "Riverside costume",
+      "name": "Riverside_RiversideCostume",
+      "count": 10,
+      "used": 3,
+      "example": "Riverside_Costume_1"
+    },
+    {
+      "id": 67001,
+      "groupId": 67,
+      "group": "Sushi Bar",
+      "category": "Food tray",
+      "name": "SushiBar_FoodTray",
+      "count": 10,
+      "used": 10,
+      "example": "Food_Tray_14"
+    },
+    {
+      "id": 67002,
+      "groupId": 67,
+      "group": "Sushi Bar",
+      "category": "Japanese dishes",
+      "name": "SushiBar_JapaneseDishes",
+      "count": 11,
+      "used": 11,
+      "example": "Japanes_Dishes_1"
+    },
+    {
+      "id": 67003,
+      "groupId": 67,
+      "group": "Sushi Bar",
+      "category": "Knife",
+      "name": "SushiBar_Knife",
+      "count": 9,
+      "used": 9,
+      "example": "Knife_9"
+    },
+    {
+      "id": 67004,
+      "groupId": 67,
+      "group": "Sushi Bar",
+      "category": "Sake",
+      "name": "SushiBar_Sake",
+      "count": 8,
+      "used": 8,
+      "example": "Alcohol_13"
+    },
+    {
+      "id": 67005,
+      "groupId": 67,
+      "group": "Sushi Bar",
+      "category": "Side dishes",
+      "name": "SushiBar_SideDishes",
+      "count": 7,
+      "used": 7,
+      "example": "Side_Dishes_1"
+    },
+    {
+      "id": 67006,
+      "groupId": 67,
+      "group": "Sushi Bar",
+      "category": "Sushi",
+      "name": "SushiBar_Sushi",
+      "count": 19,
+      "used": 14,
+      "example": "Individual_Sushi_1"
+    },
+    {
+      "id": 67007,
+      "groupId": 67,
+      "group": "Sushi Bar",
+      "category": "Chopstick",
+      "name": "SushiBar_Chopstick",
+      "count": 11,
+      "used": 11,
+      "example": "Chopstick_8"
+    },
+    {
+      "id": 68001,
+      "groupId": 68,
+      "group": "Wedding Hall",
+      "category": "Balloon",
+      "name": "WeddingHall_Balloon",
+      "count": 7,
+      "used": 7,
+      "example": "Balloon_1"
+    },
+    {
+      "id": 68002,
+      "groupId": 68,
+      "group": "Wedding Hall",
+      "category": "Bridecake",
+      "name": "WeddingHall_Bridecake",
+      "count": 8,
+      "used": 8,
+      "example": "Bridecake_1"
+    },
+    {
+      "id": 68003,
+      "groupId": 68,
+      "group": "Wedding Hall",
+      "category": "Flower pot",
+      "name": "WeddingHall_FlowerPot",
+      "count": 13,
+      "used": 12,
+      "example": "Flower_Pot_1"
+    },
+    {
+      "id": 68004,
+      "groupId": 68,
+      "group": "Wedding Hall",
+      "category": "Wedding invitation",
+      "name": "WeddingHall_WeddingInvitation",
+      "count": 4,
+      "used": 4,
+      "example": "Wedding_Invitation_3"
+    },
+    {
+      "id": 69001,
+      "groupId": 69,
+      "group": "Airport",
+      "category": "Airport luggage cart",
+      "name": "Airport_AirportLuggageCart",
+      "count": 5,
+      "used": 4,
+      "example": "Airport_Luggage_Cart_2"
+    },
+    {
+      "id": 69002,
+      "groupId": 69,
+      "group": "Airport",
+      "category": "Captain hat",
+      "name": "Airport_CaptainHat",
+      "count": 3,
+      "used": 3,
+      "example": "Captain_Hat_1"
+    },
+    {
+      "id": 69003,
+      "groupId": 69,
+      "group": "Airport",
+      "category": "Flight attendant costume",
+      "name": "Airport_FlightAttendantCostume",
+      "count": 7,
+      "used": 7,
+      "example": "Flight_Attendant_Costume_1"
+    },
+    {
+      "id": 69004,
+      "groupId": 69,
+      "group": "Airport",
+      "category": "Flight attendant hat",
+      "name": "Airport_FlightAttendantHat",
+      "count": 6,
+      "used": 6,
+      "example": "Flight_Attendant_Hat_1"
+    },
+    {
+      "id": 69005,
+      "groupId": 69,
+      "group": "Airport",
+      "category": "Flight ticket",
+      "name": "Airport_FlightTicket",
+      "count": 7,
+      "used": 7,
+      "example": "Flight_Ticket_1"
+    },
+    {
+      "id": 69006,
+      "groupId": 69,
+      "group": "Airport",
+      "category": "Passport",
+      "name": "Airport_Passport",
+      "count": 7,
+      "used": 7,
+      "example": "Passport_1"
+    },
+    {
+      "id": 69007,
+      "groupId": 69,
+      "group": "Airport",
+      "category": "Security camera",
+      "name": "Airport_SecurityCamera",
+      "count": 5,
+      "used": 5,
+      "example": "Security_Camera_1"
+    },
+    {
+      "id": 69008,
+      "groupId": 69,
+      "group": "Airport",
+      "category": "Warning sign",
+      "name": "Airport_WarningSign",
+      "count": 4,
+      "used": 4,
+      "example": "Warning_Sign_1"
+    },
+    {
+      "id": 70001,
+      "groupId": 70,
+      "group": "Birthday",
+      "category": "Birthday banner",
+      "name": "Birthday_BirthdayBanner",
+      "count": 9,
+      "used": 9,
+      "example": "Birthday_Banner_1"
+    },
+    {
+      "id": 70002,
+      "groupId": 70,
+      "group": "Birthday",
+      "category": "Birthday cake",
+      "name": "Birthday_BirthdayCake",
+      "count": 7,
+      "used": 7,
+      "example": "Birthday_Cake_1"
+    },
+    {
+      "id": 70003,
+      "groupId": 70,
+      "group": "Birthday",
+      "category": "Birthday glasses",
+      "name": "Birthday_BirthdayGlasses",
+      "count": 8,
+      "used": 8,
+      "example": "Birthday_Glasses_1"
+    },
+    {
+      "id": 70004,
+      "groupId": 70,
+      "group": "Birthday",
+      "category": "Birthday hat",
+      "name": "Birthday_BirthdayHat",
+      "count": 8,
+      "used": 8,
+      "example": "Birthday_Hat_1"
+    },
+    {
+      "id": 70005,
+      "groupId": 70,
+      "group": "Birthday",
+      "category": "Gift box",
+      "name": "Birthday_GiftBox",
+      "count": 8,
+      "used": 8,
+      "example": "Gift_Box_1"
+    },
+    {
+      "id": 70006,
+      "groupId": 70,
+      "group": "Birthday",
+      "category": "Party blower",
+      "name": "Birthday_PartyBlower",
+      "count": 7,
+      "used": 7,
+      "example": "Party_Blower_1"
+    },
+    {
+      "id": 70007,
+      "groupId": 70,
+      "group": "Birthday",
+      "category": "Party popper",
+      "name": "Birthday_PartyPopper",
+      "count": 6,
+      "used": 6,
+      "example": "Party_Popper_1"
+    },
+    {
+      "id": 70008,
+      "groupId": 70,
+      "group": "Birthday",
+      "category": "Pinata",
+      "name": "Birthday_Pinata",
+      "count": 6,
+      "used": 4,
+      "example": "Pinata_1"
+    },
+    {
+      "id": 71001,
+      "groupId": 71,
+      "group": "Garden",
+      "category": "Garden hose",
+      "name": "Garden_GardenHose",
+      "count": 8,
+      "used": 8,
+      "example": "Garden_Hose_1"
+    },
+    {
+      "id": 71002,
+      "groupId": 71,
+      "group": "Garden",
+      "category": "Grow light",
+      "name": "Garden_GrowLight",
+      "count": 7,
+      "used": 7,
+      "example": "Grow_Light_1"
+    },
+    {
+      "id": 71003,
+      "groupId": 71,
+      "group": "Garden",
+      "category": "Plant labels",
+      "name": "Garden_PlantLabels",
+      "count": 6,
+      "used": 6,
+      "example": "Plant_Labels_1"
+    },
+    {
+      "id": 71004,
+      "groupId": 71,
+      "group": "Garden",
+      "category": "Thermometers",
+      "name": "Garden_Thermometers",
+      "count": 7,
+      "used": 7,
+      "example": "Thermometers_1"
+    },
+    {
+      "id": 71005,
+      "groupId": 71,
+      "group": "Garden",
+      "category": "Vegetable plants",
+      "name": "Garden_VegetablePlants",
+      "count": 15,
+      "used": 7,
+      "example": "Vegetable_Plants_2"
+    },
+    {
+      "id": 71006,
+      "groupId": 71,
+      "group": "Garden",
+      "category": "Waterer",
+      "name": "Garden_Waterer",
+      "count": 11,
+      "used": 11,
+      "example": "WateringCan_4"
+    },
+    {
+      "id": 71007,
+      "groupId": 71,
+      "group": "Garden",
+      "category": "Wheelbarrow",
+      "name": "Garden_Wheelbarrow",
+      "count": 7,
+      "used": 7,
+      "example": "Wheelbarrow_1"
+    },
+    {
+      "id": 72001,
+      "groupId": 72,
+      "group": "Magic",
+      "category": "Magic mushrooms",
+      "name": "Magic_MagicMushrooms",
+      "count": 7,
+      "used": 7,
+      "example": "Magic_Mushrooms_1"
+    },
+    {
+      "id": 72002,
+      "groupId": 72,
+      "group": "Magic",
+      "category": "Magic orb",
+      "name": "Magic_MagicOrb",
+      "count": 10,
+      "used": 10,
+      "example": "Magic_Orb_1"
+    },
+    {
+      "id": 72003,
+      "groupId": 72,
+      "group": "Magic",
+      "category": "Magic scroll",
+      "name": "Magic_MagicScroll",
+      "count": 7,
+      "used": 7,
+      "example": "Magic_Scroll_1"
+    },
+    {
+      "id": 72004,
+      "groupId": 72,
+      "group": "Magic",
+      "category": "Magic stone",
+      "name": "Magic_MagicStone",
+      "count": 7,
+      "used": 7,
+      "example": "Magic_Stone_1"
+    },
+    {
+      "id": 72005,
+      "groupId": 72,
+      "group": "Magic",
+      "category": "Magic wand",
+      "name": "Magic_MagicWand",
+      "count": 5,
+      "used": 5,
+      "example": "Magic_Wand_1"
+    },
+    {
+      "id": 72006,
+      "groupId": 72,
+      "group": "Magic",
+      "category": "Poison",
+      "name": "Magic_Poison",
+      "count": 10,
+      "used": 10,
+      "example": "Poison_1"
+    },
+    {
+      "id": 72007,
+      "groupId": 72,
+      "group": "Magic",
+      "category": "Witchs hat",
+      "name": "Magic_WitchsHat",
+      "count": 9,
+      "used": 9,
+      "example": "Witchs_Hat_1"
+    },
+    {
+      "id": 73001,
+      "groupId": 73,
+      "group": "Photo Studio",
+      "category": "Backdrop",
+      "name": "PhotoStudio_Backdrop",
+      "count": 4,
+      "used": 3,
+      "example": "Backdrop_1"
+    },
+    {
+      "id": 73002,
+      "groupId": 73,
+      "group": "Photo Studio",
+      "category": "Camera",
+      "name": "PhotoStudio_Camera",
+      "count": 12,
+      "used": 12,
+      "example": "Camera_8"
+    },
+    {
+      "id": 73003,
+      "groupId": 73,
+      "group": "Photo Studio",
+      "category": "Clapper board",
+      "name": "PhotoStudio_ClapperBoard",
+      "count": 10,
+      "used": 10,
+      "example": "Clapper_Board_1"
+    },
+    {
+      "id": 73004,
+      "groupId": 73,
+      "group": "Photo Studio",
+      "category": "Film",
+      "name": "PhotoStudio_Film",
+      "count": 9,
+      "used": 9,
+      "example": "Film_1"
+    },
+    {
+      "id": 73005,
+      "groupId": 73,
+      "group": "Photo Studio",
+      "category": "Lens",
+      "name": "PhotoStudio_Lens",
+      "count": 7,
+      "used": 7,
+      "example": "Lens_1"
+    },
+    {
+      "id": 73006,
+      "groupId": 73,
+      "group": "Photo Studio",
+      "category": "Light stand",
+      "name": "PhotoStudio_LightStand",
+      "count": 6,
+      "used": 3,
+      "example": "Light_Stand_2"
+    },
+    {
+      "id": 73007,
+      "groupId": 73,
+      "group": "Photo Studio",
+      "category": "Photography light",
+      "name": "PhotoStudio_PhotographyLight",
+      "count": 13,
+      "used": 11,
+      "example": "Photography_Light_1"
+    },
+    {
+      "id": 73008,
+      "groupId": 73,
+      "group": "Photo Studio",
+      "category": "Reflector",
+      "name": "PhotoStudio_Reflector",
+      "count": 9,
+      "used": 9,
+      "example": "Reflector_1"
+    },
+    {
+      "id": 73009,
+      "groupId": 73,
+      "group": "Photo Studio",
+      "category": "Slider",
+      "name": "PhotoStudio_Slider",
+      "count": 4,
+      "used": 3,
+      "example": "Slider_1"
+    },
+    {
+      "id": 73010,
+      "groupId": 73,
+      "group": "Photo Studio",
+      "category": "Tripod",
+      "name": "PhotoStudio_Tripod",
+      "count": 8,
+      "used": 7,
+      "example": "Tripod_1"
+    },
+    {
+      "id": 74001,
+      "groupId": 74,
+      "group": "Plane Cabin",
+      "category": "Airline trolley",
+      "name": "PlaneCabin_AirlineTrolley",
+      "count": 5,
+      "used": 3,
+      "example": "AirlineTrolley_1"
+    },
+    {
+      "id": 74002,
+      "groupId": 74,
+      "group": "Plane Cabin",
+      "category": "Life jacket",
+      "name": "PlaneCabin_LifeJacket",
+      "count": 6,
+      "used": 3,
+      "example": "LifeJacket_3"
+    },
+    {
+      "id": 74003,
+      "groupId": 74,
+      "group": "Plane Cabin",
+      "category": "Meal tray",
+      "name": "PlaneCabin_MealTray",
+      "count": 9,
+      "used": 9,
+      "example": "MealTray_1"
+    },
+    {
+      "id": 74004,
+      "groupId": 74,
+      "group": "Plane Cabin",
+      "category": "Oxygen mask",
+      "name": "PlaneCabin_OxygenMask",
+      "count": 9,
+      "used": 8,
+      "example": "OxygenMask_2"
+    },
+    {
+      "id": 74005,
+      "groupId": 74,
+      "group": "Plane Cabin",
+      "category": "Sleep mask",
+      "name": "PlaneCabin_SleepMask",
+      "count": 9,
+      "used": 9,
+      "example": "SleepMask_1"
+    },
+    {
+      "id": 74006,
+      "groupId": 74,
+      "group": "Plane Cabin",
+      "category": "Travel neck pillow",
+      "name": "PlaneCabin_TravelNeckPillow",
+      "count": 10,
+      "used": 9,
+      "example": "TravelNeckPillow_1"
+    },
+    {
+      "id": 75001,
+      "groupId": 75,
+      "group": "Sauna",
+      "category": "Bath brush",
+      "name": "Sauna_BathBrush",
+      "count": 10,
+      "used": 10,
+      "example": "Bath_Brush_1"
+    },
+    {
+      "id": 75002,
+      "groupId": 75,
+      "group": "Sauna",
+      "category": "Bathrobe",
+      "name": "Sauna_Bathrobe",
+      "count": 8,
+      "used": 8,
+      "example": "Bathrobe_1"
+    },
+    {
+      "id": 75003,
+      "groupId": 75,
+      "group": "Sauna",
+      "category": "Hair dryer",
+      "name": "Sauna_HairDryer",
+      "count": 12,
+      "used": 12,
+      "example": "Hair_Dryer_1"
+    },
+    {
+      "id": 75004,
+      "groupId": 75,
+      "group": "Sauna",
+      "category": "Scented candle",
+      "name": "Sauna_ScentedCandle",
+      "count": 8,
+      "used": 8,
+      "example": "Scented_Candle_1"
+    },
+    {
+      "id": 76001,
+      "groupId": 76,
+      "group": "Street Food Stall",
+      "category": "BBQ grilled",
+      "name": "StreetFoodStall_BBQGrilled",
+      "count": 6,
+      "used": 6,
+      "example": "BBQ_Grilled_1"
+    },
+    {
+      "id": 76002,
+      "groupId": 76,
+      "group": "Street Food Stall",
+      "category": "BBQ tool",
+      "name": "StreetFoodStall_BBQTool",
+      "count": 5,
+      "used": 5,
+      "example": "BBQ_Tool_1"
+    },
+    {
+      "id": 76003,
+      "groupId": 76,
+      "group": "Street Food Stall",
+      "category": "Grilled vegetables",
+      "name": "StreetFoodStall_GrilledVegetables",
+      "count": 6,
+      "used": 6,
+      "example": "Grilled_Vegetables_1"
+    },
+    {
+      "id": 76004,
+      "groupId": 76,
+      "group": "Street Food Stall",
+      "category": "Paper cup",
+      "name": "StreetFoodStall_PaperCup",
+      "count": 9,
+      "used": 9,
+      "example": "Paper_Cup_1"
+    },
+    {
+      "id": 76005,
+      "groupId": 76,
+      "group": "Street Food Stall",
+      "category": "Skewers",
+      "name": "StreetFoodStall_Skewers",
+      "count": 10,
+      "used": 10,
+      "example": "Skewers_1"
+    }
+  ],
+  "total": 2863,
+  "used": 2638,
+  "groups": 44
+}

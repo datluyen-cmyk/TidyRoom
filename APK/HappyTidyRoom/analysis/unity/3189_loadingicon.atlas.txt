@@ -1,0 +1,21 @@
+loadingicon.png
+	size: 512, 128
+	filter: Linear, Linear
+Rectangle 1 copy 10
+	bounds: 2, 2, 76, 47
+Rectangle 1 copy 11
+	bounds: 2, 51, 71, 73
+Rectangle 1 copy 4
+	bounds: 293, 77, 47, 76
+	rotate: 90
+Rectangle 1 copy 5
+	bounds: 75, 51, 71, 73
+Rectangle 1 copy 6
+	bounds: 80, 2, 76, 47
+Rectangle 1 copy 7
+	bounds: 148, 51, 71, 73
+Rectangle 1 copy 8
+	bounds: 371, 77, 47, 76
+	rotate: 90
+Rectangle 1 copy 9
+	bounds: 221, 51, 70, 73

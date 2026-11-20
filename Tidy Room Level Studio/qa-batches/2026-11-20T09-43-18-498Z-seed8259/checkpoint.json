@@ -1,0 +1,3213 @@
+{
+  "schema": "tidy-room-level-studio/v1",
+  "status": "complete",
+  "seed": 8259,
+  "start": 59,
+  "count": 1,
+  "strict": true,
+  "inputs": {
+    "source": "6c782eb0220d03b5197035f44d49e98568c41ad4156d3565ba16ce94c17ff050",
+    "models": "dafc0fccc70f04ce734176e963b1f6cb87474f3d057e1b48ec4fdc0dfd63c0f8",
+    "art": "2b11f7462e04e16a0c1910e734fa7be9b86c4b1dcc06c37f6bcf8dac911dc55f",
+    "sourceProfiles": "27817fd7dc7c94013d3bd65330d8cbd318c5f9a738ada7f9ab0b05b73a874f40",
+    "adapter": "86f05afb15b69bb0b34103e6d4d1700cda01312b7d9061a5729ca6ebe30e6e20",
+    "core": "9be5fe03d603591942dc89b425743cafc5368033f590eb4a2a02c966d5f105cd",
+    "geometry": "634cfecd6330f7e6580432eddfd35e706778022cd8b453de86b097386832cda0",
+    "rules": "d5644fb4d2833093d5da4737868e9acf2a6cd49ae77ed91af6479a0002e39eb4"
+  },
+  "records": [
+    {
+      "level": {
+        "level": 59,
+        "name": "Phòng giường tầng 59",
+        "bg": "kids_bedroom",
+        "bgFile": "art/kids_bedroom.webp",
+        "bgPosX": 0,
+        "width": 1440,
+        "height": 1560,
+        "order": [
+          {
+            "type": 1,
+            "count": 6
+          },
+          {
+            "type": 12,
+            "count": 5
+          },
+          {
+            "type": 25,
+            "count": 5
+          },
+          {
+            "type": 111,
+            "count": 4
+          },
+          {
+            "type": 54,
+            "count": 6
+          },
+          {
+            "type": 29,
+            "count": 6
+          },
+          {
+            "type": 32,
+            "count": 5
+          },
+          {
+            "type": 13,
+            "count": 5
+          },
+          {
+            "type": 39,
+            "count": 5
+          },
+          {
+            "type": 75,
+            "count": 6
+          },
+          {
+            "type": 23,
+            "count": 5
+          },
+          {
+            "type": 3,
+            "count": 4
+          },
+          {
+            "type": 33,
+            "count": 5
+          },
+          {
+            "type": 21,
+            "count": 6
+          },
+          {
+            "type": 53,
+            "count": 5
+          },
+          {
+            "type": 6,
+            "count": 5
+          },
+          {
+            "type": 47,
+            "count": 5
+          },
+          {
+            "type": 18,
+            "count": 6
+          },
+          {
+            "type": 12,
+            "count": 5
+          },
+          {
+            "type": 1,
+            "count": 5
+          },
+          {
+            "type": 13,
+            "count": 5
+          },
+          {
+            "type": 75,
+            "count": 6
+          },
+          {
+            "type": 111,
+            "count": 5
+          },
+          {
+            "type": 54,
+            "count": 5
+          },
+          {
+            "type": 29,
+            "count": 6
+          },
+          {
+            "type": 3,
+            "count": 5
+          },
+          {
+            "type": 33,
+            "count": 6
+          },
+          {
+            "type": 16,
+            "count": 5
+          },
+          {
+            "type": 23,
+            "count": 5
+          },
+          {
+            "type": 25,
+            "count": 5
+          },
+          {
+            "type": 53,
+            "count": 6
+          },
+          {
+            "type": 6,
+            "count": 4
+          },
+          {
+            "type": 21,
+            "count": 5
+          },
+          {
+            "type": 12,
+            "count": 4
+          },
+          {
+            "type": 32,
+            "count": 6
+          },
+          {
+            "type": 13,
+            "count": 5
+          },
+          {
+            "type": 18,
+            "count": 4
+          },
+          {
+            "type": 47,
+            "count": 5
+          },
+          {
+            "type": 25,
+            "count": 5
+          },
+          {
+            "type": 16,
+            "count": 5
+          }
+        ],
+        "content": [
+          {
+            "id": "16-16",
+            "x": -108.475,
+            "y": -422.678,
+            "scaleX": 0.68,
+            "scaleY": 0.68,
+            "angle": 27.745,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "16-17",
+            "x": 114.534,
+            "y": -358.7,
+            "scaleX": 0.745,
+            "scaleY": 0.745,
+            "angle": -30.875,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "16-3",
+            "x": -38.366,
+            "y": -546.461,
+            "scaleX": 0.697,
+            "scaleY": 0.697,
+            "angle": 27.148,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "16-19",
+            "x": 301.815,
+            "y": -368.685,
+            "scaleX": 0.704,
+            "scaleY": 0.704,
+            "angle": -0.291,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "16-19",
+            "x": 352.146,
+            "y": -353.825,
+            "scaleX": 0.674,
+            "scaleY": 0.674,
+            "angle": -15.738,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "25-10",
+            "x": -263.54,
+            "y": -510.664,
+            "scaleX": 0.708,
+            "scaleY": 0.708,
+            "angle": 2.882,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "25-7",
+            "x": -591.133,
+            "y": -551.424,
+            "scaleX": 0.627,
+            "scaleY": 0.627,
+            "angle": -25.509,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "25-16",
+            "x": 123.041,
+            "y": -405.841,
+            "scaleX": 0.695,
+            "scaleY": 0.695,
+            "angle": -0.442,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "25-11",
+            "x": 460.971,
+            "y": -341.96,
+            "scaleX": 0.669,
+            "scaleY": 0.669,
+            "angle": 20.713,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "25-16",
+            "x": 107.331,
+            "y": -436.81,
+            "scaleX": 0.717,
+            "scaleY": 0.717,
+            "angle": -3.981,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "32-1",
+            "x": 152.219,
+            "y": -431.97,
+            "scaleX": 0.706,
+            "scaleY": 0.706,
+            "angle": -3.32,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "32-4",
+            "x": -367.148,
+            "y": 58.8,
+            "scaleX": 0.637,
+            "scaleY": 0.637,
+            "angle": 4.815,
+            "surface": "Mặt bàn"
+          },
+          {
+            "id": "47-4",
+            "x": -382.875,
+            "y": -383.836,
+            "scaleX": 0.746,
+            "scaleY": 0.746,
+            "angle": -16.734,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "32-4",
+            "x": 244.321,
+            "y": -275.804,
+            "scaleX": 0.633,
+            "scaleY": 0.633,
+            "angle": 30.934,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "47-9",
+            "x": 365.169,
+            "y": -364.354,
+            "scaleX": 0.664,
+            "scaleY": 0.664,
+            "angle": 11.35,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "32-2",
+            "x": -306.426,
+            "y": -362.537,
+            "scaleX": 0.626,
+            "scaleY": 0.626,
+            "angle": 19.01,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "47-2",
+            "x": 89.987,
+            "y": -363.519,
+            "scaleX": 0.681,
+            "scaleY": 0.681,
+            "angle": 8.309,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "47-1",
+            "x": 438.133,
+            "y": -293.206,
+            "scaleX": 0.697,
+            "scaleY": 0.697,
+            "angle": 14.456,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "47-7",
+            "x": 478.458,
+            "y": -452.173,
+            "scaleX": 0.723,
+            "scaleY": 0.723,
+            "angle": 15.269,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "18-4",
+            "x": -104.489,
+            "y": -446.64,
+            "scaleX": 0.658,
+            "scaleY": 0.658,
+            "angle": 2.611,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "18-4",
+            "x": 161.021,
+            "y": -412.784,
+            "scaleX": 0.614,
+            "scaleY": 0.614,
+            "angle": 24.451,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "18-2",
+            "x": 313.786,
+            "y": -280.52,
+            "scaleX": 0.654,
+            "scaleY": 0.654,
+            "angle": 10.522,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "32-1",
+            "x": 284.602,
+            "y": -326.592,
+            "scaleX": 0.631,
+            "scaleY": 0.631,
+            "angle": 20.611,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "18-2",
+            "x": 249.749,
+            "y": -278.271,
+            "scaleX": 0.747,
+            "scaleY": 0.747,
+            "angle": -17.055,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "32-3",
+            "x": 245.11,
+            "y": -282.911,
+            "scaleX": 0.655,
+            "scaleY": 0.655,
+            "angle": -26.827,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "13-9",
+            "x": 427.335,
+            "y": -575.732,
+            "scaleX": 0.672,
+            "scaleY": 0.672,
+            "angle": -7.8,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "13-13",
+            "x": 174.114,
+            "y": -567.573,
+            "scaleX": 0.742,
+            "scaleY": 0.742,
+            "angle": -13.249,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "13-14",
+            "x": -383.414,
+            "y": -276.842,
+            "scaleX": 0.665,
+            "scaleY": 0.665,
+            "angle": -29.272,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "13-3",
+            "x": 141.742,
+            "y": -369.54,
+            "scaleX": 0.664,
+            "scaleY": 0.664,
+            "angle": 28.747,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "13-13",
+            "x": -380.74,
+            "y": -289.989,
+            "scaleX": 0.65,
+            "scaleY": 0.65,
+            "angle": 25.32,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "21-3",
+            "x": -38.948,
+            "y": -372.87,
+            "scaleX": 0.736,
+            "scaleY": 0.736,
+            "angle": 20.379,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "21-1",
+            "x": -393.354,
+            "y": -272.689,
+            "scaleX": 0.674,
+            "scaleY": 0.674,
+            "angle": -12.302,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "21-2",
+            "x": -311.757,
+            "y": -459.196,
+            "scaleX": 0.676,
+            "scaleY": 0.676,
+            "angle": 25.833,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "21-4",
+            "x": 282.184,
+            "y": -412.761,
+            "scaleX": 0.72,
+            "scaleY": 0.72,
+            "angle": 12.984,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "12-3",
+            "x": 2.967,
+            "y": -399.186,
+            "scaleX": 0.672,
+            "scaleY": 0.672,
+            "angle": 26.506,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "12-3",
+            "x": -134.72,
+            "y": -435.844,
+            "scaleX": 0.635,
+            "scaleY": 0.635,
+            "angle": -2.083,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "12-3",
+            "x": -98.668,
+            "y": -427.897,
+            "scaleX": 0.715,
+            "scaleY": 0.715,
+            "angle": -22.592,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "21-4",
+            "x": 305.875,
+            "y": -250.26,
+            "scaleX": 0.655,
+            "scaleY": 0.655,
+            "angle": -17.157,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "12-2",
+            "x": 263.241,
+            "y": -250.121,
+            "scaleX": 0.706,
+            "scaleY": 0.706,
+            "angle": -3.859,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "53-7",
+            "x": 319,
+            "y": -335.805,
+            "scaleX": 0.705,
+            "scaleY": 0.705,
+            "angle": 24.169,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "6-2",
+            "x": 193.397,
+            "y": -447.94,
+            "scaleX": 0.697,
+            "scaleY": 0.697,
+            "angle": -30.945,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "53-2",
+            "x": -469.509,
+            "y": -282.97,
+            "scaleX": 0.728,
+            "scaleY": 0.728,
+            "angle": 17.442,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "53-5",
+            "x": -273.399,
+            "y": -505.174,
+            "scaleX": 0.752,
+            "scaleY": 0.752,
+            "angle": -4.748,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "53-6",
+            "x": 421.824,
+            "y": -552.208,
+            "scaleX": 0.708,
+            "scaleY": 0.708,
+            "angle": 20.655,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "6-4",
+            "x": -86.149,
+            "y": -414.567,
+            "scaleX": 0.67,
+            "scaleY": 0.67,
+            "angle": -5.492,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "6-3",
+            "x": 112.642,
+            "y": -385.445,
+            "scaleX": 0.72,
+            "scaleY": 0.72,
+            "angle": 25.583,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "6-3",
+            "x": -542.464,
+            "y": -313.057,
+            "scaleX": 0.66,
+            "scaleY": 0.66,
+            "angle": -21.744,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "25-17",
+            "x": 116.001,
+            "y": -561.445,
+            "scaleX": 0.726,
+            "scaleY": 0.726,
+            "angle": 3.12,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "25-7",
+            "x": -32.386,
+            "y": -372.029,
+            "scaleX": 0.754,
+            "scaleY": 0.754,
+            "angle": 19.554,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "53-6",
+            "x": -525.797,
+            "y": -305.181,
+            "scaleX": 0.738,
+            "scaleY": 0.738,
+            "angle": -9.637,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "53-4",
+            "x": 265.159,
+            "y": -377.97,
+            "scaleX": 0.645,
+            "scaleY": 0.645,
+            "angle": -17.745,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "25-6",
+            "x": 292.272,
+            "y": -405.032,
+            "scaleX": 0.717,
+            "scaleY": 0.717,
+            "angle": 12.22,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "25-14",
+            "x": 292.736,
+            "y": -391.651,
+            "scaleX": 0.662,
+            "scaleY": 0.662,
+            "angle": 26.406,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "25-11",
+            "x": 154.343,
+            "y": -390.265,
+            "scaleX": 0.643,
+            "scaleY": 0.643,
+            "angle": -29.6,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "33-2",
+            "x": 392.038,
+            "y": -373.43,
+            "scaleX": 0.761,
+            "scaleY": 0.761,
+            "angle": 15.444,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "33-4",
+            "x": -444.337,
+            "y": -242.97,
+            "scaleX": 0.628,
+            "scaleY": 0.628,
+            "angle": 16.926,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "33-5",
+            "x": 160.452,
+            "y": -390.616,
+            "scaleX": 0.699,
+            "scaleY": 0.699,
+            "angle": 7.779,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "33-3",
+            "x": -145.756,
+            "y": -352.181,
+            "scaleX": 0.711,
+            "scaleY": 0.711,
+            "angle": 29.551,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "23-6",
+            "x": 37.098,
+            "y": -565.74,
+            "scaleX": 0.651,
+            "scaleY": 0.651,
+            "angle": 11.768,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "33-5",
+            "x": -314.125,
+            "y": -449.752,
+            "scaleX": 0.625,
+            "scaleY": 0.625,
+            "angle": 8.984,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "23-10",
+            "x": -115.311,
+            "y": -464.552,
+            "scaleX": 0.738,
+            "scaleY": 0.738,
+            "angle": 25.243,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "23-2",
+            "x": 140.16,
+            "y": -360.765,
+            "scaleX": 0.739,
+            "scaleY": 0.739,
+            "angle": -5.144,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "33-1",
+            "x": 171.04,
+            "y": -337.55,
+            "scaleX": 0.693,
+            "scaleY": 0.693,
+            "angle": -25.723,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "23-1",
+            "x": 154.458,
+            "y": -390.707,
+            "scaleX": 0.694,
+            "scaleY": 0.694,
+            "angle": 30.576,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "23-9",
+            "x": 104.363,
+            "y": -586.733,
+            "scaleX": 0.753,
+            "scaleY": 0.753,
+            "angle": -2.286,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "16-12",
+            "x": 107.413,
+            "y": -406.362,
+            "scaleX": 0.763,
+            "scaleY": 0.763,
+            "angle": -8.765,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "16-5",
+            "x": 290.311,
+            "y": -413.695,
+            "scaleX": 0.622,
+            "scaleY": 0.622,
+            "angle": -4.172,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "16-17",
+            "x": -403.098,
+            "y": -564.495,
+            "scaleX": 0.654,
+            "scaleY": 0.654,
+            "angle": 31.073,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "16-5",
+            "x": -111.577,
+            "y": -417.186,
+            "scaleX": 0.62,
+            "scaleY": 0.62,
+            "angle": 15.574,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "16-6",
+            "x": -293.183,
+            "y": -359.24,
+            "scaleX": 0.662,
+            "scaleY": 0.662,
+            "angle": 13.604,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "3-10",
+            "x": 371.309,
+            "y": -281.145,
+            "scaleX": 0.747,
+            "scaleY": 0.747,
+            "angle": -20.503,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "3-7",
+            "x": -451.57,
+            "y": -562.05,
+            "scaleX": 0.746,
+            "scaleY": 0.746,
+            "angle": -14.46,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "3-2",
+            "x": -57.613,
+            "y": -426.658,
+            "scaleX": 0.637,
+            "scaleY": 0.637,
+            "angle": -14.044,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "3-6",
+            "x": 145.311,
+            "y": -408.697,
+            "scaleX": 0.671,
+            "scaleY": 0.671,
+            "angle": -28.719,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "3-3",
+            "x": 495.329,
+            "y": -315.6,
+            "scaleX": 0.634,
+            "scaleY": 0.634,
+            "angle": 25.827,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "29-3",
+            "x": -98.347,
+            "y": -445.28,
+            "scaleX": 0.76,
+            "scaleY": 0.76,
+            "angle": -28.824,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "29-4",
+            "x": 303.909,
+            "y": -342.846,
+            "scaleX": 0.655,
+            "scaleY": 0.655,
+            "angle": 28.317,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "54-5",
+            "x": 397.661,
+            "y": -551.768,
+            "scaleX": 0.66,
+            "scaleY": 0.66,
+            "angle": -8.651,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "29-2",
+            "x": 227.961,
+            "y": -273.753,
+            "scaleX": 0.758,
+            "scaleY": 0.758,
+            "angle": 26.5,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "29-3",
+            "x": 154.296,
+            "y": -351.503,
+            "scaleX": 0.742,
+            "scaleY": 0.742,
+            "angle": -7.635,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "54-2",
+            "x": 62.657,
+            "y": -596.14,
+            "scaleX": 0.668,
+            "scaleY": 0.668,
+            "angle": 13.813,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "54-5",
+            "x": 368.346,
+            "y": -311.891,
+            "scaleX": 0.651,
+            "scaleY": 0.651,
+            "angle": 21.771,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "29-2",
+            "x": 99.714,
+            "y": -584.833,
+            "scaleX": 0.704,
+            "scaleY": 0.704,
+            "angle": -30.767,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "29-2",
+            "x": -452.024,
+            "y": -424.982,
+            "scaleX": 0.617,
+            "scaleY": 0.617,
+            "angle": 1.607,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "54-5",
+            "x": 43.002,
+            "y": -308.322,
+            "scaleX": 0.759,
+            "scaleY": 0.759,
+            "angle": -4.41,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "54-1",
+            "x": -312.245,
+            "y": -263.959,
+            "scaleX": 0.657,
+            "scaleY": 0.657,
+            "angle": 17.75,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "111-6",
+            "x": 67.099,
+            "y": -392.285,
+            "scaleX": 0.644,
+            "scaleY": 0.644,
+            "angle": 13.519,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "111-6",
+            "x": 279.595,
+            "y": -269.596,
+            "scaleX": 0.633,
+            "scaleY": 0.633,
+            "angle": -17.105,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "111-3",
+            "x": -283.369,
+            "y": -483.215,
+            "scaleX": 0.617,
+            "scaleY": 0.617,
+            "angle": -31.514,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "111-1",
+            "x": 385.135,
+            "y": -555.852,
+            "scaleX": 0.672,
+            "scaleY": 0.672,
+            "angle": 17.385,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "13-13",
+            "x": 274.756,
+            "y": -342.247,
+            "scaleX": 0.678,
+            "scaleY": 0.678,
+            "angle": -12.415,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "13-14",
+            "x": -350.219,
+            "y": 86.811,
+            "scaleX": 0.543,
+            "scaleY": 0.543,
+            "angle": -4.077,
+            "surface": "Mặt bàn"
+          },
+          {
+            "id": "111-1",
+            "x": -527.114,
+            "y": -258.971,
+            "scaleX": 0.618,
+            "scaleY": 0.618,
+            "angle": -19.594,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "13-8",
+            "x": 140.097,
+            "y": -544.584,
+            "scaleX": 0.73,
+            "scaleY": 0.73,
+            "angle": -6.476,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "13-2",
+            "x": 152.576,
+            "y": -307.683,
+            "scaleX": 0.643,
+            "scaleY": 0.643,
+            "angle": 20.512,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "13-11",
+            "x": -12.549,
+            "y": -279.137,
+            "scaleX": 0.687,
+            "scaleY": 0.687,
+            "angle": 5.17,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "75-1",
+            "x": -429.361,
+            "y": -437.261,
+            "scaleX": 0.73,
+            "scaleY": 0.73,
+            "angle": -13.772,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "75-3",
+            "x": -310.816,
+            "y": -497.114,
+            "scaleX": 0.632,
+            "scaleY": 0.632,
+            "angle": 22.81,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "75-1",
+            "x": 147.202,
+            "y": -578.528,
+            "scaleX": 0.68,
+            "scaleY": 0.68,
+            "angle": -9.883,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "75-3",
+            "x": -517.174,
+            "y": -272.555,
+            "scaleX": 0.638,
+            "scaleY": 0.638,
+            "angle": 24.893,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "1-5",
+            "x": 515.281,
+            "y": -435.233,
+            "scaleX": 0.622,
+            "scaleY": 0.622,
+            "angle": -0.13,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "1-17",
+            "x": -51.868,
+            "y": -494.035,
+            "scaleX": 0.623,
+            "scaleY": 0.623,
+            "angle": 19.877,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "75-1",
+            "x": -504.341,
+            "y": -281.807,
+            "scaleX": 0.718,
+            "scaleY": 0.718,
+            "angle": 21.055,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "18-3",
+            "x": 349.873,
+            "y": -426.74,
+            "scaleX": 0.657,
+            "scaleY": 0.657,
+            "angle": -29.222,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "18-3",
+            "x": -373.86,
+            "y": -611.722,
+            "scaleX": 0.686,
+            "scaleY": 0.686,
+            "angle": 10.604,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "75-1",
+            "x": 303.266,
+            "y": -413.21,
+            "scaleX": 0.651,
+            "scaleY": 0.651,
+            "angle": -10.024,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "12-2",
+            "x": -320.467,
+            "y": -460.287,
+            "scaleX": 0.631,
+            "scaleY": 0.631,
+            "angle": 23.407,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "1-5",
+            "x": -456.875,
+            "y": -554.029,
+            "scaleX": 0.717,
+            "scaleY": 0.717,
+            "angle": -31.933,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "18-4",
+            "x": 337.11,
+            "y": -360.835,
+            "scaleX": 0.631,
+            "scaleY": 0.631,
+            "angle": 12.529,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "12-2",
+            "x": -429.356,
+            "y": -524.999,
+            "scaleX": 0.734,
+            "scaleY": 0.734,
+            "angle": 13.026,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "12-2",
+            "x": 344.706,
+            "y": -338.967,
+            "scaleX": 0.758,
+            "scaleY": 0.758,
+            "angle": -4.749,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "1-16",
+            "x": -492.33,
+            "y": -561.318,
+            "scaleX": 0.735,
+            "scaleY": 0.735,
+            "angle": 8.524,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "21-3",
+            "x": 92.38,
+            "y": -408.169,
+            "scaleX": 0.756,
+            "scaleY": 0.756,
+            "angle": 19.798,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "21-4",
+            "x": -393.485,
+            "y": 66.179,
+            "scaleX": 0.608,
+            "scaleY": 0.608,
+            "angle": 9.878,
+            "surface": "Mặt bàn"
+          },
+          {
+            "id": "18-3",
+            "x": 205.889,
+            "y": -291.897,
+            "scaleX": 0.693,
+            "scaleY": 0.693,
+            "angle": -1.928,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "21-1",
+            "x": -412.401,
+            "y": -243.564,
+            "scaleX": 0.748,
+            "scaleY": 0.748,
+            "angle": 24.815,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "1-22",
+            "x": 351.56,
+            "y": -261.231,
+            "scaleX": 0.755,
+            "scaleY": 0.755,
+            "angle": 29.523,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "12-2",
+            "x": 534.955,
+            "y": -440.078,
+            "scaleX": 0.648,
+            "scaleY": 0.648,
+            "angle": -9.952,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "47-11",
+            "x": 443.273,
+            "y": -285.308,
+            "scaleX": 0.716,
+            "scaleY": 0.716,
+            "angle": 4.994,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "47-9",
+            "x": -240.493,
+            "y": -499.693,
+            "scaleX": 0.761,
+            "scaleY": 0.761,
+            "angle": -31.175,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "47-7",
+            "x": -254.116,
+            "y": -460.565,
+            "scaleX": 0.634,
+            "scaleY": 0.634,
+            "angle": -21.88,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "21-4",
+            "x": -417.076,
+            "y": -553.457,
+            "scaleX": 0.665,
+            "scaleY": 0.665,
+            "angle": -13.913,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "12-2",
+            "x": 328.14,
+            "y": -400.301,
+            "scaleX": 0.698,
+            "scaleY": 0.698,
+            "angle": 5.267,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "18-3",
+            "x": -112.932,
+            "y": -428.122,
+            "scaleX": 0.75,
+            "scaleY": 0.75,
+            "angle": 10.798,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "6-4",
+            "x": -536.711,
+            "y": -561.846,
+            "scaleX": 0.701,
+            "scaleY": 0.701,
+            "angle": 28.355,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "6-3",
+            "x": -395.468,
+            "y": -567.461,
+            "scaleX": 0.754,
+            "scaleY": 0.754,
+            "angle": 12.649,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "6-5",
+            "x": 232.954,
+            "y": -282.973,
+            "scaleX": 0.713,
+            "scaleY": 0.713,
+            "angle": 9.16,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "6-1",
+            "x": -505.47,
+            "y": -532.771,
+            "scaleX": 0.65,
+            "scaleY": 0.65,
+            "angle": 15.15,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "47-6",
+            "x": 161.639,
+            "y": -411.62,
+            "scaleX": 0.641,
+            "scaleY": 0.641,
+            "angle": 12.626,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "53-4",
+            "x": 400.686,
+            "y": -583.432,
+            "scaleX": 0.701,
+            "scaleY": 0.701,
+            "angle": 9.89,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "18-1",
+            "x": 266.503,
+            "y": -293.116,
+            "scaleX": 0.635,
+            "scaleY": 0.635,
+            "angle": 26.189,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "6-2",
+            "x": 316.766,
+            "y": -393.308,
+            "scaleX": 0.647,
+            "scaleY": 0.647,
+            "angle": -3.783,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "47-7",
+            "x": 351.931,
+            "y": -529.236,
+            "scaleX": 0.699,
+            "scaleY": 0.699,
+            "angle": -4.784,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "53-3",
+            "x": 298.109,
+            "y": -379.23,
+            "scaleX": 0.731,
+            "scaleY": 0.731,
+            "angle": -9.213,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "23-7",
+            "x": -45.524,
+            "y": -496.428,
+            "scaleX": 0.648,
+            "scaleY": 0.648,
+            "angle": 20.845,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "23-9",
+            "x": -98.876,
+            "y": -420.328,
+            "scaleX": 0.627,
+            "scaleY": 0.627,
+            "angle": 28.547,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "21-1",
+            "x": -291.45,
+            "y": -494.297,
+            "scaleX": 0.717,
+            "scaleY": 0.717,
+            "angle": -16.621,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "21-1",
+            "x": 497.283,
+            "y": -462.303,
+            "scaleX": 0.759,
+            "scaleY": 0.759,
+            "angle": -16.446,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "23-4",
+            "x": -18.196,
+            "y": -423.321,
+            "scaleX": 0.668,
+            "scaleY": 0.668,
+            "angle": -21.14,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "23-10",
+            "x": -4.204,
+            "y": -323.736,
+            "scaleX": 0.703,
+            "scaleY": 0.703,
+            "angle": 2.434,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "33-2",
+            "x": -73.283,
+            "y": -249.52,
+            "scaleX": 0.743,
+            "scaleY": 0.743,
+            "angle": -13.61,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "33-3",
+            "x": 115.633,
+            "y": -535.432,
+            "scaleX": 0.649,
+            "scaleY": 0.649,
+            "angle": -10.083,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "33-3",
+            "x": 82.914,
+            "y": -598.298,
+            "scaleX": 0.749,
+            "scaleY": 0.749,
+            "angle": -2.128,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "53-5",
+            "x": 522.156,
+            "y": -346.494,
+            "scaleX": 0.757,
+            "scaleY": 0.757,
+            "angle": -15.592,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "53-6",
+            "x": -30.549,
+            "y": -410.584,
+            "scaleX": 0.645,
+            "scaleY": 0.645,
+            "angle": -23.917,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "3-8",
+            "x": -56.2,
+            "y": -429.726,
+            "scaleX": 0.737,
+            "scaleY": 0.737,
+            "angle": 18.784,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "23-3",
+            "x": -136.64,
+            "y": -467.852,
+            "scaleX": 0.691,
+            "scaleY": 0.691,
+            "angle": 7.585,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "3-3",
+            "x": 112.145,
+            "y": -344.473,
+            "scaleX": 0.736,
+            "scaleY": 0.736,
+            "angle": -12.659,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "3-2",
+            "x": -57.51,
+            "y": -468.073,
+            "scaleX": 0.703,
+            "scaleY": 0.703,
+            "angle": -31.228,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "53-9",
+            "x": 437.868,
+            "y": -379.06,
+            "scaleX": 0.687,
+            "scaleY": 0.687,
+            "angle": -1.712,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "39-6",
+            "x": 121.407,
+            "y": -357.126,
+            "scaleX": 0.627,
+            "scaleY": 0.627,
+            "angle": 23.563,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "75-1",
+            "x": -523.703,
+            "y": -498.911,
+            "scaleX": 0.626,
+            "scaleY": 0.626,
+            "angle": -13.017,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "39-3",
+            "x": -318.503,
+            "y": -256.257,
+            "scaleX": 0.704,
+            "scaleY": 0.704,
+            "angle": 26.765,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "39-3",
+            "x": 135.377,
+            "y": -538.585,
+            "scaleX": 0.765,
+            "scaleY": 0.765,
+            "angle": -17.2,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "33-2",
+            "x": 473.418,
+            "y": -291.954,
+            "scaleX": 0.755,
+            "scaleY": 0.755,
+            "angle": 30.177,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "3-1",
+            "x": 81.083,
+            "y": -551.198,
+            "scaleX": 0.627,
+            "scaleY": 0.627,
+            "angle": 10.352,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "75-3",
+            "x": -478.419,
+            "y": -543.734,
+            "scaleX": 0.653,
+            "scaleY": 0.653,
+            "angle": 11.428,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "33-4",
+            "x": 399.148,
+            "y": -523.596,
+            "scaleX": 0.728,
+            "scaleY": 0.728,
+            "angle": -14.15,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "75-2",
+            "x": -575.383,
+            "y": -274.11,
+            "scaleX": 0.73,
+            "scaleY": 0.73,
+            "angle": -5.392,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "39-3",
+            "x": -76.561,
+            "y": -449.413,
+            "scaleX": 0.646,
+            "scaleY": 0.646,
+            "angle": 31.77,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "32-2",
+            "x": 510.615,
+            "y": -358.243,
+            "scaleX": 0.721,
+            "scaleY": 0.721,
+            "angle": 24.256,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "32-2",
+            "x": -519.928,
+            "y": -575.368,
+            "scaleX": 0.746,
+            "scaleY": 0.746,
+            "angle": 1.759,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "32-3",
+            "x": 114.104,
+            "y": -585.38,
+            "scaleX": 0.639,
+            "scaleY": 0.639,
+            "angle": 8.317,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "75-3",
+            "x": -399.143,
+            "y": -267.354,
+            "scaleX": 0.736,
+            "scaleY": 0.736,
+            "angle": -19.324,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "13-5",
+            "x": -404.011,
+            "y": -271.04,
+            "scaleX": 0.716,
+            "scaleY": 0.716,
+            "angle": -22.345,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "75-2",
+            "x": -47.06,
+            "y": -297.697,
+            "scaleX": 0.7,
+            "scaleY": 0.7,
+            "angle": 13.739,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "32-2",
+            "x": -362.012,
+            "y": -609.056,
+            "scaleX": 0.629,
+            "scaleY": 0.629,
+            "angle": 13.457,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "75-2",
+            "x": 418.107,
+            "y": -512.195,
+            "scaleX": 0.67,
+            "scaleY": 0.67,
+            "angle": 5.078,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "13-7",
+            "x": -386.856,
+            "y": 64.349,
+            "scaleX": 0.558,
+            "scaleY": 0.558,
+            "angle": -2.096,
+            "surface": "Mặt bàn"
+          },
+          {
+            "id": "39-3",
+            "x": 370.108,
+            "y": -550.894,
+            "scaleX": 0.681,
+            "scaleY": 0.681,
+            "angle": 24.827,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "29-4",
+            "x": -524.368,
+            "y": -585.424,
+            "scaleX": 0.68,
+            "scaleY": 0.68,
+            "angle": 8.146,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "29-4",
+            "x": 474.482,
+            "y": -289.868,
+            "scaleX": 0.636,
+            "scaleY": 0.636,
+            "angle": -27.8,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "32-3",
+            "x": -490.939,
+            "y": -535.241,
+            "scaleX": 0.646,
+            "scaleY": 0.646,
+            "angle": 13.292,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "54-1",
+            "x": -538.238,
+            "y": -533.414,
+            "scaleX": 0.631,
+            "scaleY": 0.631,
+            "angle": -4.355,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "29-3",
+            "x": 347.982,
+            "y": -573.034,
+            "scaleX": 0.719,
+            "scaleY": 0.719,
+            "angle": -4.508,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "29-4",
+            "x": -453.834,
+            "y": -593.941,
+            "scaleX": 0.73,
+            "scaleY": 0.73,
+            "angle": 29.827,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "54-3",
+            "x": -15.256,
+            "y": -272.988,
+            "scaleX": 0.63,
+            "scaleY": 0.63,
+            "angle": -0.6,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "29-2",
+            "x": -564.073,
+            "y": -305.23,
+            "scaleX": 0.654,
+            "scaleY": 0.654,
+            "angle": -18.101,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "54-1",
+            "x": -405.994,
+            "y": -585.138,
+            "scaleX": 0.623,
+            "scaleY": 0.623,
+            "angle": 22.965,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "13-9",
+            "x": 363.089,
+            "y": -507.799,
+            "scaleX": 0.733,
+            "scaleY": 0.733,
+            "angle": -11.334,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "25-20",
+            "x": -418.606,
+            "y": -267.104,
+            "scaleX": 0.719,
+            "scaleY": 0.719,
+            "angle": -6.233,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "25-9",
+            "x": 492.077,
+            "y": -335.643,
+            "scaleX": 0.634,
+            "scaleY": 0.634,
+            "angle": -5.967,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "13-8",
+            "x": 426.841,
+            "y": -606.747,
+            "scaleX": 0.663,
+            "scaleY": 0.663,
+            "angle": -8.389,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "54-1",
+            "x": -399.562,
+            "y": -266.031,
+            "scaleX": 0.728,
+            "scaleY": 0.728,
+            "angle": -25.49,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "25-1",
+            "x": -392.447,
+            "y": -277.692,
+            "scaleX": 0.706,
+            "scaleY": 0.706,
+            "angle": 31.047,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "13-7",
+            "x": -312.514,
+            "y": -203.09,
+            "scaleX": 0.627,
+            "scaleY": 0.627,
+            "angle": -21.779,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "111-4",
+            "x": 419.02,
+            "y": -554.761,
+            "scaleX": 0.649,
+            "scaleY": 0.649,
+            "angle": -6.738,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "29-1",
+            "x": -331.298,
+            "y": -252.796,
+            "scaleX": 0.72,
+            "scaleY": 0.72,
+            "angle": -2.342,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "111-3",
+            "x": 347.697,
+            "y": -516.632,
+            "scaleX": 0.642,
+            "scaleY": 0.642,
+            "angle": -11.297,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "111-5",
+            "x": 411.83,
+            "y": -521.455,
+            "scaleX": 0.655,
+            "scaleY": 0.655,
+            "angle": 0.496,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "1-18",
+            "x": -458.614,
+            "y": -553.748,
+            "scaleX": 0.71,
+            "scaleY": 0.71,
+            "angle": -0.135,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "25-10",
+            "x": -345.66,
+            "y": -260.68,
+            "scaleX": 0.713,
+            "scaleY": 0.713,
+            "angle": 1.992,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "1-17",
+            "x": -423.975,
+            "y": -232.297,
+            "scaleX": 0.631,
+            "scaleY": 0.631,
+            "angle": -7.386,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "1-22",
+            "x": 338.003,
+            "y": -508.305,
+            "scaleX": 0.634,
+            "scaleY": 0.634,
+            "angle": -1.13,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "1-3",
+            "x": -382.621,
+            "y": -246.05,
+            "scaleX": 0.619,
+            "scaleY": 0.619,
+            "angle": -23.422,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "111-2",
+            "x": -385.479,
+            "y": -537.961,
+            "scaleX": 0.702,
+            "scaleY": 0.702,
+            "angle": 23.179,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "12-3",
+            "x": -368.296,
+            "y": -239.489,
+            "scaleX": 0.71,
+            "scaleY": 0.71,
+            "angle": 16.201,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "1-5",
+            "x": -426.032,
+            "y": -527.88,
+            "scaleX": 0.763,
+            "scaleY": 0.763,
+            "angle": 28.339,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "12-4",
+            "x": 293.76,
+            "y": 140.4,
+            "scaleX": 0.55,
+            "scaleY": 0.55,
+            "angle": -13,
+            "surface": "Lan can giường tầng"
+          },
+          {
+            "id": "25-16",
+            "x": -385.13,
+            "y": -525.159,
+            "scaleX": 0.729,
+            "scaleY": 0.729,
+            "angle": -26.028,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "54-3",
+            "x": 399.742,
+            "y": -516.052,
+            "scaleX": 0.712,
+            "scaleY": 0.712,
+            "angle": -11.583,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "54-2",
+            "x": -434.896,
+            "y": -618.802,
+            "scaleX": 0.63,
+            "scaleY": 0.63,
+            "angle": 20.955,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "12-3",
+            "x": -456.002,
+            "y": -550.789,
+            "scaleX": 0.747,
+            "scaleY": 0.747,
+            "angle": -10.754,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "1-16",
+            "x": 355.013,
+            "y": -535.03,
+            "scaleX": 0.638,
+            "scaleY": 0.638,
+            "angle": -9.772,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "12-3",
+            "x": 369.019,
+            "y": -563.895,
+            "scaleX": 0.696,
+            "scaleY": 0.696,
+            "angle": -15.056,
+            "surface": "Sàn và thảm"
+          },
+          {
+            "id": "12-3",
+            "x": -397.997,
+            "y": -580.541,
+            "scaleX": 0.636,
+            "scaleY": 0.636,
+            "angle": -30.717,
+            "surface": "Sàn và thảm"
+          }
+        ]
+      },
+      "path": [
+        205,
+        204,
+        203,
+        202,
+        201,
+        200,
+        199,
+        198,
+        197,
+        196,
+        195,
+        194,
+        193,
+        192,
+        191,
+        190,
+        189,
+        188,
+        187,
+        186,
+        185,
+        184,
+        183,
+        182,
+        181,
+        180,
+        179,
+        178,
+        177,
+        176,
+        175,
+        174,
+        173,
+        172,
+        171,
+        170,
+        169,
+        168,
+        167,
+        166,
+        165,
+        164,
+        163,
+        162,
+        161,
+        160,
+        159,
+        158,
+        157,
+        156,
+        155,
+        154,
+        153,
+        152,
+        151,
+        150,
+        149,
+        148,
+        147,
+        146,
+        145,
+        144,
+        143,
+        142,
+        141,
+        140,
+        139,
+        138,
+        137,
+        136,
+        135,
+        134,
+        133,
+        132,
+        131,
+        130,
+        129,
+        128,
+        127,
+        126,
+        125,
+        124,
+        123,
+        122,
+        121,
+        120,
+        119,
+        118,
+        117,
+        116,
+        115,
+        114,
+        113,
+        112,
+        111,
+        110,
+        109,
+        108,
+        107,
+        106,
+        105,
+        104,
+        103,
+        102,
+        101,
+        100,
+        99,
+        98,
+        97,
+        96,
+        95,
+        94,
+        93,
+        92,
+        91,
+        90,
+        89,
+        88,
+        87,
+        86,
+        85,
+        84,
+        83,
+        82,
+        81,
+        80,
+        79,
+        78,
+        77,
+        76,
+        75,
+        74,
+        73,
+        72,
+        71,
+        70,
+        69,
+        68,
+        67,
+        66,
+        65,
+        64,
+        63,
+        62,
+        61,
+        60,
+        59,
+        58,
+        57,
+        56,
+        55,
+        54,
+        53,
+        52,
+        51,
+        50,
+        49,
+        48,
+        47,
+        46,
+        45,
+        44,
+        43,
+        42,
+        41,
+        40,
+        39,
+        38,
+        37,
+        36,
+        35,
+        34,
+        33,
+        32,
+        31,
+        30,
+        29,
+        28,
+        27,
+        26,
+        25,
+        24,
+        23,
+        22,
+        21,
+        20,
+        19,
+        18,
+        17,
+        16,
+        15,
+        14,
+        13,
+        12,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "points": [
+        [
+          -397.997,
+          -580.541
+        ],
+        [
+          369.019,
+          -563.895
+        ],
+        [
+          355.013,
+          -535.03
+        ],
+        [
+          -456.002,
+          -550.789
+        ],
+        [
+          -434.896,
+          -618.802
+        ],
+        [
+          399.742,
+          -516.052
+        ],
+        [
+          -385.13,
+          -525.159
+        ],
+        [
+          293.76,
+          140.4
+        ],
+        [
+          -426.032,
+          -527.88
+        ],
+        [
+          -368.296,
+          -239.489
+        ],
+        [
+          -385.479,
+          -537.961
+        ],
+        [
+          -382.621,
+          -246.05
+        ],
+        [
+          338.003,
+          -508.305
+        ],
+        [
+          -423.975,
+          -232.297
+        ],
+        [
+          -345.66,
+          -260.68
+        ],
+        [
+          -458.614,
+          -553.748
+        ],
+        [
+          411.83,
+          -521.455
+        ],
+        [
+          347.697,
+          -516.632
+        ],
+        [
+          -331.298,
+          -252.796
+        ],
+        [
+          419.02,
+          -554.761
+        ],
+        [
+          -312.514,
+          -203.09
+        ],
+        [
+          -392.447,
+          -277.692
+        ],
+        [
+          -399.562,
+          -266.031
+        ],
+        [
+          426.841,
+          -606.747
+        ],
+        [
+          492.077,
+          -335.643
+        ],
+        [
+          -418.606,
+          -267.104
+        ],
+        [
+          363.089,
+          -507.799
+        ],
+        [
+          -405.994,
+          -585.138
+        ],
+        [
+          -564.073,
+          -305.23
+        ],
+        [
+          -15.256,
+          -272.988
+        ],
+        [
+          -453.834,
+          -593.941
+        ],
+        [
+          347.982,
+          -573.034
+        ],
+        [
+          -538.238,
+          -533.414
+        ],
+        [
+          -490.939,
+          -535.241
+        ],
+        [
+          474.482,
+          -289.868
+        ],
+        [
+          -524.368,
+          -585.424
+        ],
+        [
+          370.108,
+          -550.894
+        ],
+        [
+          -386.856,
+          64.349
+        ],
+        [
+          418.107,
+          -512.195
+        ],
+        [
+          -362.012,
+          -609.056
+        ],
+        [
+          -47.06,
+          -297.697
+        ],
+        [
+          -404.011,
+          -271.04
+        ],
+        [
+          -399.143,
+          -267.354
+        ],
+        [
+          114.104,
+          -585.38
+        ],
+        [
+          -519.928,
+          -575.368
+        ],
+        [
+          510.615,
+          -358.243
+        ],
+        [
+          -76.561,
+          -449.413
+        ],
+        [
+          -575.383,
+          -274.11
+        ],
+        [
+          399.148,
+          -523.596
+        ],
+        [
+          -478.419,
+          -543.734
+        ],
+        [
+          81.083,
+          -551.198
+        ],
+        [
+          473.418,
+          -291.954
+        ],
+        [
+          135.377,
+          -538.585
+        ],
+        [
+          -318.503,
+          -256.257
+        ],
+        [
+          -523.703,
+          -498.911
+        ],
+        [
+          121.407,
+          -357.126
+        ],
+        [
+          437.868,
+          -379.06
+        ],
+        [
+          -57.51,
+          -468.073
+        ],
+        [
+          112.145,
+          -344.473
+        ],
+        [
+          -136.64,
+          -467.852
+        ],
+        [
+          -56.2,
+          -429.726
+        ],
+        [
+          -30.549,
+          -410.584
+        ],
+        [
+          522.156,
+          -346.494
+        ],
+        [
+          82.914,
+          -598.298
+        ],
+        [
+          115.633,
+          -535.432
+        ],
+        [
+          -73.283,
+          -249.52
+        ],
+        [
+          -4.204,
+          -323.736
+        ],
+        [
+          -18.196,
+          -423.321
+        ],
+        [
+          497.283,
+          -462.303
+        ],
+        [
+          -291.45,
+          -494.297
+        ],
+        [
+          -98.876,
+          -420.328
+        ],
+        [
+          -45.524,
+          -496.428
+        ],
+        [
+          298.109,
+          -379.23
+        ],
+        [
+          351.931,
+          -529.236
+        ],
+        [
+          316.766,
+          -393.308
+        ],
+        [
+          266.503,
+          -293.116
+        ],
+        [
+          400.686,
+          -583.432
+        ],
+        [
+          161.639,
+          -411.62
+        ],
+        [
+          -505.47,
+          -532.771
+        ],
+        [
+          232.954,
+          -282.973
+        ],
+        [
+          -395.468,
+          -567.461
+        ],
+        [
+          -536.711,
+          -561.846
+        ],
+        [
+          -112.932,
+          -428.122
+        ],
+        [
+          328.14,
+          -400.301
+        ],
+        [
+          -417.076,
+          -553.457
+        ],
+        [
+          -254.116,
+          -460.565
+        ],
+        [
+          -240.493,
+          -499.693
+        ],
+        [
+          443.273,
+          -285.308
+        ],
+        [
+          534.955,
+          -440.078
+        ],
+        [
+          351.56,
+          -261.231
+        ],
+        [
+          -412.401,
+          -243.564
+        ],
+        [
+          205.889,
+          -291.897
+        ],
+        [
+          -393.485,
+          66.179
+        ],
+        [
+          92.38,
+          -408.169
+        ],
+        [
+          -492.33,
+          -561.318
+        ],
+        [
+          344.706,
+          -338.967
+        ],
+        [
+          -429.356,
+          -524.999
+        ],
+        [
+          337.11,
+          -360.835
+        ],
+        [
+          -456.875,
+          -554.029
+        ],
+        [
+          -320.467,
+          -460.287
+        ],
+        [
+          303.266,
+          -413.21
+        ],
+        [
+          -373.86,
+          -611.722
+        ],
+        [
+          349.873,
+          -426.74
+        ],
+        [
+          -504.341,
+          -281.807
+        ],
+        [
+          -51.868,
+          -494.035
+        ],
+        [
+          515.281,
+          -435.233
+        ],
+        [
+          -517.174,
+          -272.555
+        ],
+        [
+          147.202,
+          -578.528
+        ],
+        [
+          -310.816,
+          -497.114
+        ],
+        [
+          -429.361,
+          -437.261
+        ],
+        [
+          -12.549,
+          -279.137
+        ],
+        [
+          152.576,
+          -307.683
+        ],
+        [
+          140.097,
+          -544.584
+        ],
+        [
+          -527.114,
+          -258.971
+        ],
+        [
+          -350.219,
+          86.811
+        ],
+        [
+          274.756,
+          -342.247
+        ],
+        [
+          385.135,
+          -555.852
+        ],
+        [
+          -283.369,
+          -483.215
+        ],
+        [
+          279.595,
+          -269.596
+        ],
+        [
+          67.099,
+          -392.285
+        ],
+        [
+          -312.245,
+          -263.959
+        ],
+        [
+          43.002,
+          -308.322
+        ],
+        [
+          -452.024,
+          -424.982
+        ],
+        [
+          99.714,
+          -584.833
+        ],
+        [
+          368.346,
+          -311.891
+        ],
+        [
+          62.657,
+          -596.14
+        ],
+        [
+          154.296,
+          -351.503
+        ],
+        [
+          227.961,
+          -273.753
+        ],
+        [
+          397.661,
+          -551.768
+        ],
+        [
+          303.909,
+          -342.846
+        ],
+        [
+          -98.347,
+          -445.28
+        ],
+        [
+          495.329,
+          -315.6
+        ],
+        [
+          145.311,
+          -408.697
+        ],
+        [
+          -57.613,
+          -426.658
+        ],
+        [
+          -451.57,
+          -562.05
+        ],
+        [
+          371.309,
+          -281.145
+        ],
+        [
+          -293.183,
+          -359.24
+        ],
+        [
+          -111.577,
+          -417.186
+        ],
+        [
+          -403.098,
+          -564.495
+        ],
+        [
+          290.311,
+          -413.695
+        ],
+        [
+          107.413,
+          -406.362
+        ],
+        [
+          104.363,
+          -586.733
+        ],
+        [
+          154.458,
+          -390.707
+        ],
+        [
+          171.04,
+          -337.55
+        ],
+        [
+          140.16,
+          -360.765
+        ],
+        [
+          -115.311,
+          -464.552
+        ],
+        [
+          -314.125,
+          -449.752
+        ],
+        [
+          37.098,
+          -565.74
+        ],
+        [
+          -145.756,
+          -352.181
+        ],
+        [
+          160.452,
+          -390.616
+        ],
+        [
+          -444.337,
+          -242.97
+        ],
+        [
+          392.038,
+          -373.43
+        ],
+        [
+          154.343,
+          -390.265
+        ],
+        [
+          292.736,
+          -391.651
+        ],
+        [
+          292.272,
+          -405.032
+        ],
+        [
+          265.159,
+          -377.97
+        ],
+        [
+          -525.797,
+          -305.181
+        ],
+        [
+          -32.386,
+          -372.029
+        ],
+        [
+          116.001,
+          -561.445
+        ],
+        [
+          -542.464,
+          -313.057
+        ],
+        [
+          112.642,
+          -385.445
+        ],
+        [
+          -86.149,
+          -414.567
+        ],
+        [
+          421.824,
+          -552.208
+        ],
+        [
+          -273.399,
+          -505.174
+        ],
+        [
+          -469.509,
+          -282.97
+        ],
+        [
+          193.397,
+          -447.94
+        ],
+        [
+          319,
+          -335.805
+        ],
+        [
+          263.241,
+          -250.121
+        ],
+        [
+          305.875,
+          -250.26
+        ],
+        [
+          -98.668,
+          -427.897
+        ],
+        [
+          -134.72,
+          -435.844
+        ],
+        [
+          2.967,
+          -399.186
+        ],
+        [
+          282.184,
+          -412.761
+        ],
+        [
+          -311.757,
+          -459.196
+        ],
+        [
+          -393.354,
+          -272.689
+        ],
+        [
+          -38.948,
+          -372.87
+        ],
+        [
+          -380.74,
+          -289.989
+        ],
+        [
+          141.742,
+          -369.54
+        ],
+        [
+          -383.414,
+          -276.842
+        ],
+        [
+          174.114,
+          -567.573
+        ],
+        [
+          427.335,
+          -575.732
+        ],
+        [
+          245.11,
+          -282.911
+        ],
+        [
+          249.749,
+          -278.271
+        ],
+        [
+          284.602,
+          -326.592
+        ],
+        [
+          313.786,
+          -280.52
+        ],
+        [
+          161.021,
+          -412.784
+        ],
+        [
+          -104.489,
+          -446.64
+        ],
+        [
+          478.458,
+          -452.173
+        ],
+        [
+          438.133,
+          -293.206
+        ],
+        [
+          89.987,
+          -363.519
+        ],
+        [
+          -306.426,
+          -362.537
+        ],
+        [
+          365.169,
+          -364.354
+        ],
+        [
+          244.321,
+          -275.804
+        ],
+        [
+          -382.875,
+          -383.836
+        ],
+        [
+          -367.148,
+          58.8
+        ],
+        [
+          152.219,
+          -431.97
+        ],
+        [
+          107.331,
+          -436.81
+        ],
+        [
+          460.971,
+          -341.96
+        ],
+        [
+          123.041,
+          -405.841
+        ],
+        [
+          -591.133,
+          -551.424
+        ],
+        [
+          -263.54,
+          -510.664
+        ],
+        [
+          352.146,
+          -353.825
+        ],
+        [
+          301.815,
+          -368.685
+        ],
+        [
+          -38.366,
+          -546.461
+        ],
+        [
+          114.534,
+          -358.7
+        ],
+        [
+          -108.475,
+          -422.678
+        ]
+      ],
+      "proof": {
+        "ok": true,
+        "peak": 3,
+        "waits": 30,
+        "early": 15,
+        "overThree": 55,
+        "forcedAtFull": 0,
+        "windows": [
+          {
+            "tap": 10,
+            "waiting": 2
+          },
+          {
+            "tap": 20,
+            "waiting": 1
+          },
+          {
+            "tap": 30,
+            "waiting": 3
+          },
+          {
+            "tap": 40,
+            "waiting": 2
+          },
+          {
+            "tap": 50,
+            "waiting": 1
+          },
+          {
+            "tap": 60,
+            "waiting": 3
+          },
+          {
+            "tap": 70,
+            "waiting": 3
+          },
+          {
+            "tap": 80,
+            "waiting": 3
+          },
+          {
+            "tap": 90,
+            "waiting": 3
+          },
+          {
+            "tap": 100,
+            "waiting": 0
+          },
+          {
+            "tap": 110,
+            "waiting": 0
+          },
+          {
+            "tap": 120,
+            "waiting": 0
+          },
+          {
+            "tap": 130,
+            "waiting": 0
+          },
+          {
+            "tap": 140,
+            "waiting": 0
+          },
+          {
+            "tap": 150,
+            "waiting": 0
+          },
+          {
+            "tap": 160,
+            "waiting": 0
+          },
+          {
+            "tap": 170,
+            "waiting": 0
+          },
+          {
+            "tap": 180,
+            "waiting": 0
+          },
+          {
+            "tap": 190,
+            "waiting": 0
+          },
+          {
+            "tap": 200,
+            "waiting": 0
+          },
+          {
+            "tap": 206,
+            "waiting": 0
+          }
+        ]
+      },
+      "features": {
+        "items": 206,
+        "boxes": 40,
+        "groups": 19,
+        "meanBox": 5.15,
+        "repeatGap": 17.19047619047619,
+        "adjacent": 0,
+        "free": 0.214,
+        "direct": 8,
+        "contacts": 3.432
+      },
+      "fingerprint": "01fecaed316b12de7acbb78ca2a5369e034a8c0a09af53f340399e55d3db76ae",
+      "distance": 0.112,
+      "attempt": 5,
+      "seed": 1992895368,
+      "profileOdds": 43,
+      "estimateOdds": 42.265,
+      "target": {
+        "level": 59,
+        "sourceLevel": 60,
+        "family": "60.jpg",
+        "items": 206,
+        "boxes": 40,
+        "groups": 19,
+        "meanBox": 5.15,
+        "repeatGap": 17.142857142857142,
+        "adjacent": 0,
+        "free": 0.233,
+        "direct": 5,
+        "contacts": 3.626,
+        "odds": 43
+      }
+    }
+  ],
+  "blocked": [],
+  "rejections": {
+    "reference geometry band": 1
+  }
+}

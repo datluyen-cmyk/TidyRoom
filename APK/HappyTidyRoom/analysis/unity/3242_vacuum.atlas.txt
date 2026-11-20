@@ -1,0 +1,17 @@
+vacuum.png
+size:471,564
+filter:Linear,Linear
+2
+bounds:2,2,334,289
+offsets:3,3,340,295
+rotate:90
+3
+bounds:2,338,224,467
+rotate:90
+GP_Booster_Vaccum
+bounds:293,41,119,96
+offsets:14,23,140,140
+rotate:90
+GP_Button_Booster
+bounds:293,162,174,174
+offsets:1,1,176,176

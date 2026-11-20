@@ -1,0 +1,21 @@
+{
+  "schema": "tidy-room-level-studio/v1",
+  "status": "cancelled",
+  "seed": 92732,
+  "start": 3,
+  "count": 8,
+  "strict": true,
+  "inputs": {
+    "source": "6c782eb0220d03b5197035f44d49e98568c41ad4156d3565ba16ce94c17ff050",
+    "models": "dafc0fccc70f04ce734176e963b1f6cb87474f3d057e1b48ec4fdc0dfd63c0f8",
+    "art": "2b11f7462e04e16a0c1910e734fa7be9b86c4b1dcc06c37f6bcf8dac911dc55f",
+    "sourceProfiles": "27817fd7dc7c94013d3bd65330d8cbd318c5f9a738ada7f9ab0b05b73a874f40",
+    "adapter": "86f05afb15b69bb0b34103e6d4d1700cda01312b7d9061a5729ca6ebe30e6e20",
+    "core": "9be5fe03d603591942dc89b425743cafc5368033f590eb4a2a02c966d5f105cd",
+    "geometry": "634cfecd6330f7e6580432eddfd35e706778022cd8b453de86b097386832cda0",
+    "rules": "d5644fb4d2833093d5da4737868e9acf2a6cd49ae77ed91af6479a0002e39eb4"
+  },
+  "records": [],
+  "blocked": [],
+  "rejections": {}
+}

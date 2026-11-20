@@ -1,0 +1,51 @@
+{
+  "utc": "2026-11-20T08:55:14.2747138Z",
+  "target": 35,
+  "failures": [],
+  "results": [
+    {
+      "test": "Pointer raycast picks visible native Happy item",
+      "pass": true
+    },
+    {
+      "test": "Restart restores native board",
+      "pass": true
+    },
+    {
+      "test": "Level picker opens through UI submit",
+      "pass": true
+    },
+    {
+      "test": "Picker loads converted Room board",
+      "pass": true
+    },
+    {
+      "test": "RoomSort loads its original room background by default",
+      "pass": true
+    },
+    {
+      "test": "Pick an item before changing background",
+      "pass": true
+    },
+    {
+      "test": "Background option shows the Tidy Room texture",
+      "pass": true
+    },
+    {
+      "test": "Background switch preserves current play state",
+      "pass": true
+    },
+    {
+      "test": "Switching back restores the original texture without restarting",
+      "pass": true
+    },
+    {
+      "test": "Collision option switches to current item image silhouettes",
+      "pass": true
+    },
+    {
+      "test": "Restart restores source comparison defaults",
+      "pass": true
+    }
+  ]
+}
